@@ -1,0 +1,13 @@
+{
+  "skill": "hermaguard-candidate",
+  "release_version": "0.2.0-experimental",
+  "release_skill_sha256": "fd57b4ce6386ad8ee4b85d0aa319ff85170bfe8ab9a4f3f618a16daf53a8ca89",
+  "source_skill_sha256": "fd57b4ce6386ad8ee4b85d0aa319ff85170bfe8ab9a4f3f618a16daf53a8ca89",
+  "adaptation": "original operational synthesis; public source/provenance annotations",
+  "historical_source_runs": [],
+  "public_behavioural_evidence": "See docs/coding-specialists.md; scoped role-level evidence, not standalone skill certification.",
+  "limits": [
+    "Experimental; no independent review, multi-model or native cross-harness certification.",
+    "Source learning is selective; no whole-book certification."
+  ]
+}

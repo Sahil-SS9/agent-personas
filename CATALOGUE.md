@@ -168,3 +168,13 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 - [travel-expert](bundles/travel-expert/bundle.json)
 - [video-generation](bundles/video-generation/bundle.json)
 - [knowledge-librarian-bundle](bundles/knowledge-librarian-bundle/bundle.json)
+
+## Coding specialists
+Three complementary roles: implementation, behaviour-preserving refactoring, and read-only adversarial review. See [scope and evidence](docs/coding-specialists.md).
+- [software-implementation-specialist](personas/software-implementation-specialist/PERSONA.md) — [bundle](bundles/software-implementation-specialist/bundle.json)
+- [codebase-refactoring-specialist](personas/codebase-refactoring-specialist/PERSONA.md) — [bundle](bundles/codebase-refactoring-specialist/bundle.json)
+- [adversarial-code-reviewer](personas/adversarial-code-reviewer/PERSONA.md) — [bundle](bundles/adversarial-code-reviewer/bundle.json)
+- Focused method: [codebase-simplification-campaign](skills/codebase-simplification-campaign/SKILL.md)
+- Focused method: [hermaguard-candidate](skills/hermaguard-candidate/SKILL.md)
+- Focused method: [implementation-delivery](skills/implementation-delivery/SKILL.md)
+- Focused method: [simplify-swarm-candidate](skills/simplify-swarm-candidate/SKILL.md)

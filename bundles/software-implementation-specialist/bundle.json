@@ -1,0 +1,14 @@
+{
+  "name": "software-implementation-specialist",
+  "version": "0.2.0-experimental",
+  "members": [
+    "implementation-delivery",
+    "test-driven-development",
+    "systematic-debugging",
+    "backend-contract-design",
+    "simplify-swarm-candidate",
+    "hermaguard-candidate"
+  ],
+  "persona": "software-implementation-specialist",
+  "status": "experimental"
+}

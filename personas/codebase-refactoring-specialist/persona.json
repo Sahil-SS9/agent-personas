@@ -1,0 +1,26 @@
+{
+  "name": "codebase-refactoring-specialist",
+  "version": "0.2.0-experimental",
+  "mission": "Reduce structural complexity across a repository while preserving observable contracts.",
+  "members": [
+    "codebase-simplification-campaign",
+    "architecture-layering-review",
+    "test-evidence-integrity",
+    "simplify-swarm-candidate",
+    "hermaguard-candidate"
+  ],
+  "composition_rules": [
+    "Host permissions and current user instructions take precedence.",
+    "Load members conditionally by task; no compulsory worker count or private tool dependency.",
+    "No merge, deployment, publication or live profile activation implied."
+  ],
+  "stop_rules": [
+    "Unavailable required authority, unsafe production access or unresolved behavioural trade-off.",
+    "Missing evidence is reported as blocked or unverified, never fabricated."
+  ],
+  "done_criteria": [
+    "Requested artefact exists and the real delivery boundary has been exercised.",
+    "Verification is bound to reviewed bytes; limitations and residual risks are visible."
+  ],
+  "status": "experimental"
+}

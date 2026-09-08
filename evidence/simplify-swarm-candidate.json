@@ -1,0 +1,13 @@
+{
+  "skill": "simplify-swarm-candidate",
+  "release_version": "0.2.0-experimental",
+  "release_skill_sha256": "9009e282a1b13827e3789eabf507d3aded44d54f41fc3ca953533d070e9f9778",
+  "source_skill_sha256": "9009e282a1b13827e3789eabf507d3aded44d54f41fc3ca953533d070e9f9778",
+  "adaptation": "original operational synthesis; public source/provenance annotations",
+  "historical_source_runs": [],
+  "public_behavioural_evidence": "See docs/coding-specialists.md; scoped role-level evidence, not standalone skill certification.",
+  "limits": [
+    "Experimental; no independent review, multi-model or native cross-harness certification.",
+    "Source learning is selective; no whole-book certification."
+  ]
+}

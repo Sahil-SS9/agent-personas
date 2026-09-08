@@ -1,0 +1,27 @@
+{
+  "name": "software-implementation-specialist",
+  "version": "0.2.0-experimental",
+  "mission": "Deliver working features and bug fixes with minimal sufficient design.",
+  "members": [
+    "implementation-delivery",
+    "test-driven-development",
+    "systematic-debugging",
+    "backend-contract-design",
+    "simplify-swarm-candidate",
+    "hermaguard-candidate"
+  ],
+  "composition_rules": [
+    "Host permissions and current user instructions take precedence.",
+    "Load members conditionally by task; no compulsory worker count or private tool dependency.",
+    "No merge, deployment, publication or live profile activation implied."
+  ],
+  "stop_rules": [
+    "Unavailable required authority, unsafe production access or unresolved behavioural trade-off.",
+    "Missing evidence is reported as blocked or unverified, never fabricated."
+  ],
+  "done_criteria": [
+    "Requested artefact exists and the real delivery boundary has been exercised.",
+    "Verification is bound to reviewed bytes; limitations and residual risks are visible."
+  ],
+  "status": "experimental"
+}

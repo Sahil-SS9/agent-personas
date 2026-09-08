@@ -1,0 +1,1 @@
+Original operational synthesis by Sahil Saghir. Original instructions are MIT licensed. Referenced books, articles and repository sources retain their respective rights; they are not redistributed here. See SOURCE-SYNTHESIS.md.

@@ -34,3 +34,7 @@ These historical tests include scenario and phrase-based checks, controlled task
 The repository supplies a standalone verification script, an opt-in CLI trial runner and [public smoke tasks](../examples/REVIEW.md). It intentionally does not include the private builder, benchmark runner, hidden cases, account configuration or raw evaluation transcripts.
 
 No general uplift percentage, fully tested seven-harness badge, independent-audit claim or unattended-production guarantee is made.
+
+## Coding collection (0.2.0-experimental)
+
+See [the scoped coding evidence](coding-specialists.md). Earlier evidence above is retained as historical context, not retroactively attributed to these new packages.

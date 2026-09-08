@@ -2,7 +2,7 @@
 
 ## Give your agents a job, not another giant prompt.
 
-Build dedicated agents, sub-agents and bots from **113 reusable skills, 20 personas and 21 bundles**. Start with a role, add the methods it needs, and keep the agent harness you already use.
+Build dedicated agents, sub-agents and bots from **117 reusable skills, 23 personas and 24 bundles**. Start with a role, add the methods it needs, and keep the agent harness you already use.
 
 [Browse the catalogue](CATALOGUE.md) · [Choose your harness](docs/compatibility.md) · [Try a profile](docs/getting-started.md) · [Inspect the evidence](docs/evidence.md)
 
@@ -38,6 +38,9 @@ A persona is a working contract, not a costume. A **profile** is the host-specif
 | Practice with feedback, not just explanations | [Practice-Based Learning](personas/practice-based-learning/PERSONA.md) |
 | A trip with clear constraints and booking boundaries | [Travel Expert](personas/travel-expert/PERSONA.md) |
 | A bounded engineering quality workflow | [QA Test Evidence Architect](personas/qa-test-evidence-architect/PERSONA.md) |
+| Implement a bounded change with real verification | [Software Implementation Specialist](personas/software-implementation-specialist/PERSONA.md) |
+| Simplify code while preserving observable behaviour | [Codebase Refactoring Specialist](personas/codebase-refactoring-specialist/PERSONA.md) |
+| Review plausible failures without manufacturing findings | [Adversarial Code Reviewer](personas/adversarial-code-reviewer/PERSONA.md) |
 
 [See every persona, skill and bundle →](CATALOGUE.md)
 

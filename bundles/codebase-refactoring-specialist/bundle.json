@@ -1,0 +1,13 @@
+{
+  "name": "codebase-refactoring-specialist",
+  "version": "0.2.0-experimental",
+  "members": [
+    "codebase-simplification-campaign",
+    "architecture-layering-review",
+    "test-evidence-integrity",
+    "simplify-swarm-candidate",
+    "hermaguard-candidate"
+  ],
+  "persona": "codebase-refactoring-specialist",
+  "status": "experimental"
+}

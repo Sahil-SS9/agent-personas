@@ -1,0 +1,11 @@
+{
+  "name": "adversarial-code-reviewer",
+  "version": "0.2.0-experimental",
+  "members": [
+    "hermaguard-candidate",
+    "claim-verification",
+    "test-evidence-integrity"
+  ],
+  "persona": "adversarial-code-reviewer",
+  "status": "experimental"
+}

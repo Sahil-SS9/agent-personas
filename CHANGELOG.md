@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.2.0-experimental
+
+- Add implementation, refactoring and adversarial-review personas and matching bundles, plus four focused coding methods.
+- Preserve existing packages and composition identifiers.
+- Add version-bound source attribution and scoped operational evidence. Final refactoring checks cover preparation, a dependency seam and proportional handling of a small edit; no general accuracy uplift claim.
+- Verify byte-for-byte staging of the three new personas and bundles across all seven documented targets. This is not native execution certification.
+- Keep all builder, training-source intake and hidden evaluation tooling private.
+
+
 ## 0.1.0-experimental
 
 - Initial portable catalogue covering the complete inventoried logical skill set, including explicitly adapted standalone historical-source methods.
