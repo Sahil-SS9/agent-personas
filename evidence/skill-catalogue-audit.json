@@ -1,0 +1,38 @@
+{
+  "skill": "skill-catalogue-audit",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "54196a50dc75f6914b98a7afdffbff1fbe166aa78f124df897b5941524d0ad13",
+  "adaptation": "portable method rewrite",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "dsa-drift-found",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 1,
+          "total": 1
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 1,
+          "total": 1
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "e49a5ebdee43df18961ef18b07000dcbe986debe81c6ff4d103cb31784fe899c"
+}

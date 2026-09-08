@@ -1,0 +1,11 @@
+{
+  "name": "support-specialist",
+  "version": "0.1.0-experimental",
+  "members": [
+    "tiered-support-triage",
+    "problem-elimination-loop",
+    "failing-test-triage",
+    "meeting-action-items"
+  ],
+  "persona": "support-specialist"
+}

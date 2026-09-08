@@ -1,0 +1,38 @@
+{
+  "skill": "claim-verification",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "5a98f4832c5f1a597b3c381e4bc467225b0a90ba3a60718c6940c70070820a83",
+  "adaptation": "source method retained; public metadata and references normalised",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "cv-stat",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 1,
+          "total": 4
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 2,
+          "total": 4
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "f24a7fd6dd4698fc050ea0f5fbf1a37d99a524c27794ab7113cdaf13018629b3"
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "S01",
+    "title": "Alex Prompter: ten Digital Renaissance prompts",
+    "url": "https://threadreaderapp.com/thread/2093651868685570307.html",
+    "retrieved_at": "2026-09-07T18:04:01.820110+00:00",
+    "source_type": "practitioner thread",
+    "reviewed_scope": "Full ten-prompt sequence; unrelated recommended threads excluded",
+    "licence_basis": "Copyrighted; original distillation only",
+    "supported_use": "Inspiration for craft selection, practice loops and task automation; not validated diagnostics.",
+    "retrieval_sha256": "499f78cc24b1b7ff7036bb4e42e6d94d387e627b3007ac26530da3a9e7cd60aa",
+    "retrieval_error": null,
+    "full_book_ingested": false,
+    "original_url": "https://x.com/alex_prompter/status/2093651868685570307"
+  },
+  {
+    "id": "L01",
+    "title": "Scott Young: Ultralearning updated for AI",
+    "url": "https://www.scotthyoung.com/blog/2026/04/29/ultralearning-ai/",
+    "retrieved_at": "2026-09-07T18:04:01.820110+00:00",
+    "source_type": "original author article",
+    "reviewed_scope": "Nine principles and AI-specific opportunities/limits",
+    "licence_basis": "Copyrighted public author article; original distillation",
+    "supported_use": "Real practice, focused drills, retrieval and external feedback remain necessary.",
+    "retrieval_sha256": "4b7d10592b62d0145c9f5d32abec9a73d1a491cb034a6f5ccb91ff31ad01a89b",
+    "retrieval_error": null,
+    "full_book_ingested": false
+  },
+  {
+    "id": "L02",
+    "title": "Dunlosky et al.: effective learning techniques",
+    "url": "https://www.psychologicalscience.org/publications/journals/pspi/learning-techniques.html",
+    "retrieved_at": "2026-09-07T18:04:01.820110+00:00",
+    "source_type": "journal publisher research summary",
+    "reviewed_scope": "Publisher overview only; comments excluded; full monograph not ingested",
+    "licence_basis": "Copyrighted journal summary; original notes only",
+    "supported_use": "Practice testing and distributed practice rated high utility; generalisation to each adult craft remains to test.",
+    "retrieval_sha256": "aa0495e90069037f7ea1c0ab2810a9cf3698bb8b36612347c5d46a947625b5b4",
+    "retrieval_error": null,
+    "full_book_ingested": false
+  }
+]

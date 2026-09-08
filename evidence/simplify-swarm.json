@@ -1,0 +1,15 @@
+{
+  "skill": "simplify-swarm",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "6c9e71f35b7b37074e182a9672f58e8775fd18b9b7a016b1e14b7f03ad7c6aa6",
+  "adaptation": "portable method rewrite",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "3da7510e2e586c9060907cc9b0d99b991295e2e45061c5ca737a51039644601b"
+}

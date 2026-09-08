@@ -1,0 +1,38 @@
+{
+  "skill": "wiki-automation-llm",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "0ed112d12f7c0d1835d1dbe776c8903468fd87bfc8f74bfdad7a9b2525b88865",
+  "adaptation": "portable method rewrite",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "wal-ingest",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 2,
+          "total": 2
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 2,
+          "total": 2
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "8115c79e1c8c13ac2d0bc33bce65efacc05f9dae84ebaf9c719b015d77691cef"
+}

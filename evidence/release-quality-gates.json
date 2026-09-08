@@ -1,0 +1,38 @@
+{
+  "skill": "release-quality-gates",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "2be0f818a4d55104a7e3a4c19db242d7428dfdc2a177a28ae64dd9902259dc04",
+  "adaptation": "portable method rewrite",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "gate-levels",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 3,
+          "total": 10
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 4,
+          "total": 10
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "b61226cb01cd01599a9dda1fcc2fc587ee1ae9aa22acf554707f64030e95cc82"
+}

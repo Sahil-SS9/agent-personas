@@ -1,0 +1,38 @@
+{
+  "skill": "flaky-test-manager",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "592ee1f9c25439461ccb3d281feab1dfe6a9895cd6273383feb3262ef7a81404",
+  "adaptation": "source method retained; public metadata and references normalised",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "fm-classify",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 0,
+          "total": 3
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 1,
+          "total": 3
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "2a7435b52907809e82432246255fe0ca62efa998c5345bfbf14cd106ac236d34"
+}

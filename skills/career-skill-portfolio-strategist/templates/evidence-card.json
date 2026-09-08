@@ -1,0 +1,13 @@
+{
+  "option": null,
+  "assumption": null,
+  "evidence_type": null,
+  "time_cap_hours": null,
+  "cash_cap": null,
+  "consent": null,
+  "deliverable": null,
+  "advance_if": null,
+  "revise_if": null,
+  "stop_if": null,
+  "review_at": null
+}

@@ -1,0 +1,14 @@
+{
+  "name": "growth-experimentation-strategist",
+  "version": "0.1.0-experimental",
+  "members": [
+    "growth-bottleneck-diagnosis",
+    "experiment-feasibility-review",
+    "search-acquisition-audit",
+    "market-research",
+    "pricing-strategy",
+    "feature-prioritisation",
+    "claim-verification"
+  ],
+  "persona": "growth-experimentation-strategist"
+}

@@ -1,0 +1,15 @@
+{
+  "skill": "mcp-spec-reference",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "801c475e50e29718c8737cdb90395405838fca6118ddc6b9cc083c39b414848d",
+  "adaptation": "portable method rewrite",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "834db002a7c45625383ae6ed8de029a615fd587cd3e63550ba8ce58de8c0e20b"
+}

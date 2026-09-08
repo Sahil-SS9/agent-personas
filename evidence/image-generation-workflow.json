@@ -1,0 +1,38 @@
+{
+  "skill": "image-generation-workflow",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "16c30e4a4dd300baff699c6f1cbd7ba86afa3be1e605817b0291737fb7f401a3",
+  "adaptation": "portable method rewrite",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "generate-simple",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 2,
+          "total": 7
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 4,
+          "total": 7
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "47db845623c5f86f0b06fe3f7a78a20bc5508808cd1fdd05a7b8b12879ecf1f6"
+}

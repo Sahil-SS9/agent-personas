@@ -1,0 +1,38 @@
+{
+  "skill": "travel-destination-research",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "0a10915662d429c68107b5e9069669047b1fb2b02707abc38197f8df322c329f",
+  "adaptation": "source method retained; public metadata and references normalised",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "dr-advisory",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 0,
+          "total": 3
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 1,
+          "total": 3
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "f02bac356983628864ba5158d80402d1d2e6fe92cacaa029f107fc9cf322e9ce"
+}

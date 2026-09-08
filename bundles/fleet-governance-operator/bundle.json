@@ -1,0 +1,16 @@
+{
+  "name": "fleet-governance-operator",
+  "version": "0.1.0-experimental",
+  "members": [
+    "skill-catalogue-audit",
+    "audit-engine",
+    "agent-profile-review",
+    "scheduled-output-contract",
+    "scheduled-job-audit",
+    "agent-config-validation",
+    "agent-change-governance",
+    "evidence-synthesis",
+    "grounded-citations"
+  ],
+  "persona": "fleet-governance-operator"
+}

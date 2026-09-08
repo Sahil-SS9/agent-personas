@@ -1,0 +1,15 @@
+{
+  "skill": "career-option-prototyping",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "2aacd5071034beb0f69c6658b8cf6465cf752c05554e6ac77aa1d361fd799818",
+  "adaptation": "source method retained; public metadata and references normalised",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "1644880f15c6e9f35f37908fd7c6c795866736c875546b7698ed360242bf3f07"
+}

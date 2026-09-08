@@ -1,0 +1,38 @@
+{
+  "skill": "story-slicing",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "a983b75a1c9deca17531bbe408d056fa1aef29157d24fe029aa32871a2f9ff1d",
+  "adaptation": "source method retained; public metadata and references normalised",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "ss-fat",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 0,
+          "total": 4
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 2,
+          "total": 4
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "167bb608b80b6d73b6295e9c35f3f5335d1d4fc6eaa76f84a97878cd08c7a4e6"
+}

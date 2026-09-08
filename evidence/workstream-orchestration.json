@@ -1,0 +1,38 @@
+{
+  "skill": "workstream-orchestration",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "fcd960e2f7f3c3b2db50dbfd4e38ac8b415f7abdc0cab89bedb91d677bd261c9",
+  "adaptation": "source method retained; public metadata and references normalised",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "wo-collide",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 1,
+          "total": 4
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 3,
+          "total": 4
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "3da00a44e77d8f490d1e80f4af9c17ffe4ed99b9ccd205180a0c4e5ca89c599d"
+}

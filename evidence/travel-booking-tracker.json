@@ -1,0 +1,38 @@
+{
+  "skill": "travel-booking-tracker",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "58c1c256d89f127e72848d0050ade803a6818170e93c7f34f60baac302d9fffa",
+  "adaptation": "source method retained; public metadata and references normalised",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "bt-sweep",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 0,
+          "total": 3
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 2,
+          "total": 3
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "6711274b9c40a5f2ffca8f23a45db2a90989b875308ae66baa2710bbda9d2e37"
+}

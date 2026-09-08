@@ -1,0 +1,16 @@
+{
+  "name": "knowledge-librarian",
+  "version": "0.1.0-experimental",
+  "members": [
+    "linked-knowledge-maintenance",
+    "obsidian",
+    "memory-promotion",
+    "session-librarian",
+    "claim-verification",
+    "evidence-synthesis",
+    "grounded-citations",
+    "wiki-automation-llm",
+    "skill-authoring"
+  ],
+  "persona": "knowledge-librarian"
+}

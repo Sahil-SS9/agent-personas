@@ -1,0 +1,15 @@
+{
+  "skill": "evidence-led-convergence",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "46796618ec10bbad77737180a2629a1814efa46ef116bbefe6e2b32d87ae0e63",
+  "adaptation": "portable method rewrite",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "7047b7f2c3a2867446a71385e586a0332eed0dd8973ae4abcb37b8c9186e4812"
+}

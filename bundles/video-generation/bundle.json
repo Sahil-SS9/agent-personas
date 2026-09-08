@@ -1,0 +1,19 @@
+{
+  "name": "video-generation",
+  "version": "0.1.0-experimental",
+  "members": [
+    "h3-prompt-crafting",
+    "lyric-aligned-video-planning",
+    "video-cost-routing",
+    "comfyui-workflow-management",
+    "multi-shot-storytelling",
+    "comfyui-video-generation",
+    "comfyui",
+    "terminal-demo-video",
+    "motion-notation-prompting",
+    "h3-audio-dialogue-syntax",
+    "temporal-animation-techniques",
+    "h3-style-picker"
+  ],
+  "persona": "video-generation"
+}

@@ -1,0 +1,38 @@
+{
+  "skill": "memory-promotion",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "1d6ded58264f4daa523627af42152b9c7d2fa53af99512a5ed208d9c6fe2766c",
+  "adaptation": "portable method rewrite",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "mp-promote",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 0,
+          "total": 1
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 1,
+          "total": 1
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "85cd6f8d411922c4fe46edcece72dec259f5032aab8bfed3dd1917816127301c"
+}

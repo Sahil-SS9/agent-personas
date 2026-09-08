@@ -1,0 +1,11 @@
+{
+  "name": "product-owner",
+  "version": "0.1.0-experimental",
+  "members": [
+    "story-slicing",
+    "backlog-refinement",
+    "meeting-action-items",
+    "morning-pulse"
+  ],
+  "persona": "product-owner"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "product-demo-specialist",
+  "version": "0.1.0-experimental",
+  "members": [
+    "demo-scenario-design",
+    "qfs-authoring",
+    "demo-production-workflow",
+    "safe-demo-environments",
+    "prd-authoring"
+  ],
+  "persona": "product-demo-specialist"
+}

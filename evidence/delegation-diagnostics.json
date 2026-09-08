@@ -1,0 +1,15 @@
+{
+  "skill": "delegation-diagnostics",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "a9b068a417410ab5448738b24f86d19ba5fe865626e4ea58e63f71b5d241c138",
+  "adaptation": "portable method rewrite",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "66efd1fa63cdab78964e4419dbdbe89ce286868b7be017dc810510d01f181967"
+}

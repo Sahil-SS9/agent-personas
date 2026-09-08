@@ -1,0 +1,38 @@
+{
+  "skill": "h3-prompt-crafting",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "37cedc23fa786c568f4c40b9527d51f785fb648f778ab7983d40d985534fd286",
+  "adaptation": "source method retained; public metadata and references normalised",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "h3-mode",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 3,
+          "total": 3
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 3,
+          "total": 3
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "6a540f4657f057f07f068ff7bef520f4fd35c8f9721f51cd72e9983ad62ade89"
+}

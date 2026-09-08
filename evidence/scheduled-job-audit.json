@@ -1,0 +1,38 @@
+{
+  "skill": "scheduled-job-audit",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "35844d70bd8cf4f56dacf199b21ac8db6b1c954c6e234353d949765139d1428a",
+  "adaptation": "portable method rewrite",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "cam-cross-cron",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 0,
+          "total": 1
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 1,
+          "total": 1
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "85293a21e8990d614dd7ba4bfc35bbe3100450b801e0eee36961d316997744eb"
+}

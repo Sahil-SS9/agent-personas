@@ -1,0 +1,60 @@
+{
+  "skill": "mcp-integration-engineering",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "f457de021fbe63fce2671cbe57fec8784906dbe7435e7faf77a52d656d749dca",
+  "adaptation": "source method retained; public metadata and references normalised",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "mi-testing",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 3,
+          "total": 3
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 3,
+          "total": 3
+        }
+      }
+    },
+    {
+      "integrity_verified": true,
+      "scenario": "mi-prod",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 3,
+          "total": 4
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 3,
+          "total": 4
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "6c825fd7cdbe31868596cc3a9474b0af8b88eb515979b6072880bdffbf27cc30"
+}

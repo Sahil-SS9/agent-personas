@@ -1,0 +1,9 @@
+{
+  "name": "practice-based-learning",
+  "version": "0.1.0-experimental",
+  "members": [
+    "practice-loop-design",
+    "independent-performance-review"
+  ],
+  "persona": "practice-based-learning"
+}

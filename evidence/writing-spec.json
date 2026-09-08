@@ -1,0 +1,38 @@
+{
+  "skill": "writing-spec",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "8ecefec9e44f2a507c18eb4a2313a287d9f446e4ac66aaff13ba90a970788e95",
+  "adaptation": "portable method rewrite",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "core",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 2,
+          "total": 2
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 2,
+          "total": 2
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "16a0ec53bff4b20b0cc7b68ae1e034ec0719c7b7dc6ca23ef481a39cd62591fc"
+}

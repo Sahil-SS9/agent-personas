@@ -1,0 +1,38 @@
+{
+  "skill": "terminal-demo-video",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "c37716ac6798538da7f6f2eb26a92a0b09b1b1e9af9ed0e1c130fb30e165459b",
+  "adaptation": "portable method rewrite",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "record",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 1,
+          "total": 2
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 1,
+          "total": 2
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "e8578f11929d34812fee3981f921216ef0ecbb93598ba7bf76cf27bd2b06a916"
+}

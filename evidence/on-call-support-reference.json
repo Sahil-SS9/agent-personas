@@ -1,0 +1,15 @@
+{
+  "skill": "on-call-support-reference",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "5aa105ac3f773931f57099721aaf17ab9e3fa5c7bcb96ff681967e41fa9187ea",
+  "adaptation": "portable method rewrite",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "3c610ade3dec3e1ee49d10052c578a58cbc120c413b2e89f2dcb4d22f284bf63"
+}

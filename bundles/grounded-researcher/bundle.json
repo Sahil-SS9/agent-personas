@@ -1,0 +1,13 @@
+{
+  "name": "grounded-researcher",
+  "version": "0.1.0-experimental",
+  "members": [
+    "claim-verification",
+    "evidence-synthesis",
+    "grounded-citations",
+    "arxiv",
+    "competitor-news-monitor",
+    "landscape-monitoring"
+  ],
+  "persona": "grounded-researcher"
+}

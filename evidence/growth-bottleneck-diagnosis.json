@@ -1,0 +1,15 @@
+{
+  "skill": "growth-bottleneck-diagnosis",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "75708c00dce2b80a0250e98dc51f90ad9470b451a4fa4cc6f10c148f79043286",
+  "adaptation": "source method retained; public metadata and references normalised",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "58d41a8c4d30245cb9b5bd6535531aa22981a8f2824ac0f779462e0b7616503b"
+}

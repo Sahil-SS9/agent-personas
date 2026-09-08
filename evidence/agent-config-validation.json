@@ -1,0 +1,38 @@
+{
+  "skill": "agent-config-validation",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "0086db2b99907fbf7e57c963d97fe67466b60ca94363e45c5c6ba511c1a75b2b",
+  "adaptation": "portable method rewrite",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "hcv-config-change",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 2,
+          "total": 2
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 2,
+          "total": 2
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "8cbd8a2b35ca12552173938dd7c5cea200d71c028beb28d03dadf6ea72de7f4d"
+}

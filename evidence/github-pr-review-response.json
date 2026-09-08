@@ -1,0 +1,15 @@
+{
+  "skill": "github-pr-review-response",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "f4b63d3eabfad3ba7573b9852455f0dd96ccb81ad6cd9c2457be5e969029fd60",
+  "adaptation": "portable method rewrite",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "422f87a4c0bfc9e0d96432509e12cb5b6c99976ac2dd7c1d43c8aa7119acb213"
+}

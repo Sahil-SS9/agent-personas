@@ -1,0 +1,15 @@
+{
+  "skill": "migration-handoff-execution",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "84a8f425b061c1bafe0fd373947f1986a299654957616f167dec78ea13f1f82d",
+  "adaptation": "portable method rewrite",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "811ee34351db2ef0d15b8c08f61ec6584fac1ffddef536de2b08f38025d7f7cd"
+}

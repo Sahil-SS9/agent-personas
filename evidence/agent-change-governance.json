@@ -1,0 +1,38 @@
+{
+  "skill": "agent-change-governance",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "4cd538f8eaa8fbbebebc7f2724ab0e61bdff2f0d10b62502095d437b4ac88dc7",
+  "adaptation": "portable method rewrite",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "gov-ledger-entry",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 0,
+          "total": 1
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 1,
+          "total": 1
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "8e92cbc89e9bf3de7261cc2e159b17ff28fdc1b8feb5cca526860d966ee25f29"
+}

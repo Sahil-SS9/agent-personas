@@ -1,0 +1,60 @@
+{
+  "skill": "prd-authoring",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "7712253ef2f8f5b1da9ca79f7525a12c41c2743a1ab256c05a73e6ebf5d35b57",
+  "adaptation": "source method retained; public metadata and references normalised",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "prd-metrics-recovery",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 2,
+          "total": 4
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 2,
+          "total": 4
+        }
+      }
+    },
+    {
+      "integrity_verified": true,
+      "scenario": "prd-metrics",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 2,
+          "total": 4
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 2,
+          "total": 4
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "2ff3413942a1157147b7613e28f5a40fa0030f3ce160c4baeb32131930d9b5a2"
+}

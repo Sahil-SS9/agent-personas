@@ -1,0 +1,13 @@
+{
+  "name": "integration-specialist",
+  "version": "0.1.0-experimental",
+  "members": [
+    "mcp-integration-engineering",
+    "third-party-api-integration",
+    "plugin-compat-auditing",
+    "mcp-client-setup",
+    "mcp-troubleshooting",
+    "backend-contract-design"
+  ],
+  "persona": "integration-specialist"
+}

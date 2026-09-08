@@ -1,0 +1,19 @@
+{
+  "task": null,
+  "allowed_inputs": [],
+  "allowed_tools": [],
+  "destinations": [],
+  "prohibited_actions": [
+    "unapproved external writes",
+    "unapproved nested delegation"
+  ],
+  "reviewer": null,
+  "baseline_minutes": null,
+  "setup_minutes": null,
+  "active_minutes": null,
+  "review_minutes": null,
+  "rework_minutes": null,
+  "observed_volume": null,
+  "quality_evidence": [],
+  "decision": null
+}

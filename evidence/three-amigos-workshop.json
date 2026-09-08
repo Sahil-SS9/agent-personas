@@ -1,0 +1,38 @@
+{
+  "skill": "three-amigos-workshop",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "4ccf117e58d91cf7c4a30030ba5516df5266db75d97950245f41f81abc388ebb",
+  "adaptation": "source method retained; public metadata and references normalised",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "ta-story",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 1,
+          "total": 4
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 2,
+          "total": 4
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "033b3a9843fb4182b9ee86024750f2a1ed1eca884a0867ab86b826141aed4abe"
+}

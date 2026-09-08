@@ -1,0 +1,60 @@
+{
+  "skill": "architecture-layering-review",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "f8c2aa1ad047a2627415a52deb2c146ec5f2a56e2ca420a124e9fd790e540c8a",
+  "adaptation": "portable method rewrite",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "pytest-paths",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 1,
+          "total": 1
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 1,
+          "total": 1
+        }
+      }
+    },
+    {
+      "integrity_verified": true,
+      "scenario": "import-graph",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 3,
+          "total": 6
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 3,
+          "total": 6
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "281787874bac8c5fb89367d26e4627a0da5d09c65ea2fa1ffb26a094dfef1c73"
+}

@@ -1,0 +1,38 @@
+{
+  "skill": "comfyui",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "df6ce0ec9b85e6ef6302a316700733f339acc38b78bf585355e54fddfd85fae5",
+  "adaptation": "portable method rewrite",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "detect-env",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 7,
+          "total": 26
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 12,
+          "total": 26
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "11ffe4bfb51850e7ea6f8b9abe1ceb778bb53def355f03d1eb705aada2a94b86"
+}

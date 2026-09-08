@@ -1,0 +1,15 @@
+{
+  "skill": "ai-task-suitability-review",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "2f2c24257ba52190fc0bd9ad62a920df354a1f11fc537cc41cf4f80729d2d55e",
+  "adaptation": "source method retained; public metadata and references normalised",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "a4926e66da8a715910429e8e9e66cc7b592ee11bc3d116786b29611158a5e25f"
+}

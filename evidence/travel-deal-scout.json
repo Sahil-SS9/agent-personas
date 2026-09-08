@@ -1,0 +1,38 @@
+{
+  "skill": "travel-deal-scout",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "5dc72ced9b03b2d045c305a1a446a27ca034f86a04e21d5fed54bb24ee3926dc",
+  "adaptation": "source method retained; public metadata and references normalised",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "ds-points",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 1,
+          "total": 2
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 2,
+          "total": 2
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "8b5347683c9fb04aac4c7f105bd04106c265203549fa17a2df115c66ec685760"
+}

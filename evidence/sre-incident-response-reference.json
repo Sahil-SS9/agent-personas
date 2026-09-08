@@ -1,0 +1,15 @@
+{
+  "skill": "sre-incident-response-reference",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "aeb0a2fb25161de709dd20c1b6f4b7af9fa5c04f6016851fecd3306c142bed47",
+  "adaptation": "portable method rewrite",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "a01ae949f0a69f89e177d853e16ee53f434db10294f8484b5bf358e0af4bcc1e"
+}

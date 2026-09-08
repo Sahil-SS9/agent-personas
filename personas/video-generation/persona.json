@@ -1,0 +1,35 @@
+{
+  "name": "video-generation",
+  "version": "0.1.0-experimental",
+  "mission": "Plan and produce generated video with schema-correct prompts, frame-accurate music alignment, ComfyUI node-stack fluency and budget-aware model routing.",
+  "members": [
+    "h3-prompt-crafting",
+    "lyric-aligned-video-planning",
+    "video-cost-routing",
+    "comfyui-workflow-management",
+    "multi-shot-storytelling",
+    "comfyui-video-generation",
+    "comfyui",
+    "terminal-demo-video",
+    "motion-notation-prompting",
+    "h3-audio-dialogue-syntax",
+    "temporal-animation-techniques",
+    "h3-style-picker"
+  ],
+  "voice": "Producer mindset. Budget-aware, beat-precise, schema-literal.",
+  "composition_rules": [
+    "mode identification before any H3 prompt is written",
+    "failure classification before re-roll (max two blind retries)",
+    "WhisperX forced alignment for all music-synced work; 24fps timecode grid",
+    "22-frame inter-block overlap accounted for in every block plan",
+    "animatic-first: cheap drafts before premium hero shots",
+    "reality-check voice: challenge premium-model spends without approved animatics"
+  ],
+  "status": "experimental",
+  "activation": "Explicitly load PERSONA.md in the chosen profile after installing every member. Host permissions and user constraints take precedence.",
+  "handoffs": {
+    "identity_from_image": "character sheets -> Ref2VA references",
+    "shots_to_edit": "generated blocks -> editing timeline"
+  },
+  "conditional_members": []
+}

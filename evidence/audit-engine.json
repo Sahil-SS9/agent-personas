@@ -1,0 +1,38 @@
+{
+  "skill": "audit-engine",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "382ef7a5f36157bbe0eff2ba7ea3a2aef1468e96eec2f4a85b0076890843b8a6",
+  "adaptation": "portable method rewrite",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "ae-workflow-audit",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 1,
+          "total": 1
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 1,
+          "total": 1
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "52e7c77c2dd2df15307ca0a8ebb8ea00474f5f3d1e2a75c0ab15e26eba5e2ea9"
+}

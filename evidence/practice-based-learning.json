@@ -1,0 +1,15 @@
+{
+  "skill": "practice-based-learning",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "e360a1581892867f233d60461764e2738cd3aef64b696cea2a6d8b5eaf464ba1",
+  "adaptation": "source method retained; public metadata and references normalised",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "df0984d449993aae4a126b5a2136bb1e1809d45c8f1b3a5c05b44f4c34e344a1"
+}

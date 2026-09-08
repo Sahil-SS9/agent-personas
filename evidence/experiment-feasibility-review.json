@@ -1,0 +1,15 @@
+{
+  "skill": "experiment-feasibility-review",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "b4325b5667641500198a0e1274a1a6f1672da33d4414ed6eb7c35badbc8dfb41",
+  "adaptation": "source method retained; public metadata and references normalised",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "61f611b752499bbc77f03b30cd191f553521cc56a37094c0179899fc219632c2"
+}

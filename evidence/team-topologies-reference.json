@@ -1,0 +1,15 @@
+{
+  "skill": "team-topologies-reference",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "041e8b1e1f9617ac1b3d9af91a8903cde57efed73f90b3ad1c8c0826b108dec5",
+  "adaptation": "portable method rewrite",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "b7977e98ef610cc91bfd19585eedf10d7fc6425780d8e7fe364c9e2df0b52abd"
+}

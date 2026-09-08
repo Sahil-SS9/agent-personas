@@ -1,0 +1,15 @@
+{
+  "skill": "capability-evaluation",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "263165f10e247bbb33e6be33ede552bcb0bbd3d76878ecd186beb90078ee8325",
+  "adaptation": "portable method rewrite",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "fd1e53d8fe236bb64704aefe6fd88b1f57c24856c0bafca6096f24d5151d2502"
+}

@@ -1,0 +1,38 @@
+{
+  "skill": "multi-shot-storytelling",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "2d90138a94ab9f67f96b22764522d3954ad45c5c35240df7dc92179d2aa12dce",
+  "adaptation": "source method retained; public metadata and references normalised",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "ms-shotlist",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 0,
+          "total": 4
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 3,
+          "total": 4
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "421534d9a99c39cff9a424a9b829de41f98a6aecf3cec236baf0167ab815b298"
+}

@@ -1,0 +1,15 @@
+{
+  "skill": "practice-loop-design",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "236a92aa5b9d096c86038a2e325b884407e3c7de5c6bc8c0ebd046738d64dc6d",
+  "adaptation": "source method retained; public metadata and references normalised",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "460099c6cffe5ab177cb9dfbab5c36730d5433b3087821e8d8cf9d8435d7147f"
+}

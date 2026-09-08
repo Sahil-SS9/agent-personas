@@ -1,0 +1,15 @@
+{
+  "skill": "skill-portfolio-evidence-review",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "c9d83b1d73182a01c799fa888a2995180cb5a966625474a4162e79ad206623d2",
+  "adaptation": "source method retained; public metadata and references normalised",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "477f586c969af6370075d4ff2b7e40bd266082ebf7d9488e42abb9ef88f6088e"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "agent-team-lead",
+  "version": "0.1.0-experimental",
+  "members": [
+    "agent-dispatch-discipline",
+    "workstream-orchestration",
+    "writing-plans",
+    "phased-plan-execution",
+    "reviewed-agent-development",
+    "task-board-orchestration"
+  ],
+  "persona": "agent-team-lead"
+}

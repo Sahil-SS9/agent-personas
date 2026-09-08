@@ -1,0 +1,38 @@
+{
+  "skill": "task-board-orchestration",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "f6dba895d5c283ef6c2c65b2a4ec2f9cf5ad8ee06a40d7d970c08e9202402a79",
+  "adaptation": "portable method rewrite",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "board-vs-do",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 11,
+          "total": 49
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 17,
+          "total": 49
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "2bc00a3aa6747541a82ce179f924ef539606f4b97e1579cf049c73bcd340fe8e"
+}

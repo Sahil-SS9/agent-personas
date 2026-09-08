@@ -1,0 +1,82 @@
+{
+  "skill": "grounded-citations",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "83c481b0f426300dfd82468259b1f8291b68f0bba2243b0c33792fc22a4c01fa",
+  "adaptation": "portable method rewrite",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "fact-check",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 1,
+          "total": 2
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 1,
+          "total": 2
+        }
+      }
+    },
+    {
+      "integrity_verified": true,
+      "scenario": "ground-answer",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 1,
+          "total": 6
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 1,
+          "total": 6
+        }
+      }
+    },
+    {
+      "integrity_verified": true,
+      "scenario": "fact-check",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 1,
+          "total": 2
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 1,
+          "total": 2
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "50742df7a5897d428603d3dbc7098ff06f865557a5caaf5eaa5823fb5ee808d8"
+}

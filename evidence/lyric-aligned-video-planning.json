@@ -1,0 +1,38 @@
+{
+  "skill": "lyric-aligned-video-planning",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "5e673ec9a04dec6cf1dda8afa7723dddd5b5ecaeb3ba113ef57ac10777a13b9b",
+  "adaptation": "source method retained; public metadata and references normalised",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "lv-align",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 1,
+          "total": 4
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 3,
+          "total": 4
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "5c00cc4b2374dbd03632fda19f01c970ea536e22af4f0bc9f60e3b4d9e835809"
+}

@@ -1,0 +1,15 @@
+{
+  "skill": "career-skill-portfolio-strategist",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "2a9cd05f2567d112fee546a4503ce45b177a66aabf7836d5d6fc097381416820",
+  "adaptation": "source method retained; public metadata and references normalised",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "3d3e3ee5aa112ee68058280044d9b868d6c47f9db19f40e1abfe440ebf80fe8b"
+}

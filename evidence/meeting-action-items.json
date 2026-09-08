@@ -1,0 +1,38 @@
+{
+  "skill": "meeting-action-items",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "dab64131474ac65f04b11571239e2b60c7ddc98cd388341f7e17c1b0facfe7f2",
+  "adaptation": "source method retained; public metadata and references normalised",
+  "author_credit": "Ben Barclay (benbarclay), Hermes Agent",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "existing-records",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 1,
+          "total": 3
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 2,
+          "total": 3
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "a8b0862933e33593785120eb887bddc341ce647d098ee39d531d764cbdf3a25c"
+}

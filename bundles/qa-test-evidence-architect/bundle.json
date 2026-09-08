@@ -1,0 +1,17 @@
+{
+  "name": "qa-test-evidence-architect",
+  "version": "0.1.0-experimental",
+  "members": [
+    "test-strategy-shapes",
+    "flaky-test-manager",
+    "edge-case-inventory",
+    "failing-test-triage",
+    "three-amigos-workshop",
+    "regression-attribution",
+    "release-quality-gates",
+    "test-driven-development",
+    "systematic-debugging",
+    "test-evidence-integrity"
+  ],
+  "persona": "qa-test-evidence-architect"
+}

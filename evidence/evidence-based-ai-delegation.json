@@ -1,0 +1,15 @@
+{
+  "skill": "evidence-based-ai-delegation",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "92a5a165d4a406900b138b4659045648c3ff1ebde39d93cd45a93a3bf424ca91",
+  "adaptation": "source method retained; public metadata and references normalised",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "a096a3a31b28d0f7a50989c92dfeb971073f9023b862911bdb302aeb93012a4d"
+}

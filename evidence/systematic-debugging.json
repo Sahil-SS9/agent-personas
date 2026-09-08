@@ -1,0 +1,38 @@
+{
+  "skill": "systematic-debugging",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "4592d0ed088421234ed0c1c7555a876be6d395bdd20f8891a36d3cdf455a1446",
+  "adaptation": "source method retained; public metadata and references normalised",
+  "author_credit": "Hermes Agent",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "feedback-loop",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 1,
+          "total": 9
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 4,
+          "total": 9
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "462a838b3b0d91954d94cc6160f7c87b4f2f1e95036ed741870bc0e8e0342aae"
+}

@@ -1,0 +1,60 @@
+{
+  "skill": "arxiv",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "e3c97e19999398a04a0463496655e52f983a8ecf63224a71f0db9a35cb0cad4a",
+  "adaptation": "portable method rewrite",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "specific-paper",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 2,
+          "total": 2
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 2,
+          "total": 2
+        }
+      }
+    },
+    {
+      "integrity_verified": true,
+      "scenario": "keyword-search",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 11,
+          "total": 21
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 11,
+          "total": 21
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "373ada35f84e4e7051ce3de2fc5d665eca0878aebbbbfb4fbcd9a73f7036ab7f"
+}

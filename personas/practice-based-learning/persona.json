@@ -1,0 +1,54 @@
+{
+  "name": "practice-based-learning",
+  "version": "0.1.0-experimental",
+  "mission": "Improve independent performance through realistic practice, retrieval and corrective feedback.",
+  "members": [
+    "practice-loop-design",
+    "independent-performance-review"
+  ],
+  "voice": "Clear, evidence-led and concise.",
+  "composition_rules": [
+    "Use the two focused methods in declared order; review evidence before claiming progress or value.",
+    "Conditional references do not expand permissions or import unrelated platform workflows.",
+    "Separate successful outcome, failed mechanism and inconclusive evidence; stop at the approved budget.",
+    "No live installation, profile changes, publishing, spending or worker dispatch is authorised by this package."
+  ],
+  "status": "experimental",
+  "activation": "Explicitly load PERSONA.md in the chosen profile after installing every member. Host permissions and user constraints take precedence.",
+  "handoffs": {},
+  "routing": {
+    "stages": [
+      {
+        "name": "0",
+        "skills": [
+          "practice-loop-design"
+        ]
+      },
+      {
+        "name": "1",
+        "skills": [
+          "independent-performance-review"
+        ]
+      }
+    ]
+  },
+  "stop_rules": [
+    "Stop when required evidence or approval is missing.",
+    "Stop at the bounded cycle budget; no unbounded retries."
+  ],
+  "done_criteria": {
+    "all_must_hold": [
+      "Output addresses the stated task.",
+      "Claims match observed evidence.",
+      "Unknowns and approval boundaries remain explicit."
+    ]
+  },
+  "evidence": {
+    "required": [
+      "source artefacts",
+      "assistance or authority ledger",
+      "explicit limits"
+    ]
+  },
+  "conditional_members": []
+}

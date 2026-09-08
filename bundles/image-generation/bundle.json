@@ -1,0 +1,14 @@
+{
+  "name": "image-generation",
+  "version": "0.1.0-experimental",
+  "members": [
+    "character-sheet-design",
+    "style-vocabulary-selection",
+    "interactive-style-refinement",
+    "concept-development-session",
+    "storyboard-to-shots",
+    "image-generation-workflow",
+    "comfyui"
+  ],
+  "persona": "image-generation"
+}

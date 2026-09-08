@@ -1,0 +1,67 @@
+[
+  {
+    "id": "G01",
+    "title": "Corey Haines marketingskills: ab-testing",
+    "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/ab-testing/SKILL.md",
+    "retrieved_at": "2026-09-07T18:04:01.820110+00:00",
+    "source_type": "practitioner implementation",
+    "reviewed_scope": "Full workflow retained in retrieval; hypothesis, metrics, sample size and pitfalls reviewed",
+    "licence_basis": "Repository MIT declaration verified; independently authored distillation",
+    "supported_use": "Useful operational skeleton; fixed quick-reference sample counts must not replace calculation.",
+    "retrieval_sha256": "bddd9c8992a2b8d461b51db389ebefc65cd4fb69e8bf03613066d11aed2bafda",
+    "retrieval_error": null,
+    "full_book_ingested": false
+  },
+  {
+    "id": "G02",
+    "title": "Google SEO Starter Guide",
+    "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+    "retrieved_at": "2026-09-07T18:04:01.820110+00:00",
+    "source_type": "official documentation",
+    "reviewed_scope": "Crawling, organisation, useful content and search-result presentation",
+    "licence_basis": "Documentation use terms not independently audited; original paraphrase",
+    "supported_use": "SEO recommendations need page evidence, not guaranteed ranking or volume.",
+    "retrieval_sha256": "bc613d8f893d47b5d1bccc826c04854d728282a9946bdf15712519262da18b06",
+    "retrieval_error": null,
+    "full_book_ingested": false
+  },
+  {
+    "id": "G03",
+    "title": "Obviously Awesome author book page",
+    "url": "https://aprildunford.com/obviously-awesome",
+    "retrieved_at": "2026-09-07T18:04:01.820110+00:00",
+    "source_type": "author book overview",
+    "reviewed_scope": "Overview only; not book text",
+    "licence_basis": "Copyrighted; no book acquired",
+    "supported_use": "Establishes canonical book candidate; methodology supported by G05 instead.",
+    "retrieval_sha256": "74b125392a88642fa6b2065a1a829e4ade8ae1eb373ca01a82535ce9d44074e5",
+    "retrieval_error": null,
+    "full_book_ingested": false
+  },
+  {
+    "id": "G04",
+    "title": "Trustworthy Online Controlled Experiments: authorised Chapter 1 sample",
+    "url": "https://experimentguide.com/wp-content/uploads/TrustworthyOnlineControlledExperiments_PracticalGuideToABTesting_Chapter1.pdf",
+    "retrieved_at": "2026-09-07T18:04:01.820110+00:00",
+    "source_type": "author-hosted book excerpt",
+    "reviewed_scope": "Publisher contents/preface plus selected Chapter 1 sections: terminology, causality, ingredients, strategy limitations",
+    "licence_basis": "Copyrighted authorised sample; original notes only; no full-book ingestion",
+    "supported_use": "Persistent randomisation, measurable outcome, feasibility and causal limits.",
+    "retrieval_sha256": "23e311ad5098f79c469089981c9cd02f82bf390615ca9eb18410f4b763814482",
+    "retrieval_error": null,
+    "full_book_ingested": false
+  },
+  {
+    "id": "G05",
+    "title": "April Dunford: A Quickstart Guide to Positioning",
+    "url": "https://www.aprildunford.com/post/a-quickstart-guide-to-positioning",
+    "retrieved_at": "2026-09-07T18:04:01.820110+00:00",
+    "source_type": "original author method",
+    "reviewed_scope": "Five components, dependencies, customer-centric flow and traps",
+    "licence_basis": "Copyrighted public author article; original notes only",
+    "supported_use": "Alternatives precede capabilities, value, segment and category; include status quo.",
+    "retrieval_sha256": "0bcf799cfd20d09c4f2c1ccc7a7ca04145dd7cee668cea6fc37fc5d932086384",
+    "retrieval_error": null,
+    "full_book_ingested": false
+  }
+]

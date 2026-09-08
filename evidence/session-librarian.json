@@ -1,0 +1,38 @@
+{
+  "skill": "session-librarian",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "b2b6dab5e7d7d0d0bd5bdc6a5b60fb567cebe82c83d2e56d040123afb5d8de29",
+  "adaptation": "portable method rewrite",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "sesl-organise",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 2,
+          "total": 2
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 2,
+          "total": 2
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "6cce0b8a3d7ed0d0c601ca93ff639aaf17d45aa7f1107f632ca8a7370585d786"
+}

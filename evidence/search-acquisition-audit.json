@@ -1,0 +1,15 @@
+{
+  "skill": "search-acquisition-audit",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "a9e57201d43b667df511b33a358da45d13e3d3fe6c48ba24a2ec3737614302ee",
+  "adaptation": "source method retained; public metadata and references normalised",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "bd599caf9cf3981aa62bc7e248cf5bb109489b1e6faa43c173493b42c1038224"
+}

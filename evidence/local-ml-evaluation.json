@@ -1,0 +1,15 @@
+{
+  "skill": "local-ml-evaluation",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "cf5c70070887f8ab25b2a8878b079dd8475754270535873a4d076356be5d8324",
+  "adaptation": "portable method rewrite",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "80f54b67674871e8b971119169c4b48a14f46ad45bb7b58234da39e02eac41ef"
+}

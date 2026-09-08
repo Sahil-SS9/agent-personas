@@ -1,0 +1,14 @@
+{
+  "name": "design-partner",
+  "version": "0.1.0-experimental",
+  "members": [
+    "design-grilling",
+    "architecture-documentation",
+    "architecture-deepening-review",
+    "architecture-layering-review",
+    "backend-contract-design",
+    "writing-plans",
+    "c4-model-reference"
+  ],
+  "persona": "design-partner"
+}

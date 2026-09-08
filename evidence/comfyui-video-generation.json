@@ -1,0 +1,38 @@
+{
+  "skill": "comfyui-video-generation",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "d9ba5abed87222343e1a157ed7f244d5253aaff98e76413d6911368b7134591d",
+  "adaptation": "portable method rewrite",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "wan-ti2v",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 1,
+          "total": 1
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 1,
+          "total": 1
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "96ad0cb494031ffa5669f4227bc1e7e70409ad50917b7dbf617c1bfb6591dc8c"
+}

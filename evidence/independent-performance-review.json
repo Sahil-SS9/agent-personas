@@ -1,0 +1,15 @@
+{
+  "skill": "independent-performance-review",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "87f4de598633a1ce5c2a706e0ef94880ad93ec12ac7f63a03c8574ec748bac67",
+  "adaptation": "source method retained; public metadata and references normalised",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "d5332d934d4b69921f39fd20c3df9d6072ade3c9daeb0304175dffb84e4cfbef"
+}

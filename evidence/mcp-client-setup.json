@@ -1,0 +1,38 @@
+{
+  "skill": "mcp-client-setup",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "389b223b4f64c92e160fb838a87ee8dfae3838aa0b765c873e3456fed03be4aa",
+  "adaptation": "portable method rewrite",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "register",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 24,
+          "total": 44
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 28,
+          "total": 44
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "8b913ec54387fad09f10b80bc16f7f0f41e826727b6d2ad681710f1c825deca1"
+}

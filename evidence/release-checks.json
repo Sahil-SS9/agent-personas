@@ -1,0 +1,626 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-09-08",
+  "release_version": "0.1.0-experimental",
+  "verification_scope": "Controller-run checks; no independent audit or behavioural uplift claim",
+  "consumer_regression": {
+    "tests": 37,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "private_combined_regression": {
+    "tests": 746,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "staging_matrix": {
+    "status": "pass",
+    "matrix_cases": 1078,
+    "harnesses": [
+      "codex",
+      "claude",
+      "hermes",
+      "openclaw",
+      "commandcode",
+      "pi",
+      "opencode"
+    ],
+    "skills": 113,
+    "personas": 20,
+    "bundles": 21,
+    "assertions": "Exact members and byte-identical copied files including licences; persona contract preserved",
+    "native_activation_claimed": false
+  },
+  "hermes": {
+    "version": "v0.21.0 local fork 63b0ea68",
+    "status": "native-loader-content-match",
+    "checks": [
+      {
+        "name": "agent-change-governance",
+        "sha256": "4cd538f8eaa8fbbebebc7f2724ab0e61bdff2f0d10b62502095d437b4ac88dc7",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "agent-config-validation",
+        "sha256": "0086db2b99907fbf7e57c963d97fe67466b60ca94363e45c5c6ba511c1a75b2b",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "agent-dispatch-discipline",
+        "sha256": "04c97eb7f0d33810ca04f694b2af9b901c01e26cc3286a7e11794282389a0195",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "agent-profile-review",
+        "sha256": "1a3d88990f78e70da8e98db9ac186fe880a940eda7a67e5387163b02fee776f6",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "ai-task-suitability-review",
+        "sha256": "2f2c24257ba52190fc0bd9ad62a920df354a1f11fc537cc41cf4f80729d2d55e",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "architecture-deepening-review",
+        "sha256": "2e86fe734a6bb81f71c4893c154d57132fceeee4cb24f596e01acd33b81d8039",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "architecture-documentation",
+        "sha256": "4c3e0a9dd0a7a49679c931d54e6e7ea56f3bc892313e1d6ddda1e81e87d3541a",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "architecture-layering-review",
+        "sha256": "f8c2aa1ad047a2627415a52deb2c146ec5f2a56e2ca420a124e9fd790e540c8a",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "arxiv",
+        "sha256": "e3c97e19999398a04a0463496655e52f983a8ecf63224a71f0db9a35cb0cad4a",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "audit-engine",
+        "sha256": "382ef7a5f36157bbe0eff2ba7ea3a2aef1468e96eec2f4a85b0076890843b8a6",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "backend-contract-design",
+        "sha256": "003412853f91f4d10c7ec530ec1adc7161ed30b3108c49a5e16e086af19b199a",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "backlog-refinement",
+        "sha256": "5d907c5877abbae1bdabb0e9cdd71e65efa860c77e5587f571c24626d0610686",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "c4-model-reference",
+        "sha256": "8d5fe057c6f2d6a0f0c47b0f2e04f228e5a6434ee490b08f5fe0e47ad9fcaa17",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "capability-evaluation",
+        "sha256": "263165f10e247bbb33e6be33ede552bcb0bbd3d76878ecd186beb90078ee8325",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "career-option-prototyping",
+        "sha256": "2aacd5071034beb0f69c6658b8cf6465cf752c05554e6ac77aa1d361fd799818",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "career-skill-portfolio-strategist",
+        "sha256": "2a9cd05f2567d112fee546a4503ce45b177a66aabf7836d5d6fc097381416820",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "change-request-evaluator",
+        "sha256": "d5e8f3b49e696513e6c8a01bb97701d028925b74e51ec17847de1025aa309069",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "character-sheet-design",
+        "sha256": "6a8e58c392f782f12234b6d47b3744a5a7f7c515f51c487dfbdebbba580af30b",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "claim-verification",
+        "sha256": "5a98f4832c5f1a597b3c381e4bc467225b0a90ba3a60718c6940c70070820a83",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "comfyui",
+        "sha256": "df6ce0ec9b85e6ef6302a316700733f339acc38b78bf585355e54fddfd85fae5",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "comfyui-video-generation",
+        "sha256": "d9ba5abed87222343e1a157ed7f244d5253aaff98e76413d6911368b7134591d",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "comfyui-workflow-management",
+        "sha256": "174ea2e7b266c33faf79de70e96f85356199c7e01e0a5479126bc917d4c9d546",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "competitor-news-monitor",
+        "sha256": "9078811d433ee645e44b553c4ba41532b79a51ce7dfae966275b28042adaa2be",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "concept-development-session",
+        "sha256": "e1e173fd457e52ac6d6d1dc1cc2d590b05169a46494a1cb5b71df1a1bda4762a",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "delegation-diagnostics",
+        "sha256": "a9b068a417410ab5448738b24f86d19ba5fe865626e4ea58e63f71b5d241c138",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "delegation-value-measurement",
+        "sha256": "0e471233dc0c71db953526adcbee4dda91fba4c73469b02b9247d9c3e8bd8e6d",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "demo-production-workflow",
+        "sha256": "037a1ac7b0f71d99177dcf01c0e8d8a9144fd1460c83b03555889bade5b5dc64",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "demo-scenario-design",
+        "sha256": "1b90cb75450681737cb5f4e63c9a3def95f534af6ebf56b53a2f8e5331c51a52",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "design-grilling",
+        "sha256": "a8b28863ae23a6c31184ec30b58a4b12799ae6295872c16906431f6733f788a5",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "edge-case-inventory",
+        "sha256": "8b35040035024e4b85912c229c25b366f62e7a312c5fc55aa3fa519934e1deb8",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "evidence-based-ai-delegation",
+        "sha256": "92a5a165d4a406900b138b4659045648c3ff1ebde39d93cd45a93a3bf424ca91",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "evidence-led-convergence",
+        "sha256": "46796618ec10bbad77737180a2629a1814efa46ef116bbefe6e2b32d87ae0e63",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "evidence-synthesis",
+        "sha256": "77b48fd1604a02ac22c3f0a311f8f733d3a0f38880f4b8a409830058b192d779",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "experiment-feasibility-review",
+        "sha256": "b4325b5667641500198a0e1274a1a6f1672da33d4414ed6eb7c35badbc8dfb41",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "failing-test-triage",
+        "sha256": "50fdbe8e03d31c2149fa2ee618af3c01f141d826a4a65426ea5ed73ffbb81c20",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "feature-prioritisation",
+        "sha256": "4212eef15a9893125ba9baf7e75c8103e6acc3f7cd34da729dcc3fe756a9006f",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "flaky-test-manager",
+        "sha256": "592ee1f9c25439461ccb3d281feab1dfe6a9895cd6273383feb3262ef7a81404",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "frontend-ux-systems-designer",
+        "sha256": "81be5860f69ed5d305a43f9490df15631650f1ca70a8f192f16fda9e471fb4ba",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "github-pr-review-response",
+        "sha256": "f4b63d3eabfad3ba7573b9852455f0dd96ccb81ad6cd9c2457be5e969029fd60",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "grounded-citations",
+        "sha256": "83c481b0f426300dfd82468259b1f8291b68f0bba2243b0c33792fc22a4c01fa",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "growth-bottleneck-diagnosis",
+        "sha256": "75708c00dce2b80a0250e98dc51f90ad9470b451a4fa4cc6f10c148f79043286",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "growth-experimentation-strategist",
+        "sha256": "14a9a5eee5a0459cd005840cda9899872f58785d8655b2d50cdee47b4c2152d3",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "h3-audio-dialogue-syntax",
+        "sha256": "61c9595143fdb81c0306da36dd8d40873b34d9c3b2ef1bf0163ff9b0f848d880",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "h3-prompt-crafting",
+        "sha256": "37cedc23fa786c568f4c40b9527d51f785fb648f778ab7983d40d985534fd286",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "h3-style-picker",
+        "sha256": "65ae4a24e1b90d0578906c60c68e9320675a8ce115942c32193f202dc9c66003",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "image-generation-workflow",
+        "sha256": "16c30e4a4dd300baff699c6f1cbd7ba86afa3be1e605817b0291737fb7f401a3",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "independent-performance-review",
+        "sha256": "87f4de598633a1ce5c2a706e0ef94880ad93ec12ac7f63a03c8574ec748bac67",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "interactive-style-refinement",
+        "sha256": "1144d9d3f848c5ee4e5c93a8eaa2a03de46686d1fda04ca0fee16e27eeffaad4",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "landscape-monitoring",
+        "sha256": "884ea419a9b15eed3883cdab8643100b3f69c55dd3c2b1e99c573279308cbbbf",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "linked-knowledge-maintenance",
+        "sha256": "64c32301a52ad6731d3e7716975673e15a1d8f62a0a0c789003be514bdf61349",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "local-ml-evaluation",
+        "sha256": "cf5c70070887f8ab25b2a8878b079dd8475754270535873a4d076356be5d8324",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "lyric-aligned-video-planning",
+        "sha256": "5e673ec9a04dec6cf1dda8afa7723dddd5b5ecaeb3ba113ef57ac10777a13b9b",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "market-research",
+        "sha256": "bd362af41a60cc376076ed211332688f1c56af8e89af48e0a338450ae542237c",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "mcp-client-setup",
+        "sha256": "389b223b4f64c92e160fb838a87ee8dfae3838aa0b765c873e3456fed03be4aa",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "mcp-integration-engineering",
+        "sha256": "f457de021fbe63fce2671cbe57fec8784906dbe7435e7faf77a52d656d749dca",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "mcp-spec-reference",
+        "sha256": "801c475e50e29718c8737cdb90395405838fca6118ddc6b9cc083c39b414848d",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "mcp-troubleshooting",
+        "sha256": "11e942d9d467415749b8583febea70ed1f38ba4caa22b5854ceb20a93be8f60e",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "meeting-action-items",
+        "sha256": "dab64131474ac65f04b11571239e2b60c7ddc98cd388341f7e17c1b0facfe7f2",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "memory-promotion",
+        "sha256": "1d6ded58264f4daa523627af42152b9c7d2fa53af99512a5ed208d9c6fe2766c",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "methodology-selector",
+        "sha256": "cb29c263ca770cda2e12528a9170ae7600db929b773f8800a8ab2d9e6e688bd8",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "migration-handoff-execution",
+        "sha256": "84a8f425b061c1bafe0fd373947f1986a299654957616f167dec78ea13f1f82d",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "morning-pulse",
+        "sha256": "c91fb815be13d69136789e98417abf2c89077e90992b350cde3343f36a574223",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "motion-notation-prompting",
+        "sha256": "13aded61e0352a03f3fb8e383ed70c0d5d8c580eb3a19a83c552fc306d987cec",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "multi-shot-storytelling",
+        "sha256": "2d90138a94ab9f67f96b22764522d3954ad45c5c35240df7dc92179d2aa12dce",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "obsidian",
+        "sha256": "585f354044639e3f8cc7de9f7d41bd8056f48616106f3323ee84726357412a72",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "on-call-support-reference",
+        "sha256": "5aa105ac3f773931f57099721aaf17ab9e3fa5c7bcb96ff681967e41fa9187ea",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "phased-plan-execution",
+        "sha256": "4df73d8cfc578daccb8569c6c6dce2144fecb12d68d53aa2a9451fb94afc6d58",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "plugin-compat-auditing",
+        "sha256": "107d327740820e46ecf8f4580bf6ef10dd147058342f3739eb800eb5a74362ab",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "practice-based-learning",
+        "sha256": "e360a1581892867f233d60461764e2738cd3aef64b696cea2a6d8b5eaf464ba1",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "practice-loop-design",
+        "sha256": "236a92aa5b9d096c86038a2e325b884407e3c7de5c6bc8c0ebd046738d64dc6d",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "prd-authoring",
+        "sha256": "7712253ef2f8f5b1da9ca79f7525a12c41c2743a1ab256c05a73e6ebf5d35b57",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "pricing-strategy",
+        "sha256": "b2c195a9b5e4707b0f8bcbf07a10abab6b4bfe33efcafb61227e46f0d1e1ac99",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "problem-elimination-loop",
+        "sha256": "075220322ea5f254fdaed847bd3e5bf894a27824251c3dff75045a3fd0cce91d",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "qfs-authoring",
+        "sha256": "b02c397056f5d8446674c92fb1ae05446a16015cc277351784553b9d71735ef7",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "regression-attribution",
+        "sha256": "10581b72d861d263113dd4ed19d46a624271dec52348cddbe8af6da930d4ef78",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "release-quality-gates",
+        "sha256": "2be0f818a4d55104a7e3a4c19db242d7428dfdc2a177a28ae64dd9902259dc04",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "release-readiness-manager",
+        "sha256": "117e5d0922eb5394d4e14b34f2b3b89b55bbd71b8b1bbeeaea201a156189a495",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "reviewed-agent-development",
+        "sha256": "c8701e4f2d32740ea2b1d778bbd6f50fed1f7f863a4741e362e0bb540582d899",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "risk-register-manager",
+        "sha256": "75ec2fc42d78126cdd20c3bdabea347300d3bec4a1e6ed56288bf17c2a2b4802",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "safe-demo-environments",
+        "sha256": "25ef3ce5fc01a69758dad305d224b6996e2e31531988509974f95393bd00bd11",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "scheduled-job-audit",
+        "sha256": "35844d70bd8cf4f56dacf199b21ac8db6b1c954c6e234353d949765139d1428a",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "scheduled-output-contract",
+        "sha256": "f729ec6b9bae394d1aabce9a1550130bf14c1e5681b3e43aef7dacf97c1b165d",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "search-acquisition-audit",
+        "sha256": "a9e57201d43b667df511b33a358da45d13e3d3fe6c48ba24a2ec3737614302ee",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "session-librarian",
+        "sha256": "b2b6dab5e7d7d0d0bd5bdc6a5b60fb567cebe82c83d2e56d040123afb5d8de29",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "simplify-swarm",
+        "sha256": "6c9e71f35b7b37074e182a9672f58e8775fd18b9b7a016b1e14b7f03ad7c6aa6",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "skill-authoring",
+        "sha256": "9077ef4f934d87c163a7649c2015ce474f750f2e6761a62d7d3f0b2b8d3007d6",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "skill-catalogue-audit",
+        "sha256": "54196a50dc75f6914b98a7afdffbff1fbe166aa78f124df897b5941524d0ad13",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "skill-portfolio-evidence-review",
+        "sha256": "c9d83b1d73182a01c799fa888a2995180cb5a966625474a4162e79ad206623d2",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "sre-incident-response-reference",
+        "sha256": "aeb0a2fb25161de709dd20c1b6f4b7af9fa5c04f6016851fecd3306c142bed47",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "story-slicing",
+        "sha256": "a983b75a1c9deca17531bbe408d056fa1aef29157d24fe029aa32871a2f9ff1d",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "storyboard-to-shots",
+        "sha256": "b2a9d3c4d0fa38dc82b3feb51536d27c288e071e10916b4302c9dcece4ba6c20",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "style-vocabulary-selection",
+        "sha256": "f1b26c0aa469ed9b0258bfc2c9cb26c2ad64e368003339f2d09bc1428096104c",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "systematic-debugging",
+        "sha256": "4592d0ed088421234ed0c1c7555a876be6d395bdd20f8891a36d3cdf455a1446",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "task-board-orchestration",
+        "sha256": "f6dba895d5c283ef6c2c65b2a4ec2f9cf5ad8ee06a40d7d970c08e9202402a79",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "team-topologies-reference",
+        "sha256": "041e8b1e1f9617ac1b3d9af91a8903cde57efed73f90b3ad1c8c0826b108dec5",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "temporal-animation-techniques",
+        "sha256": "4f6767dbb85d0787bd28356c85cf62aeb17a268b6b8831bba3950777892bc99c",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "terminal-demo-video",
+        "sha256": "c37716ac6798538da7f6f2eb26a92a0b09b1b1e9af9ed0e1c130fb30e165459b",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "test-driven-development",
+        "sha256": "acb04f68f7a96c2b08810a6fe05b8b99afc88b9c674a304f92aa9398feb1c6aa",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "test-evidence-integrity",
+        "sha256": "03ae0e3f9063188cf662090b1c51fd0c468d3f60cb762b59d4674302d428eaef",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "test-strategy-shapes",
+        "sha256": "eb9126562e4b6ec4a9fd2e7f5170b0e06a59f032c9be04f35c8fb3242bf2b339",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "third-party-api-integration",
+        "sha256": "3b479e1d65ad0fd7f8d839ffd2af88d2971a8c252b29fe2288cc6ec48b360d34",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "three-amigos-workshop",
+        "sha256": "4ccf117e58d91cf7c4a30030ba5516df5266db75d97950245f41f81abc388ebb",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "tiered-support-triage",
+        "sha256": "31e64efa00b4bcd515f9d8e5c95e548a69e516b458294dfea8d8fe437b1a4480",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "travel-booking-tracker",
+        "sha256": "58c1c256d89f127e72848d0050ade803a6818170e93c7f34f60baac302d9fffa",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "travel-deal-scout",
+        "sha256": "5dc72ced9b03b2d045c305a1a446a27ca034f86a04e21d5fed54bb24ee3926dc",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "travel-destination-research",
+        "sha256": "0a10915662d429c68107b5e9069669047b1fb2b02707abc38197f8df322c329f",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "travel-itinerary-builder",
+        "sha256": "9296ee4214570f7ad28d394a00430c3d33da9addec0abc1f3d26ffdf7e69fa42",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "travel-logistics-checklist",
+        "sha256": "cdffcadc9006d7db64261d7f96d31a761cb049e762cfad86f595176d09c0c1ca",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "video-cost-routing",
+        "sha256": "a220bbb269648c5d75667d12f629fecbcd831c3f818272525e224149cce48dc7",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "wiki-automation-llm",
+        "sha256": "0ed112d12f7c0d1835d1dbe776c8903468fd87bfc8f74bfdad7a9b2525b88865",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "workstream-orchestration",
+        "sha256": "fcd960e2f7f3c3b2db50dbfd4e38ac8b415f7abdc0cab89bedb91d677bd261c9",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "writing-plans",
+        "sha256": "98533bc60b00901991ea5ae2b9062f2628ad62494a09cb71e6565a6202a3047d",
+        "status": "native-loader-content-match"
+      },
+      {
+        "name": "writing-spec",
+        "sha256": "8ecefec9e44f2a507c18eb4a2313a287d9f446e4ac66aaff13ba90a970788e95",
+        "status": "native-loader-content-match"
+      }
+    ],
+    "model_inference": "not run"
+  },
+  "claude": {
+    "version": "2.1.201",
+    "status": "native-discovery-confirmed",
+    "discovered_skill_count": 113,
+    "model_inference": "blocked: missing authentication; no behavioural result"
+  },
+  "other_harnesses": {
+    "codex": "executable unavailable",
+    "openclaw": "executable unavailable",
+    "commandcode": "cmd and commandcode executables unavailable",
+    "pi": "executable unavailable",
+    "opencode": "executable unavailable"
+  },
+  "privacy_scan": "No matched private identifiers, machine-local paths, common token patterns or truncation placeholders; not a comprehensive security certification",
+  "public_python_files": [
+    "scripts/verify.py",
+    "scripts/try_profile.py"
+  ]
+}

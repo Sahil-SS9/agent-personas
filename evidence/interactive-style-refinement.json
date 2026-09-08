@@ -1,0 +1,38 @@
+{
+  "skill": "interactive-style-refinement",
+  "release_version": "0.1.0-experimental",
+  "release_skill_sha256": "1144d9d3f848c5ee4e5c93a8eaa2a03de46686d1fda04ca0fee16e27eeffaad4",
+  "adaptation": "source method retained; public metadata and references normalised",
+  "author_credit": "Sahil Saghir",
+  "historical_source_runs": [
+    {
+      "integrity_verified": true,
+      "scenario": "is-grid",
+      "scorer": {
+        "name": "token-phrase",
+        "version": "2.0.0"
+      },
+      "model": "not disclosed in the source record",
+      "harness": "Hermes (private source evaluation)",
+      "lanes": {
+        "baseline": {
+          "exit_code": 0,
+          "passed": 0,
+          "total": 4
+        },
+        "skilled": {
+          "exit_code": 0,
+          "passed": 1,
+          "total": 4
+        }
+      }
+    }
+  ],
+  "public_behavioural_evidence": "not yet measured per skill",
+  "limits": [
+    "Historical results apply to private source instructions, not this changed public release.",
+    "Token/phrase rubric matches are not task correctness or general uplift.",
+    "No universal model or harness performance claim."
+  ],
+  "source_skill_sha256": "7d756a74fa4d4f10572330f8ff04aaabe4839c7e092d46bfa70a50ba8cb35075"
+}

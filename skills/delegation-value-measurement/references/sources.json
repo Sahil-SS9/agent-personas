@@ -1,0 +1,81 @@
+[
+  {
+    "id": "S01",
+    "title": "Alex Prompter: ten Digital Renaissance prompts",
+    "url": "https://threadreaderapp.com/thread/2093651868685570307.html",
+    "retrieved_at": "2026-09-07T18:04:01.820110+00:00",
+    "source_type": "practitioner thread",
+    "reviewed_scope": "Full ten-prompt sequence; unrelated recommended threads excluded",
+    "licence_basis": "Copyrighted; original distillation only",
+    "supported_use": "Inspiration for craft selection, practice loops and task automation; not validated diagnostics.",
+    "retrieval_sha256": "499f78cc24b1b7ff7036bb4e42e6d94d387e627b3007ac26530da3a9e7cd60aa",
+    "retrieval_error": null,
+    "full_book_ingested": false,
+    "original_url": "https://x.com/alex_prompter/status/2093651868685570307"
+  },
+  {
+    "id": "S04",
+    "title": "Dan Koe: Digital Renaissance letter",
+    "url": "https://letters.thedankoe.com/p/we-are-in-the-middle-of-the-digital",
+    "retrieved_at": "2026-09-07T18:04:01.820110+00:00",
+    "source_type": "original practitioner essay",
+    "reviewed_scope": "Craft, three-layer stack, apprenticeship, AI and one-human business sections",
+    "licence_basis": "Copyrighted; original distillation only",
+    "supported_use": "Useful hypotheses; career/AI forecasts are not established evidence.",
+    "retrieval_sha256": "d19cf2842d4b4fb1c7ff869891b4e5999a8bbe891120671a14934cb52ce976df",
+    "retrieval_error": null,
+    "full_book_ingested": false
+  },
+  {
+    "id": "A01",
+    "title": "NIST AI Risk Management Framework overview",
+    "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+    "retrieved_at": "2026-09-07T18:04:01.820110+00:00",
+    "source_type": "official framework overview",
+    "reviewed_scope": "Voluntary framework and current revision notice",
+    "licence_basis": "US government source; no blanket compliance claim",
+    "supported_use": "Risk management is contextual and not a certification.",
+    "retrieval_sha256": "098709bcacae9b3176b3d07a0a7233a6c28783601306a9043a231b4025505680",
+    "retrieval_error": null,
+    "full_book_ingested": false
+  },
+  {
+    "id": "A02",
+    "title": "Microsoft: Guidelines for Human-AI Interaction",
+    "url": "https://www.microsoft.com/en-us/research/publication/guidelines-for-human-ai-interaction/",
+    "retrieved_at": "2026-09-07T18:04:01.820110+00:00",
+    "source_type": "primary research abstract",
+    "reviewed_scope": "Abstract and evaluation scope only; not full paper",
+    "licence_basis": "Copyrighted research; original summary",
+    "supported_use": "Human-AI design guidance evaluated with practitioners; not proof for these candidates.",
+    "retrieval_sha256": "f1cf337017fdc57c75315cafe18bd25758057a6ad761ebb66805f7603875cea4",
+    "retrieval_error": null,
+    "full_book_ingested": false
+  },
+  {
+    "id": "A03",
+    "title": "Google PAIR: Feedback and Control",
+    "url": "https://pair.withgoogle.com/chapter/feedback-controls/",
+    "retrieved_at": "2026-09-07T18:04:01.820110+00:00",
+    "source_type": "official practitioner guide",
+    "reviewed_scope": "Feedback interpretation, consent and control/automation sections",
+    "licence_basis": "CC BY-NC-SA 4.0 on source; restricted reference, not copied into redistributable implementation",
+    "supported_use": "Reference-only comparator; direct adaptations require compatible licensing review.",
+    "retrieval_sha256": "f9d1846ff93324f65c3da72c762946d591d55e12b2c3279c1a61239bfa781b4e",
+    "retrieval_error": null,
+    "full_book_ingested": false
+  },
+  {
+    "id": "A04",
+    "title": "NIST AI RMF Playbook",
+    "url": "https://airc.nist.gov/airmf-resources/playbook/",
+    "retrieved_at": "2026-09-07T18:04:01.820110+00:00",
+    "source_type": "official framework companion",
+    "reviewed_scope": "Govern/Map/Measure/Manage structure and voluntary, non-checklist scope",
+    "licence_basis": "US government source; original paraphrase",
+    "supported_use": "Choose applicable actions; do not impose the entire playbook as ceremony.",
+    "retrieval_sha256": "a8c3a25f4aa96c40cc7e96903e0ef8e5742d2ea543376b31a5a9e0081cb13153",
+    "retrieval_error": null,
+    "full_book_ingested": false
+  }
+]
