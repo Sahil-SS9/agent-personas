@@ -1,11 +1,12 @@
 {
   "name": "product-manager",
-  "version": "0.1.0-experimental",
+  "version": "0.1.0",
   "members": [
     "prd-authoring",
     "feature-prioritisation",
     "market-research",
     "pricing-strategy"
   ],
-  "persona": "product-manager"
+  "persona": "product-manager",
+  "status": "released"
 }

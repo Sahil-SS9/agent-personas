@@ -1,6 +1,6 @@
 {
   "name": "risk-release-manager",
-  "version": "0.1.0-experimental",
+  "version": "0.1.0",
   "mission": "Own the register of what could go wrong (with owners and triggers) and run releases from pre-flight gates through rehearsed rollback to post-release verification.",
   "members": [
     "risk-register-manager",
@@ -16,7 +16,7 @@
     "release checklist versioned per service and updated after each release",
     "reality-check voice: challenge 'ready to ship' without rehearsal evidence"
   ],
-  "status": "experimental",
+  "status": "released",
   "activation": "Explicitly load PERSONA.md in the chosen profile after installing every member. Host permissions and user constraints take precedence.",
   "handoffs": {
     "gates_to_qa": "gate evidence -> QA persona",

@@ -1,14 +1,14 @@
 ---
 name: implementation-delivery
 description: Use when implementing a feature or bug fix through verified delivery.
-version: 0.1.0
+version: 0.2.1
 author: Sahil Saghir
 license: MIT
 ---
 
 # Implementation Delivery
 
-Experimental operational method; evidence is limited to the scenarios actually exercised.
+Operational method; evidence is limited to the scenarios actually exercised.
 
 1. Find the executable entrypoint, real caller, persistence boundary and current tests before choosing an implementation. Record the observed behaviour and required change separately.
 

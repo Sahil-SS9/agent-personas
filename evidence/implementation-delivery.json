@@ -1,13 +1,13 @@
 {
   "skill": "implementation-delivery",
-  "release_version": "0.2.0-experimental",
-  "release_skill_sha256": "aaf7c118da53eb5496b043fdd94b77da6280f58967533c25705bb365ade4228d",
+  "release_version": "0.2.1",
+  "release_skill_sha256": "421a1993107f92f256818be1afe2b27a07552411aa6af3fe9311738a41ffb31a",
   "source_skill_sha256": "aaf7c118da53eb5496b043fdd94b77da6280f58967533c25705bb365ade4228d",
   "adaptation": "original operational synthesis; public source/provenance annotations",
   "historical_source_runs": [],
   "public_behavioural_evidence": "See docs/coding-specialists.md; scoped role-level evidence, not standalone skill certification.",
   "limits": [
-    "Experimental; no independent review, multi-model or native cross-harness certification.",
+    "No independent review, multi-model or native cross-harness certification.",
     "Source learning is selective; no whole-book certification."
   ]
 }

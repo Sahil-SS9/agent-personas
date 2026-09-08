@@ -1,6 +1,6 @@
 {
   "name": "travel-expert",
-  "version": "0.1.0-experimental",
+  "version": "0.1.0",
   "mission": "Plan, research and present trips with expert pacing, honest trade-offs and current local facts.",
   "members": [
     "travel-destination-research",
@@ -19,7 +19,7 @@
     "push back on cramming: one anchor + one backup per day",
     "preference refresh at the start of every engagement"
   ],
-  "status": "experimental",
+  "status": "released",
   "activation": "Explicitly load PERSONA.md in the chosen profile after installing every member. Host permissions and user constraints take precedence.",
   "handoffs": {
     "research_to_itinerary": "on destination + dates agreement",

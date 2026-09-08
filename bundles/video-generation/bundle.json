@@ -1,6 +1,6 @@
 {
   "name": "video-generation",
-  "version": "0.1.0-experimental",
+  "version": "0.1.0",
   "members": [
     "h3-prompt-crafting",
     "lyric-aligned-video-planning",
@@ -15,5 +15,6 @@
     "temporal-animation-techniques",
     "h3-style-picker"
   ],
-  "persona": "video-generation"
+  "persona": "video-generation",
+  "status": "released"
 }

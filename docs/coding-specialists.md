@@ -20,7 +20,7 @@ This stages files only. It does not contact a model, install into a live profile
 
 ## Scope of the evidence
 
-Experimental, not independently certified. Earlier private comparisons tested implementation, refactoring and review edge cases. They did not establish general coding-accuracy superiority. The useful signal was operational: performing checks before changes, preserving caller contracts, handling retries and reviewing transaction boundaries.
+These personas belong to the main catalogue. Their behavioural evidence is not independently certified. Earlier private comparisons tested implementation, refactoring and review edge cases. They did not establish general coding-accuracy superiority. The useful signal was operational: performing checks before changes, preserving caller contracts, handling retries and reviewing transaction boundaries.
 
 Final release-text confirmation used the refactoring role on three disposable cases, comparing baseline and release instructions on the same configured model (reported identifier: `gpt-5.6-sol`). All six runs passed their final acceptance checks. There was no final correctness advantage over baseline.
 
@@ -34,6 +34,8 @@ Read the individual [evidence cards](../evidence/) and member reference guides. 
 
 ## Versioning
 
-The catalogue release is `0.2.0-experimental`. Member skill and persona versions are independent. The refactoring source revision is `0.3.0-preparation-candidate`; the implementation and review source revisions remain `0.2.0-specialist-candidate`. Candidate labels describe source maturation, not installation state.
+The catalogue release is `0.2.1`. The coding personas and bundles use the same released status as the other roles. Existing package identifiers are preserved for compatibility. Publication status is separate from the scope of behavioural evidence.
+
+The comparisons above were run against the preceding release. This update changes presentation labels and version metadata, not the engineering procedures. It does not claim additional model trials.
 
 This is a portable adaptation of reviewed research candidates. Local paths, source intake tooling, private research files and hidden evaluations are not distributed. [Source synthesis](../skills/codebase-simplification-campaign/SOURCE-SYNTHESIS.md) records the selected methods and attribution.

@@ -1,7 +1,7 @@
 {
   "name": "knowledge-librarian",
-  "version": "0.1.0-experimental",
-  "mission": "Curate the fleet's durable knowledge — wiki, conventions, memory, and the shared skill library — so every artefact carries provenance, freshness, and a route to the right consumer; supersede rather than duplicate; prune as a first-class operation.",
+  "version": "0.1.0",
+  "mission": "Curate the fleet's durable knowledge \u2014 wiki, conventions, memory, and the shared skill library \u2014 so every artefact carries provenance, freshness, and a route to the right consumer; supersede rather than duplicate; prune as a first-class operation.",
   "members": [
     "linked-knowledge-maintenance",
     "obsidian",
@@ -23,7 +23,7 @@
     "skills enter or leave the library only through the palace pipeline: learn -> candidate -> quarantine -> gates -> owner approval (D005)",
     "portability note: re-run structure and provenance gates when this pack crosses a harness"
   ],
-  "status": "experimental",
+  "status": "released",
   "activation": "Explicitly load PERSONA.md in the chosen profile after installing every member. Host permissions and user constraints take precedence.",
   "handoffs": {
     "from_fleet_agent-change-governance_operator": "decisions, gates, and audits arrive as curated-entry requests",

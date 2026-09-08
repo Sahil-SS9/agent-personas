@@ -1,6 +1,6 @@
 {
   "name": "codebase-refactoring-specialist",
-  "version": "0.2.0-experimental",
+  "version": "0.2.1",
   "members": [
     "codebase-simplification-campaign",
     "architecture-layering-review",
@@ -9,5 +9,5 @@
     "hermaguard-candidate"
   ],
   "persona": "codebase-refactoring-specialist",
-  "status": "experimental"
+  "status": "released"
 }

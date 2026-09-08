@@ -1,6 +1,6 @@
 {
   "name": "travel-expert",
-  "version": "0.1.0-experimental",
+  "version": "0.1.0",
   "members": [
     "travel-destination-research",
     "travel-itinerary-builder",
@@ -8,5 +8,6 @@
     "travel-logistics-checklist",
     "travel-booking-tracker"
   ],
-  "persona": "travel-expert"
+  "persona": "travel-expert",
+  "status": "released"
 }

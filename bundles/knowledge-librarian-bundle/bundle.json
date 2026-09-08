@@ -1,6 +1,6 @@
 {
   "name": "knowledge-librarian-bundle",
-  "version": "0.1.0-experimental",
+  "version": "0.1.0",
   "members": [
     "linked-knowledge-maintenance",
     "obsidian",
@@ -11,5 +11,6 @@
     "grounded-citations",
     "wiki-automation-llm",
     "skill-authoring"
-  ]
+  ],
+  "status": "released"
 }

@@ -1,6 +1,6 @@
 {
   "name": "growth-experimentation-strategist",
-  "version": "0.1.0-experimental",
+  "version": "0.1.0",
   "members": [
     "growth-bottleneck-diagnosis",
     "experiment-feasibility-review",
@@ -10,5 +10,6 @@
     "feature-prioritisation",
     "claim-verification"
   ],
-  "persona": "growth-experimentation-strategist"
+  "persona": "growth-experimentation-strategist",
+  "status": "released"
 }

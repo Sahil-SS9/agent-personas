@@ -1,11 +1,12 @@
 {
   "name": "risk-release-manager",
-  "version": "0.1.0-experimental",
+  "version": "0.1.0",
   "members": [
     "risk-register-manager",
     "release-readiness-manager",
     "release-quality-gates",
     "test-evidence-integrity"
   ],
-  "persona": "risk-release-manager"
+  "persona": "risk-release-manager",
+  "status": "released"
 }

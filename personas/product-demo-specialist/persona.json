@@ -1,6 +1,6 @@
 {
   "name": "product-demo-specialist",
-  "version": "0.1.0-experimental",
+  "version": "0.1.0",
   "mission": "Run demos as decision sessions with rehearsed fallbacks, and convert every demonstrated claim into committed, testable QFS scope with post-release reconciliation.",
   "members": [
     "demo-scenario-design",
@@ -17,7 +17,7 @@
     "every demoed capability maps to a QFS entry with test-ID traceability",
     "reality-check voice: challenge demo claims that product never committed to"
   ],
-  "status": "experimental",
+  "status": "released",
   "activation": "Explicitly load PERSONA.md in the chosen profile after installing every member. Host permissions and user constraints take precedence.",
   "handoffs": {
     "claims_to_pm": "capability gaps -> PM as evidence-backed requirements",

@@ -1,94 +1,143 @@
+![Choose your agent: six illustrated specialist personas with different perspectives and a shared goal](assets/agentpersonas.jpeg)
+
 # Agent Personas
 
-## Give your agents a job, not another giant prompt.
+### Connect your agents to the skills their job needs.
 
-Build dedicated agents, sub-agents and bots from **117 reusable skills, 23 personas and 24 bundles**. Start with a role, add the methods it needs, and keep the agent harness you already use.
+A catalogue of **23 personas, 24 specialised skill bundles and 117 reusable skills** for building dedicated agents, sub-agents and bots. Choose a role, load its methods, and use the agent platform you already have.
 
-[Browse the catalogue](CATALOGUE.md) · [Choose your harness](docs/compatibility.md) · [Try a profile](docs/getting-started.md) · [Inspect the evidence](docs/evidence.md)
+[Choose a persona](#choose-your-first-persona) · [Try it](#try-a-persona-in-a-few-minutes) · [Browse everything](CATALOGUE.md) · [Platform compatibility](docs/compatibility.md) · [Evidence](docs/evidence.md)
 
-## Why use this?
+## The connection between agents and skills
 
-A research agent needs more than “be a researcher”. It needs a way to verify sources, handle uncertainty and turn findings into a usable answer. A delivery agent needs scope, handoff rules and a clear definition of done.
+An agent gives you a model, tools and somewhere to run work. A skill gives it a method for a particular task. Putting a folder of skills beside an agent still leaves you to decide what its job is, which methods belong together, when to use them and what a finished result should contain.
 
-This catalogue packages those working instructions so you do not have to recreate them for every profile.
+Agent Personas packages that connection. Each persona defines a role and working expectations, then connects it to a specialised bundle of reusable skills. You can give an agent a research job with source-verification methods, or an implementation job with testing and review methods, without assembling the instructions from scratch each time.
 
-- **Start with a role, not a blank prompt.** Choose a mission, working style and explicit boundaries.
-- **Compose instead of duplicate.** Reuse focused methods across several agents rather than maintaining giant prompts for each one.
-- **Make handoffs clear.** Define what each agent owns, what it passes on and when it asks for approval.
-- **Keep control.** The instructions are ordinary files. Your harness controls tools, permissions, memory and model choice.
-- **Check before you adopt.** Read the instructions, inspect available evidence and try a task in your own environment.
-
-## Choose the right building block
-
-| Building block | What it gives you | Example |
-|---|---|---|
-| Skill | One focused working method | Verify a claim; design a practice loop; review a backend contract |
-| Bundle | Complementary skills selected together | A travel research, itinerary, quote and logistics toolkit |
-| Persona | A mission, voice, decision rules and coordinated skills | A research partner, product owner, design partner or travel expert |
-
-A persona is a working contract, not a costume. A **profile** is the host-specific setup that gives that contract a model, tools, memory and permissions. Use it for a dedicated main agent, a scoped sub-agent or a bot connected through your existing platform. This repository does not create accounts, provision bots or grant tool access.
-
-## What can you build?
-
-| You need… | Start here |
-|---|---|
-| Findings you can trace to sources | [Grounded Researcher](personas/grounded-researcher/PERSONA.md) |
-| A partner who challenges design assumptions | [Design Partner](personas/design-partner/PERSONA.md) |
-| A growth experiment worth running | [Growth Experimentation Strategist](personas/growth-experimentation-strategist/PERSONA.md) |
-| Practice with feedback, not just explanations | [Practice-Based Learning](personas/practice-based-learning/PERSONA.md) |
-| A trip with clear constraints and booking boundaries | [Travel Expert](personas/travel-expert/PERSONA.md) |
-| A bounded engineering quality workflow | [QA Test Evidence Architect](personas/qa-test-evidence-architect/PERSONA.md) |
-| Implement a bounded change with real verification | [Software Implementation Specialist](personas/software-implementation-specialist/PERSONA.md) |
-| Simplify code while preserving observable behaviour | [Codebase Refactoring Specialist](personas/codebase-refactoring-specialist/PERSONA.md) |
-| Review plausible failures without manufacturing findings | [Adversarial Code Reviewer](personas/adversarial-code-reviewer/PERSONA.md) |
-
-[See every persona, skill and bundle →](CATALOGUE.md)
-
-## Try it without changing your live setup
-
-Requires Python 3.10+ for the optional helper scripts. Reading and using the Markdown packages does not require Python.
-
-From this repository:
-
-```bash
-# Free local integrity checks: no model or credentials needed.
-python3 scripts/verify.py
-
-# Stage one complete role in a NEW workspace. No live profiles are changed.
-python3 scripts/try_profile.py \
-  --select persona:travel-expert \
-  --harness claude \
-  --dest ../travel-agent-trial
+```text
+Your agent platform
+  │  provides the model, tools, memory and permissions
+  ▼
+Persona
+  │  defines the job, decisions, boundaries and completion criteria
+  ▼
+Specialised skill bundle
+  │  selects the complementary methods the role needs
+  ▼
+Focused skills
+     guide individual tasks and checks
 ```
 
-Choose `codex`, `claude`, `hermes`, `openclaw`, `commandcode`, `pi` or `opencode`. Use `skill:claim-verification` for a single skill, or `bundle:travel-expert` for the member skills without a role contract.
+The persona provides direction; its skills provide procedures. Your platform remains in charge of execution and permissions.
 
-Open your agent in the staged workspace. Ask it to read `PERSONA.md`, load the relevant installed skills, and work on a concrete task. Try the supplied [travel task](examples/travel-expert.txt). A role is not fully active until its instructions and required members are available.
+## What that looks like in practice
 
-For repeatable CLI smoke runs, see the [tested script workflow](docs/getting-started.md). Model execution is opt-in and may incur charges. The staging directory is not a security sandbox; use your CLI’s permissions and sandbox settings.
+Take the [Software Implementation Specialist](personas/software-implementation-specialist/PERSONA.md). Its job is to deliver bounded features and fixes with verification. Its bundle connects that job to:
 
-## Bring your own harness
+| Method | What it contributes |
+|---|---|
+| Implementation delivery | Trace the execution path, define the change and exercise the delivery boundary |
+| Test-driven development | Establish a failing behaviour check before implementing the change |
+| Systematic debugging | Investigate causes rather than cycle through speculative fixes |
+| Backend contract design | Preserve the boundaries that callers and integrations depend on |
+| Simplification | Review working changes for avoidable complexity |
+| Adversarial review | Investigate plausible defects and support findings with evidence |
 
-The core uses portable `SKILL.md` packages and ordinary role documents. It does not depend on one vendor’s tools, memory system or delegation API.
+A refactoring persona has a different emphasis: establish compatibility tests before restructuring, preserve observable behaviour and measure simplification without deleting functionality to hit a target. A research persona instead coordinates source checking, synthesis and citations.
 
-Installation routes are documented for **Codex, Claude Code, Hermes, OpenClaw, Command Code, Pi and OpenCode**. The [compatibility matrix](docs/compatibility.md) distinguishes documented routes, tested filesystem staging, native discovery and actual agent execution. Bundle manifests are our composition format—not a claim that every client natively understands them.
+These are written working methods. They give you a starting point to inspect and adapt, rather than a promise that a model will follow every instruction.
 
-## Evidence, not mystery
+## Choose your first persona
 
-Each skill has an [evidence card](evidence/) with its public content identity, adaptation status and available historical comparisons. Public smoke examples are inspectable so you can try them yourself.
+Start with the outcome you need. The coding roles sit alongside research, design, product and everyday-use roles in the same catalogue.
 
-This is an **experimental release**, not a promise that every package improves every model. Private-source results are labelled separately from checks on the portable release. Some comparisons were inconclusive or exposed regressions; those are not hidden behind a “tests passed” badge. [Read what the evidence does—and does not—show.](docs/evidence.md)
+| You want to… | Start with |
+|---|---|
+| Build a feature or fix a bug | [Software Implementation Specialist](personas/software-implementation-specialist/PERSONA.md) |
+| Simplify a module or codebase | [Codebase Refactoring Specialist](personas/codebase-refactoring-specialist/PERSONA.md) |
+| Review a change for reproducible defects | [Adversarial Code Reviewer](personas/adversarial-code-reviewer/PERSONA.md) |
+| Research a topic with traceable sources | [Grounded Researcher](personas/grounded-researcher/PERSONA.md) |
+| Challenge and refine a design | [Design Partner](personas/design-partner/PERSONA.md) |
+| Decide what to build and why | [Product Manager](personas/product-manager/PERSONA.md) |
+| Connect systems and verify their boundaries | [Integration Specialist](personas/integration-specialist/PERSONA.md) |
+| Coordinate an agent team | [Agent Team Lead](personas/agent-team-lead/PERSONA.md) |
+| Learn through practice and feedback | [Practice-Based Learning](personas/practice-based-learning/PERSONA.md) |
+| Plan a trip around practical constraints | [Travel Expert](personas/travel-expert/PERSONA.md) |
 
-The private builder, internal benchmarking suite, hidden test cases and raw private transcripts are **not included**. The two consumer scripts stand alone.
+[Browse all personas, bundles and skills →](CATALOGUE.md)
 
-## Adapt and contribute
+## Try a persona in a few minutes
 
-Install one delivery format to avoid duplicate skills. Start with a narrow role, try it on real work and adapt its instructions to your needs. Keep your edits under version control; compare updates rather than overwriting a customised profile.
+You need Git and Python 3.10+ for the optional staging helper. Reading and using the instruction files does not require Python.
 
-[Contributing](CONTRIBUTING.md) · [Security](SECURITY.md) · [Changes](CHANGELOG.md)
+### 1. Get the catalogue and verify it
+
+```bash
+git clone https://github.com/Sahil-SS9/agent-personas.git
+cd agent-personas
+python3 scripts/verify.py
+```
+
+The verifier checks package structure, file integrity, membership and local references. It does not contact a model or require credentials.
+
+### 2. Stage one role in a new workspace
+
+```bash
+python3 scripts/try_profile.py \
+  --select persona:software-implementation-specialist \
+  --harness codex \
+  --dest ../implementation-agent-trial
+```
+
+Replace `codex` with `claude`, `hermes`, `openclaw`, `commandcode`, `pi` or `opencode` as appropriate. The helper copies the persona and its member skills into a new directory. It refuses to overwrite an existing destination and does not change your live profiles.
+
+### 3. Give your agent a concrete job
+
+Open your agent in the staged workspace, explicitly load `PERSONA.md` and its relevant member skills, then give it a bounded task. For example, in a disposable copy of your project:
+
+> Read PERSONA.md and load the relevant member skills. Investigate this failing test, implement a scoped fix and report the checks you ran. Do not merge or deploy.
+
+Staging files does not itself load them into a model. It is also not a security sandbox: use your platform's permission controls. The [getting-started guide](docs/getting-started.md) covers activation and optional CLI smoke runs in more detail.
+
+## Use the pieces your setup needs
+
+| Building block | Choose it when… | Selection |
+|---|---|---|
+| Persona | You want a dedicated role with its working contract and member skills | `persona:grounded-researcher` |
+| Bundle | Your agent already has a role, but needs a coordinated set of methods | `bundle:software-implementation-specialist` |
+| Skill | You only need one procedure | `skill:claim-verification` |
+
+You can adapt a persona for a main agent, a scoped sub-agent or a bot. Configure the account, model, tools, memory and channels through your chosen platform. This repository does not provision those resources or grant permission to publish, deploy or access production systems.
+
+Keep shared methods in skills rather than copying them into every persona. That lets you reuse a method across roles and review changes without maintaining several competing copies. Install one version per intended scope to avoid discovery collisions.
+
+## Bring your own agent platform
+
+The instruction cores are portable Markdown. Installation guidance is separate, so the roles do not require one vendor's runtime or delegation API.
+
+| Documented targets | What to check |
+|---|---|
+| Codex, Claude Code, Hermes | Discovery location, explicit persona loading and your permission settings |
+| OpenClaw, Command Code, Pi, OpenCode | The same checks against your installed client version |
+
+The [compatibility matrix](docs/compatibility.md) distinguishes documented installation routes, filesystem staging, native discovery and agent execution. A passing staging test is not a claim that every role has been run successfully in every client. The JSON persona and bundle manifests describe this catalogue's composition; they are not universal native-agent schemas.
+
+## Methods you can inspect, evidence you can check
+
+The catalogue includes source attribution, method references and [per-skill evidence cards](evidence/). Coding methods draw on selected material about legacy-code seams, preparatory refactoring, API compatibility, testing and review. The [coding evidence notes](docs/coding-specialists.md) explain what the comparisons covered and where the limits remain.
+
+We test package integrity separately from agent behaviour. Some behavioural comparisons showed useful changes in the order and depth of checks; others had equal outcomes or exposed regressions. Release status does not turn those observations into universal accuracy or speed claims. The [evidence guide](docs/evidence.md) keeps those distinctions visible.
+
+The private builder, raw research and hidden evaluation suite are not distributed. The consumer verification and staging scripts run independently of that tooling.
+
+## Adapt it, then share what you find
+
+Pick a role you have work for, try it on a bounded task and adjust it to your workflow. Reports showing a missed check, an unclear trigger or a redundant method are especially useful. Include the persona, platform, task and observed behaviour so others can reproduce the issue.
+
+[Contributing](CONTRIBUTING.md) · [Security](SECURITY.md) · [Release history](CHANGELOG.md)
 
 ## Licence and acknowledgements
 
-Original content and consumer code are MIT licensed. Attribution and applicable third-party notices are preserved in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
+Original content and consumer code are MIT licensed. Attribution and applicable third-party terms are recorded in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) and package notices.
 
-The browsable structure takes inspiration from [magnus919/agent-skills](https://github.com/magnus919/agent-skills); the quick start and composable, benefit-led presentation draw on [mattpocock/skills](https://github.com/mattpocock/skills). Neither project endorses this catalogue.
+The browsable catalogue structure takes inspiration from [magnus919/agent-skills](https://github.com/magnus919/agent-skills); the quick start and composable presentation draw on [mattpocock/skills](https://github.com/mattpocock/skills). Neither project endorses this catalogue.

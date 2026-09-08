@@ -1,9 +1,10 @@
 {
   "name": "practice-based-learning",
-  "version": "0.1.0-experimental",
+  "version": "0.1.0",
   "members": [
     "practice-loop-design",
     "independent-performance-review"
   ],
-  "persona": "practice-based-learning"
+  "persona": "practice-based-learning",
+  "status": "released"
 }

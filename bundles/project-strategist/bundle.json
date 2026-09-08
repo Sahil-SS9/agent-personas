@@ -1,11 +1,12 @@
 {
   "name": "project-strategist",
-  "version": "0.1.0-experimental",
+  "version": "0.1.0",
   "members": [
     "methodology-selector",
     "change-request-evaluator",
     "writing-plans",
     "writing-spec"
   ],
-  "persona": "project-strategist"
+  "persona": "project-strategist",
+  "status": "released"
 }

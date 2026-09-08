@@ -1,14 +1,14 @@
 ---
 name: simplify-swarm-candidate
 description: Use when simplifying working changes through hygiene, clarity and correctness analysis.
-version: 0.1.0
+version: 0.2.1
 author: Sahil Saghir
 license: MIT
 ---
 
-# Simplify Swarm Candidate
+# Simplify Swarm
 
-Experimental operational method; evidence is limited to the scenarios actually exercised.
+Operational method; evidence is limited to the scenarios actually exercised.
 
 1. Freeze the exact diff and include explicitly requested new files. Check baseline tests and owned changes before analysis; a clean codebase may correctly yield no changes.
 

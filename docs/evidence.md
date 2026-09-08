@@ -35,6 +35,6 @@ The repository supplies a standalone verification script, an opt-in CLI trial ru
 
 No general uplift percentage, fully tested seven-harness badge, independent-audit claim or unattended-production guarantee is made.
 
-## Coding collection (0.2.0-experimental)
+## Coding collection
 
 See [the scoped coding evidence](coding-specialists.md). Earlier evidence above is retained as historical context, not retroactively attributed to these new packages.

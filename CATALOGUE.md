@@ -1,38 +1,74 @@
 # Catalogue
 
-Choose a persona for a dedicated role, a bundle for its member skills, or a focused skill for one task. All packages are experimental portable releases.
+Choose a persona for a dedicated role, a bundle for its member skills, or a focused skill for one task. Evidence and platform coverage are documented separately.
 
 ## Personas
 
 | Persona | Purpose | Members |
 |---|---|---|
-| [career-skill-portfolio-strategist](personas/career-skill-portfolio-strategist/PERSONA.md) | Replace abstract career predictions with affordable, evidence-producing career experiments. | 3 |
-| [evidence-based-ai-delegation](personas/evidence-based-ai-delegation/PERSONA.md) | Choose human, assisted or delegated execution from risk and measured end-to-end value. | 3 |
-| [growth-experimentation-strategist](personas/growth-experimentation-strategist/PERSONA.md) | Choose a measured, feasible growth intervention without inventing evidence or taking unauthorised action. | 7 |
-| [practice-based-learning](personas/practice-based-learning/PERSONA.md) | Improve independent performance through realistic practice, retrieval and corrective feedback. | 2 |
+| [adversarial-code-reviewer](personas/adversarial-code-reviewer/PERSONA.md) | Find reproducible correctness and security defects without editing the reviewed code. | 3 |
 | [agent-team-lead](personas/agent-team-lead/PERSONA.md) | Ship outcomes through agent teams: brief so nothing depends on session memory, verify against definitions-of-done, cap parallelism, and report status as evidence. | 6 |
+| [career-skill-portfolio-strategist](personas/career-skill-portfolio-strategist/PERSONA.md) | Replace abstract career predictions with affordable, evidence-producing career experiments. | 3 |
+| [codebase-refactoring-specialist](personas/codebase-refactoring-specialist/PERSONA.md) | Reduce structural complexity across a repository while preserving observable contracts. | 5 |
 | [design-partner](personas/design-partner/PERSONA.md) | Act as the designer's sparring partner: surface trade-offs and failure modes before commitment, then record decisions in review-surviving artefacts (C4 views, ADRs). | 7 |
+| [evidence-based-ai-delegation](personas/evidence-based-ai-delegation/PERSONA.md) | Choose human, assisted or delegated execution from risk and measured end-to-end value. | 3 |
 | [fleet-governance-operator](personas/fleet-governance-operator/PERSONA.md) | Keep the fleet honest and healthy through read-only visibility, gate-disciplined change, and evidence-carrying status: observe before mutate, never bypass an approval gate, report state as artifacts not percentages. | 9 |
 | [grounded-researcher](personas/grounded-researcher/PERSONA.md) | Produce research outputs where every claim is verified (SIFT), graded for certainty, cited to a resolvable source, with disagreements surfaced and unknowns declared. | 6 |
+| [growth-experimentation-strategist](personas/growth-experimentation-strategist/PERSONA.md) | Choose a measured, feasible growth intervention without inventing evidence or taking unauthorised action. | 7 |
 | [image-generation](personas/image-generation/PERSONA.md) | Produce consistent, style-disciplined imagery: canonical character sheets that hold identity across generations and named-style vocabularies instead of adjective soup. | 7 |
 | [integration-specialist](personas/integration-specialist/PERSONA.md) | Make integrations boring: three-layer testing discipline (protocol/logic/client), vendor auth-webhook-idempotency handling, environment parity with divergence registers. | 6 |
 | [knowledge-librarian](personas/knowledge-librarian/PERSONA.md) | Curate the fleet's durable knowledge — wiki, conventions, memory, and the shared skill library — so every artefact carries provenance, freshness, and a route to the right consumer; supersede rather than duplicate; prune as a first-class operation. | 9 |
+| [practice-based-learning](personas/practice-based-learning/PERSONA.md) | Improve independent performance through realistic practice, retrieval and corrective feedback. | 2 |
 | [product-demo-specialist](personas/product-demo-specialist/PERSONA.md) | Run demos as decision sessions with rehearsed fallbacks, and convert every demonstrated claim into committed, testable QFS scope with post-release reconciliation. | 5 |
 | [product-manager](personas/product-manager/PERSONA.md) | Define what to build and why: problem framing, outcome-first PRDs with pre-committed success metrics, RICE/WSJF-backed prioritisation. | 4 |
 | [product-owner](personas/product-owner/PERSONA.md) | Maximise delivered value: order the backlog by outcome contribution, slice stories to thin-vertical INVEST shape, keep Definition-of-Done non-negotiable. | 4 |
 | [project-strategist](personas/project-strategist/PERSONA.md) | Evaluate projects, features and change requests against delivery methodologies; recommend the best-fit approach with scored evidence and visible trade-offs. | 4 |
 | [qa-test-evidence-architect](personas/qa-test-evidence-architect/PERSONA.md) | Plan test strategy by architecture, hunt flaky tests to root cause, and make every quality claim carry verifiable evidence. | 10 |
 | [risk-release-manager](personas/risk-release-manager/PERSONA.md) | Own the register of what could go wrong (with owners and triggers) and run releases from pre-flight gates through rehearsed rollback to post-release verification. | 4 |
+| [software-implementation-specialist](personas/software-implementation-specialist/PERSONA.md) | Deliver working features and bug fixes with minimal sufficient design. | 6 |
 | [support-specialist](personas/support-specialist/PERSONA.md) | Resolve issues at the right tier: first-line FCR with KB deflection, evidence-carrying escalations, third-line recurrence elimination, workarounds tracked to permanent fixes. | 4 |
 | [travel-expert](personas/travel-expert/PERSONA.md) | Plan, research and present trips with expert pacing, honest trade-offs and current local facts. | 5 |
 | [video-generation](personas/video-generation/PERSONA.md) | Plan and produce generated video with schema-correct prompts, frame-accurate music alignment, ComfyUI node-stack fluency and budget-aware model routing. | 12 |
+
+## Bundles
+
+| Bundle | Members |
+|---|---|
+| [adversarial-code-reviewer](bundles/adversarial-code-reviewer/bundle.json) | 3 |
+| [agent-team-lead](bundles/agent-team-lead/bundle.json) | 6 |
+| [career-skill-portfolio-strategist](bundles/career-skill-portfolio-strategist/bundle.json) | 3 |
+| [codebase-refactoring-specialist](bundles/codebase-refactoring-specialist/bundle.json) | 5 |
+| [design-partner](bundles/design-partner/bundle.json) | 7 |
+| [evidence-based-ai-delegation](bundles/evidence-based-ai-delegation/bundle.json) | 3 |
+| [fleet-governance-operator](bundles/fleet-governance-operator/bundle.json) | 9 |
+| [grounded-researcher](bundles/grounded-researcher/bundle.json) | 6 |
+| [growth-experimentation-strategist](bundles/growth-experimentation-strategist/bundle.json) | 7 |
+| [image-generation](bundles/image-generation/bundle.json) | 7 |
+| [integration-specialist](bundles/integration-specialist/bundle.json) | 6 |
+| [knowledge-librarian](bundles/knowledge-librarian/bundle.json) | 9 |
+| [knowledge-librarian-bundle](bundles/knowledge-librarian-bundle/bundle.json) | 9 |
+| [practice-based-learning](bundles/practice-based-learning/bundle.json) | 2 |
+| [product-demo-specialist](bundles/product-demo-specialist/bundle.json) | 5 |
+| [product-manager](bundles/product-manager/bundle.json) | 4 |
+| [product-owner](bundles/product-owner/bundle.json) | 4 |
+| [project-strategist](bundles/project-strategist/bundle.json) | 4 |
+| [qa-test-evidence-architect](bundles/qa-test-evidence-architect/bundle.json) | 10 |
+| [risk-release-manager](bundles/risk-release-manager/bundle.json) | 4 |
+| [software-implementation-specialist](bundles/software-implementation-specialist/bundle.json) | 6 |
+| [support-specialist](bundles/support-specialist/bundle.json) | 4 |
+| [travel-expert](bundles/travel-expert/bundle.json) | 5 |
+| [video-generation](bundles/video-generation/bundle.json) | 12 |
 
 ## Focused skills
 
 | Skill | Use it to | Evidence |
 |---|---|---|
+| [agent-change-governance](skills/agent-change-governance/SKILL.md) | Record agent changes, approvals, handoffs and verified outcomes. | [Card](evidence/agent-change-governance.json) |
+| [agent-config-validation](skills/agent-config-validation/SKILL.md) | Validate agent configuration against its actual runtime schema. | [Card](evidence/agent-config-validation.json) |
 | [agent-dispatch-discipline](skills/agent-dispatch-discipline/SKILL.md) | Brief, dispatch and verify agent work so nothing depends on session memory. | [Card](evidence/agent-dispatch-discipline.json) |
+| [agent-profile-review](skills/agent-profile-review/SKILL.md) | Weekly independent review of all specialist profiles by. | [Card](evidence/agent-profile-review.json) |
 | [ai-task-suitability-review](skills/ai-task-suitability-review/SKILL.md) | Choose bounded AI roles without expanding authority. | [Card](evidence/ai-task-suitability-review.json) |
+| [architecture-deepening-review](skills/architecture-deepening-review/SKILL.md) | Find architectural deepening opportunities in a. | [Card](evidence/architecture-deepening-review.json) |
 | [architecture-documentation](skills/architecture-documentation/SKILL.md) | Produce C4-level diagrams and ADR records that survive review. | [Card](evidence/architecture-documentation.json) |
 | [architecture-layering-review](skills/architecture-layering-review/SKILL.md) | Verify layered-architecture boundaries before commit. | [Card](evidence/architecture-layering-review.json) |
 | [arxiv](skills/arxiv/SKILL.md) | Search arXiv papers by keyword, author, category, or ID. | [Card](evidence/arxiv.json) |
@@ -46,21 +82,16 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [change-request-evaluator](skills/change-request-evaluator/SKILL.md) | Triage feature requests and change requests into evidence-based recommendations. | [Card](evidence/change-request-evaluator.json) |
 | [character-sheet-design](skills/character-sheet-design/SKILL.md) | Build reusable character sheets that keep generated characters on-model across images. | [Card](evidence/character-sheet-design.json) |
 | [claim-verification](skills/claim-verification/SKILL.md) | Verify research claims via SIFT lateral reading and source tracing before use. | [Card](evidence/claim-verification.json) |
-| [image-generation-workflow](skills/image-generation-workflow/SKILL.md) | Generate and inspect images using an available authorised tool. | [Card](evidence/image-generation-workflow.json) |
+| [codebase-simplification-campaign](skills/codebase-simplification-campaign/SKILL.md) | Use when refactoring a module or codebase while preserving behaviour. | [Card](evidence/codebase-simplification-campaign.json) |
 | [comfyui](skills/comfyui/SKILL.md) | Generate images, video, and audio with ComfyUI —. | [Card](evidence/comfyui.json) |
 | [comfyui-video-generation](skills/comfyui-video-generation/SKILL.md) | ComfyUI REST video: Wan 2.2 TI2V, HunyuanVideo, LTX. | [Card](evidence/comfyui-video-generation.json) |
 | [comfyui-workflow-management](skills/comfyui-workflow-management/SKILL.md) | Manage ComfyUI workflows through verified execution. | [Card](evidence/comfyui-workflow-management.json) |
 | [competitor-news-monitor](skills/competitor-news-monitor/SKILL.md) | Watch named companies for material news; cited digests. | [Card](evidence/competitor-news-monitor.json) |
 | [concept-development-session](skills/concept-development-session/SKILL.md) | Interactive session that turns a vague creative idea into an agreed visual concept. | [Card](evidence/concept-development-session.json) |
-| [scheduled-job-audit](skills/scheduled-job-audit/SKILL.md) | Audit scheduled jobs from intent through verified delivery. | [Card](evidence/scheduled-job-audit.json) |
-| [scheduled-output-contract](skills/scheduled-output-contract/SKILL.md) | Produce concise, verifiable output from scheduled tasks. | [Card](evidence/scheduled-output-contract.json) |
 | [delegation-diagnostics](skills/delegation-diagnostics/SKILL.md) | Diagnose dispatch routing failures in agent systems. | [Card](evidence/delegation-diagnostics.json) |
 | [delegation-value-measurement](skills/delegation-value-measurement/SKILL.md) | Measure AI value including review, rework and setup. | [Card](evidence/delegation-value-measurement.json) |
 | [demo-production-workflow](skills/demo-production-workflow/SKILL.md) | Produce demos end to end — browser automation, screen recording, editing, walkthroughs, delivery. | [Card](evidence/demo-production-workflow.json) |
 | [demo-scenario-design](skills/demo-scenario-design/SKILL.md) | Design and rehearse buyer-decision demos with show-tell-ask structure and safe environments. | [Card](evidence/demo-scenario-design.json) |
-| [agent-profile-review](skills/agent-profile-review/SKILL.md) | Weekly independent review of all specialist profiles by. | [Card](evidence/agent-profile-review.json) |
-| [skill-catalogue-audit](skills/skill-catalogue-audit/SKILL.md) | Weekly audit of all skills (not just provisional). | [Card](evidence/skill-catalogue-audit.json) |
-| [skill-authoring](skills/skill-authoring/SKILL.md) | Write focused, portable skills with observable verification. | [Card](evidence/skill-authoring.json) |
 | [design-grilling](skills/design-grilling/SKILL.md) | Interview a design to surface trade-offs and failure modes before commitment. | [Card](evidence/design-grilling.json) |
 | [edge-case-inventory](skills/edge-case-inventory/SKILL.md) | Indexed edge-case checklists across domains; load only what the task needs. | [Card](evidence/edge-case-inventory.json) |
 | [evidence-based-ai-delegation](skills/evidence-based-ai-delegation/SKILL.md) | Use when deciding whether and how to delegate work to AI. | [Card](evidence/evidence-based-ai-delegation.json) |
@@ -71,23 +102,24 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [feature-prioritisation](skills/feature-prioritisation/SKILL.md) | Score and sequence features with RICE/WSJF plus explicit confidence levels. | [Card](evidence/feature-prioritisation.json) |
 | [flaky-test-manager](skills/flaky-test-manager/SKILL.md) | Detect, quarantine and fix flaky tests using root-cause taxonomy. | [Card](evidence/flaky-test-manager.json) |
 | [frontend-ux-systems-designer](skills/frontend-ux-systems-designer/SKILL.md) | Discover design intent, compare visual directions, and build coherent accessible frontends. | [Card](evidence/frontend-ux-systems-designer.json) |
-| [linked-knowledge-maintenance](skills/linked-knowledge-maintenance/SKILL.md) | Browse, search, and update the structured knowledge. | [Card](evidence/linked-knowledge-maintenance.json) |
 | [github-pr-review-response](skills/github-pr-review-response/SKILL.md) | Triage and respond to PR review comments on upstream repos. | [Card](evidence/github-pr-review-response.json) |
-| [agent-change-governance](skills/agent-change-governance/SKILL.md) | Record agent changes, approvals, handoffs and verified outcomes. | [Card](evidence/agent-change-governance.json) |
 | [grounded-citations](skills/grounded-citations/SKILL.md) | Ground answers and documents in cited, verifiable sources. | [Card](evidence/grounded-citations.json) |
 | [growth-bottleneck-diagnosis](skills/growth-bottleneck-diagnosis/SKILL.md) | Find the next growth constraint from aligned evidence. | [Card](evidence/growth-bottleneck-diagnosis.json) |
 | [growth-experimentation-strategist](skills/growth-experimentation-strategist/SKILL.md) | Find growth bottlenecks and design valid experiments. | [Card](evidence/growth-experimentation-strategist.json) |
 | [h3-audio-dialogue-syntax](skills/h3-audio-dialogue-syntax/SKILL.md) | Place audio content correctly in H3 prompts; master dialogue syntax and the quote rule. | [Card](evidence/h3-audio-dialogue-syntax.json) |
 | [h3-prompt-crafting](skills/h3-prompt-crafting/SKILL.md) | Write video-generation prompts as structured schemas; diagnose failures per field. Includes MiniMax H3 notes. | [Card](evidence/h3-prompt-crafting.json) |
 | [h3-style-picker](skills/h3-style-picker/SKILL.md) | Select coherent aesthetic packs (visual/motion/finish/audio) for video shots from intent and references. | [Card](evidence/h3-style-picker.json) |
-| [agent-config-validation](skills/agent-config-validation/SKILL.md) | Validate agent configuration against its actual runtime schema. | [Card](evidence/agent-config-validation.json) |
+| [hermaguard-candidate](skills/hermaguard-candidate/SKILL.md) | Use when adversarially reviewing a diff and its caller contracts; read-only. | [Card](evidence/hermaguard-candidate.json) |
+| [image-generation-workflow](skills/image-generation-workflow/SKILL.md) | Generate and inspect images using an available authorised tool. | [Card](evidence/image-generation-workflow.json) |
+| [implementation-delivery](skills/implementation-delivery/SKILL.md) | Use when implementing a feature or bug fix through verified delivery. | [Card](evidence/implementation-delivery.json) |
 | [independent-performance-review](skills/independent-performance-review/SKILL.md) | Distinguish independent progress from assisted delivery. | [Card](evidence/independent-performance-review.json) |
 | [interactive-style-refinement](skills/interactive-style-refinement/SKILL.md) | Iterate style with the user through compare-and-choose rounds instead of blind re-rolls. | [Card](evidence/interactive-style-refinement.json) |
-| [task-board-orchestration](skills/task-board-orchestration/SKILL.md) | Decomposition playbook + specialist-roster conventions. | [Card](evidence/task-board-orchestration.json) |
 | [landscape-monitoring](skills/landscape-monitoring/SKILL.md) | Set up and operate recurring crons that monitor a. | [Card](evidence/landscape-monitoring.json) |
+| [linked-knowledge-maintenance](skills/linked-knowledge-maintenance/SKILL.md) | Browse, search, and update the structured knowledge. | [Card](evidence/linked-knowledge-maintenance.json) |
 | [local-ml-evaluation](skills/local-ml-evaluation/SKILL.md) | Evaluate local ML models on the 3090 rig before adoption. | [Card](evidence/local-ml-evaluation.json) |
 | [lyric-aligned-video-planning](skills/lyric-aligned-video-planning/SKILL.md) | Plan music videos with WhisperX forced alignment driving shot changes at word level. | [Card](evidence/lyric-aligned-video-planning.json) |
 | [market-research](skills/market-research/SKILL.md) | Ad-hoc market research, competitive analysis, and idea. | [Card](evidence/market-research.json) |
+| [mcp-client-setup](skills/mcp-client-setup/SKILL.md) | MCP client: connect servers, register tools (stdio/HTTP). | [Card](evidence/mcp-client-setup.json) |
 | [mcp-integration-engineering](skills/mcp-integration-engineering/SKILL.md) | Build and validate MCP/ACP integrations across protocol, logic and client layers. | [Card](evidence/mcp-integration-engineering.json) |
 | [mcp-spec-reference](skills/mcp-spec-reference/SKILL.md) | Reference MCP 2025-06-18 basic protocol rules. | [Card](evidence/mcp-spec-reference.json) |
 | [mcp-troubleshooting](skills/mcp-troubleshooting/SKILL.md) | Diagnose MCP startup, transport, discovery and execution failures. | [Card](evidence/mcp-troubleshooting.json) |
@@ -98,9 +130,7 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [morning-pulse](skills/morning-pulse/SKILL.md) | Summarise current commitments, blockers and priority decisions. | [Card](evidence/morning-pulse.json) |
 | [motion-notation-prompting](skills/motion-notation-prompting/SKILL.md) | Use Laban effort notation in video prompts for smoother, more expressive movement. | [Card](evidence/motion-notation-prompting.json) |
 | [multi-shot-storytelling](skills/multi-shot-storytelling/SKILL.md) | Plan multi-shot generated video with continuity, shot grammar and block-boundary management. | [Card](evidence/multi-shot-storytelling.json) |
-| [mcp-client-setup](skills/mcp-client-setup/SKILL.md) | MCP client: connect servers, register tools (stdio/HTTP). | [Card](evidence/mcp-client-setup.json) |
 | [obsidian](skills/obsidian/SKILL.md) | Read, search, and create notes in the Obsidian vault. | [Card](evidence/obsidian.json) |
-| [architecture-deepening-review](skills/architecture-deepening-review/SKILL.md) | Find architectural deepening opportunities in a. | [Card](evidence/architecture-deepening-review.json) |
 | [on-call-support-reference](skills/on-call-support-reference/SKILL.md) | Use when designing or improving sustainable on-call support. | [Card](evidence/on-call-support-reference.json) |
 | [phased-plan-execution](skills/phased-plan-execution/SKILL.md) | Execute phased implementation plans with batched. | [Card](evidence/phased-plan-execution.json) |
 | [plugin-compat-auditing](skills/plugin-compat-auditing/SKILL.md) | Audit plugin/tool surfaces for compat, permission and lifecycle safety across harnesses. | [Card](evidence/plugin-compat-auditing.json) |
@@ -113,18 +143,24 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [regression-attribution](skills/regression-attribution/SKILL.md) | Classify test failures across two git revisions by. | [Card](evidence/regression-attribution.json) |
 | [release-quality-gates](skills/release-quality-gates/SKILL.md) | Use when deciding whether an app, feature, automation. | [Card](evidence/release-quality-gates.json) |
 | [release-readiness-manager](skills/release-readiness-manager/SKILL.md) | Run pre-release checks, release-day execution and post-release verification end to end. | [Card](evidence/release-readiness-manager.json) |
+| [reviewed-agent-development](skills/reviewed-agent-development/SKILL.md) | Execute plans via reviewed agent tasks (2-stage review). | [Card](evidence/reviewed-agent-development.json) |
 | [risk-register-manager](skills/risk-register-manager/SKILL.md) | Build and maintain project risk registers with owners, triggers and re-scoring cadence. | [Card](evidence/risk-register-manager.json) |
 | [safe-demo-environments](skills/safe-demo-environments/SKILL.md) | Use when booting fake-data app demos for screenshots. | [Card](evidence/safe-demo-environments.json) |
+| [scheduled-job-audit](skills/scheduled-job-audit/SKILL.md) | Audit scheduled jobs from intent through verified delivery. | [Card](evidence/scheduled-job-audit.json) |
+| [scheduled-output-contract](skills/scheduled-output-contract/SKILL.md) | Produce concise, verifiable output from scheduled tasks. | [Card](evidence/scheduled-output-contract.json) |
 | [search-acquisition-audit](skills/search-acquisition-audit/SKILL.md) | Prioritise search fixes without invented forecasts. | [Card](evidence/search-acquisition-audit.json) |
 | [session-librarian](skills/session-librarian/SKILL.md) | Organize sessions by prompt: find, rename, archive, prune. | [Card](evidence/session-librarian.json) |
 | [simplify-swarm](skills/simplify-swarm/SKILL.md) | Use after writing or modifying code to simplify it with three parallel read-only agents (Hygiene, Clarity, Correctness) applied in SAFE→CAREFUL→RISKY order. | [Card](evidence/simplify-swarm.json) |
+| [simplify-swarm-candidate](skills/simplify-swarm-candidate/SKILL.md) | Use when simplifying working changes through hygiene, clarity and correctness analysis. | [Card](evidence/simplify-swarm-candidate.json) |
+| [skill-authoring](skills/skill-authoring/SKILL.md) | Write focused, portable skills with observable verification. | [Card](evidence/skill-authoring.json) |
+| [skill-catalogue-audit](skills/skill-catalogue-audit/SKILL.md) | Weekly audit of all skills (not just provisional). | [Card](evidence/skill-catalogue-audit.json) |
 | [skill-portfolio-evidence-review](skills/skill-portfolio-evidence-review/SKILL.md) | Link skill investments to demonstrated work and demand. | [Card](evidence/skill-portfolio-evidence-review.json) |
 | [sre-incident-response-reference](skills/sre-incident-response-reference/SKILL.md) | Apply Google SRE incident response principles and roles. | [Card](evidence/sre-incident-response-reference.json) |
 | [story-slicing](skills/story-slicing/SKILL.md) | Split features into thin, vertical, INVEST-shaped stories that deliver value. | [Card](evidence/story-slicing.json) |
 | [storyboard-to-shots](skills/storyboard-to-shots/SKILL.md) | Convert a story or script into sequential storyboard panels with generation-ready prompts. | [Card](evidence/storyboard-to-shots.json) |
 | [style-vocabulary-selection](skills/style-vocabulary-selection/SKILL.md) | Choose named styles from curated libraries instead of ad-hoc adjective soup. | [Card](evidence/style-vocabulary-selection.json) |
-| [reviewed-agent-development](skills/reviewed-agent-development/SKILL.md) | Execute plans via reviewed agent tasks (2-stage review). | [Card](evidence/reviewed-agent-development.json) |
 | [systematic-debugging](skills/systematic-debugging/SKILL.md) | Find and prove root causes before applying one verified fix. | [Card](evidence/systematic-debugging.json) |
+| [task-board-orchestration](skills/task-board-orchestration/SKILL.md) | Decomposition playbook + specialist-roster conventions. | [Card](evidence/task-board-orchestration.json) |
 | [team-topologies-reference](skills/team-topologies-reference/SKILL.md) | Apply Team Topologies concepts to improve value flow. | [Card](evidence/team-topologies-reference.json) |
 | [temporal-animation-techniques](skills/temporal-animation-techniques/SKILL.md) | Translate traditional animation timing vocabulary into H3 temporal behaviour. | [Card](evidence/temporal-animation-techniques.json) |
 | [terminal-demo-video](skills/terminal-demo-video/SKILL.md) | Record real CLI demo videos as MP4 for feature demos. | [Card](evidence/terminal-demo-video.json) |
@@ -144,37 +180,3 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [workstream-orchestration](skills/workstream-orchestration/SKILL.md) | Plan and steer multiple agent workstreams with WIP limits and review gates. | [Card](evidence/workstream-orchestration.json) |
 | [writing-plans](skills/writing-plans/SKILL.md) | Write implementation plans: bite-sized tasks, paths, code. | [Card](evidence/writing-plans.json) |
 | [writing-spec](skills/writing-spec/SKILL.md) | Write or revise spec.md and close a council REVISE verdict. | [Card](evidence/writing-spec.json) |
-
-## Bundles
-
-- [career-skill-portfolio-strategist](bundles/career-skill-portfolio-strategist/bundle.json)
-- [evidence-based-ai-delegation](bundles/evidence-based-ai-delegation/bundle.json)
-- [growth-experimentation-strategist](bundles/growth-experimentation-strategist/bundle.json)
-- [practice-based-learning](bundles/practice-based-learning/bundle.json)
-- [agent-team-lead](bundles/agent-team-lead/bundle.json)
-- [design-partner](bundles/design-partner/bundle.json)
-- [fleet-governance-operator](bundles/fleet-governance-operator/bundle.json)
-- [grounded-researcher](bundles/grounded-researcher/bundle.json)
-- [image-generation](bundles/image-generation/bundle.json)
-- [integration-specialist](bundles/integration-specialist/bundle.json)
-- [knowledge-librarian](bundles/knowledge-librarian/bundle.json)
-- [product-demo-specialist](bundles/product-demo-specialist/bundle.json)
-- [product-manager](bundles/product-manager/bundle.json)
-- [product-owner](bundles/product-owner/bundle.json)
-- [project-strategist](bundles/project-strategist/bundle.json)
-- [qa-test-evidence-architect](bundles/qa-test-evidence-architect/bundle.json)
-- [risk-release-manager](bundles/risk-release-manager/bundle.json)
-- [support-specialist](bundles/support-specialist/bundle.json)
-- [travel-expert](bundles/travel-expert/bundle.json)
-- [video-generation](bundles/video-generation/bundle.json)
-- [knowledge-librarian-bundle](bundles/knowledge-librarian-bundle/bundle.json)
-
-## Coding specialists
-Three complementary roles: implementation, behaviour-preserving refactoring, and read-only adversarial review. See [scope and evidence](docs/coding-specialists.md).
-- [software-implementation-specialist](personas/software-implementation-specialist/PERSONA.md) — [bundle](bundles/software-implementation-specialist/bundle.json)
-- [codebase-refactoring-specialist](personas/codebase-refactoring-specialist/PERSONA.md) — [bundle](bundles/codebase-refactoring-specialist/bundle.json)
-- [adversarial-code-reviewer](personas/adversarial-code-reviewer/PERSONA.md) — [bundle](bundles/adversarial-code-reviewer/bundle.json)
-- Focused method: [codebase-simplification-campaign](skills/codebase-simplification-campaign/SKILL.md)
-- Focused method: [hermaguard-candidate](skills/hermaguard-candidate/SKILL.md)
-- Focused method: [implementation-delivery](skills/implementation-delivery/SKILL.md)
-- Focused method: [simplify-swarm-candidate](skills/simplify-swarm-candidate/SKILL.md)

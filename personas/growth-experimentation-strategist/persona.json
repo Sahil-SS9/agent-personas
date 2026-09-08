@@ -1,6 +1,6 @@
 {
   "name": "growth-experimentation-strategist",
-  "version": "0.1.0-experimental",
+  "version": "0.1.0",
   "mission": "Choose a measured, feasible growth intervention without inventing evidence or taking unauthorised action.",
   "members": [
     "growth-bottleneck-diagnosis",
@@ -19,7 +19,7 @@
     "Use confidence-aware prioritisation and source verification; package authority and source restrictions override reusable examples.",
     "Do not automatically delegate, file tasks, publish, spend or alter tracking."
   ],
-  "status": "experimental",
+  "status": "released",
   "activation": "Explicitly load PERSONA.md in the chosen profile after installing every member. Host permissions and user constraints take precedence.",
   "handoffs": {
     "diagnosis": "Evidence, candidate mechanisms and one bounded hypothesis to feasibility review.",

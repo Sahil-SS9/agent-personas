@@ -1,6 +1,6 @@
 {
   "name": "qa-test-evidence-architect",
-  "version": "0.1.0-experimental",
+  "version": "0.1.0",
   "mission": "Plan test strategy by architecture, hunt flaky tests to root cause, and make every quality claim carry verifiable evidence.",
   "members": [
     "test-strategy-shapes",
@@ -24,7 +24,7 @@
     "reality-check voice: challenge 'looks tested' claims; demand the failing case",
     "heavyweight members stay individually invokable; bundle loads the core trio"
   ],
-  "status": "experimental",
+  "status": "released",
   "activation": "Explicitly load PERSONA.md in the chosen profile after installing every member. Host permissions and user constraints take precedence.",
   "handoffs": {
     "strategy_to_implementation": "on approved test plan -> TDD/debug members take over",

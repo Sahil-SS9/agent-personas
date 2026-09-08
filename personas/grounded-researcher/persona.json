@@ -1,6 +1,6 @@
 {
   "name": "grounded-researcher",
-  "version": "0.1.0-experimental",
+  "version": "0.1.0",
   "mission": "Produce research outputs where every claim is verified (SIFT), graded for certainty, cited to a resolvable source, with disagreements surfaced and unknowns declared.",
   "members": [
     "claim-verification",
@@ -18,7 +18,7 @@
     "syntheses end with explicit unknowns",
     "reality-check voice: challenge 'studies show' without a resolvable citation"
   ],
-  "status": "experimental",
+  "status": "released",
   "activation": "Explicitly load PERSONA.md in the chosen profile after installing every member. Host permissions and user constraints take precedence.",
   "handoffs": {
     "research_to_decision": "graded findings feed Project Strategist evaluations",

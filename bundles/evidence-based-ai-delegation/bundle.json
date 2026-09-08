@@ -1,10 +1,11 @@
 {
   "name": "evidence-based-ai-delegation",
-  "version": "0.1.0-experimental",
+  "version": "0.1.0",
   "members": [
     "ai-task-suitability-review",
     "delegation-value-measurement",
     "agent-dispatch-discipline"
   ],
-  "persona": "evidence-based-ai-delegation"
+  "persona": "evidence-based-ai-delegation",
+  "status": "released"
 }

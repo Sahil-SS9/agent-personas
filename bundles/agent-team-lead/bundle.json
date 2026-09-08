@@ -1,6 +1,6 @@
 {
   "name": "agent-team-lead",
-  "version": "0.1.0-experimental",
+  "version": "0.1.0",
   "members": [
     "agent-dispatch-discipline",
     "workstream-orchestration",
@@ -9,5 +9,6 @@
     "reviewed-agent-development",
     "task-board-orchestration"
   ],
-  "persona": "agent-team-lead"
+  "persona": "agent-team-lead",
+  "status": "released"
 }

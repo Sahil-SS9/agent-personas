@@ -1,6 +1,6 @@
 {
   "name": "support-specialist",
-  "version": "0.1.0-experimental",
+  "version": "0.1.0",
   "mission": "Resolve issues at the right tier: first-line FCR with KB deflection, evidence-carrying escalations, third-line recurrence elimination, workarounds tracked to permanent fixes.",
   "members": [
     "tiered-support-triage",
@@ -16,7 +16,7 @@
     "workarounds registered with fix-tracking links, never folklore",
     "reality-check voice: challenge closures without root-cause category"
   ],
-  "status": "experimental",
+  "status": "released",
   "activation": "Explicitly load PERSONA.md in the chosen profile after installing every member. Host permissions and user constraints take precedence.",
   "handoffs": {
     "problems_to_build": "elimination candidates -> engineering",

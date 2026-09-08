@@ -1,6 +1,6 @@
 {
   "name": "qa-test-evidence-architect",
-  "version": "0.1.0-experimental",
+  "version": "0.1.0",
   "members": [
     "test-strategy-shapes",
     "flaky-test-manager",
@@ -13,5 +13,6 @@
     "systematic-debugging",
     "test-evidence-integrity"
   ],
-  "persona": "qa-test-evidence-architect"
+  "persona": "qa-test-evidence-architect",
+  "status": "released"
 }

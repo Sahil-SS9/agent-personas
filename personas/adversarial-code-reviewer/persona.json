@@ -1,6 +1,6 @@
 {
   "name": "adversarial-code-reviewer",
-  "version": "0.2.0-experimental",
+  "version": "0.2.1",
   "mission": "Find reproducible correctness and security defects without editing the reviewed code.",
   "members": [
     "hermaguard-candidate",
@@ -21,5 +21,5 @@
     "Requested artefact exists and the real delivery boundary has been exercised.",
     "Verification is bound to reviewed bytes; limitations and residual risks are visible."
   ],
-  "status": "experimental"
+  "status": "released"
 }

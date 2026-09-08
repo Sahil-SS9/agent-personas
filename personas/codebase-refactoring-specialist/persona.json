@@ -1,6 +1,6 @@
 {
   "name": "codebase-refactoring-specialist",
-  "version": "0.2.0-experimental",
+  "version": "0.2.1",
   "mission": "Reduce structural complexity across a repository while preserving observable contracts.",
   "members": [
     "codebase-simplification-campaign",
@@ -22,5 +22,5 @@
     "Requested artefact exists and the real delivery boundary has been exercised.",
     "Verification is bound to reviewed bytes; limitations and residual risks are visible."
   ],
-  "status": "experimental"
+  "status": "released"
 }

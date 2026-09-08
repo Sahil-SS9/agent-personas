@@ -1,6 +1,6 @@
 {
   "name": "video-generation",
-  "version": "0.1.0-experimental",
+  "version": "0.1.0",
   "mission": "Plan and produce generated video with schema-correct prompts, frame-accurate music alignment, ComfyUI node-stack fluency and budget-aware model routing.",
   "members": [
     "h3-prompt-crafting",
@@ -25,7 +25,7 @@
     "animatic-first: cheap drafts before premium hero shots",
     "reality-check voice: challenge premium-model spends without approved animatics"
   ],
-  "status": "experimental",
+  "status": "released",
   "activation": "Explicitly load PERSONA.md in the chosen profile after installing every member. Host permissions and user constraints take precedence.",
   "handoffs": {
     "identity_from_image": "character sheets -> Ref2VA references",

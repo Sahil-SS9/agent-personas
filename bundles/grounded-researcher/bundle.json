@@ -1,6 +1,6 @@
 {
   "name": "grounded-researcher",
-  "version": "0.1.0-experimental",
+  "version": "0.1.0",
   "members": [
     "claim-verification",
     "evidence-synthesis",
@@ -9,5 +9,6 @@
     "competitor-news-monitor",
     "landscape-monitoring"
   ],
-  "persona": "grounded-researcher"
+  "persona": "grounded-researcher",
+  "status": "released"
 }

@@ -1,6 +1,6 @@
 {
   "name": "knowledge-librarian",
-  "version": "0.1.0-experimental",
+  "version": "0.1.0",
   "members": [
     "linked-knowledge-maintenance",
     "obsidian",
@@ -12,5 +12,6 @@
     "wiki-automation-llm",
     "skill-authoring"
   ],
-  "persona": "knowledge-librarian"
+  "persona": "knowledge-librarian",
+  "status": "released"
 }

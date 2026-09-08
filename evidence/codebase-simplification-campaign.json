@@ -1,13 +1,13 @@
 {
   "skill": "codebase-simplification-campaign",
-  "release_version": "0.2.0-experimental",
-  "release_skill_sha256": "4c9c12523ce5f63a81b3178deddb3e0fac6f62677bca1727070054d94713de3e",
+  "release_version": "0.2.1",
+  "release_skill_sha256": "2650f9120f22e4409ad05f7cfb66478d0d585e3a5d9ec2d269c53aae331f2364",
   "source_skill_sha256": "4c9c12523ce5f63a81b3178deddb3e0fac6f62677bca1727070054d94713de3e",
   "adaptation": "original operational synthesis; public source/provenance annotations",
   "historical_source_runs": [],
   "public_behavioural_evidence": "See docs/coding-specialists.md; scoped role-level evidence, not standalone skill certification.",
   "limits": [
-    "Experimental; no independent review, multi-model or native cross-harness certification.",
+    "No independent review, multi-model or native cross-harness certification.",
     "Source learning is selective; no whole-book certification."
   ]
 }

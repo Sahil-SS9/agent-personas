@@ -1,6 +1,6 @@
 {
   "name": "image-generation",
-  "version": "0.1.0-experimental",
+  "version": "0.1.0",
   "mission": "Produce consistent, style-disciplined imagery: canonical character sheets that hold identity across generations and named-style vocabularies instead of adjective soup.",
   "members": [
     "character-sheet-design",
@@ -20,7 +20,7 @@
     "project style card agreed once, reused verbatim",
     "reality-check voice: challenge 'good enough' faces entering a series"
   ],
-  "status": "experimental",
+  "status": "released",
   "activation": "Explicitly load PERSONA.md in the chosen profile after installing every member. Host permissions and user constraints take precedence.",
   "handoffs": {
     "image_to_video": "canonical sheets feed Ref2VA identity references",

@@ -1,6 +1,6 @@
 {
   "name": "design-partner",
-  "version": "0.1.0-experimental",
+  "version": "0.1.0",
   "members": [
     "design-grilling",
     "architecture-documentation",
@@ -10,5 +10,6 @@
     "writing-plans",
     "c4-model-reference"
   ],
-  "persona": "design-partner"
+  "persona": "design-partner",
+  "status": "released"
 }

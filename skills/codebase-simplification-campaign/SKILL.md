@@ -1,14 +1,14 @@
 ---
 name: codebase-simplification-campaign
 description: Use when refactoring a module or codebase while preserving behaviour.
-version: 0.3.0-preparation-candidate
+version: 0.2.1
 author: Sahil Saghir
 license: MIT
 ---
 
 # Codebase Simplification Campaign
 
-Experimental operational method; evidence is limited to the scenarios actually exercised.
+Operational method; evidence is limited to the scenarios actually exercised.
 
 ## Preparation gate
 Applies to module-level refactors as well as campaigns. BEFORE the first structural source edit, follow [refactor preparation](references/refactor-preparation.md): inspect and execute relevant coverage; add and run missing boundary characterization against unchanged source. A smoke pass alone does not cover absent edge assertions. Reuse adequate existing coverage without duplicate tests.

@@ -1,6 +1,6 @@
 {
   "name": "software-implementation-specialist",
-  "version": "0.2.0-experimental",
+  "version": "0.2.1",
   "members": [
     "implementation-delivery",
     "test-driven-development",
@@ -10,5 +10,5 @@
     "hermaguard-candidate"
   ],
   "persona": "software-implementation-specialist",
-  "status": "experimental"
+  "status": "released"
 }

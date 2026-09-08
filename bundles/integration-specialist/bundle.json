@@ -1,6 +1,6 @@
 {
   "name": "integration-specialist",
-  "version": "0.1.0-experimental",
+  "version": "0.1.0",
   "members": [
     "mcp-integration-engineering",
     "third-party-api-integration",
@@ -9,5 +9,6 @@
     "mcp-troubleshooting",
     "backend-contract-design"
   ],
-  "persona": "integration-specialist"
+  "persona": "integration-specialist",
+  "status": "released"
 }

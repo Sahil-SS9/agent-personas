@@ -1,11 +1,12 @@
 {
   "name": "product-owner",
-  "version": "0.1.0-experimental",
+  "version": "0.1.0",
   "members": [
     "story-slicing",
     "backlog-refinement",
     "meeting-action-items",
     "morning-pulse"
   ],
-  "persona": "product-owner"
+  "persona": "product-owner",
+  "status": "released"
 }

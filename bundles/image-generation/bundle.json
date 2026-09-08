@@ -1,6 +1,6 @@
 {
   "name": "image-generation",
-  "version": "0.1.0-experimental",
+  "version": "0.1.0",
   "members": [
     "character-sheet-design",
     "style-vocabulary-selection",
@@ -10,5 +10,6 @@
     "image-generation-workflow",
     "comfyui"
   ],
-  "persona": "image-generation"
+  "persona": "image-generation",
+  "status": "released"
 }

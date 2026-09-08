@@ -1,10 +1,11 @@
 {
   "name": "career-skill-portfolio-strategist",
-  "version": "0.1.0-experimental",
+  "version": "0.1.0",
   "members": [
     "career-option-prototyping",
     "skill-portfolio-evidence-review",
     "market-research"
   ],
-  "persona": "career-skill-portfolio-strategist"
+  "persona": "career-skill-portfolio-strategist",
+  "status": "released"
 }

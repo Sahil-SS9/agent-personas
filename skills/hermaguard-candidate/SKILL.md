@@ -1,14 +1,14 @@
 ---
 name: hermaguard-candidate
 description: Use when adversarially reviewing a diff and its caller contracts; read-only.
-version: 0.1.0
+version: 0.2.1
 author: Sahil Saghir
 license: MIT
 ---
 
-# Hermaguard Candidate
+# Hermaguard Review
 
-Experimental operational method; evidence is limited to the scenarios actually exercised.
+Operational method; evidence is limited to the scenarios actually exercised.
 
 1. Freeze exact base/head and changed/untracked scope. Discover available static analysers and run applicable checks; unavailable tools are coverage gaps, not clean results. Private companion tools are optional, never prerequisites.
 

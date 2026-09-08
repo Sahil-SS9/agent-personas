@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.1
+
+- Integrate coding personas and bundles into the main catalogue with released status; retain historical evidence limits.
+- Add the supplied agent-persona illustration above the README title.
+- Rebuild the README around agent/persona/bundle/skill composition, role selection and a complete first-use path.
+- Preserve package identifiers, member selection and engineering procedures. Older prerelease tags remain immutable history.
+
 ## 0.2.0-experimental
 
 - Add implementation, refactoring and adversarial-review personas and matching bundles, plus four focused coding methods.
