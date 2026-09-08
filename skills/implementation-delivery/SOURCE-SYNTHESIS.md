@@ -9,7 +9,7 @@ Original operational synthesis, not reproduced source text or copied code. Origi
 - Google engineering practices: https://google.github.io/eng-practices/review/reviewer/standard.html . Informs separating defects from advice and optional preferences.
 - Amazon Builders' Library: https://aws.amazon.com/builders-library/making-retries-safe-with-idempotent-APIs/ . Informs intent identity and uncertain remote outcomes, conditional on the provider's actual guarantees.
 - OWASP transaction authorization guidance: https://cheatsheetseries.owasp.org/cheatsheets/Transaction_Authorization_Cheat_Sheet.html . Informs approval/execution binding and mutable state; does not invent authorization requirements for unrelated products.
-- Reference repositories: https://github.com/mattpocock/skills , https://github.com/magnus919/agent-skills , https://github.com/dietrichgebert/ponytail . Informed behavioural tests, role boundaries, understand-before-simplify and reuse-first decisions. No repository source files are redistributed in this collection.
+- Related reference: https://github.com/dietrichgebert/ponytail . No repository source files are redistributed in this collection.
 
 Conflict resolution: retain cohesive interfaces rather than mandatory tiny functions; permit justified test seams; preserve caller-visible error and empty/missing distinctions; treat numerical reduction as subordinate to functionality. Parallel review requires host/user authority, consensus is not proof, and rollback is limited to owned changes. No forced findings, blanket reset, mandatory one-liners or promised reduction percentage.
 

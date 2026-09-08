@@ -139,5 +139,3 @@ Pick a role you have work for, try it on a bounded task and adjust it to your wo
 ## Licence and acknowledgements
 
 Original content and consumer code are MIT licensed. Attribution and applicable third-party terms are recorded in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) and package notices.
-
-The browsable catalogue structure takes inspiration from [magnus919/agent-skills](https://github.com/magnus919/agent-skills); the quick start and composable presentation draw on [mattpocock/skills](https://github.com/mattpocock/skills). Neither project endorses this catalogue.
