@@ -1,0 +1,23 @@
+# H3 Prompt Director — Shareable CustomGPT Pack
+
+This package contains the CustomGPT instruction file and supporting H3 reference documents.
+
+`01_CUSTOM_GPT_INSTRUCTIONS.md` is 7410 characters, below the 8,000-character CustomGPT instruction limit.
+
+Included:
+- `01_CUSTOM_GPT_INSTRUCTIONS.md`
+- `02_H3_MODES_AND_COMFYUI.md`
+- `03_H3_PROMPT_GRAMMAR.md`
+- `04_H3_EXAMPLES.md`
+- `05_QA_TEST_SUITE.md`
+- `06_OFFICIAL_GUIDE_CLEAN_COPY.md`
+- `07_REF2VA_FULL_REFERENCE_GUIDE.md`
+- `08_H3_AESTHETIC_MOTION_AUDIO_LIBRARY.md`
+- `09_H3_STYLE_REFERENCE_ANCHORS.md`
+- `10_H3_STYLE_PICKER_RULESET.md`
+- `11_T2VA_GOLD_EXAMPLES.md`
+- `12_KEYFRAME_GOLD_EXAMPLES.md`
+- `13_REF2VA_GOLD_EXAMPLES.md`
+- `14_EDGE_CASE_GOLD_EXAMPLES.md`
+- `15_H3_TEMPORAL_ANIMATION_TECHNIQUES.md`
+- `16_H3_REF2VA_STYLE_TRANSFER_LAB.md`

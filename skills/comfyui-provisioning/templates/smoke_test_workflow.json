@@ -1,0 +1,9 @@
+{
+  "3": {"class_type": "CheckpointLoaderSimple", "inputs": {"ckpt_name": "hyphoria_v002.safetensors"}},
+  "4": {"class_type": "CLIPTextEncode", "inputs": {"clip": ["3", 1], "text": "masterpiece, best quality, absurdres, 1girl, long flowing black robes with crimson trim, glowing red eyes, dark mountain shrine at night, moonlight through storm clouds, cinematic lighting"}},
+  "5": {"class_type": "CLIPTextEncode", "inputs": {"clip": ["3", 1], "text": "worst quality, low quality"}},
+  "6": {"class_type": "EmptyLatentImage", "inputs": {"width": 832, "height": 1216, "batch_size": 1}},
+  "7": {"class_type": "KSampler", "inputs": {"model": ["3", 0], "positive": ["4", 0], "negative": ["5", 0], "latent_image": ["6", 0], "seed": 42, "steps": 28, "cfg": 3.0, "sampler_name": "euler_ancestral", "scheduler": "normal", "denoise": 1.0}},
+  "8": {"class_type": "VAEDecode", "inputs": {"samples": ["7", 0], "vae": ["3", 2]}},
+  "9": {"class_type": "SaveImage", "inputs": {"images": ["8", 0], "filename_prefix": "smoke_test"}}
+}
