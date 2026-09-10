@@ -1,0 +1,48 @@
+{
+  "3": {
+    "class_type": "KSampler",
+    "_meta": {"title": "KSampler"},
+    "inputs": {
+      "seed": 42,
+      "steps": 28,
+      "cfg": 4.0,
+      "sampler_name": "euler_ancestral",
+      "scheduler": "karras",
+      "denoise": 1.0,
+      "model": ["4", 0],
+      "positive": ["6", 0],
+      "negative": ["7", 0],
+      "latent_image": ["5", 0]
+    }
+  },
+  "4": {
+    "class_type": "CheckpointLoaderSimple",
+    "_meta": {"title": "Load Checkpoint"},
+    "inputs": {"ckpt_name": "divingIllustrious_nijimutedcolorVol2.safetensors"}
+  },
+  "5": {
+    "class_type": "EmptyLatentImage",
+    "_meta": {"title": "Empty Latent"},
+    "inputs": {"width": 896, "height": 1152, "batch_size": 1}
+  },
+  "6": {
+    "class_type": "CLIPTextEncode",
+    "_meta": {"title": "Positive"},
+    "inputs": {"text": "masterpiece, best quality, absurdres, 1girl, masterpiece", "clip": ["4", 1]}
+  },
+  "7": {
+    "class_type": "CLIPTextEncode",
+    "_meta": {"title": "Negative"},
+    "inputs": {"text": "(worst quality, low quality, normal quality, caucasian:1), lowres, bad anatomy, bad hands, signature, watermarks, ugly, imperfect eyes, unnatural face, unnatural body, error, extra limb, missing limbs, child, muscular, chinese, colored skin", "clip": ["4", 1]}
+  },
+  "8": {
+    "class_type": "VAEDecode",
+    "_meta": {"title": "VAE Decode"},
+    "inputs": {"samples": ["3", 0], "vae": ["4", 2]}
+  },
+  "9": {
+    "class_type": "SaveImage",
+    "_meta": {"title": "Save Image"},
+    "inputs": {"filename_prefix": "illustrious", "images": ["8", 0]}
+  }
+}
