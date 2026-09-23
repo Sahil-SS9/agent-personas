@@ -1,0 +1,8 @@
+{
+  "skill": "threat-intel-forensics",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "96e0119f1a846cef1016c0435a7d4a5ac7ca9d766610bd4d3b24739e859482a7",
+  "source_skill_sha256": "ade2d7ebb1d586ef97a9c4e50ab5693f93294a8a4931e9a3627b8ac9da77fb2e",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

@@ -1,0 +1,8 @@
+{
+  "skill": "docs-lifecycle-ownership",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "e15ef6d38ee765c8025250574fb128992c8e21ff6da9dbb90827c3395d824143",
+  "source_skill_sha256": "0bdbf03bc8227aac444b40f83fad58d5ad605c792a8087bab2b6dae2d74c7d10",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

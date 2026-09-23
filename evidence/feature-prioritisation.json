@@ -28,11 +28,11 @@
       }
     }
   ],
-  "public_behavioural_evidence": "not yet measured per skill",
-  "limits": [
+  "source_skill_sha256": "1b20b0bb0f85bf6dc945fb2c6e22fe4200a3a1d96f4a29ddb0b0f9c4dced2f94",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling.",
+  "scope_notes": [
     "Historical results apply to private source instructions, not this changed public release.",
     "Token/phrase rubric matches are not task correctness or general uplift.",
     "No universal model or harness performance claim."
-  ],
-  "source_skill_sha256": "1b20b0bb0f85bf6dc945fb2c6e22fe4200a3a1d96f4a29ddb0b0f9c4dced2f94"
+  ]
 }

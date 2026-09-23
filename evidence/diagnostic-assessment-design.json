@@ -1,0 +1,8 @@
+{
+  "skill": "diagnostic-assessment-design",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "cdc81a9af19a6de71bbdbf8e5b9d6bb89b4cc0e71512356ae33bcd0e78764e25",
+  "source_skill_sha256": "e0064f8e3a45b70ac5b451dca5bc51659833f08025ae32bc19207fa4510fadd2",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

@@ -1,0 +1,13 @@
+{
+  "name": "personal-finance",
+  "version": "0.3.0",
+  "members": [
+    "behaviour-first-budgeting",
+    "simple-long-horizon-investing",
+    "risk-protection-review",
+    "tax-wrapper-optimisation",
+    "goal-retirement-projection",
+    "debt-payoff-strategy"
+  ],
+  "persona": "personal-finance"
+}

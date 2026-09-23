@@ -1,0 +1,8 @@
+{
+  "skill": "total-cost-of-ownership-analysis",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "953ca9abd476e17b9315d90b7f91b0f46a91289ed97db8a759c55e8296ffe7de",
+  "source_skill_sha256": "2d86d3f5365feba7d89aebc4c9e55a983869d26909a5dd80573d6ab68255ac75",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

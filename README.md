@@ -4,7 +4,7 @@
 
 ### Connect your agents to the skills their job needs.
 
-A catalogue of **23 personas, 24 specialised skill bundles and 117 reusable skills** for building dedicated agents, sub-agents and bots. Choose a role, load its methods, and use the agent platform you already have.
+A catalogue of **42 personas, 43 specialised skill bundles and 235 reusable skills** for building dedicated agents, sub-agents and bots. Choose a role, load its methods, and use the agent platform you already have.
 
 [Choose a persona](#choose-your-first-persona) · [Try it](#try-a-persona-in-a-few-minutes) · [Browse everything](CATALOGUE.md) · [Platform compatibility](docs/compatibility.md) · [Evidence](docs/evidence.md)
 
@@ -97,7 +97,7 @@ Open your agent in the staged workspace, explicitly load `PERSONA.md` and its re
 
 > Read PERSONA.md and load the relevant member skills. Investigate this failing test, implement a scoped fix and report the checks you ran. Do not merge or deploy.
 
-Staging files does not itself load them into a model. It is also not a security sandbox: use your platform's permission controls. The [getting-started guide](docs/getting-started.md) covers activation and optional CLI smoke runs in more detail.
+Staging files does not itself load them into a model. Use your platform's permission controls for workspace safety. The [getting-started guide](docs/getting-started.md) covers activation and optional CLI smoke runs in more detail.
 
 ## Use the pieces your setup needs
 

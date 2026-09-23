@@ -1,0 +1,8 @@
+{
+  "skill": "schema-design-and-evolution",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "e77b2158323e3f2465bcf0666d8d40daeff2c2309ea55e2aae2e174a78b816d6",
+  "source_skill_sha256": "f1230179e72d4771e7e953d861b6abb785f041d36959ab3e180716eb05c51bbf",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

@@ -1,0 +1,8 @@
+{
+  "skill": "recon-enumeration-methodology",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "c494aba6c6b23d15fc072a49296f39728f48acce20704e0db1b429e0b427a6b4",
+  "source_skill_sha256": "67033a24c078355df88862a963040a63bd281a1fc99b34cb4d43e8448774522d",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

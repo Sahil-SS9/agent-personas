@@ -1,0 +1,8 @@
+{
+  "skill": "theming-multibrand",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "565afd8bfa8e26b4ff780845e424739ae4548d66d05aa4f0548e272749cf70d2",
+  "source_skill_sha256": "4f486b44e1dfaf1a175e530da3677159093c25575ab9165598f3a00aa5ed705a",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

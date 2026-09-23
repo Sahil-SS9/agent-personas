@@ -5,8 +5,8 @@
   "source_skill_sha256": "aaf7c118da53eb5496b043fdd94b77da6280f58967533c25705bb365ade4228d",
   "adaptation": "original operational synthesis; public source/provenance annotations",
   "historical_source_runs": [],
-  "public_behavioural_evidence": "See docs/coding-specialists.md; scoped role-level evidence, not standalone skill certification.",
-  "limits": [
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling.",
+  "scope_notes": [
     "No independent review, multi-model or native cross-harness certification.",
     "Source learning is selective; no whole-book certification."
   ]

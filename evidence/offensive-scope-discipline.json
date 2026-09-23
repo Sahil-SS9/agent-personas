@@ -1,0 +1,8 @@
+{
+  "skill": "offensive-scope-discipline",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "72fb228d5f5923336c5807c294fac284f5f8e3d3ebea23269b98b094ce218b0a",
+  "source_skill_sha256": "24b3de1b94ab7b2890513d54e06f78729a60882d954bd59b5b0986e6bbc1b5f3",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

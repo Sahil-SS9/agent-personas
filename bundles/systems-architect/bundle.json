@@ -1,0 +1,12 @@
+{
+  "name": "systems-architect",
+  "version": "0.3.0",
+  "members": [
+    "architecture-characteristics-driven-design",
+    "c4-architecture-modelling",
+    "decomposition-tradeoff-analysis",
+    "architecture-decision-records",
+    "evolutionary-architecture-fitness-functions"
+  ],
+  "persona": "systems-architect"
+}

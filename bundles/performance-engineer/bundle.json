@@ -1,0 +1,13 @@
+{
+  "name": "performance-engineer",
+  "version": "0.3.0",
+  "members": [
+    "core-web-vitals-optimisation",
+    "asset-and-bundle-budgets",
+    "perf-regression-monitoring",
+    "runtime-rendering-performance",
+    "profiling-methodology",
+    "backend-api-latency"
+  ],
+  "persona": "performance-engineer"
+}

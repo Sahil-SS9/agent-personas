@@ -1,0 +1,8 @@
+{
+  "skill": "seller-verification-protocol",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "9515c43696e6c9da4fbe3c6c8796b11b8714f438ac1790b683644b860429c458",
+  "source_skill_sha256": "b079ff96477653878c9f544327894f3cde7067c3c76b473cea577caa15c3d0f3",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

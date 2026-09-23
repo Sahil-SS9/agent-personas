@@ -1,0 +1,13 @@
+{
+  "name": "blue-team-security",
+  "version": "0.3.0",
+  "members": [
+    "attck-control-mapping",
+    "incident-response-lifecycle",
+    "control-hygiene-basics",
+    "detection-engineering",
+    "vulnerability-management-prioritisation",
+    "threat-intel-forensics"
+  ],
+  "persona": "blue-team-security"
+}

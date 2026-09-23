@@ -1,0 +1,8 @@
+{
+  "skill": "market-price-benchmarking",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "3c043bc345adb364b18259630963a2fe9bb1a45e6bb43a47eb60223d69457372",
+  "source_skill_sha256": "b49c0301a467eae7e1064d5722cb357644dbe7016790a0c0d670e40536ac12ff",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

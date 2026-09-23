@@ -1,0 +1,8 @@
+{
+  "skill": "motivation-habit-design",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "8638b43f0cdd7c7bfb36a27ec66aa1a4ffa144aaf0cdc905a2c1224118bf9072",
+  "source_skill_sha256": "2136bd6002243a75a69da32677742f140f755aefda1449a99ba833d053b7f67e",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

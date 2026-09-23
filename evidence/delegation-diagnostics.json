@@ -5,11 +5,11 @@
   "adaptation": "portable method rewrite",
   "author_credit": "Sahil Saghir",
   "historical_source_runs": [],
-  "public_behavioural_evidence": "not yet measured per skill",
-  "limits": [
+  "source_skill_sha256": "66efd1fa63cdab78964e4419dbdbe89ce286868b7be017dc810510d01f181967",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling.",
+  "scope_notes": [
     "Historical results apply to private source instructions, not this changed public release.",
     "Token/phrase rubric matches are not task correctness or general uplift.",
     "No universal model or harness performance claim."
-  ],
-  "source_skill_sha256": "66efd1fa63cdab78964e4419dbdbe89ce286868b7be017dc810510d01f181967"
+  ]
 }

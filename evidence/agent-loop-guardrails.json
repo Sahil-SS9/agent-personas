@@ -1,0 +1,8 @@
+{
+  "skill": "agent-loop-guardrails",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "65ee707d357eb37a293ad7c949c1c20b3aa4ef2b5e5e831c5cd198264ad32769",
+  "source_skill_sha256": "3da13ee53652537e3f2e66dc1529b1c5faa3a4c4b06f65f7a1d778d3f3a4c3e6",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

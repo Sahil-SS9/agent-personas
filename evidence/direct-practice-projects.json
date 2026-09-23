@@ -1,0 +1,8 @@
+{
+  "skill": "direct-practice-projects",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "38ec7c387756aa0e86ae0fe58f04bc934839435f6b13e21c6891c4d6ee32be70",
+  "source_skill_sha256": "d5a3c3d5fcbe75beff5279123c3effd28cc778070758059e749a7813c5933838",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

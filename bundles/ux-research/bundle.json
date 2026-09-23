@@ -1,0 +1,13 @@
+{
+  "name": "ux-research",
+  "version": "0.3.0",
+  "members": [
+    "momtest-interviewing",
+    "proportionate-research-design",
+    "insight-to-action-synthesis",
+    "usability-testing-design",
+    "survey-quant-research",
+    "journey-map-persona-artefacts"
+  ],
+  "persona": "ux-research"
+}

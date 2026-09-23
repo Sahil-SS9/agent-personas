@@ -1,0 +1,15 @@
+{
+  "name": "frontend-ux-engineer",
+  "version": "0.3.0",
+  "members": [
+    "visual-hierarchy-craft",
+    "ux-flow-and-heuristics",
+    "ui-component-composition",
+    "purposeful-motion",
+    "design-teardown-review",
+    "frontend-architecture",
+    "responsive-layout-systems",
+    "frontend-testing"
+  ],
+  "persona": "frontend-ux-engineer"
+}

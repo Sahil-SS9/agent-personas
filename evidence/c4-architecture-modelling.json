@@ -1,0 +1,8 @@
+{
+  "skill": "c4-architecture-modelling",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "bb219a402c2aa452203a7cf3baa0c0906323b4ce392cea8ba155ff2d3b410637",
+  "source_skill_sha256": "82fc0ddd4c2599d0808a5993fbeae55186733ecc3c4e666a55bdbcd06cf1a4d3",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

@@ -1,0 +1,8 @@
+{
+  "skill": "eval-harness-implementation",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "17a4065733a9ab558e007317da6bf321515d17b2eed245e6a28f17f21069d36e",
+  "source_skill_sha256": "d6faed3fe3138a620748172e928f8e12764858070b8929da31ca079790a6d9c5",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

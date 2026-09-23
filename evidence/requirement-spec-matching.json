@@ -1,0 +1,8 @@
+{
+  "skill": "requirement-spec-matching",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "fe1c9b5979ded5f7fdadb3cbd4df5f9516461254580f34c5d770ae2720071dd5",
+  "source_skill_sha256": "d3a35ebb686fd934bd619d67e803835bc517b27411b5e809df48350636949533",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

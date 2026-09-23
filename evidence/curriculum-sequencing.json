@@ -1,0 +1,8 @@
+{
+  "skill": "curriculum-sequencing",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "8923e900d8c3bbb9c86b84597f708149b6ec6862f76bfbcc0fe956852278f845",
+  "source_skill_sha256": "1a7ee90218825455143e6a9c43c8e8b947f07edd61bb6c0bb9d1ab91f09ce8a9",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

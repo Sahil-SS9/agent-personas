@@ -1,0 +1,8 @@
+{
+  "skill": "prompt-eval-regression",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "39788d387a7bc31b77e083caeecb89c9ddbcceb63dbf5fe40395ecdd93a22855",
+  "source_skill_sha256": "02e9b2a15adeca07df2333accd6aec46fbc55687f4c9bff9fdc7545ef176b4b2",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

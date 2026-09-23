@@ -1,0 +1,8 @@
+{
+  "skill": "wcag-conformance-audit",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "e441cee31599657049bd38b3a49ef107ab79c09719a9a63504590fc44ba7af63",
+  "source_skill_sha256": "32f560dbbce452d7d4b4218e393a2b39f1d0c657bd3f41f74992366cf6a938c2",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

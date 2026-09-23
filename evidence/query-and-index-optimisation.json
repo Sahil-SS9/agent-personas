@@ -1,0 +1,8 @@
+{
+  "skill": "query-and-index-optimisation",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "082fbfb8012616f149b2b2ca5d3b1136708250d434a183ada65c8209438bf37e",
+  "source_skill_sha256": "803caf8849eda6ad05395ad1ea4ee7f4022bab574ea9ab5569b89973bd2eaf6f",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

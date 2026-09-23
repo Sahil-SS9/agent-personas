@@ -1,0 +1,13 @@
+{
+  "name": "ml-eval-engineer",
+  "version": "0.3.0",
+  "members": [
+    "holistic-eval-design",
+    "contamination-and-staleness-audit",
+    "honest-eval-reporting",
+    "eval-harness-implementation",
+    "llm-as-judge-design",
+    "safety-redteam-eval"
+  ],
+  "persona": "ml-eval-engineer"
+}

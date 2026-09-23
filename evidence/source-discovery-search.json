@@ -1,0 +1,8 @@
+{
+  "skill": "source-discovery-search",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "98b1f57392d770e9a4e9ab053ba3ed6d28111319621dbb9acf515bfc319b7206",
+  "source_skill_sha256": "a0e0b6ff652f146cccc5624a1c0ebdbceb75709da8b10a2cc743e231eb8d23be",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

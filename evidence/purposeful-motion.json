@@ -1,0 +1,8 @@
+{
+  "skill": "purposeful-motion",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "8b34d3f1f5963a1f4281a2879f7aab2617354d438cf7235629ded0e1b2b8dece",
+  "source_skill_sha256": "c9dcaa6d87208a38efbc1227156043a68da855b1ccb0492d0182ee554af915ec",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

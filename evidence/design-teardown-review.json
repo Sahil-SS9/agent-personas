@@ -1,0 +1,8 @@
+{
+  "skill": "design-teardown-review",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "ed3fe9a22b61fa8790541259d40d438113f2528e7326402272d66cc2fcab558a",
+  "source_skill_sha256": "718dcce56137eda12686a84f066e048e4eda36a455bcca20e862039bd8ee7e0a",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

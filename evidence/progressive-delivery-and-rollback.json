@@ -1,0 +1,8 @@
+{
+  "skill": "progressive-delivery-and-rollback",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "aa8da5be685ea5b1cd8230785b9e0b487c8a5eac40f59530f5a18afa6f4019a9",
+  "source_skill_sha256": "149a510a9e581a00a5996d62e9142e8dde71b5de08f2e1ddce43b52e4ffa3cae",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

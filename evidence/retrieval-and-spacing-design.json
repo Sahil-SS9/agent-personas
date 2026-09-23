@@ -1,0 +1,8 @@
+{
+  "skill": "retrieval-and-spacing-design",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "124bc7f5e17d964efa6d94b9342d6bedaefb993799c0af018a123d0314d2445b",
+  "source_skill_sha256": "03821c52804026fba9a68d75d3a655d96dd4fd5fdfd5a35b95ef5657f8c179a1",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

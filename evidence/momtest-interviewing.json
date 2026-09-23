@@ -1,0 +1,8 @@
+{
+  "skill": "momtest-interviewing",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "0405a86a52145ce26a7a965096f9521dd869b1413d91e1d8b92bd9f0459ae08a",
+  "source_skill_sha256": "4f11d23e90b4b1af623442fff152dab4f932a7fd5e075736c847cadc8dbd4fd3",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

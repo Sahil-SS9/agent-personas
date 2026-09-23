@@ -1,0 +1,8 @@
+{
+  "skill": "responsive-layout-systems",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "085685404f2119744032c1c8de3d40c865ead1a23989892f90509b0c1b8761fe",
+  "source_skill_sha256": "1b15146b73fb90d4ff4f490d13440a6234528d0e743f50266bd9f7e824ec13a0",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

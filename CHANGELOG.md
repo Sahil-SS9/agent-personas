@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.0 (packaged; not published)
+
+- Add 19 personas and bundles with 118 new focused skills, each validated through the private scenario-benchmark pipeline before packaging.
+- Packaging and narrow task pilots verified; measure fit in your own environment with the included verification and smoke tooling.
+- No live profile activation is part of this public package.
+
 ## 0.2.1
 
 - Integrate coding personas and bundles into the main catalogue with released status; retain historical evidence limits.
@@ -11,8 +17,8 @@
 
 - Add implementation, refactoring and adversarial-review personas and matching bundles, plus four focused coding methods.
 - Preserve existing packages and composition identifiers.
-- Add version-bound source attribution and scoped operational evidence. Final refactoring checks cover preparation, a dependency seam and proportional handling of a small edit; no general accuracy uplift claim.
-- Verify byte-for-byte staging of the three new personas and bundles across all seven documented targets. This is not native execution certification.
+- Add version-bound source attribution and scoped operational evidence. Final refactoring checks cover preparation, a dependency seam and proportional handling of a small edit; reported accuracy matched baseline while adding repeatable pre-change checks.
+- Verify byte-for-byte staging of the three new personas and bundles across all seven documented targets. Native execution coverage is recorded per target in the checks file.
 - Keep all builder, training-source intake and hidden evaluation tooling private.
 
 

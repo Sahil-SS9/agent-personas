@@ -1,0 +1,8 @@
+{
+  "skill": "reference-doc-generation",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "28f588fdf1589a02d84ccf9ead5c064af6d711dabaaa9ac7ba63dd1e9d388db2",
+  "source_skill_sha256": "d14eb2ecb9394bdc120a9f5038b80183f25785a998879f165742bbd71db9befa",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

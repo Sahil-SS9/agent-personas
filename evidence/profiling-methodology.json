@@ -1,0 +1,8 @@
+{
+  "skill": "profiling-methodology",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "3a20f98dc3e6a2dd25450a3f9b9882debbce4a8fdff3ca6595d4a07c283b4221",
+  "source_skill_sha256": "6b729c4c23fa42bba3ffcf613a874cd3229ec23908f2279cfa6cd5b3b80697f5",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

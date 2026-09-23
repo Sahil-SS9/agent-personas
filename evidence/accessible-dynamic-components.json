@@ -1,0 +1,8 @@
+{
+  "skill": "accessible-dynamic-components",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "783044a4c3016563aa5114e132e0981e200d986a421aeb2d5bab1dc52c4c09a6",
+  "source_skill_sha256": "10407b9f6a2f93e80cd6d1a2cf11c25ce889bd9adae4b498d7be8bed382c1998",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

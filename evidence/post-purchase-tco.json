@@ -1,0 +1,8 @@
+{
+  "skill": "post-purchase-tco",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "560065c4fd47043ee769092655dedc3a4e42bbcde68afd712a40e28fadda8e60",
+  "source_skill_sha256": "e7711957653f4cd018f6a42c988f39aa42b3a609f27da880d1fde64e93d5954d",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

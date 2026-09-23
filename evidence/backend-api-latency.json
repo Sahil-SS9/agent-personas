@@ -1,0 +1,8 @@
+{
+  "skill": "backend-api-latency",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "744a6d835a50d4780a08a6627e8e4e91aa67bddbbb15e22ec4fd0c2c8c9ae299",
+  "source_skill_sha256": "7e8e4dde34358741dd925d325736759beef64b0a2e9b8f8fd45c3427220e17e3",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

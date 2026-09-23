@@ -1,0 +1,14 @@
+{
+  "name": "deal-hunter",
+  "version": "0.3.0",
+  "members": [
+    "landed-cost-sourcing",
+    "seller-verification-protocol",
+    "negotiation-batna-discipline",
+    "source-discovery-search",
+    "market-price-benchmarking",
+    "requirement-spec-matching",
+    "post-purchase-tco"
+  ],
+  "persona": "deal-hunter"
+}

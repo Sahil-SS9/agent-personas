@@ -1,0 +1,8 @@
+{
+  "skill": "architecture-decision-records",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "4a175d49d28b2cbc1caec2c29369a070c4ac5cee8f9c4cede22225dcecdb1008",
+  "source_skill_sha256": "c2dc78dd402f4fec8d7a76395f81c76dea321f82980625db4221eac955063b3c",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

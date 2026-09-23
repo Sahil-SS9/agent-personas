@@ -1,0 +1,8 @@
+{
+  "skill": "rag-retrieval-design",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "beadd2b33e99c34a4347d05fd8138c0d7f9fb7811b5a2c1a20b13c28e7ac2e99",
+  "source_skill_sha256": "685c9607f2d00d8012a8c0b1d92245d4909b4addaa2b4500eb6680ed6138dcd5",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

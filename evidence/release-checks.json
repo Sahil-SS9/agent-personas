@@ -2,7 +2,7 @@
   "schema_version": 1,
   "checked_on": "2026-09-08",
   "release_version": "0.1.0-experimental",
-  "verification_scope": "Controller-run checks; no independent audit or behavioural uplift claim",
+  "verification_scope": "Controller-run checks; per-skill validation scope is recorded in each evidence card",
   "consumer_regression": {
     "tests": 37,
     "failures": 0,

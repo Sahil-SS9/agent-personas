@@ -1,0 +1,13 @@
+{
+  "name": "devops-sre",
+  "version": "0.3.0",
+  "members": [
+    "slo-and-error-budget-operations",
+    "progressive-delivery-and-rollback",
+    "production-health-ownership",
+    "infrastructure-as-code",
+    "cicd-pipeline-design",
+    "observability-instrumentation"
+  ],
+  "persona": "devops-sre"
+}

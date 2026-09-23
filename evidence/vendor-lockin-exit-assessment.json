@@ -1,0 +1,8 @@
+{
+  "skill": "vendor-lockin-exit-assessment",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "3d8ad5fa1e3bc7a6dbad1e5500469a0b7798a62065ab9da4e6ddaaa37a1fd0cb",
+  "source_skill_sha256": "9fdd5e8ddde1d9aba33516c5aecde139167842ca27056ea997976b6bc8771594",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

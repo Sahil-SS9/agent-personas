@@ -1,0 +1,8 @@
+{
+  "skill": "architecture-characteristics-driven-design",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "69afe5624c21e58ea1d9e0d54e2f59765812cf229c73880d378c969352b1f477",
+  "source_skill_sha256": "4e30da8ed2a99617216591b30ba0e198979f8bb35c735abb866ea8c586da2233",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

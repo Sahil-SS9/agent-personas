@@ -1,0 +1,8 @@
+{
+  "skill": "api-compatibility-analysis",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "6322a012631b9549cdce57a33bcee7a5cfbee19d9d254061e3f245cf94abd532",
+  "source_skill_sha256": "12286e7b9ee73c3fad6f8c23ba933daeffd1081e3000d59d15968868bd4286a0",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

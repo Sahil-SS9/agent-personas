@@ -1,0 +1,8 @@
+{
+  "skill": "runtime-rendering-performance",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "e4b8feaa3cfddc8340c551ed4daab671db4fe4726a3608d1478955080b422c9f",
+  "source_skill_sha256": "28a0ffd0dd7bfa884d27e2f61e49517ad80e92f6a25f4e6fb873e2bbf81aad26",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

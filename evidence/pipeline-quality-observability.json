@@ -1,0 +1,8 @@
+{
+  "skill": "pipeline-quality-observability",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "7d3477acc7d07589cca2e107dcb422c1634c1fd66c08be633cabdeacb41bfa1c",
+  "source_skill_sha256": "0d3ca7bc9d3737a73f2035c77aed66d7791cba50ac62d2b6308603c5acd3486a",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

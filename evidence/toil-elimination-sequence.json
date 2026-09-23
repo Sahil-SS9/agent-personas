@@ -1,0 +1,8 @@
+{
+  "skill": "toil-elimination-sequence",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "b769abbc160703f41028266520d82f119b8e8376efc8257a09870b1201ff4752",
+  "source_skill_sha256": "9735a8533e4531594cdf7f840c9c030b2959853b86233ed7baebf35d04d4ae26",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

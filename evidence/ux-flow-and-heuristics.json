@@ -1,0 +1,8 @@
+{
+  "skill": "ux-flow-and-heuristics",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "e664fae8a9ffbd03ea1530d7bca43c07c301db951ee760e9000a6ee36c6d9574",
+  "source_skill_sha256": "730c9c8623f455d378512ddde43550ed1d71b35a4481a9e0b55fe327ea1e9b42",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

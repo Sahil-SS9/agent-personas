@@ -1,0 +1,8 @@
+{
+  "skill": "control-hygiene-basics",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "b6406448d9bed77272110869742850bf5667d345f4727033a1dbfb65a72174a9",
+  "source_skill_sha256": "769729b0d7afe8b3dcd8dfdad3b386908e6d9cc3fbcc35e2aad9094ca3257576",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

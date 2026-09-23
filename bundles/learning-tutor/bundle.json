@@ -1,0 +1,13 @@
+{
+  "name": "learning-tutor",
+  "version": "0.3.0",
+  "members": [
+    "retrieval-and-spacing-design",
+    "direct-practice-projects",
+    "feedback-loop-calibration",
+    "curriculum-sequencing",
+    "diagnostic-assessment-design",
+    "motivation-habit-design"
+  ],
+  "persona": "learning-tutor"
+}

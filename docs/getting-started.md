@@ -19,7 +19,7 @@ The stage command tests file placement and membership, not native activation. La
 
 - [Travel role](../examples/travel-expert.txt): requirements, uncertainty and booking boundaries.
 - [Claim verification](../examples/claim-verification.txt): misleading numerical claim with missing evidence.
-- [Review criteria](../examples/REVIEW.md): what to inspect and what a smoke run cannot establish.
+- [Review criteria](../examples/REVIEW.md): what to inspect and how to judge the results.
 
 You can use any self-contained prompt file. Keep customer records, secrets and production credentials out of trial workspaces.
 
@@ -42,11 +42,11 @@ Without `--allow-execution`, a supplied command is not executed. Both execution 
 
 **Read before running:**
 
-- Separate working directories are not a security sandbox. The CLI may still access its normal account, filesystem and network. Use the CLI’s own restrictions; never add permission-bypass flags merely to get a passing run.
+- Keep your platform's permission controls in charge of security; a staging directory does not add restrictions beyond them. The CLI may still access its normal account, filesystem and network. Use the CLI’s own restrictions; never add permission-bypass flags merely to get a passing run.
 - Authentication is normally supplied by your CLI’s existing account. Ambient API-key environment variables are deliberately not forwarded by default. Environment-only authentication needs an explicit supported authentication setup in that CLI; do not put secret values in command arguments or committed files.
 - The helper runs no hidden `--version` or secondary commands. Record `your-agent --version` separately and retain the command/model identity alongside results.
 - Raw CLI output may contain private data despite basic token redaction. Inspect it before sharing. Reports are printed to stdout, not silently uploaded.
-- A successful process exit means `process-completed`, not good behaviour. `native_loading` remains `unverified` and `behaviour` remains `unreviewed` until checked against actual evidence.
+- A successful process exit means `process-completed`; then confirm `native_loading` and `behaviour` against the review criteria before relying on a staged role.
 - POSIX timeout cleanup terminates the owned process group. On Windows the direct child is terminated; descendant-process containment is not guaranteed. Windows execution has not been exercised for this release.
 
 For other harnesses, use a documented non-interactive argv array for your installed version. There is intentionally no guessed universal CLI command. [Compatibility and primary documentation](compatibility.md).

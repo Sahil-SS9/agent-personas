@@ -1,0 +1,8 @@
+{
+  "skill": "event-driven-contract-design",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "747933f2669bab6647f758dc4689b427a57a746543d26859cff1f72921246c1e",
+  "source_skill_sha256": "6a7f9cd9e9d069dc4cc2b3595f1a1c808c8eed28d4ea915ed65a0dd4df8fb404",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

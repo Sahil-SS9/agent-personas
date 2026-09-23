@@ -1,0 +1,8 @@
+{
+  "skill": "lakehouse-architecture-selection",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "b47ecc8c012bfd77314f1d93948933f5bc7ebf42b23ceb73dd7344ce85974e2a",
+  "source_skill_sha256": "b69bfe00dfa7fc98fc712f45ffa1ae04fc884c1909efcea236187d1283f71097",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

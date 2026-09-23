@@ -1,0 +1,8 @@
+{
+  "skill": "tax-wrapper-optimisation",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "6c6a06831d38a03f22b5687924edcb7c64473a9077241010965a69716ea96682",
+  "source_skill_sha256": "7625c2b7f4bc9d84892acb292ad65dd95c7f7390dfee455389a58eafad825048",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

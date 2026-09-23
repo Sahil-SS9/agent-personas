@@ -1,0 +1,8 @@
+{
+  "skill": "risk-protection-review",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "f7433c70b630576acf7375b1c8e6514c5a22a8d0e66cb3d8768534a26fcabd23",
+  "source_skill_sha256": "44b25327ae6cbcc2975039628dfbfdcb97a42b7ffccc5f75ad16c96670a5ea06",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

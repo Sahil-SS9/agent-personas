@@ -1,0 +1,8 @@
+{
+  "skill": "behaviour-first-budgeting",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "d6bf5e242054e4253998033c2b02541ceb39149bc84c45de0892d6d9787a7a97",
+  "source_skill_sha256": "4be9ef29f40377e1a63bd6ac76e1f6d23303f6f459dd74042d59026949c2ded2",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

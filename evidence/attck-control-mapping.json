@@ -1,0 +1,8 @@
+{
+  "skill": "attck-control-mapping",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "29d688da8fdbe133f05b85b3a0ff7a270248830758ba8ad4400408b1ff984334",
+  "source_skill_sha256": "cd680ff29aba3d74bc274e9801825852232af5bebe36464dc73ac4e71f30560a",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

@@ -1,0 +1,8 @@
+{
+  "skill": "journey-map-persona-artefacts",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "5ed988b02bdeb10a0a449f36b3c4ad8d71219ae7b2c8e3e90191ac9315302d64",
+  "source_skill_sha256": "7bd8845f3e833d1605ae2594cf9024e52760a5d6d62f41b461a533aaf36394c7",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

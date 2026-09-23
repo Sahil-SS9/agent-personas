@@ -1,0 +1,8 @@
+{
+  "skill": "ringed-technology-recommendation",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "fa59dc2678815bc59d6979ecbf5f481536e0d8dbd3378157e4e9df14547e0e7b",
+  "source_skill_sha256": "03c8889f7044efac25ba9305225f400c933282af79b471409b6e3a7e8898d778",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

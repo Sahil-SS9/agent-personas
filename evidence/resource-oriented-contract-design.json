@@ -1,0 +1,8 @@
+{
+  "skill": "resource-oriented-contract-design",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "c05fa627468c154215895368f49e443514e35f83ef8df5a22daa2553905facab",
+  "source_skill_sha256": "0ef96e3f35b39140c7ae6ee656742a0ace88b3adc3d4994a8821c11f45d1c6a2",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

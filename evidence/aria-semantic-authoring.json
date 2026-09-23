@@ -1,0 +1,8 @@
+{
+  "skill": "aria-semantic-authoring",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "3a1458d069f9a8ad7e9e3ebf531e5da6b0e2c90afebc7d3f40f2342145e53cfe",
+  "source_skill_sha256": "d35fa4153828ada219162e4f4adc5d11b1d2f8ec8f3e2e9bbe309ad1fe7169d6",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

@@ -1,0 +1,8 @@
+{
+  "skill": "design-system-documentation",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "543ed5079963cd6029fc9066e3e487c96a760215182dc5b749d23b32a2130d2e",
+  "source_skill_sha256": "96116f714a4b14e00d36e81ecf86de46596bb0722d15bbedd488d77b8470a4cb",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

@@ -1,0 +1,13 @@
+{
+  "name": "accessibility-engineer",
+  "version": "0.3.0",
+  "members": [
+    "wcag-conformance-audit",
+    "keyboard-and-sr-testing",
+    "inclusive-content-and-forms",
+    "aria-semantic-authoring",
+    "automated-a11y-ci",
+    "accessible-dynamic-components"
+  ],
+  "persona": "accessibility-engineer"
+}

@@ -1,0 +1,8 @@
+{
+  "skill": "orchestration-scheduling-design",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "7a5ef37be2595e618edc70a268ebb4ae01151d449c715bd153a38f68dd8f12e3",
+  "source_skill_sha256": "0faa1b0915ad8044fb5ff94e882164fde9f46a94226ea04ec1bc1600fa2b2a06",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

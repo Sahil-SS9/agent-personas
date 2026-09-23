@@ -1,0 +1,8 @@
+{
+  "skill": "streaming-vs-batch-design",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "bd2f06abac97c93af97d5e2f17b2d8b3700aab64f5d3d5e22fda17c8a66226ee",
+  "source_skill_sha256": "37db98e72829e024137e1fd2c912f2e3a370f12b1ba3debc0bec2ba1598f3cb0",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

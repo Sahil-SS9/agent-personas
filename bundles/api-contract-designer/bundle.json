@@ -1,0 +1,13 @@
+{
+  "name": "api-contract-designer",
+  "version": "0.3.0",
+  "members": [
+    "resource-oriented-contract-design",
+    "api-compatibility-analysis",
+    "contract-error-and-pragmatics-design",
+    "api-security-design",
+    "event-driven-contract-design",
+    "openapi-spec-authoring"
+  ],
+  "persona": "api-contract-designer"
+}

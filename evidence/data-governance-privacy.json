@@ -1,0 +1,8 @@
+{
+  "skill": "data-governance-privacy",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "3f8bc959ff084d5613cae2ad9fca14664b2614ddb5545f3c748a38beb424bc91",
+  "source_skill_sha256": "292b89455deeb8bad7042eb023af74c1cf4264c0159b5f430bb2a09fc401e00e",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

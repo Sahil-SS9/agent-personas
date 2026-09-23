@@ -1,0 +1,8 @@
+{
+  "skill": "analytics-dimensional-modelling",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "7882dfd9594aaa1632fe6ca2e29eaa1f8aedf476ccba2f7de736c7085510c4d4",
+  "source_skill_sha256": "f5980d7cdacd2bb1747b1e70d3cb6728a73027d3651d96358d18f4c8ca0455d2",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

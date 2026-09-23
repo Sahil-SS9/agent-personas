@@ -1,0 +1,8 @@
+{
+  "skill": "observability-instrumentation",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "ece81fb4cdafa2019b30ed2240df0fc658b3b5156c78a4e1d44a09340602d0d4",
+  "source_skill_sha256": "8dffa1a1cce796924b19fff6f7d76657cee4a2bcb6c085a0c2ca3db55236bafd",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

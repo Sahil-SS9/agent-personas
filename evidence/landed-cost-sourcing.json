@@ -1,0 +1,8 @@
+{
+  "skill": "landed-cost-sourcing",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "04f8f57c97a8789bd5048d5835d7c9fbd211a66ec0cd5a9e0376ad34cf3d070f",
+  "source_skill_sha256": "4907482fb35bc17a7a0d4435990216991703fe90ce958103396de9331810d595",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

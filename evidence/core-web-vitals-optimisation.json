@@ -1,0 +1,8 @@
+{
+  "skill": "core-web-vitals-optimisation",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "9359be4c24459e41a58dc2a809fab9f731ce0c71c7384deefe13f968345a2d1e",
+  "source_skill_sha256": "657b616da8671209144a834f8cb89d0d96d9229ae597ea58ee51999a473c40fe",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

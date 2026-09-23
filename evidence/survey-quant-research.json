@@ -1,0 +1,8 @@
+{
+  "skill": "survey-quant-research",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "679776c68cb215885866a53772f9e4023bfc0465789609ec0cb6d398086e4d48",
+  "source_skill_sha256": "5a1b5a7bda3765e7a1340c323fafb4f2a6a1c5b86e5dd90946809e21fe8af990",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

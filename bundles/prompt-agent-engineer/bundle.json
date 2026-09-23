@@ -1,0 +1,14 @@
+{
+  "name": "prompt-agent-engineer",
+  "version": "0.3.0",
+  "members": [
+    "prompt-interface-design",
+    "agent-loop-guardrails",
+    "prompt-eval-regression",
+    "rag-retrieval-design",
+    "tool-function-calling-design",
+    "prompt-injection-defence",
+    "token-cost-latency-optimisation"
+  ],
+  "persona": "prompt-agent-engineer"
+}

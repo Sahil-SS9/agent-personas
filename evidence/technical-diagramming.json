@@ -1,0 +1,8 @@
+{
+  "skill": "technical-diagramming",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "669d71bd9f343eef0bd52a06ae3a949f82dc56fba8df32a14bd2f28c5334188a",
+  "source_skill_sha256": "2192ce940fed3ad9b9027d647860bdb6fc99ef3d6d6611e0572f3728ea2477f3",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

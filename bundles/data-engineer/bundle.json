@@ -1,0 +1,14 @@
+{
+  "name": "data-engineer",
+  "version": "0.3.0",
+  "members": [
+    "schema-design-and-evolution",
+    "query-and-index-optimisation",
+    "pipeline-quality-observability",
+    "lakehouse-architecture-selection",
+    "analytics-dimensional-modelling",
+    "streaming-vs-batch-design",
+    "data-governance-privacy"
+  ],
+  "persona": "data-engineer"
+}

@@ -1,0 +1,8 @@
+{
+  "skill": "frontend-testing",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "6cdf4f2cc8f82cc95e40d1daea38abf392fae587b1dda393a24bc24319f0d3b1",
+  "source_skill_sha256": "253077f8d06025b2fe802c5328fbdc071d451881259852293931f3c489f6e961",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

@@ -1,0 +1,8 @@
+{
+  "skill": "visual-hierarchy-craft",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "a82603bb1cd58bba09735d4b199cbd1bd97d970e3f3ad15d74df047925b05beb",
+  "source_skill_sha256": "2ed4f2448dde9c1978dc4c117cc3c4650ad376331c3dcb10e69c7e5046f962dc",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

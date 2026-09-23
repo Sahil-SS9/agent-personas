@@ -1,0 +1,8 @@
+{
+  "skill": "production-health-ownership",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "0a7c5c375201361624eb1294cf65ba18f10b17e40583e4926ea8f349c97ce914",
+  "source_skill_sha256": "091c64a5f118faa466730fb9a03a6c60d5b1d36c1a3a996735464b585c88dd82",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

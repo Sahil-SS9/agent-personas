@@ -1,0 +1,8 @@
+{
+  "skill": "debt-payoff-strategy",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "33e7c882898bdf3bb3acd95ebd1ada7982ee33e20e384886e955e5a6442a1b5a",
+  "source_skill_sha256": "d86f98f734f5cec0a36d5d6c927fcf747bc0a7913f64111cca1b432e6e125d6a",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

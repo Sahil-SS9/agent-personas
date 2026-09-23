@@ -1,0 +1,8 @@
+{
+  "skill": "safe-automation-delivery",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "2c6db6a7917efcd29cc25693dd9a2c3e7edfedbec60429cfbff54f822a60cc38",
+  "source_skill_sha256": "51bcf7056f1673abab34259961b931bf4651107b23347ab1db6d9aedee9a00b9",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

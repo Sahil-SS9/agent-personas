@@ -1,0 +1,8 @@
+{
+  "skill": "timeboxed-adoption-trial",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "c301446a6fe84e83eaa9cba766687b8db006a439cbf3ea101f4afd15ffaca3a0",
+  "source_skill_sha256": "b9385774b59bde8161ea46914047f5451525abc56c382c91731e192360619e67",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

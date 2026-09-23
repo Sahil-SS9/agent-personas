@@ -1,0 +1,13 @@
+{
+  "name": "tool-evaluator",
+  "version": "0.3.0",
+  "members": [
+    "ringed-technology-recommendation",
+    "security-posture-triage",
+    "timeboxed-adoption-trial",
+    "total-cost-of-ownership-analysis",
+    "vendor-lockin-exit-assessment",
+    "stack-compatibility-check"
+  ],
+  "persona": "tool-evaluator"
+}

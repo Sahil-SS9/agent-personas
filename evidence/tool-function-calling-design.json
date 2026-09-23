@@ -1,0 +1,8 @@
+{
+  "skill": "tool-function-calling-design",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "d7ea33e6d76b20657ca49eeb073f939d99ef9baf8bd8580fa9379a46bf1da5a6",
+  "source_skill_sha256": "78dc6b265b8d4b665d97afcc1bcf1cab6e9038659b9200e191ef4a1599877477",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

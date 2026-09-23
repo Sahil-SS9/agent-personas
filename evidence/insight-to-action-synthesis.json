@@ -1,0 +1,8 @@
+{
+  "skill": "insight-to-action-synthesis",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "dd62282b7ae9c3a652838cba4c49a01bf90165edfa046bf80a9e63551b9ac4b2",
+  "source_skill_sha256": "b6d0c7a2ad9f739858138cc959c370d5d623e1cf9b4ae69eec5445b8de91dfbb",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

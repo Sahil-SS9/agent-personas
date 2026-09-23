@@ -1,0 +1,13 @@
+{
+  "name": "red-team-security",
+  "version": "0.3.0",
+  "members": [
+    "attack-path-modelling",
+    "finding-verification-and-chaining",
+    "offensive-scope-discipline",
+    "recon-enumeration-methodology",
+    "web-app-exploitation-technique",
+    "engagement-reporting-remediation"
+  ],
+  "persona": "red-team-security"
+}

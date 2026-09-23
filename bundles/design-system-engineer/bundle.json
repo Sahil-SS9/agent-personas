@@ -1,0 +1,13 @@
+{
+  "name": "design-system-engineer",
+  "version": "0.3.0",
+  "members": [
+    "design-token-architecture",
+    "component-library-contracts",
+    "system-governance-and-adoption",
+    "theming-multibrand",
+    "design-system-documentation",
+    "design-system-versioning-migration"
+  ],
+  "persona": "design-system-engineer"
+}

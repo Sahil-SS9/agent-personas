@@ -1,0 +1,8 @@
+{
+  "skill": "usability-testing-design",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "a6e4e1dc7d2e0ce6efead5bbdbe5f10459441c3a4184c323b6e765977b625946",
+  "source_skill_sha256": "875bd4bf4b31b29f5c8cf0836767c9877df7c628c322a9be0044653ec55d8b9f",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

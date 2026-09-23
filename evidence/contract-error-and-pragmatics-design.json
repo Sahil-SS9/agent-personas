@@ -1,0 +1,8 @@
+{
+  "skill": "contract-error-and-pragmatics-design",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "29f460ec48080786cc6c7a7aa16e6f30ad286efb3b76b18c5e89694046d0dc1a",
+  "source_skill_sha256": "0a73b64de18b3afda57251cd63ccbc41bd6fc3530f6e9e9cc35594d768d56ba8",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

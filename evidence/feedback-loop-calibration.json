@@ -1,0 +1,8 @@
+{
+  "skill": "feedback-loop-calibration",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "c902f7e8a2adf488a9ef7a4013865e1ef36bc81137f4ccfca4878517b961bf2d",
+  "source_skill_sha256": "f54123fb9a62cedaee20a4d9bd3820e05729ed999b224f1445cda15fadef7cbb",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

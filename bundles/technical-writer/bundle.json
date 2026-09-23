@@ -1,0 +1,13 @@
+{
+  "name": "technical-writer",
+  "version": "0.3.0",
+  "members": [
+    "diataxis-doc-typing",
+    "precision-editing",
+    "docs-lifecycle-ownership",
+    "docset-information-architecture",
+    "reference-doc-generation",
+    "technical-diagramming"
+  ],
+  "persona": "technical-writer"
+}

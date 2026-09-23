@@ -1,0 +1,8 @@
+{
+  "skill": "contamination-and-staleness-audit",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "c371cdecf97a385a783dd09fbda4027097ef532ca1ec8c4c362da257b07c40dc",
+  "source_skill_sha256": "6a1cf735b15478e6468724c49c6427601cc50f12f324f71cd937d2b148f17548",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

@@ -1,0 +1,8 @@
+{
+  "skill": "docset-information-architecture",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "750845a6bf11ba895eabb87fc843e66111eb525cea9f3255aea0d47cce629341",
+  "source_skill_sha256": "e5c6afd56660debf2df82fb1bbf63be5b2fbe4dff130de761c643a5dad5d749e",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

@@ -1,0 +1,8 @@
+{
+  "skill": "automation-cost-budgeting",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "8268599a710d35339de04319737b82375af6d7b76ef219da1537f7e668434439",
+  "source_skill_sha256": "534c2505532336e5bf659ea4ad60cb33bba376ff0e4be2a2ac23dd4321646a93",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

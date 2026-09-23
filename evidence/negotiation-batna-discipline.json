@@ -1,0 +1,8 @@
+{
+  "skill": "negotiation-batna-discipline",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "358be4eff9d6765a28487afd2e729a58e69b467c7c035d9bd2a45455a99c22ff",
+  "source_skill_sha256": "91564d04d531e7d2dfced3ddc8ebfcf8243b282330ddcc3096a86dada2e37ed6",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

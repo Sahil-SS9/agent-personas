@@ -1,0 +1,8 @@
+{
+  "skill": "api-security-design",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "b59377f9f52db453f443ef61f735d93130543427f56a67d2ce7400e9d008128e",
+  "source_skill_sha256": "717bbf5e54ba099ebcc76d16004c200c64012d22d2c3e59ee7f2926459c75551",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

@@ -1,0 +1,8 @@
+{
+  "skill": "precision-editing",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "771df9830d4a68f0fb11c365ef1b577b1e978a1bc543baf86d4a102533c54cea",
+  "source_skill_sha256": "f352115ffe140279cf171bb8bac7dd44225971fea95de6dc8730663f88180d0f",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

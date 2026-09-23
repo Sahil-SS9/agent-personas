@@ -1,0 +1,13 @@
+{
+  "name": "automation-engineer",
+  "version": "0.3.0",
+  "members": [
+    "toil-elimination-sequence",
+    "safe-automation-delivery",
+    "workflow-incident-readiness",
+    "orchestration-scheduling-design",
+    "automation-secrets-handling",
+    "automation-cost-budgeting"
+  ],
+  "persona": "automation-engineer"
+}

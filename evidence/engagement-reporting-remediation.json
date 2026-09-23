@@ -1,0 +1,8 @@
+{
+  "skill": "engagement-reporting-remediation",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "af584f0809b991bd1ce7924c02231d0d0cfd28dc7d6b47ea4fab95564808f836",
+  "source_skill_sha256": "5cbc24562e501bd40c95b05818f054d838b9bfb1dec25b996dc3af82d44609a2",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

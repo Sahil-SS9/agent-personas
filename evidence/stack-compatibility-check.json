@@ -1,0 +1,8 @@
+{
+  "skill": "stack-compatibility-check",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "8ce5825ef43b62a87ab9c0fac321e285b6e9290b608b2929069b441c3e8505ae",
+  "source_skill_sha256": "7ac0d5ed28fc85cb26d2c58755e10460556be4d3c082ca71d1b33d7322d53889",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

@@ -1,0 +1,8 @@
+{
+  "skill": "prompt-injection-defence",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "7107cc9dc400c82b02f92fb7396b4fefd16009fcab412b4ee76fcd06d12fad70",
+  "source_skill_sha256": "8c7c3498a75e89ad5a21d80fe5866b5fef6f1a6f11e6fa56140e3cd5069885dc",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

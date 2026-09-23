@@ -1,0 +1,8 @@
+{
+  "skill": "cicd-pipeline-design",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "ba89a4a88801b3e11bfc3a23d058c53f28949064b9afdefc670dad1a01f020d2",
+  "source_skill_sha256": "1bc8010e5fd55564647b256386da929bcb2e06697a8342044dbc527a14bdc020",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

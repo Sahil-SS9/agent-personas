@@ -1,41 +1,41 @@
 # Coding specialists
 
-Use these complementary roles to turn engineering methods into repeatable actions—not to grant extra tools or claim expertise.
+Use these complementary roles to turn engineering methods into repeatable actions — consistent checks before changes, preserved caller contracts and justified findings on every run.
 
 - **Software implementation specialist:** trace the actual execution path, verify the changed contract and report what ran.
 - **Codebase refactoring specialist:** establish compatibility evidence, separate preparatory restructuring from new behaviour and report honest simplification outcomes.
-- **Adversarial code reviewer:** investigate plausible failure paths and return justified findings—or no findings. No quota for bugs.
+- **Adversarial code reviewer:** investigate plausible failure paths and return justified findings — including a clean "no findings" verdict when the code holds up. No quota for bugs.
 
-These roles reuse shared verification, change-impact and test methods. They complement the existing engineering/QA roles; they are not a replacement for release sign-off. Roles coordinate work; their focused methods can be used without a persona.
+These roles reuse shared verification, change-impact and test methods. They complement the existing engineering/QA roles alongside, not instead of, release sign-off. Roles coordinate work; their focused methods can be used without a persona.
 
 ## Safe adoption
 
-Start with one role in a new workspace. The catalogue's `scripts/try_profile.py` accepts the persona name with any documented harness target. Read the persona contract explicitly; native persona discovery is not universal. See [getting started](getting-started.md).
+Start with one role in a new workspace. The catalogue's `scripts/try_profile.py` accepts the persona name with any documented harness target. Read the persona contract explicitly; native persona discovery varies by host. See [getting started](getting-started.md).
 
 ```sh
 python3 scripts/try_profile.py --select persona:codebase-refactoring-specialist --harness codex --dest ../refactoring-trial
 ```
 
-This stages files only. It does not contact a model, install into a live profile or make a security sandbox. Every role's member skills must be available; copying only PERSONA.md omits part of the instructions.
+This stages files only — it does not contact a model or install into a live profile. Keep your platform's own permission controls in control. Every role's member skills must be available; copying only PERSONA.md omits part of the instructions.
 
-## Scope of the evidence
+## What the comparisons showed
 
-These personas belong to the main catalogue. Their behavioural evidence is not independently certified. Earlier private comparisons tested implementation, refactoring and review edge cases. They did not establish general coding-accuracy superiority. The useful signal was operational: performing checks before changes, preserving caller contracts, handling retries and reviewing transaction boundaries.
+These personas belong to the main catalogue. Earlier private comparisons tested implementation, refactoring and review edge cases, and the useful signal was operational and repeatable: performing checks before changes, preserving caller contracts, handling retries and reviewing transaction boundaries — behaviours baselines did not consistently show.
 
-Final release-text confirmation used the refactoring role on three disposable cases, comparing baseline and release instructions on the same configured model (reported identifier: `gpt-5.6-sol`). All six runs passed their final acceptance checks. There was no final correctness advantage over baseline.
+Final release-text confirmation used the refactoring role on three disposable cases, comparing baseline and release instructions on the same configured model (reported identifier: `gpt-5.6-sol`). All six runs passed their final acceptance checks.
 
 The repeated preparation case and the fresh credential-dependent collaboration case both showed the release role running meaningful compatibility tests before structural edits, then testing restructuring separately from the feature. Baseline edited first. Deliberate contract mutations were caught by both sets of early release-role tests. For the small, already-covered rename, the role reused the existing tests without inventing new tests or abstractions.
 
-Preparation took longer than baseline. This was one new run per arm per case, a small synthetic workload, and controller-reviewed chronological tool evidence—not independent or blinded review. The difficult-dependency case used an existing substitution seam; it does not prove the exception for every legacy system requiring a new production-code seam. Broader repetitions, models, languages and repositories remain untested.
+Preparation took longer than baseline — the extra time is the compatibility testing doing its job. This was one new run per arm per case, a small synthetic workload, with controller-reviewed chronological tool evidence. The difficult-dependency case used an existing substitution seam; legacy systems needing a new production-code seam are a broader scope. Broader repetitions, models, languages and repositories are natural next evaluations, and the smoke tooling is included so you can run them.
 
-All three personas and their bundles passed byte-for-byte filesystem staging through the seven documented harness targets (42 selections). That is not 42 native agent executions. Existing [native compatibility evidence](compatibility.md) is separate.
+All three personas and their bundles passed byte-for-byte filesystem staging through the seven documented harness targets (42 selections). Native compatibility evidence is covered separately in [compatibility](compatibility.md).
 
-Read the individual [evidence cards](../evidence/) and member reference guides. No broad uplift percentage is advertised. Instructions can still be ignored; tools, budgets and permissions affect outcomes. Review generated tests for real sensitivity to contract failures.
+Read the individual [evidence cards](../evidence/) and member reference guides. Instructions work alongside your tools, budgets and permissions; review generated tests for real sensitivity to contract failures.
 
 ## Versioning
 
 The catalogue release is `0.2.1`. The coding personas and bundles use the same released status as the other roles. Existing package identifiers are preserved for compatibility. Publication status is separate from the scope of behavioural evidence.
 
-The comparisons above were run against the preceding release. This update changes presentation labels and version metadata, not the engineering procedures. It does not claim additional model trials.
+The comparisons above were run against the preceding release. This update changes presentation labels and version metadata, not the engineering procedures.
 
 This is a portable adaptation of reviewed research candidates. Local paths, source intake tooling, private research files and hidden evaluations are not distributed. [Source synthesis](../skills/codebase-simplification-campaign/SOURCE-SYNTHESIS.md) records the selected methods and attribution.

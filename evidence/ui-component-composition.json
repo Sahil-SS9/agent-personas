@@ -1,0 +1,8 @@
+{
+  "skill": "ui-component-composition",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "1e7621f83383769d6b00c7dd1c2d61d25cb421944a7fd835ba2e71ea948c2c0a",
+  "source_skill_sha256": "26dba4221fddfd06d2564f7c435e3e3acfd1a8acac01f85a1952ef2dae057ec0",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

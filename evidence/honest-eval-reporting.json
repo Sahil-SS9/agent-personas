@@ -1,0 +1,8 @@
+{
+  "skill": "honest-eval-reporting",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "0eac741e2be9fe8e35d686248f4da6cb5af77b28a97452078b1c80e7c766ac8f",
+  "source_skill_sha256": "784ce2970464522f3e7824e5eed468c95a24536a36c733a6d077b18a0089bf54",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

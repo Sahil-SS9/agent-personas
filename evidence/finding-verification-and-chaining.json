@@ -1,0 +1,8 @@
+{
+  "skill": "finding-verification-and-chaining",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "4fcd885849ca18114eb7493a94d74316e3c6e691b1ef41cef1b262cb11c7ca40",
+  "source_skill_sha256": "898e60a1e6464dba00db2fbe72b3810c12c6447b722c237773322ae9de378475",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

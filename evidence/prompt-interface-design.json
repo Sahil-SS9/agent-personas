@@ -1,0 +1,8 @@
+{
+  "skill": "prompt-interface-design",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "bdb374115980da6bdf59d5121ea982fda23b0fa1cb8f7a9a1add25ca5e21f41e",
+  "source_skill_sha256": "cb57a8b176434c37cbf546bd31e83c7b5f0a813c88454e5ea3ef64ce7edbcb30",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

@@ -1,0 +1,8 @@
+{
+  "skill": "frontend-architecture",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "696623aebe20ffd75167189904b17c38bf08ee9f604101aeae18a83709064858",
+  "source_skill_sha256": "ae49f40b3c0698f891626ef8cb72014f25cbea4d0bab0ebdd3351c588d04c2c3",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

@@ -1,0 +1,8 @@
+{
+  "skill": "diataxis-doc-typing",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "e6311b4be8e4136f2e535b4e0e497f2cc8afa1caff980338fc816bd60b437a66",
+  "source_skill_sha256": "1f9d773e75030e5bc345a96d122e48f1e2ed938f8134304f252dfb1518c830db",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

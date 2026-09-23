@@ -1,0 +1,8 @@
+{
+  "skill": "proportionate-research-design",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "4781e0984c16fc1fb21dc7c1bea8e0cfa322177a9e295cdf4c6f43daa32ec156",
+  "source_skill_sha256": "cba1895579e4430ddac284f9487daf9d69cb5bb52c797ae5d15bbc3fad2f958f",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

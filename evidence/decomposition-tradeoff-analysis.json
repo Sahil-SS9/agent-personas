@@ -1,0 +1,8 @@
+{
+  "skill": "decomposition-tradeoff-analysis",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "71a1c229a2bbc745a91f96c8d3937fa3a6d37b61c8556ad1fe217bc04958d1ca",
+  "source_skill_sha256": "00822408595b43df1392b0d2a630b9b5d24855c8476fc62dba4dd7dbe1d5288a",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

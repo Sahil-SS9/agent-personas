@@ -1,0 +1,8 @@
+{
+  "skill": "safety-redteam-eval",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "8e3e44bb011328a02c81abb3dde6fd66672c8f48ecd53206090280b30f2558f1",
+  "source_skill_sha256": "d0218b7f99e721539513a11b3cd290a936d1cbd185c32aae73b48ecea9505d0a",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

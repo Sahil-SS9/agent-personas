@@ -1,0 +1,8 @@
+{
+  "skill": "token-cost-latency-optimisation",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "c513a317303b4125d1618b0dda41ecf879b69894ff271a671fee25830b6e8e66",
+  "source_skill_sha256": "34d8c861e51e55e831f9434cc192478232e4bfa887ac983f7f50f77ec229f193",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

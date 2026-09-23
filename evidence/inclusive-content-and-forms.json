@@ -1,0 +1,8 @@
+{
+  "skill": "inclusive-content-and-forms",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "f0a81612bc230d1fd8000bba16a6ad67ffb3a46849322e469192ea14ee145eee",
+  "source_skill_sha256": "0da2670609ddd9ad1d9d054cb96070d45255f1dd984863af98432663fa3bf49e",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

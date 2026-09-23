@@ -1,0 +1,8 @@
+{
+  "skill": "infrastructure-as-code",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "f0d4de385eff08644fd3a319d63b339dd4a92f1e64ecc579f25da1ab8ad87dce",
+  "source_skill_sha256": "27d379ec3c556cf8eaf2fdf86fb0d3587cb1ae36bc240a572cd853e891c60c8e",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

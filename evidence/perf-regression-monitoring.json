@@ -1,0 +1,8 @@
+{
+  "skill": "perf-regression-monitoring",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "1ee02967ba6aad436505565e35915712c8cab2f7884c6deff10e2949c04cc980",
+  "source_skill_sha256": "5875d9131af4f5b4be044ca0ad6c7b4f6fd37a6c11021c73f97471aaeb4558a5",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

@@ -1,0 +1,8 @@
+{
+  "skill": "automated-a11y-ci",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "b7c6c24487dcdcb35e97f473d783b149f410679f00334f16a1c78e0a2ed5d2b5",
+  "source_skill_sha256": "114d137703541a85d1ac542fb227feb3defca6854a0f92bd98d03118a8192fff",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

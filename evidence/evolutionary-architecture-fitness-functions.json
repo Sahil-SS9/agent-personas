@@ -1,0 +1,8 @@
+{
+  "skill": "evolutionary-architecture-fitness-functions",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "aba198a0a291aa71d8e175f7ecea30db557c017fd9a27d93a1a83d30ba0b27a9",
+  "source_skill_sha256": "b6e20c4133ebd0acb0040e048e4b54deec30393ffda9b62a45cee3b2e65dd772",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

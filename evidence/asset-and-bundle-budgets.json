@@ -1,0 +1,8 @@
+{
+  "skill": "asset-and-bundle-budgets",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "c6867175903c73bcd76d066356ecfaad35e1f11a2386a26329b4cce840cc9a6d",
+  "source_skill_sha256": "6cb7415388260c226100d526e612d5734629ab772e98840367f594cadc91d059",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

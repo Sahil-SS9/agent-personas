@@ -1,0 +1,8 @@
+{
+  "skill": "attack-path-modelling",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "7136bd0ec06e0343d5f789b04a62dec4488606f1a58a8bdc4e4c77da5f1bba32",
+  "source_skill_sha256": "6de68986f03256b2fb6f62ee9a1ee47b50f9ade258162d5c18b72660f5968009",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

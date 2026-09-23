@@ -1,0 +1,8 @@
+{
+  "skill": "holistic-eval-design",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "499f60a948f420b4ae74996d69698a2fbbb19aa2b84578ff2f02bd1d7e2a768e",
+  "source_skill_sha256": "d33f01d6f3b94e195e3a570062a2c5586517077c4e3bdaae75e79c8e88bd92af",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

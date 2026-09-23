@@ -1,0 +1,8 @@
+{
+  "skill": "workflow-incident-readiness",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "9122c28278a2b0024aa62767d5d0b2ee6562fabaeb95b5c5b1cfafa2d43fb279",
+  "source_skill_sha256": "4c9a604f023fd3b8268dfd03d046ab5cf8f9cf874fddc345e01905be1f255665",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

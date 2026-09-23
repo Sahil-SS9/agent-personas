@@ -1,0 +1,8 @@
+{
+  "skill": "llm-as-judge-design",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "5f5c70058488dcf0b37dcbccd25612031d9e62dd32e2a1d20259589932f9430f",
+  "source_skill_sha256": "f1e04db46dfe4f4c2e88cf30c3c40821468fb3e59efcd70172e06b5b4c3813b5",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

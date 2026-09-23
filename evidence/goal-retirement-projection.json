@@ -1,0 +1,8 @@
+{
+  "skill": "goal-retirement-projection",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "81d65ec908fe90cbb11ec8b243310c4ed3f01151883b3cda790922999b5a271b",
+  "source_skill_sha256": "3c260573b2005d85256dc13ed7397e1978e3dc7f08b4207fa80bf013530c90fc",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

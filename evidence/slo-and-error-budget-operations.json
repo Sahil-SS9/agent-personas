@@ -1,0 +1,8 @@
+{
+  "skill": "slo-and-error-budget-operations",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "b6c1ca12bdb91380acd7f35e232c391bd70477c73980378da76d1085413ec1b0",
+  "source_skill_sha256": "7c41d8d8e54d5474ecf65e3fa228a4c7906bbde0d0452aec54fbab14a3424289",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

@@ -1,0 +1,8 @@
+{
+  "skill": "component-library-contracts",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "ebd093b906908452722a008e26e20824eb3b5a173fd4dd102558ac038bb2027e",
+  "source_skill_sha256": "76736fe629219238b1ef9389a02786dba927e7503934f3df781bafe93daa21e4",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

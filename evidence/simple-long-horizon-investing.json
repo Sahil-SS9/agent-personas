@@ -1,0 +1,8 @@
+{
+  "skill": "simple-long-horizon-investing",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "d127fe0541bb9e9490b52b37a8e30628003a2be93f155c4a892be786e6afb653",
+  "source_skill_sha256": "64b06dcf4f5be5d3e1d6121cf0e9e400d3b1c3635cef12c0ba7b5640f4859e22",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

@@ -1,0 +1,8 @@
+{
+  "skill": "openapi-spec-authoring",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "e5ff90e7c195c191f8bbf637424c198e2f614e0b0e0eff7907e7297075a458c0",
+  "source_skill_sha256": "0497093ab72126f2455ff3f7521caf9a2b551a4e05d7693b118f9b085906aa01",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

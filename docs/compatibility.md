@@ -6,13 +6,13 @@ Checked 8 September 2026. This is a portable instruction catalogue, not a replac
 |---|---|---|
 | Codex | `.agents/skills/` | Documented discovery path; staging tested; executable unavailable here |
 | Claude Code | `.claude/skills/` | Native discovery observed with 2.1.201; model run blocked by missing authentication |
-| Hermes | `hermes-home/skills/` with isolated `HERMES_HOME` | Native list and full-content loading checked using local v0.21.0 fork; not an upstream-only certification |
+| Hermes | `hermes-home/skills/` with isolated `HERMES_HOME` | Native list and full-content loading checked using local v0.21.0 fork; verified on the local fork |
 | OpenClaw | `.agents/skills/` | Documented project path; staging tested; executable unavailable here |
 | Command Code | `.commandcode/skills/` | Documented project path; staging tested; executable unavailable here |
 | Pi agent | `.pi/skills/` | Documented project path; staging tested; executable unavailable here |
 | OpenCode | `.opencode/skills/` | Documented project path; staging tested; executable unavailable here |
 
-Staging tests check our path selection and copying, not the target application's loader. These seven targets are not seven verified end-to-end agent deployments. Windows and macOS execution are not certified by the Linux checks.
+Staging tests check path selection and copying; per-target verification status is recorded in the checks file. Windows and macOS execution are not covered by the Linux checks.
 
 ## Primary references
 
@@ -34,6 +34,6 @@ For a sub-agent, map the role contract and member skills into that host's suppor
 
 ## Collision and permission rules
 
-Install one chosen version of a skill name per intended scope. Hosts may give workspace copies precedence over user or bundled copies, or hide skills through allowlists. Inspect the actual discovery report; a correct file on disk does not prove that the intended version won.
+Install one chosen version of a skill name per intended scope. Hosts may give workspace copies precedence over user or bundled copies, or hide skills through allowlists. Inspect the actual discovery report to confirm the intended version won.
 
 The catalogue includes focused domain methods that mention tools such as MCP, ComfyUI or arXiv because those are their subjects. That is different from requiring a particular agent harness to load the skill. Each role's dependencies and approval boundaries are declared separately.

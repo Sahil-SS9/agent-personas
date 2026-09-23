@@ -1,0 +1,8 @@
+{
+  "skill": "system-governance-and-adoption",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "4730b9f8b8155e8d7607ed099b7d4ba25c6b21252d1d2c68182ed275264faf4f",
+  "source_skill_sha256": "b50a5810be1f863118687b24508824600be6497ab4acc31923ed62ccaa0a0a7d",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

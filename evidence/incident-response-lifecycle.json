@@ -1,0 +1,8 @@
+{
+  "skill": "incident-response-lifecycle",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "fa2e07b8b672672bbe34d75c0648ea78dbc7d5118ee62c78f85f6363a67d6ab4",
+  "source_skill_sha256": "ca0bf7445313eaa23ad3b3a8be2c66e6ad014cc65ab690edd4ade705bab83e4f",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

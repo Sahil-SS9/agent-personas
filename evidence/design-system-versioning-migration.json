@@ -1,0 +1,8 @@
+{
+  "skill": "design-system-versioning-migration",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "2b2fe3f9f5a3cb9571b464634a09f0056f9a302581d106cd29d6a8bb0143dcfc",
+  "source_skill_sha256": "d5ad2d9d0ff7cf72b5418b28d21df1e58c061752202743b3923051b5fce13eac",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

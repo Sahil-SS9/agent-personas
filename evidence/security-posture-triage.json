@@ -1,0 +1,8 @@
+{
+  "skill": "security-posture-triage",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "c52a82eca75b08d668732c023094aecf00fa4fd093348a7d72cc9bd32f3f3438",
+  "source_skill_sha256": "73a55d321aca5774f0692de07cddf17ce31eca6eec3761ceb786ad9313634e3d",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

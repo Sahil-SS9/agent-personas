@@ -1,0 +1,8 @@
+{
+  "skill": "design-token-architecture",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "a6861204d81b43b710a628713cd1ef8cddbb391e8d236b5b7b7485d6a1e381d9",
+  "source_skill_sha256": "7c96aa38f03204c0270ea1206bfff60522ef1f1b3795d39a8bb275d89a8e4344",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

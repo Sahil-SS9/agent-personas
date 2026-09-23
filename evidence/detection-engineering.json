@@ -1,0 +1,8 @@
+{
+  "skill": "detection-engineering",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "ad53a306c8c8524e3667b3b3356180152c160fdc5126d9dbbe2a18c9acc06823",
+  "source_skill_sha256": "816cf5e6ba8f85d621d03496523b170e75a6219f906a5338edba4b4a20496d2d",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}

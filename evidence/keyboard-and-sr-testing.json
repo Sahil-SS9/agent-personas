@@ -1,0 +1,8 @@
+{
+  "skill": "keyboard-and-sr-testing",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "957a60cbf5b289d19d08e19778558888890895ddbec112d1e3602a409bef6923",
+  "source_skill_sha256": "7dd4c994321ab6b5bc013956149f0262882ec61b4b5f29971d30b3f53ae141ec",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+}
