@@ -1,0 +1,9 @@
+{
+  "skill": "exam-validity-and-robustness-proof",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "e81fc30e59e93c4c4e7d3231b0d5c73df81a801c599105a519135afb3d2fe3f9",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}

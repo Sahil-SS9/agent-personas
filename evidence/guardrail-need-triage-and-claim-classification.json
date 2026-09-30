@@ -1,0 +1,9 @@
+{
+  "skill": "guardrail-need-triage-and-claim-classification",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "54134a0edb045d54669f3f26f50335b33f8f7f4e86d2921073a0b46d546b519f",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}

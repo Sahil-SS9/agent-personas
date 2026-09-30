@@ -1,0 +1,19 @@
+{
+  "name": "open-source-maintainer",
+  "version": "0.1.0",
+  "members": [
+    "inbound-issue-triage-and-severity",
+    "out-of-scope-and-wontfix-kb",
+    "inbound-pr-review",
+    "pr-disposition-and-salvage",
+    "maintainer-communication-crafting",
+    "contribution-policy-authoring",
+    "reviewer-delegation-and-codeowners",
+    "contributor-vetting-and-spam-gate",
+    "code-of-conduct-enforcement",
+    "release-notes-and-changelog",
+    "project-health-and-maintainer-load-review"
+  ],
+  "persona": "open-source-maintainer",
+  "status": "draft"
+}

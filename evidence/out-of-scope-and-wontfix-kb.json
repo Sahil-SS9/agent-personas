@@ -1,0 +1,9 @@
+{
+  "skill": "out-of-scope-and-wontfix-kb",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "4957d2b755ea6ab8874e6463a59ca3672f990edf1d72cdb35cbf3755af90c3ef",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}

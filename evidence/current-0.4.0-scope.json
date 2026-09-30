@@ -1,0 +1,406 @@
+{
+  "behavioural_claim": "No new measurement; frozen quality gate remains blocked. Historical evidence applies only to its recorded hashes.",
+  "release_version": "0.4.0",
+  "skills": {
+    "agent-artifact-attribution-and-scratch-routing": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "97dd65b51d39ddcb4ba15f24f1168ac88e8d026502e9931093b0d08ed4f656ad",
+      "historical_card": "evidence/agent-artifact-attribution-and-scratch-routing.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "97dd65b51d39ddcb4ba15f24f1168ac88e8d026502e9931093b0d08ed4f656ad"
+    },
+    "build-ci-and-package-artifact-sprawl-control": {
+      "current_matches_historical_hash": false,
+      "current_skill_sha256": "28fa6436f4e37c763957fc14305264ebc6eee8b29fea5e96de799e484ccd7dc9",
+      "historical_card": "evidence/build-ci-and-package-artifact-sprawl-control.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "a090883008c6dd1f0e676dc33925b27f5b58165614bdb5a3dec3b0c0c926af74"
+    },
+    "classifier-candidate-benchmark": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "f93d9a2bfca863516a380ebd45383f97381c4cbf15562c5a01168e615c83cdd4",
+      "historical_card": "evidence/classifier-candidate-benchmark.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "f93d9a2bfca863516a380ebd45383f97381c4cbf15562c5a01168e615c83cdd4"
+    },
+    "cleanup-cadence-and-new-debris-monitoring": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "3a633a556d3d26c7d82c6b02ed90a104e517a94b6f1533bfb31bf9dc7ab3056a",
+      "historical_card": "evidence/cleanup-cadence-and-new-debris-monitoring.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "3a633a556d3d26c7d82c6b02ed90a104e517a94b6f1533bfb31bf9dc7ab3056a"
+    },
+    "code-of-conduct-enforcement": {
+      "current_matches_historical_hash": false,
+      "current_skill_sha256": "16decea5ebb77717a948ff1d64f76accbbe356eee1be4d730dfca5fb9f2ac6fc",
+      "historical_card": "evidence/code-of-conduct-enforcement.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "951d9c74ca01fc92699956925c325d81129f9839f598703702a966255db7d22b"
+    },
+    "confidence-and-calibration-mechanics": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "f61ad04f57d49e56abbe0fa12463e4083466586e46be610c429ccae75456753a",
+      "historical_card": "evidence/confidence-and-calibration-mechanics.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "f61ad04f57d49e56abbe0fa12463e4083466586e46be610c429ccae75456753a"
+    },
+    "constraint-compliance-audit": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "0a644f7bd1884b83a8d9b1d89eb165714a2094ebd976275bffb28e288250293d",
+      "historical_card": "evidence/constraint-compliance-audit.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "0a644f7bd1884b83a8d9b1d89eb165714a2094ebd976275bffb28e288250293d"
+    },
+    "contribution-policy-authoring": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "0e99bfa37938134124b9949af785340b5f44aa8805d26d472bc27d5d3c0d1d19",
+      "historical_card": "evidence/contribution-policy-authoring.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "0e99bfa37938134124b9949af785340b5f44aa8805d26d472bc27d5d3c0d1d19"
+    },
+    "contributor-vetting-and-spam-gate": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "b70da64ec3154b99b627e68f6cac40c2afcea0d09880ba2c42c21116ec9107d7",
+      "historical_card": "evidence/contributor-vetting-and-spam-gate.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "b70da64ec3154b99b627e68f6cac40c2afcea0d09880ba2c42c21116ec9107d7"
+    },
+    "decision-exam-and-gate-design": {
+      "current_matches_historical_hash": false,
+      "current_skill_sha256": "f18e3285a204a88b09335ff00a952ddb7f550e218f1fde484f1da29e677c145a",
+      "historical_card": "evidence/decision-exam-and-gate-design.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "8ef7a701899782bbd63007d909ae759d661eb8fc109c8bd3a3c0f59c4ddd5a6d"
+    },
+    "decision-head-training-and-label-supply": {
+      "current_matches_historical_hash": false,
+      "current_skill_sha256": "d10e1ee3863b0cf85fa4d7f8b01bf407eae71fdfed944ccbb2aacdd09ef7de19",
+      "historical_card": "evidence/decision-head-training-and-label-supply.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "9039f0f9f3fda2f541da35e49da904d9f0f1cf7e63b997bc3bebdbe301cabb08"
+    },
+    "decision-model-monitoring-cost-and-drift": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "351b4d771973a9b5ae84ab7c21a98958bc39dd6ec7af080978cda66dd3955fc7",
+      "historical_card": "evidence/decision-model-monitoring-cost-and-drift.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "351b4d771973a9b5ae84ab7c21a98958bc39dd6ec7af080978cda66dd3955fc7"
+    },
+    "defence-surface-coverage-and-rail-placement": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "e8b6d0d43ed2ff15f8fd356728476096e6fda7c85e309e39f78c60506dc69a3b",
+      "historical_card": "evidence/defence-surface-coverage-and-rail-placement.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "e8b6d0d43ed2ff15f8fd356728476096e6fda7c85e309e39f78c60506dc69a3b"
+    },
+    "discount-entitlement-arbitration": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "ae15015de0e6fa432b7aa9bc02e22add152423603bce97da4e969426dc7afacd",
+      "historical_card": "evidence/discount-entitlement-arbitration.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "ae15015de0e6fa432b7aa9bc02e22add152423603bce97da4e969426dc7afacd"
+    },
+    "duplicate-and-hardlink-dedup-safety": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "c788ead656375f588b1d72c8e96634af435dd7ef560c410968052bf3777a2f7a",
+      "historical_card": "evidence/duplicate-and-hardlink-dedup-safety.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "c788ead656375f588b1d72c8e96634af435dd7ef560c410968052bf3777a2f7a"
+    },
+    "ecosystem-recon-and-pattern-mining": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "e1d3b196c4b91e71c7c28bd25a874bfe3682ceb116dd7e4e4dd3f5f1b2343bb2",
+      "historical_card": "evidence/ecosystem-recon-and-pattern-mining.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "e1d3b196c4b91e71c7c28bd25a874bfe3682ceb116dd7e4e4dd3f5f1b2343bb2"
+    },
+    "exam-validity-and-robustness-proof": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "e81fc30e59e93c4c4e7d3231b0d5c73df81a801c599105a519135afb3d2fe3f9",
+      "historical_card": "evidence/exam-validity-and-robustness-proof.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "e81fc30e59e93c4c4e7d3231b0d5c73df81a801c599105a519135afb3d2fe3f9"
+    },
+    "fail-open-gate-and-band-policy": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "940a808e35be82f9b1e100d64f740149d69f0a33388b6bda5256931a06ae1089",
+      "historical_card": "evidence/fail-open-gate-and-band-policy.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "940a808e35be82f9b1e100d64f740149d69f0a33388b6bda5256931a06ae1089"
+    },
+    "filesystem-inventory-and-provenance": {
+      "current_matches_historical_hash": false,
+      "current_skill_sha256": "2e5b2948d2afe71a3934ca7443c6af8a8409dd59eb300d49ebd3d70fe0f11a4f",
+      "historical_card": "evidence/filesystem-inventory-and-provenance.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "7ad1ed7e49ef27225f9a184bee5add6bd232d9ae156933890225a0a04dc8f53b"
+    },
+    "guard-model-selection-and-calibration": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "5836e4c5218fa5a37a3f57b1d4ff40f9db1bcc9f40082aae23c1883705becdc3",
+      "historical_card": "evidence/guard-model-selection-and-calibration.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "5836e4c5218fa5a37a3f57b1d4ff40f9db1bcc9f40082aae23c1883705becdc3"
+    },
+    "guardrail-benchmark-harness": {
+      "current_matches_historical_hash": false,
+      "current_skill_sha256": "57f5566360c395b43ed440c6672f99312a866c6a63dc5dc3ec6cbdbe283ebadc",
+      "historical_card": "evidence/guardrail-benchmark-harness.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "9c428dd7d1b6f65da7360ad10e06dd1c2ca93006eec2f032d330e2652ad6ab03"
+    },
+    "guardrail-change-control-and-drift-monitoring": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "3238ddb0e5eba0400efc4155c28b14817d1a6f6792ce44335a80be02eed2ade4",
+      "historical_card": "evidence/guardrail-change-control-and-drift-monitoring.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "3238ddb0e5eba0400efc4155c28b14817d1a6f6792ce44335a80be02eed2ade4"
+    },
+    "guardrail-need-triage-and-claim-classification": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "54134a0edb045d54669f3f26f50335b33f8f7f4e86d2921073a0b46d546b519f",
+      "historical_card": "evidence/guardrail-need-triage-and-claim-classification.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "54134a0edb045d54669f3f26f50335b33f8f7f4e86d2921073a0b46d546b519f"
+    },
+    "inbound-issue-triage-and-severity": {
+      "current_matches_historical_hash": false,
+      "current_skill_sha256": "1e38221b74feea4473d3bbe42895db1ab9199f4b8056a16d39e6da2ab926f60c",
+      "historical_card": "evidence/inbound-issue-triage-and-severity.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "13352794c8c237bce5b3116bccc589f1183d08f8fe440d4deebc5bd10a80a58e"
+    },
+    "inbound-pr-review": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "3c19afda7a2b34d33044fb632d910d5ae435711e2b549e774e17f2446a5fe9b9",
+      "historical_card": "evidence/inbound-pr-review.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "3c19afda7a2b34d33044fb632d910d5ae435711e2b549e774e17f2446a5fe9b9"
+    },
+    "least-privilege-capability-design": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "eeef79d2c848eca10ffc24e7f6023e696223c04ce61b6c541d6f32d2a46e9c40",
+      "historical_card": "evidence/least-privilege-capability-design.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "eeef79d2c848eca10ffc24e7f6023e696223c04ce61b6c541d6f32d2a46e9c40"
+    },
+    "llm-call-displacement-audit": {
+      "current_matches_historical_hash": false,
+      "current_skill_sha256": "7ffa2ae32b07f8822b642582dd678400008ce9e66161c66a81498d2c7162edb7",
+      "historical_card": "evidence/llm-call-displacement-audit.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "f3abeca1a130a2996013d61a792c37b4a74b4da048cadd4a4816dbe941614c90"
+    },
+    "maintainer-communication-crafting": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "2c366d2779e4ce385e79156b78cb73736f1b711f38489934cf6f9b2b240e14ce",
+      "historical_card": "evidence/maintainer-communication-crafting.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "2c366d2779e4ce385e79156b78cb73736f1b711f38489934cf6f9b2b240e14ce"
+    },
+    "model-attestation-probing": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "83df276144307d289ef5a153158c8c3cb674f61c0de35a69fefdff215165151a",
+      "historical_card": "evidence/model-attestation-probing.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "83df276144307d289ef5a153158c8c3cb674f61c0de35a69fefdff215165151a"
+    },
+    "new-provider-onboarding": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "224f707a36d440f0c15cbc9a78a586dd50f20b957612fa12b9bde6ee13f7743b",
+      "historical_card": "evidence/new-provider-onboarding.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "224f707a36d440f0c15cbc9a78a586dd50f20b957612fa12b9bde6ee13f7743b"
+    },
+    "out-of-scope-and-wontfix-kb": {
+      "current_matches_historical_hash": false,
+      "current_skill_sha256": "a81fefb32b6a82176b09ad6a609c8ca8e9c315b7ae1e13e6dc0cea321d038ee0",
+      "historical_card": "evidence/out-of-scope-and-wontfix-kb.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "4957d2b755ea6ab8874e6463a59ca3672f990edf1d72cdb35cbf3755af90c3ef"
+    },
+    "policy-to-control-decomposition": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "10e504bd74a312d8da92ab1dd629bb65c801941320a9b984800697467f87f0f6",
+      "historical_card": "evidence/policy-to-control-decomposition.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "10e504bd74a312d8da92ab1dd629bb65c801941320a9b984800697467f87f0f6"
+    },
+    "pr-disposition-and-salvage": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "fff106830524b35bc7d82d0c8d37f572fe0359bfa2dde9088dbff4a609e2967a",
+      "historical_card": "evidence/pr-disposition-and-salvage.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "fff106830524b35bc7d82d0c8d37f572fe0359bfa2dde9088dbff4a609e2967a"
+    },
+    "pre-deletion-backup-and-retention-proof": {
+      "current_matches_historical_hash": false,
+      "current_skill_sha256": "9faff55a83590252f6cc0eef4ad62ae72d8ee94cea980fee51d50aa718ac668f",
+      "historical_card": "evidence/pre-deletion-backup-and-retention-proof.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "9cdb584705b5bfdd1c84bd02c8705605cf0ab04d169e825e8f1dfa9c92daf9af"
+    },
+    "price-claim-sanity-check": {
+      "current_matches_historical_hash": false,
+      "current_skill_sha256": "31532aeca633c624aa701887799a8032e8936de6c1cb94cd413f363f46c5d563",
+      "historical_card": "evidence/price-claim-sanity-check.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "51a4fa57aa118b0b68e5e0698639980e1569e67570e9fe6168b1325e1af98287"
+    },
+    "project-health-and-maintainer-load-review": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "67dc1894b8300a7a41693593b37147d21dc49a4cf8906fd76f79590430ac0698",
+      "historical_card": "evidence/project-health-and-maintainer-load-review.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "67dc1894b8300a7a41693593b37147d21dc49a4cf8906fd76f79590430ac0698"
+    },
+    "provider-brief-authoring": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "624741597709dc57741c4d071a76771a543a37d0f1d798c0c8f787838f1314df",
+      "historical_card": "evidence/provider-brief-authoring.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "624741597709dc57741c4d071a76771a543a37d0f1d798c0c8f787838f1314df"
+    },
+    "provider-discovery-and-model-sourcing": {
+      "current_matches_historical_hash": false,
+      "current_skill_sha256": "3e82e59aada2e76eff9d5e5e3898f3c65b56fb9c5a0c31b97c8001a138ffb0a5",
+      "historical_card": "evidence/provider-discovery-and-model-sourcing.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "4c9e15fba908fb4fc34bd7f575e07add07a76716f495ca90ab6363428cf0c320"
+    },
+    "provider-identity-and-payment-integrity": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "3367671a267f605f0ec07f9a7fc99dc58cee8c134332423a6c4742a03717a68b",
+      "historical_card": "evidence/provider-identity-and-payment-integrity.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "3367671a267f605f0ec07f9a7fc99dc58cee8c134332423a6c4742a03717a68b"
+    },
+    "quarantine-move-and-restore-safety": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "5a92e16f7646c7e8f659e50bc49e55f1076a8b7d76c6c78f02f85b34dfc6e15c",
+      "historical_card": "evidence/quarantine-move-and-restore-safety.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "5a92e16f7646c7e8f659e50bc49e55f1076a8b7d76c6c78f02f85b34dfc6e15c"
+    },
+    "rail-adversarial-review": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "8d4538c1603f08348b1b3d8913c39982dc212824db71235461d06906f7240316",
+      "historical_card": "evidence/rail-adversarial-review.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "8d4538c1603f08348b1b3d8913c39982dc212824db71235461d06906f7240316"
+    },
+    "rail-failure-mode-and-budget": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "fbad6e3ea07ec4c8a97fcb2b39550f9bac30928684f034c146db7b81aa0654a8",
+      "historical_card": "evidence/rail-failure-mode-and-budget.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "fbad6e3ea07ec4c8a97fcb2b39550f9bac30928684f034c146db7b81aa0654a8"
+    },
+    "rail-runtime-wiring": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "78af3ae47e4aaa108c5503009b0c5037686882f7f75e0f6740bebf2095d6bbe6",
+      "historical_card": "evidence/rail-runtime-wiring.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "78af3ae47e4aaa108c5503009b0c5037686882f7f75e0f6740bebf2095d6bbe6"
+    },
+    "release-notes-and-changelog": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "97a6d3e61f3b8faed3979c8b72946209aed4d16c81c88ddb2e2c0ffcf89e22fb",
+      "historical_card": "evidence/release-notes-and-changelog.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "97a6d3e61f3b8faed3979c8b72946209aed4d16c81c88ddb2e2c0ffcf89e22fb"
+    },
+    "reviewer-delegation-and-codeowners": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "22fb00e016dc68ff6e832dd27f81c53769a774307c944e807dd819ce9fca31be",
+      "historical_card": "evidence/reviewer-delegation-and-codeowners.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "22fb00e016dc68ff6e832dd27f81c53769a774307c944e807dd819ce9fca31be"
+    },
+    "safe-deletion-proposal-and-gate": {
+      "current_matches_historical_hash": false,
+      "current_skill_sha256": "cd30d55cabbf40179021a485c648584c01dbb47f5f5441fd0c02b4600aa86f7d",
+      "historical_card": "evidence/safe-deletion-proposal-and-gate.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "b4a6d58a4704418175df7e59538fd9fe041f601874f6bf90721d06cd1bf342fa"
+    },
+    "self-host-and-serving-stack": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "30ef0c0c24d9a50ba1a97cfecdbcb58c187bf522fe2a64e21b9a13f5f95147dd",
+      "historical_card": "evidence/self-host-and-serving-stack.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "30ef0c0c24d9a50ba1a97cfecdbcb58c187bf522fe2a64e21b9a13f5f95147dd"
+    },
+    "source-legitimacy-grading-and-leeway": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "de2b25d25175d889e92c1b6aecf3e71a9202ce04cb5e32e010e2efbe20a2ae87",
+      "historical_card": "evidence/source-legitimacy-grading-and-leeway.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "de2b25d25175d889e92c1b6aecf3e71a9202ce04cb5e32e010e2efbe20a2ae87"
+    },
+    "storage-pressure-and-reclaim-forensics": {
+      "current_matches_historical_hash": false,
+      "current_skill_sha256": "379ffc28434d780c7d1452adafb6b0595be1d9db6696bc0cd2e28b419f7215e8",
+      "historical_card": "evidence/storage-pressure-and-reclaim-forensics.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "9093ea5f3f43643f7ede4c89b66bdd60999db1e3adbea4f92e44b04310ccd5b8"
+    },
+    "typed-decision-model-anatomy-and-question-design": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "f52695930213301cece89ae322257fec9b4311c019cfd72829b9822ce812a028",
+      "historical_card": "evidence/typed-decision-model-anatomy-and-question-design.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "f52695930213301cece89ae322257fec9b4311c019cfd72829b9822ce812a028"
+    },
+    "unit-economics-normaliser": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "c2236acd73c4ae3e9152e571d39eccdeef362b733b27f260cfea1801c7d56865",
+      "historical_card": "evidence/unit-economics-normaliser.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "c2236acd73c4ae3e9152e571d39eccdeef362b733b27f260cfea1801c7d56865"
+    },
+    "unused-orphan-and-load-bearing-confirmation": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "880e71a72e9625745aec8515c718bbbffd5b2cabda4829e245563a1553c327fe",
+      "historical_card": "evidence/unused-orphan-and-load-bearing-confirmation.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "880e71a72e9625745aec8515c718bbbffd5b2cabda4829e245563a1553c327fe"
+    },
+    "verdict-and-terms-change-governance": {
+      "current_matches_historical_hash": false,
+      "current_skill_sha256": "6f2c2edbd121a760fb7db25286258fc505c9065b2bf03791040760d7cbfbbc8e",
+      "historical_card": "evidence/verdict-and-terms-change-governance.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "bf04295d425740e3c1252c56f470640b1c98137d86c77a944b9f5b69bd0e3079"
+    },
+    "watch-register-and-exit-operations": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "d8d1307b8eec4a5a726fb28cb7929f6114e31114f6c0fac43494382e2f01ae7e",
+      "historical_card": "evidence/watch-register-and-exit-operations.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "d8d1307b8eec4a5a726fb28cb7929f6114e31114f6c0fac43494382e2f01ae7e"
+    },
+    "wire-contract-conformance-and-determinism": {
+      "current_matches_historical_hash": false,
+      "current_skill_sha256": "772ad692f9c2ad978d5f6e7db745d2e83f5dfc140165ca8cdb941ed6e6f47c7d",
+      "historical_card": "evidence/wire-contract-conformance-and-determinism.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "10320d298fa2b561670bf520decaa5945b7e7c7067ef2c0834a43ae5bc1f7fde"
+    },
+    "workspace-convention-and-gitignore-hygiene": {
+      "current_matches_historical_hash": false,
+      "current_skill_sha256": "5721677daca86248f96819c497948ce67e666b5ff729efd6a72e9bf68adf4651",
+      "historical_card": "evidence/workspace-convention-and-gitignore-hygiene.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "7ae3e45d51aed390e66484c7a1312324a9bdd4dd3ad6730975ba711e35260f83"
+    },
+    "zdr-retention-verification": {
+      "current_matches_historical_hash": true,
+      "current_skill_sha256": "c5f3b4c310a528f30fbf584071bfdd30392193c84853308d08fa3caeb16522fe",
+      "historical_card": "evidence/zdr-retention-verification.json",
+      "historical_recorded_version": "0.3.0",
+      "historical_skill_sha256": "c5f3b4c310a528f30fbf584071bfdd30392193c84853308d08fa3caeb16522fe"
+    }
+  },
+  "status": "local-owner-accepted-unbenchmarked-candidate"
+}

@@ -1,0 +1,9 @@
+{
+  "skill": "code-of-conduct-enforcement",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "951d9c74ca01fc92699956925c325d81129f9839f598703702a966255db7d22b",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}

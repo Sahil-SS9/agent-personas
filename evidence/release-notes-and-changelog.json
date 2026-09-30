@@ -1,0 +1,9 @@
+{
+  "skill": "release-notes-and-changelog",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "97a6d3e61f3b8faed3979c8b72946209aed4d16c81c88ddb2e2c0ffcf89e22fb",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}

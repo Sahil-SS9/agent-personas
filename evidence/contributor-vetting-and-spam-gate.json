@@ -1,0 +1,9 @@
+{
+  "skill": "contributor-vetting-and-spam-gate",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "b70da64ec3154b99b627e68f6cac40c2afcea0d09880ba2c42c21116ec9107d7",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}

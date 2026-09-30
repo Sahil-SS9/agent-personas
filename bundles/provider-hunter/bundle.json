@@ -1,0 +1,20 @@
+{
+  "name": "provider-hunter",
+  "version": "0.1.0",
+  "members": [
+    "provider-discovery-and-model-sourcing",
+    "unit-economics-normaliser",
+    "price-claim-sanity-check",
+    "discount-entitlement-arbitration",
+    "provider-identity-and-payment-integrity",
+    "model-attestation-probing",
+    "zdr-retention-verification",
+    "source-legitimacy-grading-and-leeway",
+    "verdict-and-terms-change-governance",
+    "provider-brief-authoring",
+    "new-provider-onboarding",
+    "watch-register-and-exit-operations"
+  ],
+  "persona": "provider-hunter",
+  "status": "draft"
+}

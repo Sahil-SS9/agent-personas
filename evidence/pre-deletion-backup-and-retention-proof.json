@@ -1,0 +1,9 @@
+{
+  "skill": "pre-deletion-backup-and-retention-proof",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "9cdb584705b5bfdd1c84bd02c8705605cf0ab04d169e825e8f1dfa9c92daf9af",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}

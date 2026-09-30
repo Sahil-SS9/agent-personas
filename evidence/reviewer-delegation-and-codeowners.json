@@ -1,0 +1,9 @@
+{
+  "skill": "reviewer-delegation-and-codeowners",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "22fb00e016dc68ff6e832dd27f81c53769a774307c944e807dd819ce9fca31be",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}

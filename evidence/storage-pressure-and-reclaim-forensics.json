@@ -1,0 +1,9 @@
+{
+  "skill": "storage-pressure-and-reclaim-forensics",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "9093ea5f3f43643f7ede4c89b66bdd60999db1e3adbea4f92e44b04310ccd5b8",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}

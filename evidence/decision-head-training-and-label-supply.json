@@ -1,0 +1,9 @@
+{
+  "skill": "decision-head-training-and-label-supply",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "9039f0f9f3fda2f541da35e49da904d9f0f1cf7e63b997bc3bebdbe301cabb08",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}

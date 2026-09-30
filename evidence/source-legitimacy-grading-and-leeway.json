@@ -1,0 +1,9 @@
+{
+  "skill": "source-legitimacy-grading-and-leeway",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "de2b25d25175d889e92c1b6aecf3e71a9202ce04cb5e32e010e2efbe20a2ae87",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}

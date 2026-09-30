@@ -1,0 +1,9 @@
+{
+  "skill": "duplicate-and-hardlink-dedup-safety",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "c788ead656375f588b1d72c8e96634af435dd7ef560c410968052bf3777a2f7a",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}

@@ -1,0 +1,9 @@
+{
+  "skill": "new-provider-onboarding",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "224f707a36d440f0c15cbc9a78a586dd50f20b957612fa12b9bde6ee13f7743b",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}

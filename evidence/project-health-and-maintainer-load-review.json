@@ -1,0 +1,9 @@
+{
+  "skill": "project-health-and-maintainer-load-review",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "67dc1894b8300a7a41693593b37147d21dc49a4cf8906fd76f79590430ac0698",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}

@@ -1,0 +1,9 @@
+{
+  "skill": "rail-failure-mode-and-budget",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "fbad6e3ea07ec4c8a97fcb2b39550f9bac30928684f034c146db7b81aa0654a8",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}

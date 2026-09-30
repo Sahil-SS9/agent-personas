@@ -4,7 +4,7 @@
 
 ### Connect your agents to the skills their job needs.
 
-A catalogue of **42 personas, 43 specialised skill bundles and 235 reusable skills** for building dedicated agents, sub-agents and bots. Choose a role, load its methods, and use the agent platform you already have.
+A catalogue of **47 personas, 48 specialised skill bundles and 292 reusable skills** for building dedicated agents, sub-agents and bots. Choose a role, load its methods, and use the agent platform you already have.
 
 [Choose a persona](#choose-your-first-persona) · [Try it](#try-a-persona-in-a-few-minutes) · [Browse everything](CATALOGUE.md) · [Platform compatibility](docs/compatibility.md) · [Evidence](docs/evidence.md)
 
@@ -129,6 +129,10 @@ The catalogue includes source attribution, method references and [per-skill evid
 We test package integrity separately from agent behaviour. Some behavioural comparisons showed useful changes in the order and depth of checks; others had equal outcomes or exposed regressions. Release status does not turn those observations into universal accuracy or speed claims. The [evidence guide](docs/evidence.md) keeps those distinctions visible.
 
 The private builder, raw research and hidden evaluation suite are not distributed. The consumer verification and staging scripts run independently of that tooling.
+
+## Local release candidate status
+
+The local 0.4.0 candidate contains owner-accepted bounded instruction clarifications without further benchmarks. Historical evidence cards and comparisons apply only to their recorded old hashes, not revised instruction bytes. The frozen 67-asset quality gate remains blocked (48 all-dimension passes, 19 correctness failures); updated instructions are unbenchmarked. Deterministic package checks are separate from behavioural qualification and publication approval. See the [local release decision and residuals](docs/local-release-candidate.md).
 
 ## Adapt it, then share what you find
 

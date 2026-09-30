@@ -1,0 +1,9 @@
+{
+  "skill": "inbound-issue-triage-and-severity",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "13352794c8c237bce5b3116bccc589f1183d08f8fe440d4deebc5bd10a80a58e",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}

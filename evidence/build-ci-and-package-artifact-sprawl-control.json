@@ -1,0 +1,9 @@
+{
+  "skill": "build-ci-and-package-artifact-sprawl-control",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "a090883008c6dd1f0e676dc33925b27f5b58165614bdb5a3dec3b0c0c926af74",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}

@@ -1,0 +1,9 @@
+{
+  "skill": "fail-open-gate-and-band-policy",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "940a808e35be82f9b1e100d64f740149d69f0a33388b6bda5256931a06ae1089",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}

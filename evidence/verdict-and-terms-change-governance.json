@@ -1,0 +1,9 @@
+{
+  "skill": "verdict-and-terms-change-governance",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "bf04295d425740e3c1252c56f470640b1c98137d86c77a944b9f5b69bd0e3079",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}

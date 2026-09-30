@@ -1,0 +1,9 @@
+{
+  "skill": "cleanup-cadence-and-new-debris-monitoring",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "3a633a556d3d26c7d82c6b02ed90a104e517a94b6f1533bfb31bf9dc7ab3056a",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}

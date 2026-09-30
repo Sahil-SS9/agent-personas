@@ -1,0 +1,9 @@
+{
+  "skill": "guard-model-selection-and-calibration",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "5836e4c5218fa5a37a3f57b1d4ff40f9db1bcc9f40082aae23c1883705becdc3",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}

@@ -1,0 +1,9 @@
+{
+  "skill": "provider-brief-authoring",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "624741597709dc57741c4d071a76771a543a37d0f1d798c0c8f787838f1314df",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}

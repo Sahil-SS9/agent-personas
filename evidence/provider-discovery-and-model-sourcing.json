@@ -1,0 +1,9 @@
+{
+  "skill": "provider-discovery-and-model-sourcing",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "4c9e15fba908fb4fc34bd7f575e07add07a76716f495ca90ab6363428cf0c320",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}

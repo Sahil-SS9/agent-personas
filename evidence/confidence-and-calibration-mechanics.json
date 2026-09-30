@@ -1,0 +1,9 @@
+{
+  "skill": "confidence-and-calibration-mechanics",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "f61ad04f57d49e56abbe0fa12463e4083466586e46be610c429ccae75456753a",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}

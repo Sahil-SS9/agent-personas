@@ -1,0 +1,19 @@
+{
+  "name": "filesystem-hygiene-steward",
+  "version": "0.1.0",
+  "members": [
+    "filesystem-inventory-and-provenance",
+    "unused-orphan-and-load-bearing-confirmation",
+    "agent-artifact-attribution-and-scratch-routing",
+    "duplicate-and-hardlink-dedup-safety",
+    "safe-deletion-proposal-and-gate",
+    "quarantine-move-and-restore-safety",
+    "pre-deletion-backup-and-retention-proof",
+    "workspace-convention-and-gitignore-hygiene",
+    "build-ci-and-package-artifact-sprawl-control",
+    "cleanup-cadence-and-new-debris-monitoring",
+    "storage-pressure-and-reclaim-forensics"
+  ],
+  "persona": "filesystem-hygiene-steward",
+  "status": "draft"
+}

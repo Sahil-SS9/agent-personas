@@ -1,0 +1,9 @@
+{
+  "skill": "ecosystem-recon-and-pattern-mining",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "e1d3b196c4b91e71c7c28bd25a874bfe3682ceb116dd7e4e4dd3f5f1b2343bb2",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}

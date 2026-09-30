@@ -1,0 +1,9 @@
+{
+  "skill": "self-host-and-serving-stack",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "30ef0c0c24d9a50ba1a97cfecdbcb58c187bf522fe2a64e21b9a13f5f95147dd",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}

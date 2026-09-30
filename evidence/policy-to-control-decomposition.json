@@ -1,0 +1,9 @@
+{
+  "skill": "policy-to-control-decomposition",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "10e504bd74a312d8da92ab1dd629bb65c801941320a9b984800697467f87f0f6",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}

@@ -1,0 +1,9 @@
+{
+  "skill": "decision-exam-and-gate-design",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "8ef7a701899782bbd63007d909ae759d661eb8fc109c8bd3a3c0f59c4ddd5a6d",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}

@@ -1,0 +1,20 @@
+{
+  "name": "text-classifier-specialist",
+  "version": "0.1.0",
+  "members": [
+    "typed-decision-model-anatomy-and-question-design",
+    "confidence-and-calibration-mechanics",
+    "llm-call-displacement-audit",
+    "decision-exam-and-gate-design",
+    "exam-validity-and-robustness-proof",
+    "classifier-candidate-benchmark",
+    "decision-head-training-and-label-supply",
+    "self-host-and-serving-stack",
+    "wire-contract-conformance-and-determinism",
+    "fail-open-gate-and-band-policy",
+    "decision-model-monitoring-cost-and-drift",
+    "ecosystem-recon-and-pattern-mining"
+  ],
+  "persona": "text-classifier-specialist",
+  "status": "draft"
+}

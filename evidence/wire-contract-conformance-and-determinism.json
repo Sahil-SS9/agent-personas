@@ -1,0 +1,9 @@
+{
+  "skill": "wire-contract-conformance-and-determinism",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "10320d298fa2b561670bf520decaa5945b7e7c7067ef2c0834a43ae5bc1f7fde",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}

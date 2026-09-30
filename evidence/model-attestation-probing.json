@@ -1,0 +1,9 @@
+{
+  "skill": "model-attestation-probing",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "83df276144307d289ef5a153158c8c3cb674f61c0de35a69fefdff215165151a",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}

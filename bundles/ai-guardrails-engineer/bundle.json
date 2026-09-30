@@ -1,0 +1,19 @@
+{
+  "name": "ai-guardrails-engineer",
+  "version": "0.1.0",
+  "members": [
+    "guardrail-need-triage-and-claim-classification",
+    "defence-surface-coverage-and-rail-placement",
+    "policy-to-control-decomposition",
+    "least-privilege-capability-design",
+    "rail-failure-mode-and-budget",
+    "guard-model-selection-and-calibration",
+    "rail-runtime-wiring",
+    "constraint-compliance-audit",
+    "guardrail-change-control-and-drift-monitoring",
+    "guardrail-benchmark-harness",
+    "rail-adversarial-review"
+  ],
+  "persona": "ai-guardrails-engineer",
+  "status": "draft"
+}

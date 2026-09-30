@@ -1,0 +1,9 @@
+{
+  "skill": "safe-deletion-proposal-and-gate",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "b4a6d58a4704418175df7e59538fd9fe041f601874f6bf90721d06cd1bf342fa",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}

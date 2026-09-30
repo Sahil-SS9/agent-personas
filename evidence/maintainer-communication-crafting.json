@@ -1,0 +1,9 @@
+{
+  "skill": "maintainer-communication-crafting",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "2c366d2779e4ce385e79156b78cb73736f1b711f38489934cf6f9b2b240e14ce",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}

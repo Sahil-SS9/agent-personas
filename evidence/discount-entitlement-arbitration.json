@@ -1,0 +1,9 @@
+{
+  "skill": "discount-entitlement-arbitration",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "ae15015de0e6fa432b7aa9bc02e22add152423603bce97da4e969426dc7afacd",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}

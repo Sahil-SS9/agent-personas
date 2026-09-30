@@ -1,0 +1,9 @@
+{
+  "skill": "agent-artifact-attribution-and-scratch-routing",
+  "release_version": "0.3.0",
+  "release_skill_sha256": "97dd65b51d39ddcb4ba15f24f1168ac88e8d026502e9931093b0d08ed4f656ad",
+  "source_skill_sha256": null,
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "provenance": "authored-for-release",
+  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+}
