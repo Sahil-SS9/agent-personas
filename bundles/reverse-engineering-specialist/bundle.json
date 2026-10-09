@@ -1,0 +1,17 @@
+{
+  "name": "reverse-engineering-specialist",
+  "version": "0.1.0",
+  "members": [
+    "artefact-triage-preservation",
+    "binary-structure-assembly",
+    "controlled-runtime-investigation",
+    "feature-protocol-reconstruction",
+    "security-binary-investigation",
+    "differential-verification-reporting",
+    "ghidra-workflow-adapter",
+    "frida-tracing-adapter",
+    "angr-symbolic-adapter",
+    "capa-floss-adapter"
+  ],
+  "persona": "reverse-engineering-specialist"
+}

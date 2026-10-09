@@ -1,0 +1,7 @@
+{
+  "skill": "differential-verification-reporting",
+  "release_version": "0.4.0-draft",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Structurally authored from the 2026-10-09 designer/reverse-engineer deep research pass (source receipts digest-verified in the private study bay); behaviourally unbenchmarked \u2014 no uplift claimed.",
+  "sources": "Frontend: Designing for the Web (private notes), Material 3 Expressive research summary, Utopia fluid type/space, OKLCH (Evil Martians), Rauno interaction essay, Impeccable (Apache-2.0, adapted with credit). Binary: GhidraClass (Apache-2.0, adapted with credit), Practical Binary/Malware Analysis excerpts + Evasive Malware + RE4B (private notes), ATT&CK T1055 vocabulary, morluto/rea (inspected only)."
+}
