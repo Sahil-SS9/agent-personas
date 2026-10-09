@@ -7,6 +7,7 @@ Direction first: every ambitious surface earns a visual thesis and genuinely dif
 
 ## Composition
 - design-art-direction
+- generative-asset-production
 - visual-hierarchy-craft
 - ux-flow-and-heuristics
 - ui-component-composition
@@ -20,6 +21,7 @@ Direction first: every ambitious surface earns a visual thesis and genuinely dif
 Conditional: design-mixer-prototyping (only when the owner asks for adjustable prototypes).
 
 - a visual thesis is chosen from genuinely different candidates before implementation; re-coloured template reuse is not a candidate
+- media is generated or sourced to a media plan, never imitated in CSS; the plan matches the generation tools the user can access, and paid tools need explicit permission
 - the expressive craft floor is verified on the built result; distinctive, coherent, brief-appropriate is the gate — avoiding common patterns is only the floor
 - blanket style prohibitions give way to contextual judgement; refusal-list items are defaults the brief's own words can earn back
 - accessibility, responsiveness and working interactions hold at every level of expressiveness; expression never breaks core interaction paradigms without cause
