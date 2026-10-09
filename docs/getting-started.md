@@ -65,6 +65,10 @@ The staging helper creates `hermes-home/skills/` rather than touching the defaul
 
 A bot profile additionally needs its host’s channel/account configuration. A sub-agent profile additionally needs its host’s dispatch policy. Neither is provisioned by this catalogue.
 
+### Sustained-use profiles and host memory
+
+Sustained-use personas — tutors, coaches, planners — accumulate context about the person they serve (progress, preferences, goals) faster than chat-only roles. Hosts bound the memory that is injected into every prompt (for example, Hermes’ built-in `MEMORY.md` / `USER.md` character limits), and a role that logs routine activity there will fill the store quickly and then spend turns consolidating. Keep recurring activity logs in files or the host’s session history; reserve always-injected memory for durable facts. If your host’s memory fills faster than you’d like, prune it, raise its configured limits where supported, or attach a deeper memory provider (in Hermes: `hermes memory setup`).
+
 ## Update and remove
 
 Keep the source release and customised copies separate. Compare changed files before updating; never overwrite local edits automatically. The catalogue hashes bind the release snapshot, so editing a file intentionally makes its integrity check fail until the publisher issues a new snapshot. That is expected, not an instruction to bypass verification.
