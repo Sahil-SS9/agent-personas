@@ -33,6 +33,7 @@ Any surface whose direction calls for imagery, illustration, lettering, texture,
 When a class has no generation access: (1) the next-best available class with an edit pass; (2) licensed stock with attribution, art-directed by crop, grade and treatment into the style bible; (3) a deliberately graphic direction (type-led, pattern, diagrammatic, procedural canvas or shader art) chosen as a style, not as a stand-in for photography or painting; (4) a clearly labelled placeholder plus the asset brief, so the owner can commission it. Tell the owner which tier each asset landed on and what access would raise it.
 
 ## Decision rules
+- Never write model or vendor names into skills, personas or plans meant to outlive the job. Route by capability class and rediscover the tools on every job: models are replaced fast, and the best currently available tool in each class wins, judged by testing it on the master asset, not by reputation.
 - No asset without a role in the media plan; no plan item without a fallback.
 - The thesis selects the medium; the available tools select the route. A weak tool never quietly downgrades the direction: report the gap instead.
 - Spending follows explicit permission per job, never inferred from a key existing.
