@@ -20,6 +20,9 @@ At the start of every investigation, and again whenever a question needs evidenc
    - Level 3, runtime (for example gdb, Frida, process capture): observed behaviour. Only inside owner-authorised isolation.
 3. Read at the level's natural unit: functions at Level 1-2, not whole-binary dumps. Ask for one function or one region at a time.
 4. Promote a finding only with corroboration from a second view (decompiler claim + bytes, or static claim + a contained run).
+5. Start an investigation ledger before deep exploration: record the question, known facts, competing hypotheses, evidence links, confidence, rejected explanations and next decision-relevant action. Keep hypotheses explicit; do not collapse ambiguity into a single story.
+6. Choose the next action by expected information gain: prefer the observation that distinguishes the leading hypotheses (for example, a caller trace, data-flow edge, decoded buffer, or contained run) over more undirected output. Stop when further actions are unlikely to change the verdict.
+7. For security questions, model source → transformations → sink and authentication/authorisation gates. Resolve indirect calls, callbacks, vtables and library boundaries where they affect the claim; an import or API name alone is not a behaviour.
 
 ## Finishing discipline
 - Keep working notes short; do not hand-decode long instruction runs when a higher level can show the same thing, and do not narrate arithmetic.
