@@ -1,6 +1,6 @@
 ---
 name: "analysis-capability-ladder"
-description: "Pick the strongest analysis level actually available (tool-less to decompiler to integration layer to runtime), state it, and finish the report within budget."
+description: "Pick the strongest analysis level available, discover and propose new tools when a gap blocks the answer, state the level used, and finish within budget."
 license: "MIT"
 ---
 
@@ -24,6 +24,15 @@ At the start of every investigation, and again whenever a question needs evidenc
 6. Choose the next action by expected information gain: prefer the observation that distinguishes the leading hypotheses (for example, a caller trace, data-flow edge, decoded buffer, or contained run) over more undirected output. Stop when further actions are unlikely to change the verdict.
 7. For security questions, model source → transformations → sink and authentication/authorisation gates. Resolve indirect calls, callbacks, vtables and library boundaries where they affect the claim; an import or API name alone is not a behaviour.
 
+## Exploring new tools
+The installed set is a starting point, not a ceiling. When a question needs a capability nothing installed provides (a format, language runtime, packer, firmware layout, protocol or platform the current tools cannot read), go looking.
+1. Name the gap precisely: what evidence is missing, and which level would supply it.
+2. Search for candidates: current open-source and vendor tools, format-specific parsers, unpackers, decompiler plugins and scripts. Prefer maintained, widely used, documented tools; note version and last release.
+3. Evaluate each candidate before proposing it: what it reads, licence, cost, install footprint (user-local or system), network access, trust signals (maintainers, signatures/checksums, issue history) and whether it can run offline inside isolation.
+4. Propose, do not install: give the owner a short recommendation (gap, best candidate, alternative, install scope, risk) and wait for approval. Never install system-wide, add paid tools, or run untrusted tooling outside isolation without explicit consent.
+5. Once approved: install user-local where possible, verify checksums, smoke-test on a known sample, record name and version, then continue the investigation at the new level.
+6. If nothing suitable exists, a small purpose-built script is a valid tool; keep it deterministic and include it with the evidence.
+
 ## Finishing discipline
 - Keep working notes short; do not hand-decode long instruction runs when a higher level can show the same thing, and do not narrate arithmetic.
 - Budget: by the time about two-thirds of the tool budget is spent, stop exploring and write the report. Unanswered questions go under unknowns.
@@ -33,6 +42,7 @@ At the start of every investigation, and again whenever a question needs evidenc
 - The report states the level used and what that level could not show.
 - A missing tool lowers confidence; it never licenses guessing.
 - If only Level 0 is available on a large or optimised binary, say the result is partial instead of over-reading.
+- When the gap blocks the verdict, recommend the tool that would close it rather than stopping at "not installed".
 
 ## Pitfalls
 - Treating Level 2 bookkeeping as extra evidence: it is the same decompiler underneath.

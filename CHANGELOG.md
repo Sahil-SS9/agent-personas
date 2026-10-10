@@ -3,7 +3,7 @@
 ## 0.5.0
 
 - Add the Reverse Engineering Specialist persona and bundle: 7 core skills plus 4 conditional tool adapters (11 total). It works at the strongest analysis level available, from format tools to decompilers, integration layers and isolated runtime, and states which level it used.
-- Reverse-engineering methods cover competing hypotheses with evidence for and against, information-gain-driven next steps, source-to-sink and pre-authorisation tracing, indirect-dispatch and library-boundary resolution, cross-version comparison and durable case state.
+- Reverse-engineering methods cover competing hypotheses with evidence for and against, information-gain-driven next steps, source-to-sink and pre-authorisation tracing, indirect-dispatch and library-boundary resolution, cross-version comparison and durable case state. When installed tools cannot answer a question, it searches for and evaluates new tools, then proposes them for approval instead of stopping.
 - Expand the Frontend UX Engineer from 8 to 12 skills: art direction across ten style families with no default style, tool-agnostic image and video asset production, live render verification with independent review, and design comparison prototyping.
 - Publish the 0.3.0 and 0.4.0 collections in this release; the full catalogue tables now list every persona, bundle and skill.
 - Owner-accepted revisions without a further benchmark: evidence cards apply only to the versions they record, and no new uplift is claimed.
