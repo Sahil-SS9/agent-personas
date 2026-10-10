@@ -21,7 +21,9 @@ Triage-to-verdict investigation of suspicious artefacts: suspected malware, an u
 7. Qualify impact with witness-first discipline: reproduce a witness (input → defect → effect) before claiming exploitability; a crash is not a vulnerability; a mechanism existing statically is not proof it executes.
 8. Apply negative controls: benign software uses the same APIs (instrumentation tools, debuggers, accessibility software, ordinary installers). A finding must explain why the hostile interpretation is the right one.
 9. For security-sensitive paths, trace source → transformations → sink and locate authentication/authorisation gates. Resolve indirect calls, callbacks, vtables and library boundaries when they affect reachability; an import or API name alone is not a behaviour.
-10. Report with the evidence boundary: what was observed, what was inferred, what is unknown, and what environment limits applied. Separately flag detection-relevant observables for handoff.
+10. If the target is a new version, patch, firmware release or variant, prefer a differential question: what changed, did the intended security fix alter the reachable mechanism, and did a regression appear elsewhere? Match functions by structure and references, then accept a match only after semantic confirmation.
+11. If the host supports durable case state, preserve confirmed identities, evidence, hypotheses and findings with binary identity, confidence and timestamps. Prior analyst state accelerates triage but never replaces re-verification on the current artefact.
+12. Report with the evidence boundary: what was observed, what was inferred, what is unknown, and what environment limits applied. Separately flag detection-relevant observables for handoff.
 
 ## Decision rules
 - Attribution beyond the artefact (actor, campaign) requires corroboration this investigation actually has; usually the honest answer is "consistent with", not "is".

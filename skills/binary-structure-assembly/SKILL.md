@@ -17,8 +17,9 @@ Any static analysis of executable artefacts: understanding file formats, disasse
 3. Disassemble with intent: functions are found by pattern and call-graph; find the boundary-missing regions and understand why (non-returning functions, opaque predicates, jumptables, data-in-code) before trusting surrounding code.
 4. Maintain an analysis-quality loop: entropy/overview scan → error bookmarks → correct signatures (including non-returning marks, variadic overrides, custom conventions) → define structures/classes incl. vftables → re-decompile → re-check. Decompiler output is evidence to correct, never truth; `in_`/`unaff_`/`extraout_` variables, p-code leaking into views and addresses assigned to locals are standard defect signatures with standard fixes.
 5. Data before code: type the memory (strings, constants, structures) the code touches; retyping data usually explains more than re-reading code.
-6. Track lineage: when a family relation is suspected, run differential comparison (function-level matching by exact/similar signatures and reference structure, accepted only where semantics agree, not where scores merely look high).
-7. Automate deliberately: headless, scriptable workflows repeat the loop over many artefacts; keep scripts deterministic, versioned and logged so their conclusions are reproducible.
+6. Track lineage: when a family relation is suspected, run differential comparison (function-level matching by exact/similar signatures and reference structure, accepted only where semantics agree, not where scores merely look high). When two versions are available, identify homologous functions, inspect the actual changed logic, verify the intended fix, and check later versions for regression rather than treating a changed hash as proof.
+7. Preserve reusable analysis state locally where the host supports it: confirmed function identities, named regions, patterns, findings and session notes must carry confidence and binary identity. Never treat inferred names or prior findings as confirmed without rechecking them against the current artefact.
+8. Automate deliberately: headless, scriptable workflows repeat the loop over many artefacts; keep scripts deterministic, versioned and logged so their conclusions are reproducible.
 
 ## Decision rules
 - A decompiled function you cannot explain in one sentence is not understood; dig or declare.
