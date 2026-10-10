@@ -1,6 +1,14 @@
 # Changelog
 
-## 0.4.0 (packaged; not published)
+## 0.5.0
+
+- Add the Reverse Engineering Specialist persona and bundle: 7 core skills plus 4 conditional tool adapters (11 total). It works at the strongest analysis level available, from format tools to decompilers, integration layers and isolated runtime, and states which level it used.
+- Reverse-engineering methods cover competing hypotheses with evidence for and against, information-gain-driven next steps, source-to-sink and pre-authorisation tracing, indirect-dispatch and library-boundary resolution, cross-version comparison and durable case state.
+- Expand the Frontend UX Engineer from 8 to 12 skills: art direction across ten style families with no default style, tool-agnostic image and video asset production, live render verification with independent review, and design comparison prototyping.
+- Publish the 0.3.0 and 0.4.0 collections in this release; the full catalogue tables now list every persona, bundle and skill.
+- Owner-accepted revisions without a further benchmark: evidence cards apply only to the versions they record, and no new uplift is claimed.
+
+## 0.4.0 (published in 0.5.0)
 
 - Add five agent and OSS ecosystem operations personas with 57 consolidated focused skills: open-source-maintainer (11), ai-guardrails-engineer (11), provider-hunter (12), filesystem-hygiene-steward (11), text-classifier-specialist (12).
 - Consolidate every persona to at most 12 skills, matching the largest bundle already in the catalogue; 82 drafted skills were reduced to 57 by merging overlapping behaviours rather than dropping capability.
@@ -10,7 +18,7 @@
 - No live profile activation is part of this public package.
 
 
-## 0.3.0 (packaged; not published)
+## 0.3.0 (published in 0.5.0)
 
 - Add 19 personas and bundles with 118 new focused skills, each validated through the private scenario-benchmark pipeline before packaging.
 - Packaging and narrow task pilots verified; measure fit in your own environment with the included verification and smoke tooling.

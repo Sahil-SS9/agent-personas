@@ -1,7 +1,7 @@
 {
   "skill": "analysis-capability-ladder",
-  "release_version": "0.4.0-draft",
+  "release_version": "0.5.0",
   "author_credit": "Sahil Saghir, Hermes Agent",
-  "validation": "Authored 2026-10-10 after the n=18 reverse-engineering A/B showed the persona failing to finish (6/9 no report) on format-level tools only; benchmark of levels 0/1/2 pending, no uplift claimed.",
-  "sources": "Benchmark evidence agent-personas-bench/outcome-runs-persona-ab-reverse-large-20261010; Ghidra headless docs (Apache-2.0); morluto/rea README and CLI (MIT, used as an example integration layer)."
+  "validation": "Private ground-truth comparisons on small native, .NET and Electron fixtures: decompiler access raised completed, correct reports for both plain and persona agents; the persona showed no separate uplift on a small local model. Later investigation-control revisions were owner-accepted without a further benchmark; no uplift is claimed for them.",
+  "sources": "Private benchmark evidence (not distributed); Ghidra headless documentation (Apache-2.0); REA documentation and CLI (MIT), inspected as an example integration layer."
 }

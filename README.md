@@ -4,7 +4,7 @@
 
 ### Connect your agents to the skills their job needs.
 
-A catalogue of **47 personas, 48 specialised skill bundles and 292 reusable skills** for building dedicated agents, sub-agents and bots. Choose a role, load its methods, and use the agent platform you already have.
+A catalogue of **48 personas, 49 specialised skill bundles and 308 reusable skills** for building dedicated agents, sub-agents and bots. Choose a role, load its methods, and use the agent platform you already have.
 
 [Choose a persona](#choose-your-first-persona) · [Try it](#try-a-persona-in-a-few-minutes) · [Browse all roles and bundles](#browse-all-personas-and-skill-bundles) · [Platform compatibility](docs/compatibility.md) · [Evidence](docs/evidence.md)
 
@@ -58,6 +58,8 @@ Start with the outcome you need. The coding roles sit alongside research, design
 | Review a change for reproducible defects | [Adversarial Code Reviewer](personas/adversarial-code-reviewer/PERSONA.md) |
 | Research a topic with traceable sources | [Grounded Researcher](personas/grounded-researcher/PERSONA.md) |
 | Challenge and refine a design | [Design Partner](personas/design-partner/PERSONA.md) |
+| Build a distinctive, verified frontend | [Frontend UX Engineer](personas/frontend-ux-engineer/PERSONA.md) |
+| Understand how a binary or app works, or whether it is safe | [Reverse Engineering Specialist](personas/reverse-engineering-specialist/PERSONA.md) |
 | Decide what to build and why | [Product Manager](personas/product-manager/PERSONA.md) |
 | Connect systems and verify their boundaries | [Integration Specialist](personas/integration-specialist/PERSONA.md) |
 | Coordinate an agent team | [Agent Team Lead](personas/agent-team-lead/PERSONA.md) |
@@ -68,7 +70,7 @@ Start with the outcome you need. The coding roles sit alongside research, design
 
 ## Browse all personas and skill bundles
 
-The directory below covers all 47 persona role contracts and 48 skill bundles. A persona defines the job, boundaries and completion criteria; a bundle selects methods without assigning a role. Each row links to both separately. Counts are declared member skills, not unique skills across the catalogue; shared skills are counted in each package that includes them.
+The directory below covers all 48 persona role contracts and 49 skill bundles. A persona defines the job, boundaries and completion criteria; a bundle selects methods without assigning a role. Each row links to both separately. Counts are declared member skills, not unique skills across the catalogue; shared skills are counted in each package that includes them.
 
 Paired personas and bundles currently have identical membership. Expand a group to inspect the linked skills for each entry. The standalone `knowledge-librarian-bundle` has no matching persona. Conditional members are included in counts but activate only when relevant and authorised; they grant no dispatch permission.
 
@@ -86,7 +88,7 @@ Paired personas and bundles currently have identical membership. Expand a group 
 | [performance-engineer](personas/performance-engineer/PERSONA.md) | [performance-engineer](bundles/performance-engineer/bundle.json) | Measure web performance and control regressions. | 6 |
 | [qa-test-evidence-architect](personas/qa-test-evidence-architect/PERSONA.md) | [qa-test-evidence-architect](bundles/qa-test-evidence-architect/bundle.json) | Choose test strategies and investigate flaky tests with evidence. | 10 |
 | [open-source-maintainer](personas/open-source-maintainer/PERSONA.md) | [open-source-maintainer](bundles/open-source-maintainer/bundle.json) | Triage contributions and maintain repository policy. | 11 |
-| [frontend-ux-engineer](personas/frontend-ux-engineer/PERSONA.md) | [frontend-ux-engineer](bundles/frontend-ux-engineer/bundle.json) | Build accessible interfaces with clear hierarchy and purposeful motion. | 8 |
+| [frontend-ux-engineer](personas/frontend-ux-engineer/PERSONA.md) | [frontend-ux-engineer](bundles/frontend-ux-engineer/bundle.json) | Choose a fitting visual direction from many style families, produce media and verify the live page. | 12 |
 
 <details>
 <summary>Inspect member skills: software, architecture and data</summary>
@@ -133,7 +135,7 @@ Paired personas and bundles currently have identical membership. Expand a group 
 
 #### frontend-ux-engineer
 
-[visual-hierarchy-craft](skills/visual-hierarchy-craft/SKILL.md) · [ux-flow-and-heuristics](skills/ux-flow-and-heuristics/SKILL.md) · [ui-component-composition](skills/ui-component-composition/SKILL.md) · [purposeful-motion](skills/purposeful-motion/SKILL.md) · [design-teardown-review](skills/design-teardown-review/SKILL.md) · [frontend-architecture](skills/frontend-architecture/SKILL.md) · [responsive-layout-systems](skills/responsive-layout-systems/SKILL.md) · [frontend-testing](skills/frontend-testing/SKILL.md)
+[design-art-direction](skills/design-art-direction/SKILL.md) · [generative-asset-production](skills/generative-asset-production/SKILL.md) · [visual-hierarchy-craft](skills/visual-hierarchy-craft/SKILL.md) · [ux-flow-and-heuristics](skills/ux-flow-and-heuristics/SKILL.md) · [ui-component-composition](skills/ui-component-composition/SKILL.md) · [purposeful-motion](skills/purposeful-motion/SKILL.md) · [reactive-render-verification](skills/reactive-render-verification/SKILL.md) · [design-teardown-review](skills/design-teardown-review/SKILL.md) · [frontend-architecture](skills/frontend-architecture/SKILL.md) · [responsive-layout-systems](skills/responsive-layout-systems/SKILL.md) · [frontend-testing](skills/frontend-testing/SKILL.md) · [design-mixer-prototyping](skills/design-mixer-prototyping/SKILL.md)
 
 </details>
 
@@ -207,6 +209,7 @@ Paired personas and bundles currently have identical membership. Expand a group 
 | [fleet-governance-operator](personas/fleet-governance-operator/PERSONA.md) | [fleet-governance-operator](bundles/fleet-governance-operator/bundle.json) | Inspect agent fleets and govern changes through approval gates. | 9 |
 | [blue-team-security](personas/blue-team-security/PERSONA.md) | [blue-team-security](bundles/blue-team-security/bundle.json) | Plan prevention, detection and rehearsed incident response. | 6 |
 | [red-team-security](personas/red-team-security/PERSONA.md) | [red-team-security](bundles/red-team-security/bundle.json) | Investigate authorised attack paths and report reproducible findings. | 6 |
+| [reverse-engineering-specialist](personas/reverse-engineering-specialist/PERSONA.md) | [reverse-engineering-specialist](bundles/reverse-engineering-specialist/bundle.json) | Reconstruct how software works and investigate its security behaviour with evidence and honest confidence. | 11 |
 
 <details>
 <summary>Inspect member skills: product, delivery and operations</summary>
@@ -254,6 +257,12 @@ Paired personas and bundles currently have identical membership. Expand a group 
 #### red-team-security
 
 [attack-path-modelling](skills/attack-path-modelling/SKILL.md) · [finding-verification-and-chaining](skills/finding-verification-and-chaining/SKILL.md) · [offensive-scope-discipline](skills/offensive-scope-discipline/SKILL.md) · [recon-enumeration-methodology](skills/recon-enumeration-methodology/SKILL.md) · [web-app-exploitation-technique](skills/web-app-exploitation-technique/SKILL.md) · [engagement-reporting-remediation](skills/engagement-reporting-remediation/SKILL.md)
+
+#### reverse-engineering-specialist
+
+[analysis-capability-ladder](skills/analysis-capability-ladder/SKILL.md) · [artefact-triage-preservation](skills/artefact-triage-preservation/SKILL.md) · [binary-structure-assembly](skills/binary-structure-assembly/SKILL.md) · [controlled-runtime-investigation](skills/controlled-runtime-investigation/SKILL.md) · [feature-protocol-reconstruction](skills/feature-protocol-reconstruction/SKILL.md) · [security-binary-investigation](skills/security-binary-investigation/SKILL.md) · [differential-verification-reporting](skills/differential-verification-reporting/SKILL.md) · [ghidra-workflow-adapter](skills/ghidra-workflow-adapter/SKILL.md) · [frida-tracing-adapter](skills/frida-tracing-adapter/SKILL.md) · [angr-symbolic-adapter](skills/angr-symbolic-adapter/SKILL.md) · [capa-floss-adapter](skills/capa-floss-adapter/SKILL.md)
+
+Conditional tool adapters: ghidra-workflow-adapter, frida-tracing-adapter, angr-symbolic-adapter and capa-floss-adapter load only when the tool is installed and in scope.
 
 </details>
 
@@ -426,9 +435,9 @@ We test package integrity separately from agent behaviour. Some behavioural comp
 
 The private builder, raw research and hidden evaluation suite are not distributed. The consumer verification and staging scripts run independently of that tooling.
 
-## Local release candidate status
+## Release status
 
-The local 0.4.0 candidate contains owner-accepted bounded instruction clarifications without further benchmarks. Historical evidence cards and comparisons apply only to their recorded old hashes, not revised instruction bytes. The frozen 67-asset quality gate remains blocked (48 all-dimension passes, 19 correctness failures); updated instructions are unbenchmarked. Deterministic package checks are separate from behavioural qualification and publication approval. See the [local release decision and residuals](docs/local-release-candidate.md).
+Release 0.5.0 adds the Reverse Engineering Specialist and expands the Frontend UX Engineer. The newest instruction revisions were accepted by the owner without a further benchmark; evidence cards apply to the versions they record. Package integrity checks are separate from behavioural claims. See the [release history](CHANGELOG.md) and [evidence guide](docs/evidence.md).
 
 ## Adapt it, then share what you find
 
