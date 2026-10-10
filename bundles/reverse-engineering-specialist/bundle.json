@@ -2,6 +2,7 @@
   "name": "reverse-engineering-specialist",
   "version": "0.1.0",
   "members": [
+    "analysis-capability-ladder",
     "artefact-triage-preservation",
     "binary-structure-assembly",
     "controlled-runtime-investigation",
