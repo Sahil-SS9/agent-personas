@@ -1,22 +1,22 @@
 ---
 name: mod-test-and-rollback
 description: "Test mods with controls and reversible rollback."
-version: 0.1.0
+version: 0.2.0
 author: Hermes
 license: MIT
 ---
 
 # Mod test and rollback
 
-Qualify a mod with isolated fixtures, regression checks and a proven rollback. This skill does not treat “the game launched” as sufficient validation.
+Qualify a mod with isolated fixtures, regression checks and a proven rollback. A launch is not sufficient validation.
 
 ## Procedure
-1. Freeze a clean baseline and capture a no-op control with the same loader.
-2. Test install, first launch, target behaviour, unrelated gameplay, performance, logs, save lifecycle and uninstall.
-3. Exercise missing dependencies, conflicts, version mismatch, malformed configuration and interrupted install.
-4. Compare deterministic outputs where possible; record flaky observations separately.
-5. Restore the baseline snapshot and prove the game launches without the mod and without residual files.
-6. Publish a concise compatibility report with known risks and reproduction steps.
+1. Freeze a clean baseline, save/config backup and no-op control. Hash each artefact.
+2. Test install, first launch, target behaviour, unrelated control behaviour, reload, upgrade, disable and uninstall.
+3. Exercise missing dependency, wrong version, load-order conflict, corrupted config and crash recovery in a disposable copy.
+4. Capture logs and exit status; distinguish mod errors, loader errors, game errors and environmental failures.
+5. Execute rollback from the documented manifest, restore saves/config and verify hashes plus a clean launch.
+6. Repeat rollback once from a fresh fixture. Record data loss, residual files and unsupported cases.
 
-## Verification
-Rollback passes only when the baseline hash/manifest and clean launch are restored after both successful and failed installation paths.
+## Acceptance
+Normal and negative controls produce expected outcomes; no save is modified outside scope; uninstall leaves the baseline; rollback restores the pre-test hash set; known failures are documented with repro fixtures.

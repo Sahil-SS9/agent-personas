@@ -1,6 +1,7 @@
 {
   "skill": "parity-and-differential-verification",
   "release_version": "0.6.0-draft",
-  "validation": "Structural package validation and persona contract benchmark passed; behavioural uplift is not claimed until task-specific model evaluation is independently scored.",
-  "sources": "Owner-directed /learn book study notes and public primary documentation were used as method input; copyrighted text was not reproduced."
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Source-backed draft. Structural gate and isolated staging pass; 28/28 local forced-choice fixtures were at ceiling (base=100%, skilled=100%), so no uplift is claimed.",
+  "sources": "Primary differential-testing and compatibility references plus private binary-investigation-source-study notes. Public skill contains paraphrased method and explicit measurement boundaries only. Full URL/hash receipts: research/re-hardening-and-candidates-20261016/sources/receipts.json."
 }

@@ -4,7 +4,9 @@
 
 - Add clean-room-reimplementation-engineer and game-modder personas, each with five focused skills and explicit authorisation, provenance, compatibility and rollback boundaries.
 - Harden reverse-engineering-specialist from 11 to 15 members with runtime metadata routing, authorised traffic/API mapping, format grammar reconstruction and bounded local agent bridges.
-- Structural catalogue verification and isolated persona staging pass. Behavioural qualification remains pending benchmark review; no live activation or publication is included.
+- Source study completed using public primary documentation plus the existing private `/learn` and `/learn book` learning boundary; public skills contain paraphrased procedures only, not source text.
+- Validation: structural catalogue gate and isolated staging pass. The corrected benchmark resume key now includes fixture identity (the old key silently skipped duplicate skill fixtures). Two local model conditions (`auto` and `active:aux`) ran 28 fixtures each (56 base/skilled pairs per model across 14 skills); both scored 100% base and 100% skilled, with 28/28 ceiling pairs and zero measured uplift or regressions. This is a valid ceiling result, not certification.
+- No live profile activation or publication is included.
 
 ## 0.4.0 (packaged; not published)
 

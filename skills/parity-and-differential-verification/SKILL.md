@@ -1,22 +1,22 @@
 ---
 name: parity-and-differential-verification
 description: "Measure behavioural parity with safe fixtures."
-version: 0.1.0
+version: 0.2.0
 author: Hermes
 license: MIT
 ---
 
 # Parity and differential verification
 
-Compare a candidate implementation with an authorised reference through a deterministic, redacted harness. This skill does not require access to or redistribution of the reference implementation.
+Compare a candidate with an authorised reference through a deterministic, redacted harness. This does not require access to or redistribution of the reference implementation.
 
 ## Procedure
-1. Freeze input fixtures, environment metadata, reference version and candidate version.
-2. Run both sides in separate disposable environments and capture structured outputs, errors, state changes and resource limits.
-3. Normalise only documented nondeterminism; never hide a mismatch by broad string cleaning.
-4. Score exact, semantic and tolerated fields separately. Classify mismatches as contract, platform, timing, unknown or candidate defect.
-5. Include malformed, boundary, repeated and rollback cases. Preserve failing fixtures and a minimal reproduction.
-6. Re-run the full matrix after every change and publish limitations alongside the score.
+1. Freeze inputs, environment, versions, seeds and reference/candidate command lines. Hash fixtures and outputs.
+2. Use a balanced suite: normal, boundary, malformed and safe negative controls. Include repeated runs for nondeterminism.
+3. Choose byte comparison for canonical serialisation and semantic comparison for permitted representation differences; declare tolerances before running.
+4. Normalise only documented nondeterminism. Never erase a mismatch by broadening the normaliser after seeing the result.
+5. Classify mismatches as cosmetic, behavioural, compatibility-critical or harness error; retain minimal reproducers and both raw outputs in private evidence.
+6. Report coverage, pass rate, mismatch categories, unsupported features and resource/time budgets.
 
 ## Verification
-Report fixture count, exact/semantic match rates, mismatch severity, excluded fields and a reproducible command.
+A result is valid only if the harness itself passes controls, the reference is versioned, negative controls remain distinguishable and all claimed metrics can be regenerated from the fixture manifest. A compile or sample-match is not parity.

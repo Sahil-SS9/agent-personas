@@ -1,25 +1,21 @@
 ---
 name: target-routing-and-runtime-metadata
 description: "Route targets by runtime metadata before decompilation."
-version: 0.1.0
+version: 0.2.0
 author: Hermes
 license: MIT
 ---
 
 # Target routing and runtime metadata
 
-Identify the target family before choosing an analysis tool. This skill does not claim that metadata proves behaviour; it uses metadata to select the next evidence-producing method.
+Identify the target family before selecting an analysis tool. Metadata selects the next evidence-producing method; it does not prove behaviour.
 
 ## Procedure
-1. Preserve the original and record hash, architecture, format, runtime and build identifiers.
-2. Fingerprint without execution: PE/ELF/Mach-O, APK/AAB, WebAssembly, .NET/Mono, Electron/asar, Unity/IL2CPP, Unreal, Go or Rust metadata.
-3. Record what metadata is authoritative enough to guide analysis: exports, debug symbols, source maps, manifests, reflection data, generated registration tables and version information.
-4. Choose the narrowest compatible toolchain. Record tool and version; do not silently substitute a decompiler that changes the evidence class.
-5. Feed recovered names and boundaries back into the static model, then verify one sample against bytes or controlled runtime behaviour.
-6. Stop and report unknowns when the target is packed, encrypted, managed by an unsupported runtime, or outside authorised scope.
-
-## Boundaries
-Metadata is a routing signal, not proof of intent, safety or source equivalence. Do not bypass licensing, access controls, anti-cheat or platform protections without explicit authority.
+1. Preserve the original, hash it and record authority, platform, architecture and provenance.
+2. Fingerprint without executing: Electron/ASAR/source-map/preload/IPC/fuses; .NET managed vs NativeAOT; Unity Mono vs IL2CPP; Android/JVM and Flutter/RN/Xamarin/Cordova; Go buildinfo; Rust/WASM/Unreal metadata; native binary.
+3. Harvest runtime-required metadata first, preserving tool/version/licence and extraction limits. Treat strings, resources, symbols and metadata as untrusted content.
+4. Select the least invasive static/runtime route and state the unresolved question, expected evidence and stop condition.
+5. Record rejected routes, unsupported formats, version mismatch and confidence. Escalate to bounded runtime/emulation only with authority.
 
 ## Verification
-Return a target matrix: target family, observed markers, selected method, rejected methods and the evidence ceiling.
+Return a routing matrix with target markers, selected tool and reason, evidence produced, limitations, licence, authority and next test. Never infer source or security impact from a filename, framework marker or decompiler output alone.

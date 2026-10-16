@@ -1,22 +1,22 @@
 ---
 name: game-runtime-instrumentation
 description: "Observe game behaviour in authorised local tests."
-version: 0.1.0
+version: 0.2.0
 author: Hermes
 license: MIT
 ---
 
 # Game runtime instrumentation
 
-Observe a game or mod in an authorised offline/local runtime to answer a bounded question. This skill does not provide anti-cheat bypass, multiplayer manipulation or credential access.
+Observe a game or mod in an authorised offline/local runtime to answer a bounded question. Never attach to anti-cheat-protected or online multiplayer processes, bypass protections, access credentials or manipulate a live service.
 
 ## Procedure
-1. Snapshot saves and configuration; record build, loader, platform and mod list.
-2. Define one observable: load event, asset lookup, script call, state transition, performance cost or crash.
-3. Use the least invasive logger, profiler, debug console or documented hook available. Bound duration, output and filesystem/network access.
-4. Compare baseline, mod-enabled and no-op-control runs. Separate mod effects from loader and environment effects.
-5. Capture logs and traces with secrets and personal data redacted.
-6. Remove instrumentation and verify the test environment returns to the snapshot.
+1. Snapshot saves, configuration and install metadata to a disposable, hashed fixture; verify restore before changing anything.
+2. Define one question, observable signal, time/resource budget and stop condition. Use a no-op control with the same loader.
+3. Prefer documented loader hooks/logging. Capture only required events; redact usernames, tokens, paths and personal data.
+4. Record build, loader, mod list, environment, seed/time and instrumentation version.
+5. Compare control and treatment traces, separating causal observations from timing noise. Repeat once before claiming a stable result.
+6. Stop on crash, unexpected network access, integrity warning, anti-cheat signal or scope drift; preserve logs and restore the fixture.
 
 ## Verification
-Provide baseline/control/candidate traces and a statement of what the instrumentation cannot observe.
+Evidence includes exact launch context, control/treatment traces, redaction check, replay/minimisation result and restore proof. Runtime observation shows a witnessed path, not exhaustive behaviour.
