@@ -41,7 +41,9 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [provider-hunter](personas/provider-hunter/PERSONA.md) | Find every route to the model you need — direct, discounted, free-tier, reseller — and refuse to recommend one until it has proved what it is. | 12 |
 | [qa-test-evidence-architect](personas/qa-test-evidence-architect/PERSONA.md) | Plan test strategy by architecture, hunt flaky tests to root cause, and make every quality claim carry verifiable evidence. | 10 |
 | [red-team-security](personas/red-team-security/PERSONA.md) | Investigate authorised attack paths and report reproducible findings. | 6 |
-| [reverse-engineering-specialist](personas/reverse-engineering-specialist/PERSONA.md) | Reconstruct how software works and investigate its security behaviour with evidence and honest confidence. | 11 |
+| [clean-room-reimplementation-engineer](personas/clean-room-reimplementation-engineer/PERSONA.md) | Turn authorised observations into independently implemented, behaviourally compatible software. | 5 |
+| [game-modder](personas/game-modder/PERSONA.md) | Create reproducible, compatible and reversible game modifications for authorised local or offline use. | 5 |
+| [reverse-engineering-specialist](personas/reverse-engineering-specialist/PERSONA.md) | Reconstruct software and investigate security behaviour with evidence, runtime routing and honest confidence. | 15 |
 | [risk-release-manager](personas/risk-release-manager/PERSONA.md) | Own the register of what could go wrong (with owners and triggers) and run releases from pre-flight gates through rehearsed rollback to post-release verification. | 4 |
 | [software-implementation-specialist](personas/software-implementation-specialist/PERSONA.md) | Deliver working features and bug fixes with minimal sufficient design. | 6 |
 | [support-specialist](personas/support-specialist/PERSONA.md) | Resolve issues at the right tier: first-line FCR with KB deflection, evidence-carrying escalations, third-line recurrence elimination, workarounds tracked to permanent fixes. | 4 |
@@ -95,7 +97,9 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [provider-hunter](bundles/provider-hunter/bundle.json) | 12 |
 | [qa-test-evidence-architect](bundles/qa-test-evidence-architect/bundle.json) | 10 |
 | [red-team-security](bundles/red-team-security/bundle.json) | 6 |
-| [reverse-engineering-specialist](bundles/reverse-engineering-specialist/bundle.json) | 11 |
+| [clean-room-reimplementation-engineer](bundles/clean-room-reimplementation-engineer/bundle.json) | 5 |
+| [game-modder](bundles/game-modder/bundle.json) | 5 |
+| [reverse-engineering-specialist](bundles/reverse-engineering-specialist/bundle.json) | 15 |
 | [risk-release-manager](bundles/risk-release-manager/bundle.json) | 4 |
 | [software-implementation-specialist](bundles/software-implementation-specialist/bundle.json) | 6 |
 | [support-specialist](bundles/support-specialist/bundle.json) | 4 |
@@ -565,6 +569,27 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 - [streaming-vs-batch-design](skills/streaming-vs-batch-design/SKILL.md) · [evidence](evidence/streaming-vs-batch-design.json)
 - [data-governance-privacy](skills/data-governance-privacy/SKILL.md) · [evidence](evidence/data-governance-privacy.json)
 
+## New in 0.5.0
+
+- [reverse-engineering-specialist](personas/reverse-engineering-specialist/PERSONA.md) · [bundle](bundles/reverse-engineering-specialist/bundle.json)
+- [frontend-ux-engineer](personas/frontend-ux-engineer/PERSONA.md) · [bundle](bundles/frontend-ux-engineer/bundle.json) (expanded from 8 to 12 skills)
+- [analysis-capability-ladder](skills/analysis-capability-ladder/SKILL.md) · [evidence](evidence/analysis-capability-ladder.json)
+- [angr-symbolic-adapter](skills/angr-symbolic-adapter/SKILL.md) · [evidence](evidence/angr-symbolic-adapter.json)
+- [artefact-triage-preservation](skills/artefact-triage-preservation/SKILL.md) · [evidence](evidence/artefact-triage-preservation.json)
+- [binary-structure-assembly](skills/binary-structure-assembly/SKILL.md) · [evidence](evidence/binary-structure-assembly.json)
+- [capa-floss-adapter](skills/capa-floss-adapter/SKILL.md) · [evidence](evidence/capa-floss-adapter.json)
+- [controlled-runtime-investigation](skills/controlled-runtime-investigation/SKILL.md) · [evidence](evidence/controlled-runtime-investigation.json)
+- [design-art-direction](skills/design-art-direction/SKILL.md) · [evidence](evidence/design-art-direction.json)
+- [design-mixer-prototyping](skills/design-mixer-prototyping/SKILL.md) · [evidence](evidence/design-mixer-prototyping.json)
+- [differential-verification-reporting](skills/differential-verification-reporting/SKILL.md) · [evidence](evidence/differential-verification-reporting.json)
+- [expressive-craft-floor](skills/expressive-craft-floor/SKILL.md) · [evidence](evidence/expressive-craft-floor.json)
+- [feature-protocol-reconstruction](skills/feature-protocol-reconstruction/SKILL.md) · [evidence](evidence/feature-protocol-reconstruction.json)
+- [frida-tracing-adapter](skills/frida-tracing-adapter/SKILL.md) · [evidence](evidence/frida-tracing-adapter.json)
+- [generative-asset-production](skills/generative-asset-production/SKILL.md) · [evidence](evidence/generative-asset-production.json)
+- [ghidra-workflow-adapter](skills/ghidra-workflow-adapter/SKILL.md) · [evidence](evidence/ghidra-workflow-adapter.json)
+- [reactive-render-verification](skills/reactive-render-verification/SKILL.md) · [evidence](evidence/reactive-render-verification.json)
+- [security-binary-investigation](skills/security-binary-investigation/SKILL.md) · [evidence](evidence/security-binary-investigation.json)
+
 ## New role collection (0.4.0)
 
 Five agent and OSS ecosystem operations personas, each consolidated to at most 12 skills.
@@ -634,24 +659,3 @@ Five agent and OSS ecosystem operations personas, each consolidated to at most 1
 - [wire-contract-conformance-and-determinism](skills/wire-contract-conformance-and-determinism/SKILL.md)
 - [workspace-convention-and-gitignore-hygiene](skills/workspace-convention-and-gitignore-hygiene/SKILL.md)
 - [zdr-retention-verification](skills/zdr-retention-verification/SKILL.md)
-
-## New in 0.5.0
-
-- [reverse-engineering-specialist](personas/reverse-engineering-specialist/PERSONA.md) · [bundle](bundles/reverse-engineering-specialist/bundle.json)
-- [frontend-ux-engineer](personas/frontend-ux-engineer/PERSONA.md) · [bundle](bundles/frontend-ux-engineer/bundle.json) (expanded from 8 to 12 skills)
-- [analysis-capability-ladder](skills/analysis-capability-ladder/SKILL.md) · [evidence](evidence/analysis-capability-ladder.json)
-- [angr-symbolic-adapter](skills/angr-symbolic-adapter/SKILL.md) · [evidence](evidence/angr-symbolic-adapter.json)
-- [artefact-triage-preservation](skills/artefact-triage-preservation/SKILL.md) · [evidence](evidence/artefact-triage-preservation.json)
-- [binary-structure-assembly](skills/binary-structure-assembly/SKILL.md) · [evidence](evidence/binary-structure-assembly.json)
-- [capa-floss-adapter](skills/capa-floss-adapter/SKILL.md) · [evidence](evidence/capa-floss-adapter.json)
-- [controlled-runtime-investigation](skills/controlled-runtime-investigation/SKILL.md) · [evidence](evidence/controlled-runtime-investigation.json)
-- [design-art-direction](skills/design-art-direction/SKILL.md) · [evidence](evidence/design-art-direction.json)
-- [design-mixer-prototyping](skills/design-mixer-prototyping/SKILL.md) · [evidence](evidence/design-mixer-prototyping.json)
-- [differential-verification-reporting](skills/differential-verification-reporting/SKILL.md) · [evidence](evidence/differential-verification-reporting.json)
-- [expressive-craft-floor](skills/expressive-craft-floor/SKILL.md) · [evidence](evidence/expressive-craft-floor.json)
-- [feature-protocol-reconstruction](skills/feature-protocol-reconstruction/SKILL.md) · [evidence](evidence/feature-protocol-reconstruction.json)
-- [frida-tracing-adapter](skills/frida-tracing-adapter/SKILL.md) · [evidence](evidence/frida-tracing-adapter.json)
-- [generative-asset-production](skills/generative-asset-production/SKILL.md) · [evidence](evidence/generative-asset-production.json)
-- [ghidra-workflow-adapter](skills/ghidra-workflow-adapter/SKILL.md) · [evidence](evidence/ghidra-workflow-adapter.json)
-- [reactive-render-verification](skills/reactive-render-verification/SKILL.md) · [evidence](evidence/reactive-render-verification.json)
-- [security-binary-investigation](skills/security-binary-investigation/SKILL.md) · [evidence](evidence/security-binary-investigation.json)

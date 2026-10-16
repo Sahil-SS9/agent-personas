@@ -4,7 +4,7 @@
 
 ### Connect your agents to the skills their job needs.
 
-A catalogue of **48 personas, 49 specialised skill bundles and 308 reusable skills** for building dedicated agents, sub-agents and bots. Choose a role, load its methods, and use the agent platform you already have.
+A catalogue of **50 personas, 51 specialised skill bundles and 322 reusable skills** for building dedicated agents, sub-agents and bots. Choose a role, load its methods, and use the agent platform you already have.
 
 [Choose a persona](#choose-your-first-persona) · [Try it](#try-a-persona-in-a-few-minutes) · [Browse all roles and bundles](#browse-all-personas-and-skill-bundles) · [Platform compatibility](docs/compatibility.md) · [Evidence](docs/evidence.md)
 
@@ -209,7 +209,9 @@ Paired personas and bundles currently have identical membership. Expand a group 
 | [fleet-governance-operator](personas/fleet-governance-operator/PERSONA.md) | [fleet-governance-operator](bundles/fleet-governance-operator/bundle.json) | Inspect agent fleets and govern changes through approval gates. | 9 |
 | [blue-team-security](personas/blue-team-security/PERSONA.md) | [blue-team-security](bundles/blue-team-security/bundle.json) | Plan prevention, detection and rehearsed incident response. | 6 |
 | [red-team-security](personas/red-team-security/PERSONA.md) | [red-team-security](bundles/red-team-security/bundle.json) | Investigate authorised attack paths and report reproducible findings. | 6 |
-| [reverse-engineering-specialist](personas/reverse-engineering-specialist/PERSONA.md) | [reverse-engineering-specialist](bundles/reverse-engineering-specialist/bundle.json) | Reconstruct how software works and investigate its security behaviour with evidence and honest confidence. | 11 |
+| [reverse-engineering-specialist](personas/reverse-engineering-specialist/PERSONA.md) | [reverse-engineering-specialist](bundles/reverse-engineering-specialist/bundle.json) | Reconstruct software and investigate security behaviour with evidence, runtime routing and honest confidence. | 15 |
+| [clean-room-reimplementation-engineer](personas/clean-room-reimplementation-engineer/PERSONA.md) | [clean-room-reimplementation-engineer](bundles/clean-room-reimplementation-engineer/bundle.json) | Turn authorised observations into independently implemented, behaviourally compatible software. | 5 |
+| [game-modder](personas/game-modder/PERSONA.md) | [game-modder](bundles/game-modder/bundle.json) | Create reproducible, compatible and reversible game modifications for authorised local or offline use. | 5 |
 
 <details>
 <summary>Inspect member skills: product, delivery and operations</summary>
@@ -260,7 +262,15 @@ Paired personas and bundles currently have identical membership. Expand a group 
 
 #### reverse-engineering-specialist
 
-[analysis-capability-ladder](skills/analysis-capability-ladder/SKILL.md) · [artefact-triage-preservation](skills/artefact-triage-preservation/SKILL.md) · [binary-structure-assembly](skills/binary-structure-assembly/SKILL.md) · [controlled-runtime-investigation](skills/controlled-runtime-investigation/SKILL.md) · [feature-protocol-reconstruction](skills/feature-protocol-reconstruction/SKILL.md) · [security-binary-investigation](skills/security-binary-investigation/SKILL.md) · [differential-verification-reporting](skills/differential-verification-reporting/SKILL.md) · [ghidra-workflow-adapter](skills/ghidra-workflow-adapter/SKILL.md) · [frida-tracing-adapter](skills/frida-tracing-adapter/SKILL.md) · [angr-symbolic-adapter](skills/angr-symbolic-adapter/SKILL.md) · [capa-floss-adapter](skills/capa-floss-adapter/SKILL.md)
+[analysis-capability-ladder](skills/analysis-capability-ladder/SKILL.md) · [artefact-triage-preservation](skills/artefact-triage-preservation/SKILL.md) · [binary-structure-assembly](skills/binary-structure-assembly/SKILL.md) · [controlled-runtime-investigation](skills/controlled-runtime-investigation/SKILL.md) · [feature-protocol-reconstruction](skills/feature-protocol-reconstruction/SKILL.md) · [security-binary-investigation](skills/security-binary-investigation/SKILL.md) · [differential-verification-reporting](skills/differential-verification-reporting/SKILL.md) · [ghidra-workflow-adapter](skills/ghidra-workflow-adapter/SKILL.md) · [frida-tracing-adapter](skills/frida-tracing-adapter/SKILL.md) · [angr-symbolic-adapter](skills/angr-symbolic-adapter/SKILL.md) · [capa-floss-adapter](skills/capa-floss-adapter/SKILL.md) · [target-routing-and-runtime-metadata](skills/target-routing-and-runtime-metadata/SKILL.md) · [traffic-and-api-surface-mapping](skills/traffic-and-api-surface-mapping/SKILL.md) · [format-grammar-reconstruction](skills/format-grammar-reconstruction/SKILL.md) · [agent-bridge-adapter](skills/agent-bridge-adapter/SKILL.md)
+
+#### clean-room-reimplementation-engineer
+
+[clean-room-boundary-and-provenance](skills/clean-room-boundary-and-provenance/SKILL.md) · [behaviour-specification-from-observation](skills/behaviour-specification-from-observation/SKILL.md) · [parity-and-differential-verification](skills/parity-and-differential-verification/SKILL.md) · [clean-room-implementation-workflow](skills/clean-room-implementation-workflow/SKILL.md) · [compatibility-release-and-handoff](skills/compatibility-release-and-handoff/SKILL.md)
+
+#### game-modder
+
+[game-target-and-toolchain-routing](skills/game-target-and-toolchain-routing/SKILL.md) · [mod-package-and-load-order-engineering](skills/mod-package-and-load-order-engineering/SKILL.md) · [game-runtime-instrumentation](skills/game-runtime-instrumentation/SKILL.md) · [save-data-and-compatibility](skills/save-data-and-compatibility/SKILL.md) · [mod-test-and-rollback](skills/mod-test-and-rollback/SKILL.md)
 
 Conditional tool adapters: ghidra-workflow-adapter, frida-tracing-adapter, angr-symbolic-adapter and capa-floss-adapter load only when the tool is installed and in scope.
 

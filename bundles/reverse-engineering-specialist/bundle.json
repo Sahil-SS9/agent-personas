@@ -1,6 +1,6 @@
 {
   "name": "reverse-engineering-specialist",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "members": [
     "analysis-capability-ladder",
     "artefact-triage-preservation",
@@ -12,7 +12,11 @@
     "ghidra-workflow-adapter",
     "frida-tracing-adapter",
     "angr-symbolic-adapter",
-    "capa-floss-adapter"
+    "capa-floss-adapter",
+    "target-routing-and-runtime-metadata",
+    "traffic-and-api-surface-mapping",
+    "format-grammar-reconstruction",
+    "agent-bridge-adapter"
   ],
   "persona": "reverse-engineering-specialist"
 }

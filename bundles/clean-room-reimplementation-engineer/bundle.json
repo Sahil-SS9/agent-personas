@@ -1,0 +1,12 @@
+{
+  "name": "clean-room-reimplementation-engineer",
+  "version": "0.1.0",
+  "members": [
+    "clean-room-boundary-and-provenance",
+    "behaviour-specification-from-observation",
+    "parity-and-differential-verification",
+    "clean-room-implementation-workflow",
+    "compatibility-release-and-handoff"
+  ],
+  "persona": "clean-room-reimplementation-engineer"
+}

@@ -1,0 +1,6 @@
+{
+  "skill": "behaviour-specification-from-observation",
+  "release_version": "0.6.0-draft",
+  "validation": "Structural package validation and persona contract benchmark passed; behavioural uplift is not claimed until task-specific model evaluation is independently scored.",
+  "sources": "Owner-directed /learn book study notes and public primary documentation were used as method input; copyrighted text was not reproduced."
+}

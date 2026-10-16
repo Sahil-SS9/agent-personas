@@ -1,0 +1,12 @@
+{
+  "name": "game-modder",
+  "version": "0.1.0",
+  "members": [
+    "game-target-and-toolchain-routing",
+    "mod-package-and-load-order-engineering",
+    "game-runtime-instrumentation",
+    "save-data-and-compatibility",
+    "mod-test-and-rollback"
+  ],
+  "persona": "game-modder"
+}

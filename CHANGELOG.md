@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.6.0 (local draft; not published)
+
+- Add clean-room-reimplementation-engineer and game-modder personas, each with five focused skills and explicit authorisation, provenance, compatibility and rollback boundaries.
+- Harden reverse-engineering-specialist from 11 to 15 members with runtime metadata routing, authorised traffic/API mapping, format grammar reconstruction and bounded local agent bridges.
+- Structural catalogue verification and isolated persona staging pass. Behavioural qualification remains pending benchmark review; no live activation or publication is included.
+
+## 0.4.0 (packaged; not published)
+
+- Add five agent and OSS ecosystem operations personas with 57 consolidated focused skills: open-source-maintainer (11), ai-guardrails-engineer (11), provider-hunter (12), filesystem-hygiene-steward (11), text-classifier-specialist (12).
+- Consolidate every persona to at most 12 skills, matching the largest bundle already in the catalogue; 82 drafted skills were reduced to 57 by merging overlapping behaviours rather than dropping capability.
+- Validation: the structural gate, an independent re-verified hash manifest, and deterministic re-authoring all pass. Behavioural benchmarking ran against two local models with no provider calls and no spend, over 57 authored fixtures: the stronger model moved from 95 to 98 percent, the weaker from 77 to 100 percent, with zero regressions on either.
+- These skills have NOT been through the private scenario-benchmark pipeline referenced by 0.3.0. The benchmark above is a standalone fixture set scored by content only; over half the fixtures sit at ceiling against the stronger model and cannot separate skill from prior knowledge, so it is reported as indicative, not as pipeline certification.
+- No live profile activation is part of this public package.
+
+
 ## 0.5.0
 
 - Add the Reverse Engineering Specialist persona and bundle: 7 core skills plus 4 conditional tool adapters (11 total). It works at the strongest analysis level available, from format tools to decompilers, integration layers and isolated runtime, and states which level it used.
