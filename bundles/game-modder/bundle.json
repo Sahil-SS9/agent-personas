@@ -1,7 +1,17 @@
 {
   "name": "game-modder",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "members": [
+    "mod-idea-to-route",
+    "unity-mod-building",
+    "unreal-mod-building",
+    "bethesda-and-script-extender-mods",
+    "java-and-dotnet-loader-mods",
+    "native-hooks-and-proxy-dlls",
+    "content-and-asset-pipeline",
+    "mashup-and-cross-game-bridges",
+    "mod-oracles-and-in-game-verification",
+    "mod-publishing-and-supply-chain",
     "game-target-and-toolchain-routing",
     "mod-package-and-load-order-engineering",
     "game-runtime-instrumentation",

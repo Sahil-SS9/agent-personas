@@ -4,7 +4,7 @@
 
 ### Connect your agents to the skills their job needs.
 
-A catalogue of **50 personas, 51 specialised skill bundles and 322 reusable skills** for building dedicated agents, sub-agents and bots. Choose a role, load its methods, and use the agent platform you already have.
+A catalogue of **50 personas, 51 specialised skill bundles and 332 reusable skills** for building dedicated agents, sub-agents and bots. Choose a role, load its methods, and use the agent platform you already have.
 
 [Choose a persona](#choose-your-first-persona) · [Try it](#try-a-persona-in-a-few-minutes) · [Browse all roles and bundles](#browse-all-personas-and-skill-bundles) · [Platform compatibility](docs/compatibility.md) · [Evidence](docs/evidence.md)
 
@@ -60,6 +60,8 @@ Start with the outcome you need. The coding roles sit alongside research, design
 | Challenge and refine a design | [Design Partner](personas/design-partner/PERSONA.md) |
 | Build a distinctive, verified frontend | [Frontend UX Engineer](personas/frontend-ux-engineer/PERSONA.md) |
 | Understand how a binary or app works, or whether it is safe | [Reverse Engineering Specialist](personas/reverse-engineering-specialist/PERSONA.md) |
+| Build a mod, or mash up two games you own | [Game Modder](personas/game-modder/PERSONA.md) |
+| Rebuild compatible software from observed behaviour | [Clean-Room Reimplementation Engineer](personas/clean-room-reimplementation-engineer/PERSONA.md) |
 | Decide what to build and why | [Product Manager](personas/product-manager/PERSONA.md) |
 | Connect systems and verify their boundaries | [Integration Specialist](personas/integration-specialist/PERSONA.md) |
 | Coordinate an agent team | [Agent Team Lead](personas/agent-team-lead/PERSONA.md) |
@@ -211,7 +213,7 @@ Paired personas and bundles currently have identical membership. Expand a group 
 | [red-team-security](personas/red-team-security/PERSONA.md) | [red-team-security](bundles/red-team-security/bundle.json) | Investigate authorised attack paths and report reproducible findings. | 6 |
 | [reverse-engineering-specialist](personas/reverse-engineering-specialist/PERSONA.md) | [reverse-engineering-specialist](bundles/reverse-engineering-specialist/bundle.json) | Reconstruct software and investigate security behaviour with evidence, runtime routing and honest confidence. | 15 |
 | [clean-room-reimplementation-engineer](personas/clean-room-reimplementation-engineer/PERSONA.md) | [clean-room-reimplementation-engineer](bundles/clean-room-reimplementation-engineer/bundle.json) | Turn authorised observations into independently implemented, behaviourally compatible software. | 5 |
-| [game-modder](personas/game-modder/PERSONA.md) | [game-modder](bundles/game-modder/bundle.json) | Create reproducible, compatible and reversible game modifications for authorised local or offline use. | 5 |
+| [game-modder](personas/game-modder/PERSONA.md) | [game-modder](bundles/game-modder/bundle.json) | Take a mod idea to a working, verified and reversible mod in the real game across Unity, Unreal, Bethesda, Java/.NET loader and native engines, including cross-game mashups, for games the user owns and plays offline or on servers they run. | 15 |
 
 <details>
 <summary>Inspect member skills: product, delivery and operations</summary>
@@ -270,7 +272,7 @@ Paired personas and bundles currently have identical membership. Expand a group 
 
 #### game-modder
 
-[game-target-and-toolchain-routing](skills/game-target-and-toolchain-routing/SKILL.md) · [mod-package-and-load-order-engineering](skills/mod-package-and-load-order-engineering/SKILL.md) · [game-runtime-instrumentation](skills/game-runtime-instrumentation/SKILL.md) · [save-data-and-compatibility](skills/save-data-and-compatibility/SKILL.md) · [mod-test-and-rollback](skills/mod-test-and-rollback/SKILL.md)
+[mod-idea-to-route](skills/mod-idea-to-route/SKILL.md) · [unity-mod-building](skills/unity-mod-building/SKILL.md) · [unreal-mod-building](skills/unreal-mod-building/SKILL.md) · [bethesda-and-script-extender-mods](skills/bethesda-and-script-extender-mods/SKILL.md) · [java-and-dotnet-loader-mods](skills/java-and-dotnet-loader-mods/SKILL.md) · [native-hooks-and-proxy-dlls](skills/native-hooks-and-proxy-dlls/SKILL.md) · [content-and-asset-pipeline](skills/content-and-asset-pipeline/SKILL.md) · [mashup-and-cross-game-bridges](skills/mashup-and-cross-game-bridges/SKILL.md) · [mod-oracles-and-in-game-verification](skills/mod-oracles-and-in-game-verification/SKILL.md) · [mod-publishing-and-supply-chain](skills/mod-publishing-and-supply-chain/SKILL.md) · [game-target-and-toolchain-routing](skills/game-target-and-toolchain-routing/SKILL.md) · [mod-package-and-load-order-engineering](skills/mod-package-and-load-order-engineering/SKILL.md) · [game-runtime-instrumentation](skills/game-runtime-instrumentation/SKILL.md) · [save-data-and-compatibility](skills/save-data-and-compatibility/SKILL.md) · [mod-test-and-rollback](skills/mod-test-and-rollback/SKILL.md)
 
 Conditional tool adapters: ghidra-workflow-adapter, frida-tracing-adapter, angr-symbolic-adapter and capa-floss-adapter load only when the tool is installed and in scope.
 

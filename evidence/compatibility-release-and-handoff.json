@@ -2,6 +2,6 @@
   "skill": "compatibility-release-and-handoff",
   "release_version": "0.6.0-draft",
   "author_credit": "Sahil Saghir, Hermes Agent",
-  "validation": "Source-backed draft. Structural gate and isolated staging pass; 28/28 local forced-choice fixtures were at ceiling (base=100%, skilled=100%), so no uplift is claimed.",
+  "validation": "Benchmarked 19/10/26: two hand-authored decision cases scored deterministically (scorer 2.3.0) against a baseline without the skill, one trial per arm on a frontier model in isolated no-tool sessions: case 1 4/4 without -> 4/4 with; case 2 2/4 without -> 4/4 with. Results at full marks in both arms are ceiling ties, not proof the skill adds nothing; single trials support no consistency claim.",
   "sources": "Private learned notes: binary-investigation-source-study; primary compatibility and differential-testing references recorded in research/re-hardening-and-candidates-20261016/sources/receipts.json. Public skills contain paraphrased procedures only, not source text."
 }

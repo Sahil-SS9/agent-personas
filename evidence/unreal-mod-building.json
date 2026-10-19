@@ -1,0 +1,7 @@
+{
+  "skill": "unreal-mod-building",
+  "release_version": "0.6.0-draft",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "sources": "Public loader and tool documentation (BepInEx, HarmonyX, MelonLoader, RE-UE4SS, SKSE, Fabric, NeoForge, tModLoader, SMAPI and others), rehan-remade/universal-modder (MIT) as a cross-check, and a GitHub landscape survey of 1,723 game-modding repositories on 18/10/26. Paraphrased procedures only.",
+  "validation": "Benchmarked 19/10/26: two hand-authored decision cases scored deterministically (scorer 2.3.0) against a baseline without the skill, one trial per arm on a frontier model in isolated no-tool sessions: case 1 4/4 without -> 4/4 with; case 2 4/4 without -> 4/4 with. Results at full marks in both arms are ceiling ties, not proof the skill adds nothing; single trials support no consistency claim."
+}

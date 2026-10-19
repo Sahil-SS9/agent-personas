@@ -42,7 +42,7 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [qa-test-evidence-architect](personas/qa-test-evidence-architect/PERSONA.md) | Plan test strategy by architecture, hunt flaky tests to root cause, and make every quality claim carry verifiable evidence. | 10 |
 | [red-team-security](personas/red-team-security/PERSONA.md) | Investigate authorised attack paths and report reproducible findings. | 6 |
 | [clean-room-reimplementation-engineer](personas/clean-room-reimplementation-engineer/PERSONA.md) | Turn authorised observations into independently implemented, behaviourally compatible software. | 5 |
-| [game-modder](personas/game-modder/PERSONA.md) | Create reproducible, compatible and reversible game modifications for authorised local or offline use. | 5 |
+| [game-modder](personas/game-modder/PERSONA.md) | Take a mod idea to a working, verified and reversible mod in the real game across Unity, Unreal, Bethesda, Java/.NET loader and native engines, including cross-game mashups, for games the user owns and plays offline or on servers they run. | 15 |
 | [reverse-engineering-specialist](personas/reverse-engineering-specialist/PERSONA.md) | Reconstruct software and investigate security behaviour with evidence, runtime routing and honest confidence. | 15 |
 | [risk-release-manager](personas/risk-release-manager/PERSONA.md) | Own the register of what could go wrong (with owners and triggers) and run releases from pre-flight gates through rehearsed rollback to post-release verification. | 4 |
 | [software-implementation-specialist](personas/software-implementation-specialist/PERSONA.md) | Deliver working features and bug fixes with minimal sufficient design. | 6 |
@@ -98,7 +98,7 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [qa-test-evidence-architect](bundles/qa-test-evidence-architect/bundle.json) | 10 |
 | [red-team-security](bundles/red-team-security/bundle.json) | 6 |
 | [clean-room-reimplementation-engineer](bundles/clean-room-reimplementation-engineer/bundle.json) | 5 |
-| [game-modder](bundles/game-modder/bundle.json) | 5 |
+| [game-modder](bundles/game-modder/bundle.json) | 15 |
 | [reverse-engineering-specialist](bundles/reverse-engineering-specialist/bundle.json) | 15 |
 | [risk-release-manager](bundles/risk-release-manager/bundle.json) | 4 |
 | [software-implementation-specialist](bundles/software-implementation-specialist/bundle.json) | 6 |
@@ -589,6 +589,36 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 - [ghidra-workflow-adapter](skills/ghidra-workflow-adapter/SKILL.md) · [evidence](evidence/ghidra-workflow-adapter.json)
 - [reactive-render-verification](skills/reactive-render-verification/SKILL.md) · [evidence](evidence/reactive-render-verification.json)
 - [security-binary-investigation](skills/security-binary-investigation/SKILL.md) · [evidence](evidence/security-binary-investigation.json)
+
+## New in 0.6.0
+
+- [clean-room-reimplementation-engineer](personas/clean-room-reimplementation-engineer/PERSONA.md) · [bundle](bundles/clean-room-reimplementation-engineer/bundle.json)
+- [game-modder](personas/game-modder/PERSONA.md) · [bundle](bundles/game-modder/bundle.json) (15 skills: 10 mod-building, 5 guardrails)
+- [reverse-engineering-specialist](personas/reverse-engineering-specialist/PERSONA.md) · [bundle](bundles/reverse-engineering-specialist/bundle.json) (expanded from 11 to 15 skills)
+- [agent-bridge-adapter](skills/agent-bridge-adapter/SKILL.md) · [evidence](evidence/agent-bridge-adapter.json)
+- [behaviour-specification-from-observation](skills/behaviour-specification-from-observation/SKILL.md) · [evidence](evidence/behaviour-specification-from-observation.json)
+- [bethesda-and-script-extender-mods](skills/bethesda-and-script-extender-mods/SKILL.md) · [evidence](evidence/bethesda-and-script-extender-mods.json)
+- [clean-room-boundary-and-provenance](skills/clean-room-boundary-and-provenance/SKILL.md) · [evidence](evidence/clean-room-boundary-and-provenance.json)
+- [clean-room-implementation-workflow](skills/clean-room-implementation-workflow/SKILL.md) · [evidence](evidence/clean-room-implementation-workflow.json)
+- [compatibility-release-and-handoff](skills/compatibility-release-and-handoff/SKILL.md) · [evidence](evidence/compatibility-release-and-handoff.json)
+- [content-and-asset-pipeline](skills/content-and-asset-pipeline/SKILL.md) · [evidence](evidence/content-and-asset-pipeline.json)
+- [format-grammar-reconstruction](skills/format-grammar-reconstruction/SKILL.md) · [evidence](evidence/format-grammar-reconstruction.json)
+- [game-runtime-instrumentation](skills/game-runtime-instrumentation/SKILL.md) · [evidence](evidence/game-runtime-instrumentation.json)
+- [game-target-and-toolchain-routing](skills/game-target-and-toolchain-routing/SKILL.md) · [evidence](evidence/game-target-and-toolchain-routing.json)
+- [java-and-dotnet-loader-mods](skills/java-and-dotnet-loader-mods/SKILL.md) · [evidence](evidence/java-and-dotnet-loader-mods.json)
+- [mashup-and-cross-game-bridges](skills/mashup-and-cross-game-bridges/SKILL.md) · [evidence](evidence/mashup-and-cross-game-bridges.json)
+- [mod-idea-to-route](skills/mod-idea-to-route/SKILL.md) · [evidence](evidence/mod-idea-to-route.json)
+- [mod-oracles-and-in-game-verification](skills/mod-oracles-and-in-game-verification/SKILL.md) · [evidence](evidence/mod-oracles-and-in-game-verification.json)
+- [mod-package-and-load-order-engineering](skills/mod-package-and-load-order-engineering/SKILL.md) · [evidence](evidence/mod-package-and-load-order-engineering.json)
+- [mod-publishing-and-supply-chain](skills/mod-publishing-and-supply-chain/SKILL.md) · [evidence](evidence/mod-publishing-and-supply-chain.json)
+- [mod-test-and-rollback](skills/mod-test-and-rollback/SKILL.md) · [evidence](evidence/mod-test-and-rollback.json)
+- [native-hooks-and-proxy-dlls](skills/native-hooks-and-proxy-dlls/SKILL.md) · [evidence](evidence/native-hooks-and-proxy-dlls.json)
+- [parity-and-differential-verification](skills/parity-and-differential-verification/SKILL.md) · [evidence](evidence/parity-and-differential-verification.json)
+- [save-data-and-compatibility](skills/save-data-and-compatibility/SKILL.md) · [evidence](evidence/save-data-and-compatibility.json)
+- [target-routing-and-runtime-metadata](skills/target-routing-and-runtime-metadata/SKILL.md) · [evidence](evidence/target-routing-and-runtime-metadata.json)
+- [traffic-and-api-surface-mapping](skills/traffic-and-api-surface-mapping/SKILL.md) · [evidence](evidence/traffic-and-api-surface-mapping.json)
+- [unity-mod-building](skills/unity-mod-building/SKILL.md) · [evidence](evidence/unity-mod-building.json)
+- [unreal-mod-building](skills/unreal-mod-building/SKILL.md) · [evidence](evidence/unreal-mod-building.json)
 
 ## New role collection (0.4.0)
 

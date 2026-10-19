@@ -1,6 +1,9 @@
 # Changelog
 
-## 0.6.0 (local draft; not published)
+## 0.6.0 (on main; not tagged)
+
+- Game Modder rebuilt around building mods: 10 new skills (idea-to-route, Unity, Unreal, Bethesda and script extenders, Java/.NET loaders, native hooks, content and asset pipeline, cross-game mashups and bridges, in-game oracles and verification, publishing and download supply-chain safety), with the original 5 skills kept as guardrails. Asset generation follows each user's own choice of local tools, paid services or both. Research: public loader and tool documentation, rehan-remade/universal-modder (MIT) as a cross-check, and a survey of 1,723 game-modding repositories.
+- Benchmark 19/10/26 (replaces the ceiling-only result below for these 35 skills): 70 hand-authored decision cases scored deterministically, plus 8 executable build tasks graded in a no-network sandbox. Decision cases: 44 uplift, 25 at ceiling, 1 equal, 0 regressions. Build tasks: 2 uplift (safe save migration 6/9 -> 9/9; route selection 9/10 -> 10/10), 6 at ceiling. One trial per arm on a frontier model; per-skill results are in each evidence card.
 
 - Add clean-room-reimplementation-engineer and game-modder personas, each with five focused skills and explicit authorisation, provenance, compatibility and rollback boundaries.
 - Harden reverse-engineering-specialist from 11 to 15 members with runtime metadata routing, authorised traffic/API mapping, format grammar reconstruction and bounded local agent bridges.

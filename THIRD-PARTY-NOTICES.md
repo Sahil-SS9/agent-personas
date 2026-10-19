@@ -17,3 +17,7 @@ MIT does not override separate third-party rights. Preserve the included notices
 - `ghidra-workflow-adapter`: workflow structure adapted from **GhidraClass** course material in **NSA Ghidra** (https://github.com/NationalSecurityAgency/ghidra), Apache-2.0. Copyright NSA; Apache License 2.0 applies upstream.
 - `frida-tracing-adapter`, `angr-symbolic-adapter`, `capa-floss-adapter`: reference the Frida, angr and capa/FLOSS projects respectively; each tool's own licence governs the tool. No third-party text is embedded.
 - MITRE ATT&CK (T1055) is referenced as vocabulary (per ATT&CK terms of use, with attribution); no page text embedded.
+
+## 2026-10-19 additions
+
+- Game Modder build skills (`mod-idea-to-route`, `unity-mod-building`, `unreal-mod-building`, `bethesda-and-script-extender-mods`, `java-and-dotnet-loader-mods`, `native-hooks-and-proxy-dlls`, `content-and-asset-pipeline`, `mashup-and-cross-game-bridges`, `mod-oracles-and-in-game-verification`, `mod-publishing-and-supply-chain`): method structure cross-checked against **universal-modder** by Rehan and contributors (https://github.com/rehan-remade/universal-modder), MIT: [full notice](notices/universal-modder-LICENSE). Written in original words; no upstream text is reproduced. Loader and tool projects named in these skills keep their own licences; none are bundled.
