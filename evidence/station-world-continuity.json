@@ -1,0 +1,9 @@
+{
+  "skill": "station-world-continuity",
+  "release_version": "0.7.0",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "status": "authored for release; qualified by deterministic exam cases and one behavioural trial",
+  "validation": "Part of the radio-scriptwriter persona, 29 Oct 2026. Qualification: every member skill passes the persona's hand-authored exam cases, which are scored by a deterministic script with no model calls \u2014 a vague answer passes none, and a correct answer reused on a different case passes none. Behavioural trial (29 Oct 2026): the whole persona was run on the station's own local model against a no-skill arm on three topics, one sample each; the station's own checks found no station-level fault in either arm and craft findings fell from 15 to 7. Limits: one sample per topic on one model; not benchmarked to the catalogue's two-case standard; no blind human read in that trial. Earlier cloud-model trials and the persona handoff scenarios are recorded in the private foundry evidence.",
+  "sources": "Authored from public primary sources named in the skill body plus the private learning records; no source text is reproduced. No private-pipeline or provider benchmark ran at card creation.",
+  "description": "Use when a script could carry a running bit, rivalry or callback. Use only the continuity the brief supplies, and never invent a past, a count or an earlier show."
+}

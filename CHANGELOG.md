@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.7.0 (on main; not tagged)
+
+- Add the Programme Director and Radio Scriptwriter personas for AI-hosted radio, with their 13 member skills.
+- Programme Director (six skills): plans a block against a shelf, keeps the schedule honest, chairs aircheck critique and runs the ear-test protocol on real audio.
+- Radio Scriptwriter (seven skills): writes spoken scripts for the ear from cited evidence only, in each host's own voice, with openings and reactions that vary, and never grades its own work.
+- Evidence: every member passes its persona's hand-authored exam cases, scored by a deterministic script with no model calls. One behavioural trial ran the whole seven-skill persona against a no-skill arm on the station's own local model, three topics, one sample each: the station's own checks found no station-level fault in either arm and craft findings fell from 15 to 7. Limits are on each card: one sample per topic, one model, not the catalogue's two-case benchmark standard, no blind human read.
+- Catalogue, README and CATALOGUE counts updated; structural gate passes.
+
 ## 0.6.0 (on main; not tagged)
 
 - Game Modder rebuilt around building mods: 10 new skills (idea-to-route, Unity, Unreal, Bethesda and script extenders, Java/.NET loaders, native hooks, content and asset pipeline, cross-game mashups and bridges, in-game oracles and verification, publishing and download supply-chain safety), with the original 5 skills kept as guardrails. Asset generation follows each user's own choice of local tools, paid services or both. Research: public loader and tool documentation, rehan-remade/universal-modder (MIT) as a cross-check, and a survey of 1,723 game-modding repositories.
