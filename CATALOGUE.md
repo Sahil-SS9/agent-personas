@@ -36,12 +36,10 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [product-demo-specialist](personas/product-demo-specialist/PERSONA.md) | Run demos as decision sessions with rehearsed fallbacks, and convert every demonstrated claim into committed, testable QFS scope with post-release reconciliation. | 5 |
 | [product-manager](personas/product-manager/PERSONA.md) | Define what to build and why: problem framing, outcome-first PRDs with pre-committed success metrics, RICE/WSJF-backed prioritisation. | 4 |
 | [product-owner](personas/product-owner/PERSONA.md) | Maximise delivered value: order the backlog by outcome contribution, slice stories to thin-vertical INVEST shape, keep Definition-of-Done non-negotiable. | 4 |
-| [programme-director](personas/programme-director/PERSONA.md) | Be the independent listener for an AI-hosted radio station: judge what was produced from the listener's seat, measure sameness across the whole shelf, design the clock, plan what to make next by listener value, and leave the verdict on sound to a human ear. Review and plan only; never write, rewrite or grade your own work. | 6 |
 | [project-strategist](personas/project-strategist/PERSONA.md) | Evaluate projects, features and change requests against delivery methodologies; recommend the best-fit approach with scored evidence and visible trade-offs. | 4 |
 | [prompt-agent-engineer](personas/prompt-agent-engineer/PERSONA.md) | Design versioned prompts and bounded, observable agent loops. | 7 |
 | [provider-hunter](personas/provider-hunter/PERSONA.md) | Find every route to the model you need — direct, discounted, free-tier, reseller — and refuse to recommend one until it has proved what it is. | 12 |
 | [qa-test-evidence-architect](personas/qa-test-evidence-architect/PERSONA.md) | Plan test strategy by architecture, hunt flaky tests to root cause, and make every quality claim carry verifiable evidence. | 10 |
-| [radio-scriptwriter](personas/radio-scriptwriter/PERSONA.md) | Write the spoken scripts for an AI-hosted radio station: for the ear, in each host's own voice, with openings and reactions that vary from one script to the next, using only evidence you can cite. Never add a fact the evidence does not contain, and never grade your own scripts. | 7 |
 | [red-team-security](personas/red-team-security/PERSONA.md) | Investigate authorised attack paths and report reproducible findings. | 6 |
 | [clean-room-reimplementation-engineer](personas/clean-room-reimplementation-engineer/PERSONA.md) | Turn authorised observations into independently implemented, behaviourally compatible software. | 5 |
 | [game-modder](personas/game-modder/PERSONA.md) | Take a mod idea to a working, verified and reversible mod in the real game across Unity, Unreal, Bethesda, Java/.NET loader and native engines, including cross-game mashups, for games the user owns and plays offline or on servers they run. | 15 |
@@ -94,12 +92,10 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [product-demo-specialist](bundles/product-demo-specialist/bundle.json) | 5 |
 | [product-manager](bundles/product-manager/bundle.json) | 4 |
 | [product-owner](bundles/product-owner/bundle.json) | 4 |
-| [programme-director](bundles/programme-director/bundle.json) | 6 |
 | [project-strategist](bundles/project-strategist/bundle.json) | 4 |
 | [prompt-agent-engineer](bundles/prompt-agent-engineer/bundle.json) | 7 |
 | [provider-hunter](bundles/provider-hunter/bundle.json) | 12 |
 | [qa-test-evidence-architect](bundles/qa-test-evidence-architect/bundle.json) | 10 |
-| [radio-scriptwriter](bundles/radio-scriptwriter/bundle.json) | 7 |
 | [red-team-security](bundles/red-team-security/bundle.json) | 6 |
 | [clean-room-reimplementation-engineer](bundles/clean-room-reimplementation-engineer/bundle.json) | 5 |
 | [game-modder](bundles/game-modder/bundle.json) | 15 |
@@ -127,7 +123,6 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [agent-loop-guardrails](skills/agent-loop-guardrails/SKILL.md) | Wrap agent loops in deterministic gates, scoped permissions and stop rules. | [Card](evidence/agent-loop-guardrails.json) |
 | [agent-profile-review](skills/agent-profile-review/SKILL.md) | Weekly independent review of all specialist profiles by. | [Card](evidence/agent-profile-review.json) |
 | [ai-task-suitability-review](skills/ai-task-suitability-review/SKILL.md) | Choose bounded AI roles without expanding authority. | [Card](evidence/ai-task-suitability-review.json) |
-| [aircheck-critique](skills/aircheck-critique/SKILL.md) | Use when judging a finished radio segment. Independent listener-seat critique with quoted findings and an air, fix or cut verdict. | [Card](evidence/aircheck-critique.json) |
 | [analysis-capability-ladder](skills/analysis-capability-ladder/SKILL.md) | Pick the strongest analysis level available, discover and propose new tools when a gap blocks the answer, state the level used, and finish within budget. | [Card](evidence/analysis-capability-ladder.json) |
 | [analytics-dimensional-modelling](skills/analytics-dimensional-modelling/SKILL.md) | Model analytics data dimensionally: facts, dimensions, grain and slowly-changing history. | [Card](evidence/analytics-dimensional-modelling.json) |
 | [angr-symbolic-adapter](skills/angr-symbolic-adapter/SKILL.md) | Use angr for symbolic analysis when evidence needs justify it: constraint solving on parsers, decoders and guarded paths, with coverage honesty. | [Card](evidence/angr-symbolic-adapter.json) |
@@ -153,7 +148,6 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [backlog-refinement](skills/backlog-refinement/SKILL.md) | Order and keep the backlog ready by outcome contribution within refinement capacity. | [Card](evidence/backlog-refinement.json) |
 | [behaviour-first-budgeting](skills/behaviour-first-budgeting/SKILL.md) | Anchor money plans in savings rate, emergency fund and debt triage. | [Card](evidence/behaviour-first-budgeting.json) |
 | [binary-structure-assembly](skills/binary-structure-assembly/SKILL.md) | Read binary structure and assembly fluently: formats, disassembly quality loops and decompiler-correction technique. | [Card](evidence/binary-structure-assembly.json) |
-| [break-architecture](skills/break-architecture/SKILL.md) | Use when writing or restructuring one spoken radio break. Plan the single thought, the opening, the tease and the payoff before any line is written, using only evidence you can cite. | [Card](evidence/break-architecture.json) |
 | [build-ci-and-package-artifact-sprawl-control](skills/build-ci-and-package-artifact-sprawl-control/SKILL.md) | Control generated artifacts from builds, CI runs and package managers — the largest and fastest-growing source of reclaimable space. | [Card](evidence/build-ci-and-package-artifact-sprawl-control.json) |
 | [c4-architecture-modelling](skills/c4-architecture-modelling/SKILL.md) | Model and communicate system structure top-down with the C4 ladder. | [Card](evidence/c4-architecture-modelling.json) |
 | [c4-model-reference](skills/c4-model-reference/SKILL.md) | Apply C4 component diagram concepts accurately. | [Card](evidence/c4-model-reference.json) |
@@ -167,7 +161,6 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [claim-verification](skills/claim-verification/SKILL.md) | Verify research claims via SIFT lateral reading and source tracing before use. | [Card](evidence/claim-verification.json) |
 | [classifier-candidate-benchmark](skills/classifier-candidate-benchmark/SKILL.md) | Run candidates through the frozen exam and report each verdict with its gates, utility, calibration, determinism and latency — including the candidates that fail. | [Card](evidence/classifier-candidate-benchmark.json) |
 | [cleanup-cadence-and-new-debris-monitoring](skills/cleanup-cadence-and-new-debris-monitoring/SKILL.md) | Run hygiene as a recurring service with alerting on new debris, not as an occasional rescue when the disk fills. | [Card](evidence/cleanup-cadence-and-new-debris-monitoring.json) |
-| [clock-and-sequence-design](skills/clock-and-sequence-design/SKILL.md) | Use when designing or testing a programme clock. Walls first, one thought per break, teases with payoffs and an energy curve across the hour. | [Card](evidence/clock-and-sequence-design.json) |
 | [code-of-conduct-enforcement](skills/code-of-conduct-enforcement/SKILL.md) | Handle conduct problems proportionally: identify the behaviour and the standard, apply the ladder, record privately — without redistributing a code text you cannot lawfully reprint. | [Card](evidence/code-of-conduct-enforcement.json) |
 | [codebase-simplification-campaign](skills/codebase-simplification-campaign/SKILL.md) | Use when refactoring a module or codebase while preserving behaviour. | [Card](evidence/codebase-simplification-campaign.json) |
 | [comfyui](skills/comfyui/SKILL.md) | Generate images, video, and audio with ComfyUI —. | [Card](evidence/comfyui.json) |
@@ -205,8 +198,6 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [design-teardown-review](skills/design-teardown-review/SKILL.md) | Review UI against hierarchy, system, a11y and CWV before and after build. | [Card](evidence/design-teardown-review.json) |
 | [design-token-architecture](skills/design-token-architecture/SKILL.md) | Define and govern semantic tokens layered over primitives. | [Card](evidence/design-token-architecture.json) |
 | [detection-engineering](skills/detection-engineering/SKILL.md) | Engineer detections: log sources, high-signal rules, and tuned alerts. | [Card](evidence/detection-engineering.json) |
-| [devradio-station-adapter](skills/devradio-station-adapter/SKILL.md) | Use when reviewing Hermes Dev Radio itself. Maps the generic radio-review skills to this station's data, rules and engine limits, read-only. | [Card](evidence/devradio-station-adapter.json) |
-| [devradio-writer-adapter](skills/devradio-writer-adapter/SKILL.md) | Use when writing scripts for Hermes Dev Radio itself. Private: maps the general writing skills to this station's script format, gates, cast and standing rules. | [Card](evidence/devradio-writer-adapter.json) |
 | [diagnostic-assessment-design](skills/diagnostic-assessment-design/SKILL.md) | Diagnose the learner's current level before teaching. | [Card](evidence/diagnostic-assessment-design.json) |
 | [diataxis-doc-typing](skills/diataxis-doc-typing/SKILL.md) | Type every document by its job (tutorial/how-to/reference/explanation) before writing. | [Card](evidence/diataxis-doc-typing.json) |
 | [differential-verification-reporting](skills/differential-verification-reporting/SKILL.md) | Verify reconstructions against ground truth and report evidence-led findings with honest confidence boundaries. | [Card](evidence/differential-verification-reporting.json) |
@@ -215,7 +206,6 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [docs-lifecycle-ownership](skills/docs-lifecycle-ownership/SKILL.md) | Own docs as living artefacts: owners, review dates, doc-code co-diffs. | [Card](evidence/docs-lifecycle-ownership.json) |
 | [docset-information-architecture](skills/docset-information-architecture/SKILL.md) | Structure documentation sets so readers find and follow what they need. | [Card](evidence/docset-information-architecture.json) |
 | [duplicate-and-hardlink-dedup-safety](skills/duplicate-and-hardlink-dedup-safety/SKILL.md) | Resolve duplicates and content-addressed stores by picking a canonical copy without breaking links, mounts or ownership boundaries. | [Card](evidence/duplicate-and-hardlink-dedup-safety.json) |
-| [ear-test-protocol](skills/ear-test-protocol/SKILL.md) | Use when a sound change needs a human verdict. Run a blind A/B listen with a small fixed rubric. The human ear decides. | [Card](evidence/ear-test-protocol.json) |
 | [ecosystem-recon-and-pattern-mining](skills/ecosystem-recon-and-pattern-mining/SKILL.md) | Reconnoitre the decision-model ecosystem and deconstruct real projects into named, reusable patterns rather than a link list. | [Card](evidence/ecosystem-recon-and-pattern-mining.json) |
 | [edge-case-inventory](skills/edge-case-inventory/SKILL.md) | Indexed edge-case checklists across domains; load only what the task needs. | [Card](evidence/edge-case-inventory.json) |
 | [engagement-reporting-remediation](skills/engagement-reporting-remediation/SKILL.md) | Turn findings into a report leadership and engineers can act on. | [Card](evidence/engagement-reporting-remediation.json) |
@@ -257,8 +247,6 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [hermaguard-candidate](skills/hermaguard-candidate/SKILL.md) | Use when adversarially reviewing a diff and its caller contracts; read-only. | [Card](evidence/hermaguard-candidate.json) |
 | [holistic-eval-design](skills/holistic-eval-design/SKILL.md) | Design multi-dimensional model evaluations with task-valid metrics and stated conditions. | [Card](evidence/holistic-eval-design.json) |
 | [honest-eval-reporting](skills/honest-eval-reporting/SKILL.md) | Report evaluation evidence with conditions, variance and explicit unknowns. | [Card](evidence/honest-eval-reporting.json) |
-| [host-voice-signatures](skills/host-voice-signatures/SKILL.md) | Use when writing lines for named hosts. Give each host a distinct job, length and question habit, keep catchphrases inside their limits, and stay inside what a fictional presenter may say. | [Card](evidence/host-voice-signatures.json) |
-| [humour-from-specifics](skills/humour-from-specifics/SKILL.md) | Use when a script reads flat. Find the joke in the evidence's own detail, give the foil a real objection, and never let a joke add a claim. | [Card](evidence/humour-from-specifics.json) |
 | [image-generation-workflow](skills/image-generation-workflow/SKILL.md) | Generate and inspect images using an available authorised tool. | [Card](evidence/image-generation-workflow.json) |
 | [implementation-delivery](skills/implementation-delivery/SKILL.md) | Use when implementing a feature or bug fix through verified delivery. | [Card](evidence/implementation-delivery.json) |
 | [inbound-issue-triage-and-severity](skills/inbound-issue-triage-and-severity/SKILL.md) | Triage an incoming issue: find the ask, dedupe against history, classify, set severity from impact and reach, and issue a durable agent brief. | [Card](evidence/inbound-issue-triage-and-severity.json) |
@@ -361,7 +349,6 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [safe-deletion-proposal-and-gate](skills/safe-deletion-proposal-and-gate/SKILL.md) | Propose deletions behind an explicit human gate, with confidence, reason and a restore reference for anything destructive. | [Card](evidence/safe-deletion-proposal-and-gate.json) |
 | [safe-demo-environments](skills/safe-demo-environments/SKILL.md) | Use when booting fake-data app demos for screenshots. | [Card](evidence/safe-demo-environments.json) |
 | [safety-redteam-eval](skills/safety-redteam-eval/SKILL.md) | Evaluate model safety and robustness with adversarial and red-team testing. | [Card](evidence/safety-redteam-eval.json) |
-| [sameness-and-fatigue-audit](skills/sameness-and-fatigue-audit/SKILL.md) | Use when a station sounds samey across many segments. Count repeated openings, reactions and phrases, then rank what to rotate or retire. | [Card](evidence/sameness-and-fatigue-audit.json) |
 | [scheduled-job-audit](skills/scheduled-job-audit/SKILL.md) | Audit scheduled jobs from intent through verified delivery. | [Card](evidence/scheduled-job-audit.json) |
 | [scheduled-output-contract](skills/scheduled-output-contract/SKILL.md) | Produce concise, verifiable output from scheduled tasks. | [Card](evidence/scheduled-output-contract.json) |
 | [schema-design-and-evolution](skills/schema-design-and-evolution/SKILL.md) | Design schemas from access patterns; evolve them without breaking consumers. | [Card](evidence/schema-design-and-evolution.json) |
@@ -371,7 +358,6 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [self-host-and-serving-stack](skills/self-host-and-serving-stack/SKILL.md) | Stand a decision model up locally and prove the deployment matches the benchmark, including which conversion path puts the decision head where. | [Card](evidence/self-host-and-serving-stack.json) |
 | [seller-verification-protocol](skills/seller-verification-protocol/SKILL.md) | Verify sellers and listings before money moves; buyer-protected rails only. | [Card](evidence/seller-verification-protocol.json) |
 | [session-librarian](skills/session-librarian/SKILL.md) | Organize sessions by prompt: find, rename, archive, prune. | [Card](evidence/session-librarian.json) |
-| [shelf-and-freshness-planning](skills/shelf-and-freshness-planning/SKILL.md) | Use when deciding what a station makes, reruns or retires next. Plan by listener value, freshness and repeat gaps, and show the arithmetic. | [Card](evidence/shelf-and-freshness-planning.json) |
 | [simple-long-horizon-investing](skills/simple-long-horizon-investing/SKILL.md) | Invest the gap simply: low-cost, diversified, tax-wrapped, on schedule. | [Card](evidence/simple-long-horizon-investing.json) |
 | [simplify-swarm](skills/simplify-swarm/SKILL.md) | Use after writing or modifying code to simplify it with three parallel read-only agents (Hygiene, Clarity, Correctness) applied in SAFE→CAREFUL→RISKY order. | [Card](evidence/simplify-swarm.json) |
 | [simplify-swarm-candidate](skills/simplify-swarm-candidate/SKILL.md) | Use when simplifying working changes through hygiene, clarity and correctness analysis. | [Card](evidence/simplify-swarm-candidate.json) |
@@ -383,7 +369,6 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [source-legitimacy-grading-and-leeway](skills/source-legitimacy-grading-and-leeway/SKILL.md) | Assign a defensible verdict to a provider on weighted evidence, and apply graduated leeway so genuinely new providers are admitted provisionally rather than rejected for newness. | [Card](evidence/source-legitimacy-grading-and-leeway.json) |
 | [sre-incident-response-reference](skills/sre-incident-response-reference/SKILL.md) | Apply Google SRE incident response principles and roles. | [Card](evidence/sre-incident-response-reference.json) |
 | [stack-compatibility-check](skills/stack-compatibility-check/SKILL.md) | Check whether a tool fits the existing stack, skills and constraints. | [Card](evidence/stack-compatibility-check.json) |
-| [station-world-continuity](skills/station-world-continuity/SKILL.md) | Use when a script could carry a running bit, rivalry or callback. Use only the continuity the brief supplies, and never invent a past, a count or an earlier show. | [Card](evidence/station-world-continuity.json) |
 | [storage-pressure-and-reclaim-forensics](skills/storage-pressure-and-reclaim-forensics/SKILL.md) | Find where space actually went when usage is unexplained — with a 100% certainty bar, not an estimate. | [Card](evidence/storage-pressure-and-reclaim-forensics.json) |
 | [story-slicing](skills/story-slicing/SKILL.md) | Split features into thin, vertical, INVEST-shaped stories that deliver value. | [Card](evidence/story-slicing.json) |
 | [storyboard-to-shots](skills/storyboard-to-shots/SKILL.md) | Convert a story or script into sequential storyboard panels with generation-ready prompts. | [Card](evidence/storyboard-to-shots.json) |
@@ -419,7 +404,6 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [typed-decision-model-anatomy-and-question-design](skills/typed-decision-model-anatomy-and-question-design/SKILL.md) | Explain how typed-decision models actually work, and design the question and option set that determines whether they can work at all. | [Card](evidence/typed-decision-model-anatomy-and-question-design.json) |
 | [ui-component-composition](skills/ui-component-composition/SKILL.md) | Build UI from the design system's tokens and components; compose, don't invent. | [Card](evidence/ui-component-composition.json) |
 | [unit-economics-normaliser](skills/unit-economics-normaliser/SKILL.md) | Normalise every price onto one comparable basis, so token, seat, credit and subscription pricing can be compared honestly. | [Card](evidence/unit-economics-normaliser.json) |
-| [unscripted-feel](skills/unscripted-feel/SKILL.md) | Use when a script reads like two people taking turns. Make every reply answer the line before it, let questions come from real tension in the evidence, and never fake a past. | [Card](evidence/unscripted-feel.json) |
 | [unused-orphan-and-load-bearing-confirmation](skills/unused-orphan-and-load-bearing-confirmation/SKILL.md) | Classify a candidate as unused or orphan only after proving nothing load-bearing depends on it — the reverse burden of proof. | [Card](evidence/unused-orphan-and-load-bearing-confirmation.json) |
 | [usability-testing-design](skills/usability-testing-design/SKILL.md) | Run task-based usability tests that reveal what users actually do. | [Card](evidence/usability-testing-design.json) |
 | [ux-flow-and-heuristics](skills/ux-flow-and-heuristics/SKILL.md) | Design flows that never make users think; apply usability heuristics systematically. | [Card](evidence/ux-flow-and-heuristics.json) |
@@ -436,20 +420,11 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [workflow-incident-readiness](skills/workflow-incident-readiness/SKILL.md) | Design automations to be operable during incidents: ownership, runbooks, drills. | [Card](evidence/workflow-incident-readiness.json) |
 | [workspace-convention-and-gitignore-hygiene](skills/workspace-convention-and-gitignore-hygiene/SKILL.md) | Close the source of the mess: define where things belong, make the ignore rules match reality, and stop untracked chatter reaching the index. | [Card](evidence/workspace-convention-and-gitignore-hygiene.json) |
 | [workstream-orchestration](skills/workstream-orchestration/SKILL.md) | Plan and steer multiple agent workstreams with WIP limits and review gates. | [Card](evidence/workstream-orchestration.json) |
-| [writing-for-the-ear](skills/writing-for-the-ear/SKILL.md) | Use when a script will be read aloud by a synthetic voice. One thought per sentence, numbers and code said the way a person would say them, and no markup. | [Card](evidence/writing-for-the-ear.json) |
 | [writing-plans](skills/writing-plans/SKILL.md) | Write implementation plans: bite-sized tasks, paths, code. | [Card](evidence/writing-plans.json) |
 | [writing-spec](skills/writing-spec/SKILL.md) | Write or revise spec.md and close a council REVISE verdict. | [Card](evidence/writing-spec.json) |
 | [zdr-retention-verification](skills/zdr-retention-verification/SKILL.md) | Verify zero-data-retention and training-use claims against the actual terms, and hunt the carve-outs that quietly defeat them. | [Card](evidence/zdr-retention-verification.json) |
 | Skill | Use it to | Evidence |
 |---|---|---|
-
-## New in 0.7.0
-
-Two personas added 29 Oct 2026, both from the private foundry and both run end to end before release.
-
-- **Programme Director** (six skills): plans a block, guards the shelf, chairs aircheck critique and runs the ear-test protocol.
-- **Radio Scriptwriter** (seven skills): writes spoken scripts for the ear from cited evidence only, in each host's own voice, and never grades its own work.
-- Evidence: deterministic exam cases per member plus one behavioural trial on the station's own local model (29 Oct 2026; no station-level fault in either arm, craft findings 15 to 7, one sample per topic). Limits are stated on each card.
 
 ## New role collection (0.3.0)
 
