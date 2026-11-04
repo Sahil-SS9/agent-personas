@@ -1,0 +1,1169 @@
+{
+  "version": 1,
+  "documentSettings": {
+    "units": "px"
+  },
+  "pages": [
+    {
+      "id": "p-l1",
+      "title": "L1 Landscape",
+      "shapes": [
+        {
+          "id": "l1-title",
+          "type": "text",
+          "boundingBox": {
+            "x": 40,
+            "y": 20,
+            "w": 900,
+            "h": 40
+          },
+          "text": "<span style=\"font-size: 18pt; font-weight: bold; color: #1A1A1A\">L1 0 Process landscape | As-is | v0.1 | Draft | Owner: COO</span>"
+        },
+        {
+          "id": "l1-mgmt",
+          "type": "rectangle",
+          "boundingBox": {
+            "x": 40,
+            "y": 80,
+            "w": 900,
+            "h": 90
+          },
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#F2F2F2"
+            },
+            "stroke": {
+              "color": "#333333",
+              "width": 1,
+              "style": "solid"
+            },
+            "textColor": "#1A1A1A"
+          },
+          "text": "<span style=\"font-size: 12pt; color: #1A1A1A\">Management processes</span>"
+        },
+        {
+          "id": "l1-core",
+          "type": "rectangle",
+          "boundingBox": {
+            "x": 40,
+            "y": 190,
+            "w": 900,
+            "h": 120
+          },
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#F2F2F2"
+            },
+            "stroke": {
+              "color": "#333333",
+              "width": 1,
+              "style": "solid"
+            },
+            "textColor": "#1A1A1A"
+          },
+          "text": "<span style=\"font-size: 12pt; color: #1A1A1A\">Core processes</span>"
+        },
+        {
+          "id": "l1-supp",
+          "type": "rectangle",
+          "boundingBox": {
+            "x": 40,
+            "y": 330,
+            "w": 900,
+            "h": 90
+          },
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#F2F2F2"
+            },
+            "stroke": {
+              "color": "#333333",
+              "width": 1,
+              "style": "solid"
+            },
+            "textColor": "#1A1A1A"
+          },
+          "text": "<span style=\"font-size: 12pt; color: #1A1A1A\">Support processes</span>"
+        },
+        {
+          "id": "l1-p2",
+          "type": "process",
+          "boundingBox": {
+            "x": 300,
+            "y": 230,
+            "w": 110,
+            "h": 80
+          },
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#FFFFFF"
+            },
+            "stroke": {
+              "color": "#333333",
+              "width": 1,
+              "style": "solid"
+            },
+            "textColor": "#1A1A1A"
+          },
+          "text": "<span style=\"font-size: 11pt; color: #1A1A1A\">2 Procure to pay</span>",
+          "actions": [
+            {
+              "type": "gotoPage",
+              "pageId": "p-l2"
+            }
+          ]
+        },
+        {
+          "id": "l1-legend",
+          "type": "rectangle",
+          "boundingBox": {
+            "x": 40,
+            "y": 440,
+            "w": 420,
+            "h": 160
+          },
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#F2F2F2"
+            },
+            "stroke": {
+              "color": "#333333",
+              "width": 1,
+              "style": "solid"
+            },
+            "textColor": "#1A1A1A"
+          },
+          "text": "<span style=\"font-size: 10pt; color: #1A1A1A; text-align: left\">Legend<br>Rounded box = activity; diamond = decision (question, labelled answers)<br>Thin circle = start (trigger); thick circle = end (result)<br>[ISSUE] vermillion thick border = evidenced issue (see register)<br>[CONTROL] blue thick border = internal control<br>[CHANGE] green thick border = new or changed in to-be<br>Click a process to open its L2 page</span>"
+        }
+      ]
+    },
+    {
+      "id": "p-l2",
+      "title": "L2 2 Procure to pay",
+      "shapes": [
+        {
+          "id": "l2-title",
+          "type": "text",
+          "boundingBox": {
+            "x": 40,
+            "y": 20,
+            "w": 900,
+            "h": 40
+          },
+          "text": "<span style=\"font-size: 18pt; font-weight: bold; color: #1A1A1A\">L2 2 Procure to pay | As-is | v0.1 | Draft | Owner: Finance director</span>"
+        },
+        {
+          "id": "l2-crumb",
+          "type": "text",
+          "boundingBox": {
+            "x": 40,
+            "y": 60,
+            "w": 400,
+            "h": 24
+          },
+          "text": "<span style=\"font-size: 10pt; color: #1A1A1A\">Parent: L1 0 Process landscape</span>",
+          "actions": [
+            {
+              "type": "gotoPage",
+              "pageId": "p-l1"
+            }
+          ]
+        },
+        {
+          "id": "l2-start",
+          "type": "bpmnEvent",
+          "boundingBox": {
+            "x": 60,
+            "y": 172,
+            "w": 36,
+            "h": 36
+          },
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#FFFFFF"
+            },
+            "stroke": {
+              "color": "#333333",
+              "width": 1,
+              "style": "solid"
+            },
+            "textColor": "#1A1A1A"
+          },
+          "text": "<span style=\"font-size: 10pt; color: #1A1A1A\">Purchase need raised</span>",
+          "eventGroup": "start",
+          "eventType": "none"
+        },
+        {
+          "id": "l2-s1",
+          "type": "bpmnActivity",
+          "boundingBox": {
+            "x": 140,
+            "y": 150,
+            "w": 110,
+            "h": 80
+          },
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#FFFFFF"
+            },
+            "stroke": {
+              "color": "#333333",
+              "width": 1,
+              "style": "solid"
+            },
+            "textColor": "#1A1A1A"
+          },
+          "text": "<span style=\"font-size: 11pt; color: #1A1A1A\">2.1 Request purchase</span>",
+          "activityType": "task",
+          "taskType": "none",
+          "activityMarker1": "subProcess",
+          "activityMarker2": "none"
+        },
+        {
+          "id": "l2-s2",
+          "type": "bpmnActivity",
+          "boundingBox": {
+            "x": 290,
+            "y": 150,
+            "w": 110,
+            "h": 80
+          },
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#FFFFFF"
+            },
+            "stroke": {
+              "color": "#333333",
+              "width": 1,
+              "style": "solid"
+            },
+            "textColor": "#1A1A1A"
+          },
+          "text": "<span style=\"font-size: 11pt; color: #1A1A1A\">2.2 Order goods</span>",
+          "activityType": "task",
+          "taskType": "none",
+          "activityMarker1": "subProcess",
+          "activityMarker2": "none"
+        },
+        {
+          "id": "l2-s3",
+          "type": "bpmnActivity",
+          "boundingBox": {
+            "x": 440,
+            "y": 150,
+            "w": 110,
+            "h": 80
+          },
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#FFFFFF"
+            },
+            "stroke": {
+              "color": "#333333",
+              "width": 1,
+              "style": "solid"
+            },
+            "textColor": "#1A1A1A"
+          },
+          "text": "<span style=\"font-size: 11pt; color: #1A1A1A\">2.3 Approve supplier invoices</span>",
+          "activityType": "task",
+          "taskType": "none",
+          "activityMarker1": "subProcess",
+          "activityMarker2": "none",
+          "actions": [
+            {
+              "type": "gotoPage",
+              "pageId": "p-l3"
+            }
+          ]
+        },
+        {
+          "id": "l2-s4",
+          "type": "bpmnActivity",
+          "boundingBox": {
+            "x": 590,
+            "y": 150,
+            "w": 110,
+            "h": 80
+          },
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#FFFFFF"
+            },
+            "stroke": {
+              "color": "#333333",
+              "width": 1,
+              "style": "solid"
+            },
+            "textColor": "#1A1A1A"
+          },
+          "text": "<span style=\"font-size: 11pt; color: #1A1A1A\">2.4 Pay supplier</span>",
+          "activityType": "task",
+          "taskType": "none",
+          "activityMarker1": "subProcess",
+          "activityMarker2": "none"
+        },
+        {
+          "id": "l2-end",
+          "type": "bpmnEvent",
+          "boundingBox": {
+            "x": 740,
+            "y": 172,
+            "w": 36,
+            "h": 36
+          },
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#FFFFFF"
+            },
+            "stroke": {
+              "color": "#333333",
+              "width": 1,
+              "style": "solid"
+            },
+            "textColor": "#1A1A1A"
+          },
+          "text": "<span style=\"font-size: 10pt; color: #1A1A1A\">Supplier paid</span>",
+          "eventGroup": "end",
+          "eventType": "none"
+        },
+        {
+          "id": "l2-legend",
+          "type": "rectangle",
+          "boundingBox": {
+            "x": 40,
+            "y": 300,
+            "w": 420,
+            "h": 160
+          },
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#F2F2F2"
+            },
+            "stroke": {
+              "color": "#333333",
+              "width": 1,
+              "style": "solid"
+            },
+            "textColor": "#1A1A1A"
+          },
+          "text": "<span style=\"font-size: 10pt; color: #1A1A1A; text-align: left\">Legend<br>Rounded box = activity; diamond = decision (question, labelled answers)<br>Thin circle = start (trigger); thick circle = end (result)<br>[ISSUE] vermillion thick border = evidenced issue (see register)<br>[CONTROL] blue thick border = internal control<br>[CHANGE] green thick border = new or changed in to-be<br>Collapsed sub-process (+) = has its own L3 page; click to open</span>"
+        }
+      ],
+      "lines": [
+        {
+          "id": "l2-f1",
+          "lineType": "elbow",
+          "endpoint1": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "l2-start"
+          },
+          "endpoint2": {
+            "type": "shapeEndpoint",
+            "style": "arrow",
+            "shapeId": "l2-s1"
+          },
+          "stroke": {
+            "color": "#333333",
+            "width": 1,
+            "style": "solid"
+          }
+        },
+        {
+          "id": "l2-f2",
+          "lineType": "elbow",
+          "endpoint1": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "l2-s1"
+          },
+          "endpoint2": {
+            "type": "shapeEndpoint",
+            "style": "arrow",
+            "shapeId": "l2-s2"
+          },
+          "stroke": {
+            "color": "#333333",
+            "width": 1,
+            "style": "solid"
+          }
+        },
+        {
+          "id": "l2-f3",
+          "lineType": "elbow",
+          "endpoint1": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "l2-s2"
+          },
+          "endpoint2": {
+            "type": "shapeEndpoint",
+            "style": "arrow",
+            "shapeId": "l2-s3"
+          },
+          "stroke": {
+            "color": "#333333",
+            "width": 1,
+            "style": "solid"
+          }
+        },
+        {
+          "id": "l2-f4",
+          "lineType": "elbow",
+          "endpoint1": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "l2-s3"
+          },
+          "endpoint2": {
+            "type": "shapeEndpoint",
+            "style": "arrow",
+            "shapeId": "l2-s4"
+          },
+          "stroke": {
+            "color": "#333333",
+            "width": 1,
+            "style": "solid"
+          }
+        },
+        {
+          "id": "l2-f5",
+          "lineType": "elbow",
+          "endpoint1": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "l2-s4"
+          },
+          "endpoint2": {
+            "type": "shapeEndpoint",
+            "style": "arrow",
+            "shapeId": "l2-end"
+          },
+          "stroke": {
+            "color": "#333333",
+            "width": 1,
+            "style": "solid"
+          }
+        }
+      ]
+    },
+    {
+      "id": "p-l3",
+      "title": "L3 2.3 Approve supplier invoices",
+      "shapes": [
+        {
+          "id": "l3-title",
+          "type": "text",
+          "boundingBox": {
+            "x": 40,
+            "y": 20,
+            "w": 1100,
+            "h": 40
+          },
+          "text": "<span style=\"font-size: 18pt; font-weight: bold; color: #1A1A1A\">L3 2.3 Approve supplier invoices | As-is | v0.1 | Draft | Owner: AP lead</span>"
+        },
+        {
+          "id": "l3-crumb",
+          "type": "text",
+          "boundingBox": {
+            "x": 40,
+            "y": 60,
+            "w": 400,
+            "h": 24
+          },
+          "text": "<span style=\"font-size: 10pt; color: #1A1A1A\">Parent: L2 2 Procure to pay</span>",
+          "actions": [
+            {
+              "type": "gotoPage",
+              "pageId": "p-l2"
+            }
+          ]
+        },
+        {
+          "id": "l3-pool",
+          "type": "bpmnPool",
+          "boundingBox": {
+            "x": 40,
+            "y": 100,
+            "w": 1100,
+            "h": 450
+          },
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#F2F2F2"
+            },
+            "stroke": {
+              "color": "#333333",
+              "width": 1,
+              "style": "solid"
+            },
+            "textColor": "#1A1A1A"
+          },
+          "title": "Accounts payable",
+          "lanes": [
+            {
+              "title": "AP clerk",
+              "width": 150,
+              "laneFill": "#FFFFFF"
+            },
+            {
+              "title": "Budget holder",
+              "width": 150,
+              "laneFill": "#FFFFFF"
+            },
+            {
+              "title": "Finance system",
+              "width": 150,
+              "laneFill": "#FFFFFF"
+            }
+          ],
+          "vertical": false,
+          "verticalLaneText": true,
+          "magnetize": true
+        },
+        {
+          "id": "l3-start",
+          "type": "bpmnEvent",
+          "boundingBox": {
+            "x": 100,
+            "y": 157,
+            "w": 36,
+            "h": 36
+          },
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#FFFFFF"
+            },
+            "stroke": {
+              "color": "#333333",
+              "width": 1,
+              "style": "solid"
+            },
+            "textColor": "#1A1A1A"
+          },
+          "text": "<span style=\"font-size: 10pt; color: #1A1A1A\">Invoice received</span>",
+          "eventGroup": "start",
+          "eventType": "message"
+        },
+        {
+          "id": "l3-a1",
+          "type": "bpmnActivity",
+          "boundingBox": {
+            "x": 170,
+            "y": 135,
+            "w": 110,
+            "h": 80
+          },
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#FFFFFF"
+            },
+            "stroke": {
+              "color": "#333333",
+              "width": 1,
+              "style": "solid"
+            },
+            "textColor": "#1A1A1A"
+          },
+          "text": "<span style=\"font-size: 11pt; color: #1A1A1A\">Register invoice</span>",
+          "activityType": "task",
+          "taskType": "none",
+          "activityMarker1": "none",
+          "activityMarker2": "none"
+        },
+        {
+          "id": "l3-a2",
+          "type": "bpmnActivity",
+          "boundingBox": {
+            "x": 330,
+            "y": 435,
+            "w": 110,
+            "h": 80
+          },
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#DCEBF7"
+            },
+            "stroke": {
+              "color": "#0072B2",
+              "width": 3,
+              "style": "solid"
+            },
+            "textColor": "#1A1A1A"
+          },
+          "text": "<span style=\"font-size: 11pt; color: #1A1A1A\">Match invoice to PO</span>",
+          "activityType": "task",
+          "taskType": "none",
+          "activityMarker1": "none",
+          "activityMarker2": "none"
+        },
+        {
+          "id": "l3-g1",
+          "type": "bpmnGateway",
+          "boundingBox": {
+            "x": 490,
+            "y": 450,
+            "w": 50,
+            "h": 50
+          },
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#FFFFFF"
+            },
+            "stroke": {
+              "color": "#333333",
+              "width": 1,
+              "style": "solid"
+            },
+            "textColor": "#1A1A1A"
+          },
+          "text": "<span style=\"font-size: 10pt; color: #1A1A1A\">Invoice matches PO?</span>",
+          "gatewayType": "exclusive"
+        },
+        {
+          "id": "l3-a3",
+          "type": "bpmnActivity",
+          "boundingBox": {
+            "x": 580,
+            "y": 285,
+            "w": 110,
+            "h": 80
+          },
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#FDE8DC"
+            },
+            "stroke": {
+              "color": "#D55E00",
+              "width": 3,
+              "style": "solid"
+            },
+            "textColor": "#1A1A1A"
+          },
+          "text": "<span style=\"font-size: 11pt; color: #1A1A1A\">Review mismatch</span>",
+          "activityType": "task",
+          "taskType": "none",
+          "activityMarker1": "none",
+          "activityMarker2": "none"
+        },
+        {
+          "id": "l3-g2",
+          "type": "bpmnGateway",
+          "boundingBox": {
+            "x": 740,
+            "y": 300,
+            "w": 50,
+            "h": 50
+          },
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#FFFFFF"
+            },
+            "stroke": {
+              "color": "#333333",
+              "width": 1,
+              "style": "solid"
+            },
+            "textColor": "#1A1A1A"
+          },
+          "text": "<span style=\"font-size: 10pt; color: #1A1A1A\">Mismatch approved?</span>",
+          "gatewayType": "exclusive"
+        },
+        {
+          "id": "l3-g3",
+          "type": "bpmnGateway",
+          "boundingBox": {
+            "x": 830,
+            "y": 450,
+            "w": 50,
+            "h": 50
+          },
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#FFFFFF"
+            },
+            "stroke": {
+              "color": "#333333",
+              "width": 1,
+              "style": "solid"
+            },
+            "textColor": "#1A1A1A"
+          },
+          "text": "<span style=\"font-size: 10pt; color: #1A1A1A\"></span>",
+          "gatewayType": "exclusive"
+        },
+        {
+          "id": "l3-a4",
+          "type": "bpmnActivity",
+          "boundingBox": {
+            "x": 910,
+            "y": 435,
+            "w": 110,
+            "h": 80
+          },
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#FFFFFF"
+            },
+            "stroke": {
+              "color": "#333333",
+              "width": 1,
+              "style": "solid"
+            },
+            "textColor": "#1A1A1A"
+          },
+          "text": "<span style=\"font-size: 11pt; color: #1A1A1A\">Schedule payment</span>",
+          "activityType": "task",
+          "taskType": "none",
+          "activityMarker1": "none",
+          "activityMarker2": "none"
+        },
+        {
+          "id": "l3-end1",
+          "type": "bpmnEvent",
+          "boundingBox": {
+            "x": 1070,
+            "y": 457,
+            "w": 36,
+            "h": 36
+          },
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#FFFFFF"
+            },
+            "stroke": {
+              "color": "#333333",
+              "width": 1,
+              "style": "solid"
+            },
+            "textColor": "#1A1A1A"
+          },
+          "text": "<span style=\"font-size: 10pt; color: #1A1A1A\">Invoice scheduled for payment</span>",
+          "eventGroup": "end",
+          "eventType": "none"
+        },
+        {
+          "id": "l3-a5",
+          "type": "bpmnActivity",
+          "boundingBox": {
+            "x": 830,
+            "y": 135,
+            "w": 110,
+            "h": 80
+          },
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#FFFFFF"
+            },
+            "stroke": {
+              "color": "#333333",
+              "width": 1,
+              "style": "solid"
+            },
+            "textColor": "#1A1A1A"
+          },
+          "text": "<span style=\"font-size: 11pt; color: #1A1A1A\">Send rejection to supplier</span>",
+          "activityType": "task",
+          "taskType": "none",
+          "activityMarker1": "none",
+          "activityMarker2": "none"
+        },
+        {
+          "id": "l3-end2",
+          "type": "bpmnEvent",
+          "boundingBox": {
+            "x": 1000,
+            "y": 157,
+            "w": 36,
+            "h": 36
+          },
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#FFFFFF"
+            },
+            "stroke": {
+              "color": "#333333",
+              "width": 1,
+              "style": "solid"
+            },
+            "textColor": "#1A1A1A"
+          },
+          "text": "<span style=\"font-size: 10pt; color: #1A1A1A\">Invoice rejected</span>",
+          "eventGroup": "end",
+          "eventType": "none"
+        },
+        {
+          "id": "l3-ann1",
+          "type": "bpmnTextAnnotation",
+          "boundingBox": {
+            "x": 580,
+            "y": 200,
+            "w": 160,
+            "h": 50
+          },
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#FFFFFF"
+            },
+            "stroke": {
+              "color": "#333333",
+              "width": 1,
+              "style": "solid"
+            },
+            "textColor": "#1A1A1A"
+          },
+          "text": "<span style=\"font-size: 10pt; color: #1A1A1A\">[ISSUE] I-01 Approval takes 5-7 days vs 2-day policy (F06, C1)</span>"
+        },
+        {
+          "id": "l3-ann2",
+          "type": "bpmnTextAnnotation",
+          "boundingBox": {
+            "x": 300,
+            "y": 360,
+            "w": 160,
+            "h": 50
+          },
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#FFFFFF"
+            },
+            "stroke": {
+              "color": "#333333",
+              "width": 1,
+              "style": "solid"
+            },
+            "textColor": "#1A1A1A"
+          },
+          "text": "<span style=\"font-size: 10pt; color: #1A1A1A\">[CONTROL] Three-way match (F04)</span>"
+        },
+        {
+          "id": "l3-legend",
+          "type": "rectangle",
+          "boundingBox": {
+            "x": 40,
+            "y": 570,
+            "w": 420,
+            "h": 160
+          },
+          "style": {
+            "fill": {
+              "type": "color",
+              "color": "#F2F2F2"
+            },
+            "stroke": {
+              "color": "#333333",
+              "width": 1,
+              "style": "solid"
+            },
+            "textColor": "#1A1A1A"
+          },
+          "text": "<span style=\"font-size: 10pt; color: #1A1A1A; text-align: left\">Legend<br>Rounded box = activity; diamond = decision (question, labelled answers)<br>Thin circle = start (trigger); thick circle = end (result)<br>[ISSUE] vermillion thick border = evidenced issue (see register)<br>[CONTROL] blue thick border = internal control<br>[CHANGE] green thick border = new or changed in to-be<br>Dotted line = annotation; layers: Issues and Controls overlays</span>"
+        }
+      ],
+      "lines": [
+        {
+          "id": "l3-f1",
+          "lineType": "elbow",
+          "endpoint1": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "l3-start"
+          },
+          "endpoint2": {
+            "type": "shapeEndpoint",
+            "style": "arrow",
+            "shapeId": "l3-a1"
+          },
+          "stroke": {
+            "color": "#333333",
+            "width": 1,
+            "style": "solid"
+          }
+        },
+        {
+          "id": "l3-f2",
+          "lineType": "elbow",
+          "endpoint1": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "l3-a1"
+          },
+          "endpoint2": {
+            "type": "shapeEndpoint",
+            "style": "arrow",
+            "shapeId": "l3-a2"
+          },
+          "stroke": {
+            "color": "#333333",
+            "width": 1,
+            "style": "solid"
+          }
+        },
+        {
+          "id": "l3-f3",
+          "lineType": "elbow",
+          "endpoint1": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "l3-a2"
+          },
+          "endpoint2": {
+            "type": "shapeEndpoint",
+            "style": "arrow",
+            "shapeId": "l3-g1"
+          },
+          "stroke": {
+            "color": "#333333",
+            "width": 1,
+            "style": "solid"
+          }
+        },
+        {
+          "id": "l3-f4",
+          "lineType": "elbow",
+          "endpoint1": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "l3-g1"
+          },
+          "endpoint2": {
+            "type": "shapeEndpoint",
+            "style": "arrow",
+            "shapeId": "l3-g3"
+          },
+          "stroke": {
+            "color": "#333333",
+            "width": 1,
+            "style": "solid"
+          },
+          "text": [
+            {
+              "text": "<span style=\"font-size: 10pt; color: #1A1A1A\">Yes</span>",
+              "position": 0.3,
+              "side": "top"
+            }
+          ]
+        },
+        {
+          "id": "l3-f5",
+          "lineType": "elbow",
+          "endpoint1": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "l3-g1"
+          },
+          "endpoint2": {
+            "type": "shapeEndpoint",
+            "style": "arrow",
+            "shapeId": "l3-a3"
+          },
+          "stroke": {
+            "color": "#333333",
+            "width": 1,
+            "style": "solid"
+          },
+          "text": [
+            {
+              "text": "<span style=\"font-size: 10pt; color: #1A1A1A\">No</span>",
+              "position": 0.3,
+              "side": "top"
+            }
+          ]
+        },
+        {
+          "id": "l3-f6",
+          "lineType": "elbow",
+          "endpoint1": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "l3-a3"
+          },
+          "endpoint2": {
+            "type": "shapeEndpoint",
+            "style": "arrow",
+            "shapeId": "l3-g2"
+          },
+          "stroke": {
+            "color": "#333333",
+            "width": 1,
+            "style": "solid"
+          }
+        },
+        {
+          "id": "l3-f7",
+          "lineType": "elbow",
+          "endpoint1": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "l3-g2"
+          },
+          "endpoint2": {
+            "type": "shapeEndpoint",
+            "style": "arrow",
+            "shapeId": "l3-g3"
+          },
+          "stroke": {
+            "color": "#333333",
+            "width": 1,
+            "style": "solid"
+          },
+          "text": [
+            {
+              "text": "<span style=\"font-size: 10pt; color: #1A1A1A\">Approved</span>",
+              "position": 0.3,
+              "side": "top"
+            }
+          ]
+        },
+        {
+          "id": "l3-f8",
+          "lineType": "elbow",
+          "endpoint1": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "l3-g2"
+          },
+          "endpoint2": {
+            "type": "shapeEndpoint",
+            "style": "arrow",
+            "shapeId": "l3-a5"
+          },
+          "stroke": {
+            "color": "#333333",
+            "width": 1,
+            "style": "solid"
+          },
+          "text": [
+            {
+              "text": "<span style=\"font-size: 10pt; color: #1A1A1A\">Rejected</span>",
+              "position": 0.3,
+              "side": "top"
+            }
+          ]
+        },
+        {
+          "id": "l3-f9",
+          "lineType": "elbow",
+          "endpoint1": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "l3-g3"
+          },
+          "endpoint2": {
+            "type": "shapeEndpoint",
+            "style": "arrow",
+            "shapeId": "l3-a4"
+          },
+          "stroke": {
+            "color": "#333333",
+            "width": 1,
+            "style": "solid"
+          }
+        },
+        {
+          "id": "l3-f10",
+          "lineType": "elbow",
+          "endpoint1": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "l3-a4"
+          },
+          "endpoint2": {
+            "type": "shapeEndpoint",
+            "style": "arrow",
+            "shapeId": "l3-end1"
+          },
+          "stroke": {
+            "color": "#333333",
+            "width": 1,
+            "style": "solid"
+          }
+        },
+        {
+          "id": "l3-f11",
+          "lineType": "elbow",
+          "endpoint1": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "l3-a5"
+          },
+          "endpoint2": {
+            "type": "shapeEndpoint",
+            "style": "arrow",
+            "shapeId": "l3-end2"
+          },
+          "stroke": {
+            "color": "#333333",
+            "width": 1,
+            "style": "solid"
+          }
+        },
+        {
+          "id": "l3-as1",
+          "lineType": "elbow",
+          "endpoint1": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "l3-ann1"
+          },
+          "endpoint2": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "l3-a3"
+          },
+          "stroke": {
+            "color": "#333333",
+            "width": 1,
+            "style": "dotted"
+          }
+        },
+        {
+          "id": "l3-as2",
+          "lineType": "elbow",
+          "endpoint1": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "l3-ann2"
+          },
+          "endpoint2": {
+            "type": "shapeEndpoint",
+            "style": "none",
+            "shapeId": "l3-a2"
+          },
+          "stroke": {
+            "color": "#333333",
+            "width": 1,
+            "style": "dotted"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -132,11 +132,46 @@ def check(path):
         if kind in ACTIVITIES and nin > 1:
             warnings.append('implicit-join (merge with a gateway): ' + nid)
         if kind in SPLITTING and nout > 1:
-            for f in outgoing[nid]:
-                if not (f.get('name') or '').strip() and el.get('default') != f.get('id'):
-                    warnings.append('unlabelled-gateway-branch: %s from %s' % (f.get('id'), nid))
-            if not (el.get('name') or '').strip():
+            unlabelled = [f for f in outgoing[nid]
+                          if not (f.get('name') or '').strip() and el.get('default') != f.get('id')]
+            for f in unlabelled:
+                warnings.append('unlabelled-gateway-branch: %s from %s' % (f.get('id'), nid))
+            if unlabelled and not (el.get('name') or '').strip():
                 warnings.append('splitting-gateway-unnamed (state the question): ' + nid)
+        # Style rules (Method and Style, eCH-0158, 7PMG, Camunda practice).
+        named = (el.get('name') or '').strip()
+        if kind.endswith('Gateway') and named and (kind in ('parallelGateway', 'eventBasedGateway') or nin > 1 >= nout):
+            warnings.append('label-on-join-parallel-or-event-gateway (leave unlabelled): ' + nid)
+        if kind == 'inclusiveGateway':
+            warnings.append('inclusive-gateway (7PMG G5: avoid OR unless evidence needs it): ' + nid)
+        if kind in ACTIVITIES and nout > 1:
+            warnings.append('implicit-split-from-activity (use a gateway): ' + nid)
+        if kind in ('exclusiveGateway', 'inclusiveGateway') and nout > 1:
+            preds = [f.get('sourceRef') for f in incoming.get(nid, [])]
+            if any(local(nodes[p].tag) in ('exclusiveGateway', 'inclusiveGateway') and len(outgoing.get(p, [])) > 1
+                   for p in preds if p in nodes):
+                chain = [p for p in preds if p in nodes and any(
+                    local(nodes[q].tag) in ('exclusiveGateway', 'inclusiveGateway') and len(outgoing.get(q, [])) > 1
+                    for q in [g.get('sourceRef') for g in incoming.get(p, [])] if q in nodes)]
+                if chain:
+                    warnings.append('gateway-cascade (3+ decisions in a row: use a decision table): ' + nid)
+
+    # Process-level style rules: names, size limits.
+    for proc_id in {p.get('id') for p in processes}:
+        members = [n for n, p in process_of.items() if p == proc_id]
+        acts = [n for n in members if local(nodes[n].tag) in ACTIVITIES]
+        for label, kinds in (('activity', ACTIVITIES), ('end-event', {'endEvent'})):
+            names = {}
+            for n in members:
+                if local(nodes[n].tag) in kinds and (nodes[n].get('name') or '').strip():
+                    names.setdefault(nodes[n].get('name').strip().lower(), []).append(n)
+            for nm, ids in names.items():
+                if len(ids) > 1:
+                    warnings.append('duplicate-%s-name "%s": %s' % (label, nm, ', '.join(sorted(ids))))
+        if len(acts) > 15:
+            warnings.append('activities-%d-in-%s > 15 (eCH-0158: split into sub-processes)' % (len(acts), proc_id))
+        if len(members) > 50:
+            warnings.append('flow-nodes-%d-in-%s > 50 (7PMG G7: decompose)' % (len(members), proc_id))
 
     # Lanes: every top-level node of a laned process sits in exactly one lane.
     for proc in processes:
@@ -176,6 +211,21 @@ def check(path):
         for mf in root.iter('{%s}messageFlow' % MODEL):
             if edges.get(mf.get('id'), 0) < 2:
                 errors.append('missing-edge-or-waypoints: ' + str(mf.get('id')))
+        # One size per element type (eCH-0158 2.3.2; size implies importance).
+        sizes = {}
+        for s in root.iter('{%s}BPMNShape' % DI):
+            el = nodes.get(s.get('bpmnElement'))
+            b = s.find('{http://www.omg.org/spec/DD/20100524/DC}Bounds')
+            if el is None or b is None:
+                continue
+            kind = local(el.tag)
+            group = 'activity' if kind in ACTIVITIES and s.get('isExpanded') != 'true' else (
+                'event' if kind.endswith('Event') else 'gateway' if kind.endswith('Gateway') else None)
+            if group:
+                sizes.setdefault(group, set()).add((b.get('width'), b.get('height')))
+        for group, variants in sizes.items():
+            if len(variants) > 1:
+                warnings.append('mixed-%s-sizes %s (one size per element type)' % (group, sorted(variants)))
 
     counts = {
         'participants': len(participants), 'processes': len(processes),

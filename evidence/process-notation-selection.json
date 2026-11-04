@@ -1,8 +1,8 @@
 {
   "skill": "process-notation-selection",
   "release_version": "0.7.0-draft",
-  "release_skill_sha256": "02ca9d66d1385ff2ffcb4ccb49d1f1b2bd9e4fa44560d0e4cf1debef6b5170e5",
+  "release_skill_sha256": "2ceea0bcfcbce835413aa9a40b36d09820f7efa9cb11b11e36411ec281a9f4e9",
   "author_credit": "Sahil Saghir, Hermes Agent",
   "validation": "Checked with the structural catalogue gate and deterministic re-authoring. Behavioural benchmarking against a no-skill baseline is outstanding.",
-  "sources": "Principles informed by Rummler and Brache, Improving Performance (book), on cross-functional process views; Rother and Shook, Learning to See (book), on value stream mapping; and the ISO 5807 flowchart symbol convention. Paraphrased; no text reproduced."
+  "sources": "Principles distilled from: Alec Sharp's published process scope model, summary chart and augmented scope model progression; D. L. Moody's analysis of the BPMN 2.0 visual notation (cognitive fit, longshot diagrams); K. Figl, Comprehension of procedural visual business process models (2017), on swim lanes and secondary notation; eCH-0158 v1.2. Value stream and flowchart conventions are general practice. Paraphrased; no source text reproduced."
 }

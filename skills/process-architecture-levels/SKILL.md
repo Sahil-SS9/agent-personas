@@ -31,6 +31,18 @@ Then produce a **coverage matrix**: rows are process areas or stages, columns ar
 
 Never manufacture L4 detail from L2-grade talk. Never collapse rich L4 evidence into an L3 box and lose it: park it as an L4 candidate.
 
+## Designing the L1 landscape
+- A process architecture is the organised overview of processes and their relations. Build it before detailing processes, then keep it current as the index of every map.
+- Relations to show: decomposition (parent and children), specialisation (a variant of a general process, e.g. "Apply for car insurance" under "Apply for insurance"), trigger (one process's end starts another) and use (one provides a service to another).
+- Group L1 areas into containers such as management, core and support.
+- Structure it the way practice does: start function-based (what the organisation does), then check it against the key business objects (order, claim, invoice). Reference models such as APQC give a fast start but take real effort to tailor; goal-based structures stall because goals are rarely explicit.
+- Process versus procedure: a process is end-to-end and cross-functional (L1 to L3); a procedure is one role's way of doing one task (L4). A map that mixes the two is at the wrong level.
+
+## Identifiers and signposting
+- Give every process a stable, unique identifier that never changes, assigned centrally. Use the hierarchical number (2.3.1) only as a display and navigation label; it will change when the structure changes. Do not number individual activities.
+- Every map is signposted with its diagram type and level, its number, and a unique name, so readers know where they are and can find parent and children. Show a breadcrumb to the parent.
+- Prefer separate, linked child maps to expanding detail in place: hierarchical decomposition keeps every page readable and is markedly easier to understand than flat or in-place expanded diagrams.
+
 ## Decomposition rules
 - **One parent each**: every L(n+1) map decomposes exactly one L(n) element. Its title repeats the parent's number and name.
 - **Numbering**: hierarchical, such as 2 > 2.3 > 2.3.1 > 2.3.1.4. Numbers are an index, not an execution order, unless the map shows flow.

@@ -13,6 +13,12 @@ A map is draft until the people who do the work recognise it and an owner accept
 - Report the assumed share per map. If more than about a fifth of a map's elements are assumed, it is not ready for walkthrough; go back to elicitation.
 - Each conflict from the register is either resolved, with a source, or shown as an open question on the map.
 
+## 1b. Three kinds of quality
+- **Syntactic**: the map follows the notation (no dead ends, deadlocks or orphans). Checked by tools.
+- **Semantic**: the map is true and complete. Checked with the people who do the work.
+- **Pragmatic**: readers understand it. Checked by layout, labels and the visual standard, and by asking a reader to explain the map back.
+A map passing only the first is not validated.
+
 ## 2. Structural checks per map
 - BPMN files: the full validation ladder in `bpmn-xml-authoring-and-validation`.
 - Any notation: one clear start; a named terminator per end state; every decision has labelled exits; no dead ends or orphans; every handoff has a receiver; every lane has at least one step; names are verb plus object; the legend is present.
@@ -23,6 +29,11 @@ A map is draft until the people who do the work recognise it and an owner accept
 - Roles in L3 lanes exist in the actor list; L4 steps are performed by the lane that owns the parent L3 activity, or the handoff is shown.
 - Numbering and names are identical across the register, map titles and links.
 - No L2 stage silently missing an L3 when the coverage matrix said it was supported.
+
+## 3b. Readability review
+- Run the 7PMG review: few elements, low connector counts, structured blocks, few start and end events, no OR, verb-object labels, decompose past 50 elements. At equal size, dense and highly connected maps are harder to read; simplify those first.
+- Run the style checks (`check_bpmn.py`, `check_visual_standard.py`) and clear or justify every warning.
+- Readers who know the notation understand maps better than experienced readers who do not, so give business reviewers the legend and a one-page notation primer before the walkthrough.
 
 ## 4. Walkthrough with the people who do the work
 - Walk each path end to end, one token at a time: the happy path, then each exception. Ask "what happens next, who does it, and what do they need?"

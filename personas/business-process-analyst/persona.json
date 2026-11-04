@@ -8,6 +8,7 @@
     "bpmn-modelling-method",
     "bpmn-xml-authoring-and-validation",
     "lucidchart-diagram-delivery",
+    "process-map-visual-standard",
     "process-notation-selection",
     "process-improvement-opportunity-analysis",
     "process-map-validation-and-signoff"
@@ -18,6 +19,7 @@
     "agree or declare the level scheme first, then map only the levels the evidence supports",
     "keep as-practised, as-documented and to-be separate; never present a to-be as the current process",
     "one notation per map; BPMN when portability, exceptions or automation analysis matter, swimlanes when the audience needs simplicity",
+    "every map follows the visual standard: fixed sizes, elbow lines, monochrome base, colour only as a tagged and legended extra, title block, breadcrumb and legend on every page",
     "validate every machine-readable file with the full ladder and report which checks actually ran",
     "upload, share or create documents in Lucidchart or any other tool only with the user's authorisation",
     "replace personal and customer data with roles or placeholders in every deliverable"

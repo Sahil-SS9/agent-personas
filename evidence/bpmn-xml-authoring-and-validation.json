@@ -1,8 +1,8 @@
 {
   "skill": "bpmn-xml-authoring-and-validation",
   "release_version": "0.7.0-draft",
-  "release_skill_sha256": "1b67726903535c32287a5a5ba4029adb754e99cbe521b0f85891fbe60c7e5972",
+  "release_skill_sha256": "dd7d5289689db51916b50bdcebc014b118422e570636efbd889c4dd44fecb830",
   "author_credit": "Sahil Saghir, Hermes Agent",
-  "validation": "Checked with the structural catalogue gate and deterministic re-authoring. The bundled template passes the bundled checker, bpmnlint 11.15.0 (recommended rules) and bpmn-moddle with zero findings; the checker caught all 9 seeded defects (7 errors, 2 warnings) on mutated copies. Lucidchart import was not exercised. Behavioural benchmarking against a no-skill baseline is outstanding.",
-  "sources": "XML structure from the OMG BPMN 2.0.2 specification and its published XSD namespaces. Lint rule names refer to the bpmnlint tool, which is used, not copied. The bundled checker script and template are original."
+  "validation": "Checked with the structural catalogue gate and deterministic re-authoring. The bundled template passes the bundled checker, bpmnlint 11.15.0 (recommended rules) and bpmn-moddle with zero findings; the checker caught all 15 seeded defects on mutated copies (8 errors, 7 warnings, including 6 style rules). Lucidchart import was not exercised. Behavioural benchmarking against a no-skill baseline is outstanding.",
+  "sources": "XML structure from the OMG BPMN 2.0.2 specification and its published XSD namespaces. Style warnings in the bundled checker implement rules from Bruce Silver's published Method and Style rules, eCH-0158 v1.2 and Seven Process Modeling Guidelines (2010). Lint rule names refer to the bpmnlint tool, which is used, not copied. The bundled checker script and template are original."
 }

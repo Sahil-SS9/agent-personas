@@ -2,9 +2,10 @@
 
 ## 0.7.0 (draft; local, not published)
 
-- Add the Business Process Analyst persona and bundle (8 skills): cited fact ledgers from transcripts and documents, a Level 1 to 4 process architecture with a level-fit coverage matrix, BPMN 2.0 modelling, portable .bpmn files with diagram interchange, Lucidchart delivery (BPMN import, CSV process import, Standard Import API), other notations (landscape, SIPOC, swimlane, value stream map), improvement-opportunity analysis, and validation and sign-off.
-- bpmn-xml-authoring-and-validation ships a dependency-free structural checker and an L3 swimlane template. The template passes the checker, bpmnlint recommended rules and bpmn-moddle; the checker caught all 9 seeded defects. Lucidchart import was not exercised.
-- Validation: structural catalogue gate and deterministic re-authoring. Behavioural benchmarking is outstanding.
+- Add the Business Process Analyst persona and bundle (9 skills): cited fact ledgers from transcripts and documents, a Level 1 to 4 process architecture with a level-fit coverage matrix, BPMN 2.0 modelling with label and end-state rules, portable .bpmn files with diagram interchange, Lucidchart delivery (BPMN import, CSV process import, Standard Import API), a visual standard for every map (sizes, grid, lines, fonts, accessible colour, icons, title, legend and breadcrumb), other notations, improvement-opportunity analysis, and validation and sign-off.
+- Source study: the OMG BPMN 2.0.2 standard, the eCH-0158 BPMN conventions, WCAG 2.2, nine peer-reviewed papers on process-model quality and comprehension, and the authors' own published material for Fundamentals of BPM, BPMN Method and Style, Real-Life BPMN and Workflow Modeling (book chapters themselves were not available). Public skills contain paraphrased principles only.
+- Tools: a dependency-free BPMN structure and style checker with an L3 template, and a Lucid Standard Import visual-standard checker with a three-page linked Lucid template. Both checkers caught every seeded defect (15 and 18). Lucidchart import was not exercised.
+- Validation: structural catalogue gate and deterministic re-authoring; see the evidence cards for behavioural results.
 
 ## 0.6.0 (on main; not tagged)
 

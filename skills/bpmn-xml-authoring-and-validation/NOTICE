@@ -1,2 +1,2 @@
 Original text: Sahil Saghir, Hermes Agent. MIT.
-XML structure from the OMG BPMN 2.0.2 specification and its published XSD namespaces. Lint rule names refer to the bpmnlint tool, which is used, not copied. The bundled checker script and template are original.
+XML structure from the OMG BPMN 2.0.2 specification and its published XSD namespaces. Style warnings in the bundled checker implement rules from Bruce Silver's published Method and Style rules, eCH-0158 v1.2 and Seven Process Modeling Guidelines (2010). Lint rule names refer to the bpmnlint tool, which is used, not copied. The bundled checker script and template are original.

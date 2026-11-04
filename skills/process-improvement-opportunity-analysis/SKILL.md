@@ -20,6 +20,11 @@ Count and list each of these, with element ids:
 - **Policy versus practice**: every conflict in the register is a candidate finding.
 - **Unclear ownership**: steps with no clear lane, or shared lanes. Draft a RACI where it helps.
 
+## 1b. Look beyond the flow: six enablers
+Process performance also depends on technology and information systems, motivation and measurement, people and organisation, policies and rules, and facilities, not only on the flow design. Tag each finding with the enabler it sits in; many "process problems" are measurement or policy problems.
+- Gateway cascades usually hide a business rule; extracting it into a decision table is often a quick win.
+- Improving one phase can make the whole worse. Check every opportunity against the end-to-end result.
+
 ## 2. Value and waste lens
 Classify activities as value-adding (the customer would pay for it), business-necessary (regulatory or control) or waste. Tag waste type: waiting, rework/defects, over-processing, motion/transport of information, inventory/backlog, unused skills, over-production. Apply it to evidenced activities only.
 

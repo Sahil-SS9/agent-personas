@@ -37,6 +37,17 @@ Required columns: `ID`, `Name`, `Shape Library`, `Page ID`, `Contained By`, `Tex
 - Create it with `POST https://api.lucid.co/v1/documents` (multipart: `file` typed `x-application/vnd.lucid.standardImport`, `title`, `product=lucidchart`), using the user's OAuth token. Lucid notes that the same file can render differently over time, so open the result and check it.
 - Check the current developer docs for exact property names before a large generation. The format evolves.
 
+## 3b. Make the house style stick in Lucid
+Lucid styles are easy to drift. Theme edits are saved per document only, so they do not standardise a team. Instead:
+- Keep one **master template document** built from `process-map-visual-standard` (title block, legend, breadcrumb, lane set-up, styled shapes) and create every map from it.
+- Put the styled shapes in a shared **custom shape library** and pin it; documents made from a template carry its libraries.
+- Use **conditional formatting** to assign theme styles by shape type and to add marker icons from shape data, rather than colouring by hand.
+- Use **layers** for overlays (Issues, Controls, Changes, Metrics) above a clean base map. Layers are per page, so set them up in the template page.
+- Page settings: fixed landscape page size, no infinite canvas, page tiling on, so maps print and export as designed.
+- Lines: Elbow is the default shape; turn on jumps where lines must cross. Standard Import stroke widths are whole pixels.
+- Text in Standard Import: set the font size explicitly with an HTML style (`<span style="font-size: 11pt">`); without it Lucid auto-scales and sizes drift across shapes.
+- Check generated files with `scripts/check_visual_standard.py` (in `process-map-visual-standard`) before import.
+
 ## 4. Document structure in Lucid
 - One document per L1 area, or per engagement. Pages titled `L1 Landscape`, `L2 2 Procure to pay`, `L3 2.3 Approve supplier invoices`, `L4 2.3.1 Register invoice`.
 - A legend on every page: level scheme, notation, lane convention, version, status, as-is or to-be.

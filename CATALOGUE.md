@@ -9,7 +9,7 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [agent-team-lead](personas/agent-team-lead/PERSONA.md) | Ship outcomes through agent teams: brief so nothing depends on session memory, verify against definitions-of-done, cap parallelism, and report status as evidence. | 6 |
 | [ai-guardrails-engineer](personas/ai-guardrails-engineer/PERSONA.md) | Ensure the correct guardrails are identified, put in place, followed and maintained. | 11 |
 | [api-contract-designer](personas/api-contract-designer/PERSONA.md) | Define APIs, compatibility rules and error contracts. | 6 |
-| [business-process-analyst](personas/business-process-analyst/PERSONA.md) | Turn transcripts, documents and workshops into traceable Level 1 to 4 process architecture and validated BPMN, swimlane and Lucidchart-ready maps, and surface evidence-backed improvement opportunities. | 8 |
+| [business-process-analyst](personas/business-process-analyst/PERSONA.md) | Turn transcripts, documents and workshops into traceable Level 1 to 4 process architecture and validated BPMN, swimlane and Lucidchart-ready maps, and surface evidence-backed improvement opportunities. | 9 |
 | [automation-engineer](personas/automation-engineer/PERSONA.md) | Replace measured toil with observable, reversible automations. | 6 |
 | [blue-team-security](personas/blue-team-security/PERSONA.md) | Plan prevention, detection and rehearsed incident response. | 6 |
 | [career-skill-portfolio-strategist](personas/career-skill-portfolio-strategist/PERSONA.md) | Replace abstract career predictions with affordable, evidence-producing career experiments. | 3 |
@@ -65,7 +65,7 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [agent-team-lead](bundles/agent-team-lead/bundle.json) | 6 |
 | [ai-guardrails-engineer](bundles/ai-guardrails-engineer/bundle.json) | 11 |
 | [api-contract-designer](bundles/api-contract-designer/bundle.json) | 6 |
-| [business-process-analyst](bundles/business-process-analyst/bundle.json) | 8 |
+| [business-process-analyst](bundles/business-process-analyst/bundle.json) | 9 |
 | [automation-engineer](bundles/automation-engineer/bundle.json) | 6 |
 | [blue-team-security](bundles/blue-team-security/bundle.json) | 6 |
 | [career-skill-portfolio-strategist](bundles/career-skill-portfolio-strategist/bundle.json) | 3 |
@@ -317,6 +317,7 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [process-architecture-levels](skills/process-architecture-levels/SKILL.md) | Organise process knowledge into a Level 1 to 4 hierarchy, decide which levels the evidence supports, and keep every child map traceable to its parent with consistent naming and numbering. | [Card](evidence/process-architecture-levels.json) |
 | [process-improvement-opportunity-analysis](skills/process-improvement-opportunity-analysis/SKILL.md) | Analyse as-is maps for handoffs, rework, waits, duplicate entry, control gaps and policy-practice deviations, then build an evidence-linked opportunity register and to-be options without inventing benefits. | [Card](evidence/process-improvement-opportunity-analysis.json) |
 | [process-map-validation-and-signoff](skills/process-map-validation-and-signoff/SKILL.md) | Prove process maps before sign-off: trace every element to evidence, run structural and cross-level consistency checks, walk paths with the people who do the work, and record versions, approvals and open questions. | [Card](evidence/process-map-validation-and-signoff.json) |
+| [process-map-visual-standard](skills/process-map-visual-standard/SKILL.md) | Apply one visual standard to every process map: shape sizes, grid and spacing, lines and connectors, lanes, fonts, a small accessible colour palette, icons, legend and title blocks, enforced in Lucidchart and checked by script. | [Card](evidence/process-map-visual-standard.json) |
 | [process-notation-selection](skills/process-notation-selection/SKILL.md) | Choose and draw the right non-BPMN map for the question: value-chain landscape, SIPOC, flowchart, cross-functional swimlane, value stream map, or diagrams-as-code, without mixing notations. | [Card](evidence/process-notation-selection.json) |
 | [process-source-elicitation](skills/process-source-elicitation/SKILL.md) | Extract a cited process-fact ledger from transcripts, workshop notes, SOPs, policies and tickets: actors, steps, decisions, rules, exceptions, conflicts and the questions still open. | [Card](evidence/process-source-elicitation.json) |
 | [production-health-ownership](skills/production-health-ownership/SKILL.md) | Own production health: capacity, incident command, blameless postmortems. | [Card](evidence/production-health-ownership.json) |
@@ -602,13 +603,14 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 
 ## New in 0.7.0 (draft)
 
-- [business-process-analyst](personas/business-process-analyst/PERSONA.md) · [bundle](bundles/business-process-analyst/bundle.json) (8 skills)
+- [business-process-analyst](personas/business-process-analyst/PERSONA.md) · [bundle](bundles/business-process-analyst/bundle.json) (9 skills)
 - [bpmn-modelling-method](skills/bpmn-modelling-method/SKILL.md) · [evidence](evidence/bpmn-modelling-method.json)
 - [bpmn-xml-authoring-and-validation](skills/bpmn-xml-authoring-and-validation/SKILL.md) · [evidence](evidence/bpmn-xml-authoring-and-validation.json)
 - [lucidchart-diagram-delivery](skills/lucidchart-diagram-delivery/SKILL.md) · [evidence](evidence/lucidchart-diagram-delivery.json)
 - [process-architecture-levels](skills/process-architecture-levels/SKILL.md) · [evidence](evidence/process-architecture-levels.json)
 - [process-improvement-opportunity-analysis](skills/process-improvement-opportunity-analysis/SKILL.md) · [evidence](evidence/process-improvement-opportunity-analysis.json)
 - [process-map-validation-and-signoff](skills/process-map-validation-and-signoff/SKILL.md) · [evidence](evidence/process-map-validation-and-signoff.json)
+- [process-map-visual-standard](skills/process-map-visual-standard/SKILL.md) · [evidence](evidence/process-map-visual-standard.json)
 - [process-notation-selection](skills/process-notation-selection/SKILL.md) · [evidence](evidence/process-notation-selection.json)
 - [process-source-elicitation](skills/process-source-elicitation/SKILL.md) · [evidence](evidence/process-source-elicitation.json)
 

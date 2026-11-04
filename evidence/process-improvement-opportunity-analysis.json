@@ -1,8 +1,8 @@
 {
   "skill": "process-improvement-opportunity-analysis",
   "release_version": "0.7.0-draft",
-  "release_skill_sha256": "f94c1b847242caef243fa010dc19508fded13f386b7c0fe87f5d7ecddde44a34",
+  "release_skill_sha256": "cc9706965b48186882f1d2a89da42efb0be5b85294dd106ec9688c1da9899015",
   "author_credit": "Sahil Saghir, Hermes Agent",
   "validation": "Checked with the structural catalogue gate and deterministic re-authoring. Behavioural benchmarking against a no-skill baseline is outstanding.",
-  "sources": "Waste lens informed by lean practice (Ohno's wastes, as taught in Rother and Shook, Learning to See, book). Paraphrased; no text reproduced."
+  "sources": "Principles distilled from Alec Sharp's published six process enablers and local-versus-global optimisation warning; eCH-0158 v1.2 on business rules hidden in gateway cascades. The waste lens is general lean practice. Paraphrased; no source text reproduced."
 }

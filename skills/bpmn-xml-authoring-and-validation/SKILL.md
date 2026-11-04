@@ -25,7 +25,9 @@ Start from `templates/l3-swimlane-template.bpmn` (two pools, three lanes, labell
 
 ## 3. Validation ladder (run all that are available; report each separately)
 1. **Well-formed XML** (any XML parser).
-2. **Structural check**: `python3 scripts/check_bpmn.py file.bpmn`. Dependency-free. It checks reference integrity, single lane membership, sequence flows staying inside one pool, message flows crossing pools, named activities, start/end connectivity, gateway branch labels and full DI coverage. Errors fail; warnings (unnamed end states, implicit joins, unlabelled branches) must be fixed or justified.
+2. **Structural and style check**: `python3 scripts/check_bpmn.py file.bpmn`. Dependency-free.
+   - Errors (must fix): broken references, a node in no lane or two lanes, sequence flow crossing pools, message flow inside one pool, unnamed activities, disconnected starts and ends, missing DI.
+   - Style warnings (fix or justify in the hand-over): unnamed end states, implicit joins and splits, unlabelled branches, labels on joins or parallel gateways, inclusive gateways, three or more decisions in a row, duplicate activity or end-state names, more than 15 activities or 50 nodes in a process, mixed sizes for one element type.
 3. **bpmnlint**: `npx bpmnlint file.bpmn` with `.bpmnlintrc` `{"extends": "bpmnlint:recommended"}`. It covers label-required, no-disconnected, fake-join, no-implicit-split, superfluous-gateway, start/end-event-required and others. It does **not** check lane membership or pool boundaries, which is why step 2 exists.
 4. **Reference parse**: load it with `bpmn-moddle` (the parser behind bpmn.io). Unresolved references show up as warnings.
 5. **Open it** in the target tool, if you have access, and look at it. Say which steps actually ran; a passing lint is not proof that a tool renders it.

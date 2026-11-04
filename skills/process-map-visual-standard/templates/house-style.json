@@ -1,0 +1,72 @@
+{
+  "name": "process-map-house-style",
+  "version": "1.0.0",
+  "note": "Default house style. Replace values with the organisation's own standard where one exists; keep the structure so the checker still works.",
+  "page": {
+    "orientation": "landscape",
+    "size_by_level": {"L1": "A4", "L2": "A4", "L3": "A3", "L4": "A3"},
+    "grid_px": 10,
+    "infinite_canvas": false,
+    "title_pattern": "^L[0-4] [0-9A-Za-z.\\-]+ .+ \\| (As-is|To-be) \\| v[0-9]+\\.[0-9]+ \\| (Draft|Validated|Approved|Superseded)",
+    "legend_prefix": "Legend",
+    "breadcrumb_prefix": "Parent:"
+  },
+  "limits": {
+    "activities_per_page_target": 15,
+    "flow_elements_per_page_max": 50,
+    "lanes_per_pool_max": 6,
+    "lane_nesting_max": 3,
+    "semantic_colours_per_page_max": 3,
+    "icons_per_legend_max": 6
+  },
+  "sizes_px": {
+    "activity": [110, 80],
+    "event": [36, 36],
+    "gateway": [50, 50],
+    "data_object": [36, 50],
+    "data_store": [50, 50],
+    "annotation_width": 160,
+    "lane_min_height": 120,
+    "min_gap_horizontal": 40,
+    "min_gap_vertical": 30
+  },
+  "fonts": {
+    "family": "Liberation Sans",
+    "pt": {"activity": 11, "event_or_gateway_label": 10, "flow_label": 10, "lane_title": 12, "page_title": 18, "legend": 10},
+    "min_pt": 9,
+    "bold_or_italic_in_element_labels": false,
+    "case": "sentence"
+  },
+  "colours": {
+    "text": "#1A1A1A",
+    "text_secondary": "#4D4D4D",
+    "line": "#333333",
+    "fill": "#FFFFFF",
+    "header_fill": "#F2F2F2",
+    "semantic": {
+      "issue": {"border": "#D55E00", "fill": "#FDE8DC", "tag": "[ISSUE]", "border_px": 3},
+      "control": {"border": "#0072B2", "fill": "#DCEBF7", "tag": "[CONTROL]", "border_px": 3},
+      "change": {"border": "#007A5A", "fill": "#D9F2EA", "tag": "[CHANGE]", "border_px": 3},
+      "happy_path": {"border": "#333333", "fill": "#FFF4D6", "tag": null, "border_px": 1}
+    },
+    "min_text_contrast": 4.5,
+    "min_non_text_contrast": 3.0
+  },
+  "lines": {
+    "shape": "elbow",
+    "sequence_flow": {"color": "#333333", "width": 1, "style": "solid", "end": "arrow"},
+    "message_flow": {"color": "#333333", "width": 1, "style": "dashed"},
+    "association": {"color": "#333333", "width": 1, "style": "dotted"},
+    "line_jumps": true,
+    "reserved_styles_note": "dashed and dotted are reserved for message flow and association; never use them on sequence flows or shape borders"
+  },
+  "icons": {
+    "bpmn_maps": "BPMN task-type and event markers only",
+    "other_maps": "optional; at most 6 icons, each in the legend, 16 px, top-left of the shape, always alongside text; no decorative icons"
+  },
+  "lucid": {
+    "theme_scope": "per document: keep a master template document and a shared custom shape library",
+    "layers": ["Base", "Issues", "Controls", "Changes", "Metrics"],
+    "drill_down": "gotoPage action from a parent shape to the child page and a breadcrumb link back"
+  }
+}

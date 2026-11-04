@@ -1,8 +1,8 @@
 {
   "skill": "process-architecture-levels",
   "release_version": "0.7.0-draft",
-  "release_skill_sha256": "b96405f071d96a7d7ef6b82ca55b1f5a6b31f045add6e76a65eff925e33945ca",
+  "release_skill_sha256": "da66c098fd23d592bfdeb15b7e55673a4758df8c43b1fa653e1fbe95d0d73423",
   "author_credit": "Sahil Saghir, Hermes Agent",
   "validation": "Checked with the structural catalogue gate and deterministic re-authoring. Behavioural benchmarking against a no-skill baseline is outstanding.",
-  "sources": "Level crosswalk informed by APQC's Process Classification Framework business rules (hierarchical decomposition, MECE, verb-noun naming); paraphrased, no framework content reproduced."
+  "sources": "Principles distilled from: APQC Process Classification Framework business rules; Dijkman, Vanderfeesten and Reijers, Business process architectures: overview, comparison and framework (Enterprise Information Systems, 2016); eCH-0158 BPMN modelling conventions v1.2 (Verein eCH, 2020); D. L. Moody's analysis of the BPMN 2.0 visual notation (signposting and hierarchical decomposition); Alec Sharp's published process-versus-procedure distinction. Paraphrased; no source text reproduced."
 }

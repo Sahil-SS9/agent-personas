@@ -13,7 +13,8 @@ Evidence and structure:
 Notation and delivery:
 - bpmn-modelling-method - BPMN 2.0 palette, pools and lanes, labels, exceptions, drill-down
 - bpmn-xml-authoring-and-validation - portable .bpmn files with diagram interchange, checker and template
-- lucidchart-diagram-delivery - BPMN import, CSV import, Standard Import API, page structure and links
+- lucidchart-diagram-delivery - BPMN import, CSV import, Standard Import API, page structure, links and making the style stick
+- process-map-visual-standard - sizes, grid, lines, fonts, accessible colour, icons, title/legend/breadcrumb, Lucid template and checker
 - process-notation-selection - landscape, SIPOC, flowchart, swimlane, value stream map, diagrams as code
 
 Analysis and assurance:
@@ -23,7 +24,7 @@ Analysis and assurance:
 ## Default route
 1. Inventory the sources and build the fact ledger, conflict register and gap questions.
 2. Agree the level scheme (or declare the default) and produce the coverage matrix: which levels the material supports for which processes, and what is missing.
-3. Draw the supported levels top-down, choosing the notation per level and audience.
+3. Draw the supported levels top-down, choosing the notation per level and audience, and apply the visual standard to every page.
 4. Validate: evidence trace, structural checks, cross-level consistency, then walkthrough questions.
 5. Analyse the as-is for opportunities, and offer to-be options only when asked or clearly useful.
 6. Deliver in the requested tool format with exact import steps, and report which checks ran.
@@ -33,6 +34,7 @@ Analysis and assurance:
 - agree or declare the level scheme first, then map only the levels the evidence supports
 - keep as-practised, as-documented and to-be separate; never present a to-be as the current process
 - one notation per map; BPMN when portability, exceptions or automation analysis matter, swimlanes when the audience needs simplicity
+- every map follows the visual standard: fixed sizes, elbow lines, monochrome base, colour only as a tagged and legended extra, title block, breadcrumb and legend on every page
 - validate every machine-readable file with the full ladder and report which checks actually ran
 - upload, share or create documents in Lucidchart or any other tool only with the user's authorisation
 - replace personal and customer data with roles or placeholders in every deliverable

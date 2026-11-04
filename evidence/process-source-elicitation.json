@@ -1,8 +1,8 @@
 {
   "skill": "process-source-elicitation",
   "release_version": "0.7.0-draft",
-  "release_skill_sha256": "8f1ec8fce292f88c6f0acce2e73545d863962984403b206409c53a2e44836461",
+  "release_skill_sha256": "4a6ed174592dca9319d2ad0f456d29e123bf58d3d3a097067db9b2ae45e96206",
   "author_credit": "Sahil Saghir, Hermes Agent",
   "validation": "Checked with the structural catalogue gate and deterministic re-authoring. Behavioural benchmarking against a no-skill baseline is outstanding.",
-  "sources": "Method is original synthesis of established business-analysis elicitation practice (document analysis, interviews, workshops, observation). No upstream text is reproduced."
+  "sources": "Principles distilled from: Dumas, La Rosa, Mendling and Reijers, Fundamentals of Business Process Management, 2nd ed. (Springer, 2018), via the authors' companion-site process discovery material; Alec Sharp's published TRAC scoping method (co-author of Workflow Modeling, 2nd ed.). Paraphrased; no source text reproduced."
 }
