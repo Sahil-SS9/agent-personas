@@ -1,0 +1,8 @@
+{
+  "skill": "failure-mode-and-resilience-design",
+  "release_version": "0.8.0-draft",
+  "release_skill_sha256": "62f51dc0a87bfc4903c832851e6334b85d816ab73a1a6bbc688971cec2bbc1e1",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Checked with the structural catalogue gate and deterministic re-authoring. Behavioural benchmarking against a no-skill baseline is outstanding.",
+  "sources": "Principles distilled from: Hamilton, On designing and deploying internet-scale services (LISA 2007); Michael Nygard, Release It! 2nd ed., publisher extracts (Stability Antipatterns); Amazon Builders' Library (static stability, shuffle sharding, avoiding fallback); Google, Site Reliability Engineering, Addressing Cascading Failures (free online); Dean and Barroso, The tail at scale (CACM 2013); Microsoft Azure Architecture Center reliability principles and patterns (CC BY 4.0). Paraphrased; no source text reproduced."
+}

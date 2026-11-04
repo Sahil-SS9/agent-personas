@@ -1,0 +1,8 @@
+{
+  "skill": "ai-systems-evaluation-and-operations",
+  "release_version": "0.8.0-draft",
+  "release_skill_sha256": "9cabf31587a62e59fa649d36e1d6f2eb7885cbf445d1ec70735398210b62765f",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Checked with the structural catalogue gate and deterministic re-authoring. Behavioural benchmarking against a no-skill baseline is outstanding.",
+  "sources": "Principles distilled from: Barnett et al., Seven failure points when engineering a RAG system (CAIN 2024); Sculley et al., Hidden technical debt in machine learning systems (NeurIPS 2015); Chip Huyen, 'Building A Generative AI Platform' and 'Agents' (author's posts); AWS Well-Architected Generative AI Lens (observability; standardised resource management). Paraphrased; no source text reproduced."
+}

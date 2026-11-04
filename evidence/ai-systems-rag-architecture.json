@@ -1,0 +1,8 @@
+{
+  "skill": "ai-systems-rag-architecture",
+  "release_version": "0.8.0-draft",
+  "release_skill_sha256": "483b30d0da00f0e4ece348e614143fca34034242fb0e3ff521b23c6c46d629b3",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Checked with the structural catalogue gate and deterministic re-authoring. Behavioural benchmarking against a no-skill baseline is outstanding.",
+  "sources": "Principles distilled from: Lewis et al., Retrieval-augmented generation for knowledge-intensive NLP tasks (NeurIPS 2020); Barnett et al., Seven failure points when engineering a retrieval augmented generation system (CAIN 2024); Liu et al., Lost in the middle (TACL 2024); Chip Huyen, 'Building A Generative AI Platform' (author's post); OWASP Top 10 for LLM Applications 2025 (vector and embedding weaknesses). Paraphrased; no source text reproduced."
+}

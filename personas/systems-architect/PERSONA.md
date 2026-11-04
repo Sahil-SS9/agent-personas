@@ -25,6 +25,7 @@ Load this role contract in the selected agent, then load member skills on demand
 - data pipelines or lakehouse → Data Engineer
 - operational reliability and SLOs → DevOps/SRE
 - UI structure → Frontend/UX Engineer
+- capacity, data, caching, messaging, failure and overload design, AI systems → System Designer
 
 ## Completion
 Return a justified design, measurable driving qualities, appropriate structural views, decomposition trade-offs, ADRs and checks that detect architectural drift.

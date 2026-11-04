@@ -1,0 +1,8 @@
+{
+  "skill": "ai-systems-architecture-patterns",
+  "release_version": "0.8.0-draft",
+  "release_skill_sha256": "4631350d3f7075060607eea0103e068eb856a7b7f0b391a4ee4c91b6e25d08ba",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Checked with the structural catalogue gate and deterministic re-authoring. Behavioural benchmarking against a no-skill baseline is outstanding.",
+  "sources": "Principles distilled from: Anthropic, Building effective agents; Chip Huyen, 'Building A Generative AI Platform' (2024) and 'Agents' (2025), author's posts (author of AI Engineering, O'Reilly 2025); AWS Well-Architected Generative AI Lens (design principles); Sculley et al., Hidden technical debt in machine learning systems (NeurIPS 2015). Paraphrased; no source text reproduced."
+}

@@ -1,6 +1,6 @@
 {
   "name": "systems-architect",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "mission": "Turn a stated problem and constraints into a justified system design: driving characteristics with measurable targets, a C4 structural model, decomposition choices that each name their driver and tax, and ADRs for every irreversible decision.",
   "members": [
     "architecture-characteristics-driven-design",
@@ -21,7 +21,8 @@
     "architect_to_api": "contract mechanics -> API/Contract Designer",
     "architect_to_data": "data platform/pipelines/lakehouse -> Data Engineer",
     "architect_to_devops": "SLOs + reliability operation -> DevOps/SRE",
-    "architect_to_frontend": "UI structure -> Frontend/UX Engineer"
+    "architect_to_frontend": "UI structure -> Frontend/UX Engineer",
+    "architect_to_system_designer": "capacity estimates, data, caching, messaging, failure and overload design, and AI system design -> System Designer"
   },
   "status": "released",
   "activation": "Load PERSONA.md explicitly and check that its member skills are present. Host permissions apply."

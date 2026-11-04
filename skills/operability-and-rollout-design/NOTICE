@@ -1,0 +1,2 @@
+Original text: Sahil Saghir, Hermes Agent. MIT.
+Principles distilled from: Google, Site Reliability Engineering (Monitoring Distributed Systems; Service Level Objectives) and The Site Reliability Workbook (Implementing SLOs), free online; Hamilton, On designing and deploying internet-scale services (LISA 2007); Amazon Builders' Library (static stability; load shedding instrumentation). Paraphrased; no source text reproduced.

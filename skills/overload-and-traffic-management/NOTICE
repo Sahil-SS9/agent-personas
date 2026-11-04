@@ -1,0 +1,2 @@
+Original text: Sahil Saghir, Hermes Agent. MIT.
+Principles distilled from: Amazon Builders' Library (timeouts, retries and backoff with jitter; using load shedding to avoid overload; making retries safe with idempotent APIs); Google, Site Reliability Engineering, Handling Overload and Addressing Cascading Failures (free online); Bronson et al., Metastable failures in distributed systems (HotOS 2021); Michael Nygard, Release It! 2nd ed., publisher extracts. Paraphrased; no source text reproduced.

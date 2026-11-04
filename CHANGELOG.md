@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.8.0 (draft; local, not published)
+
+- Add the System Designer persona and bundle (18 skills: 17 new plus the shared c4-architecture-modelling). Core: requirements and SLOs, capacity estimation, data stores and partitioning, replication and consistency, caching and CDNs, messaging and workflows, failure modes and resilience, overload and traffic management, security, operability and rollout, cost, and the design document and review. AI and LLM systems sub-category: architecture patterns, RAG architecture, model serving and capacity, agent and tool safety, evaluation and operations. Persona and bundle manifests list both groups in `member_groups`.
+- Systems Architect (0.3.1): add the reciprocal handoff to System Designer. No member changes.
+- Source study: Google SRE book and workbook chapters, Amazon Builders' Library, AWS Well-Architected and its Generative AI Lens, Azure Architecture Center patterns, system-design-primer, OWASP LLM Top 10, NIST AI 600-1, Anthropic's agent guidance, 13 papers, and the authors' own published material for Designing Data-Intensive Applications, System Design Interview, Release It! and AI Engineering (the books themselves were not available). Public skills contain paraphrased principles only.
+- Tools: a dependency-free capacity calculator (QPS, storage, bandwidth, nodes with failure-domain headroom, LLM tokens, replicas and cost) with known-answer tests, and a design-document completeness checker with a template and a worked example.
+- Validation: structural catalogue gate and deterministic re-authoring; see the evidence cards for behavioural results.
+
 ## 0.7.0 (on main; not tagged)
 
 - Add the Business Process Analyst persona and bundle (9 skills): cited fact ledgers from transcripts and documents, a Level 1 to 4 process architecture with a level-fit coverage matrix, BPMN 2.0 modelling with label and end-state rules, portable .bpmn files with diagram interchange, Lucidchart delivery (BPMN import, CSV process import, Standard Import API), a visual standard for every map (sizes, grid, lines, fonts, accessible colour, icons, title, legend and breadcrumb), other notations, improvement-opportunity analysis, and validation and sign-off.

@@ -1,0 +1,8 @@
+{
+  "skill": "cost-modelling-for-system-design",
+  "release_version": "0.8.0-draft",
+  "release_skill_sha256": "135f18598bb30b51d88c9bd69d983fea1ead22680012240d6fbc809b563da857",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Checked with the structural catalogue gate and deterministic re-authoring. Behavioural benchmarking against a no-skill baseline is outstanding.",
+  "sources": "Principles distilled from: AWS Well-Architected Framework (cost optimisation pillar) and Generative AI Lens; Google, Site Reliability Engineering, Embracing Risk (the cost of extra reliability; free online). Paraphrased; no source text reproduced."
+}

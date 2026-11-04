@@ -1,0 +1,8 @@
+{
+  "skill": "ai-systems-agent-and-tool-safety",
+  "release_version": "0.8.0-draft",
+  "release_skill_sha256": "dd2bff72c940f3085944e90330634ea784eb6904305e88abfccefbeee4b22aea",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Checked with the structural catalogue gate and deterministic re-authoring. Behavioural benchmarking against a no-skill baseline is outstanding.",
+  "sources": "Principles distilled from: OWASP Top 10 for LLM Applications 2025 (prompt injection, improper output handling, excessive agency, unbounded consumption); NIST AI 600-1 Generative AI Profile; Anthropic, Building effective agents; Chip Huyen, 'Agents' (author's post); AWS Well-Architected Generative AI Lens (controlled autonomy). Paraphrased; no source text reproduced."
+}

@@ -4,7 +4,7 @@
 
 ### Connect your agents to the skills their job needs.
 
-A catalogue of **51 personas, 52 specialised skill bundles and 341 reusable skills** for building dedicated agents, sub-agents and bots. Choose a role, load its methods, and use the agent platform you already have.
+A catalogue of **52 personas, 53 specialised skill bundles and 358 reusable skills** for building dedicated agents, sub-agents and bots. Choose a role, load its methods, and use the agent platform you already have.
 
 [Choose a persona](#choose-your-first-persona) · [Try it](#try-a-persona-in-a-few-minutes) · [Browse all roles and bundles](#browse-all-personas-and-skill-bundles) · [Platform compatibility](docs/compatibility.md) · [Evidence](docs/evidence.md)
 
@@ -64,6 +64,7 @@ Start with the outcome you need. The coding roles sit alongside research, design
 | Rebuild compatible software from observed behaviour | [Clean-Room Reimplementation Engineer](personas/clean-room-reimplementation-engineer/PERSONA.md) |
 | Decide what to build and why | [Product Manager](personas/product-manager/PERSONA.md) |
 | Turn interviews and documents into L1 to L4 process maps (BPMN, Lucidchart) | [Business Process Analyst](personas/business-process-analyst/PERSONA.md) |
+| Design a scalable, reliable system or AI feature end to end | [System Designer](personas/system-designer/PERSONA.md) |
 | Connect systems and verify their boundaries | [Integration Specialist](personas/integration-specialist/PERSONA.md) |
 | Coordinate an agent team | [Agent Team Lead](personas/agent-team-lead/PERSONA.md) |
 | Learn through practice and feedback | [Practice-Based Learning](personas/practice-based-learning/PERSONA.md) |
@@ -73,7 +74,7 @@ Start with the outcome you need. The coding roles sit alongside research, design
 
 ## Browse all personas and skill bundles
 
-The directory below covers all 51 persona role contracts and 52 skill bundles. A persona defines the job, boundaries and completion criteria; a bundle selects methods without assigning a role. Each row links to both separately. Counts are declared member skills, not unique skills across the catalogue; shared skills are counted in each package that includes them.
+The directory below covers all 52 persona role contracts and 53 skill bundles. A persona defines the job, boundaries and completion criteria; a bundle selects methods without assigning a role. Each row links to both separately. Counts are declared member skills, not unique skills across the catalogue; shared skills are counted in each package that includes them.
 
 Paired personas and bundles currently have identical membership. Expand a group to inspect the linked skills for each entry. The standalone `knowledge-librarian-bundle` has no matching persona. Conditional members are included in counts but activate only when relevant and authorised; they grant no dispatch permission.
 
@@ -85,6 +86,7 @@ Paired personas and bundles currently have identical membership. Expand a group 
 | [codebase-refactoring-specialist](personas/codebase-refactoring-specialist/PERSONA.md) | [codebase-refactoring-specialist](bundles/codebase-refactoring-specialist/bundle.json) | Simplify code while preserving observable contracts. | 5 |
 | [adversarial-code-reviewer](personas/adversarial-code-reviewer/PERSONA.md) | [adversarial-code-reviewer](bundles/adversarial-code-reviewer/bundle.json) | Review code for reproducible correctness and security defects. | 3 |
 | [systems-architect](personas/systems-architect/PERSONA.md) | [systems-architect](bundles/systems-architect/bundle.json) | Design systems from constraints and record architectural decisions. | 5 |
+| [system-designer](personas/system-designer/PERSONA.md) | [system-designer](bundles/system-designer/bundle.json) | Design web, backend, distributed and AI-powered systems end to end with estimates, failure modes and a checked design document. | 18 |
 | [api-contract-designer](personas/api-contract-designer/PERSONA.md) | [api-contract-designer](bundles/api-contract-designer/bundle.json) | Define APIs, compatibility rules and error contracts. | 6 |
 | [integration-specialist](personas/integration-specialist/PERSONA.md) | [integration-specialist](bundles/integration-specialist/bundle.json) | Connect systems and verify protocol, logic and client boundaries. | 6 |
 | [data-engineer](personas/data-engineer/PERSONA.md) | [data-engineer](bundles/data-engineer/bundle.json) | Design schemas, optimise queries and build checked data pipelines. | 7 |
@@ -111,6 +113,12 @@ Paired personas and bundles currently have identical membership. Expand a group 
 #### systems-architect
 
 [architecture-characteristics-driven-design](skills/architecture-characteristics-driven-design/SKILL.md) · [c4-architecture-modelling](skills/c4-architecture-modelling/SKILL.md) · [decomposition-tradeoff-analysis](skills/decomposition-tradeoff-analysis/SKILL.md) · [architecture-decision-records](skills/architecture-decision-records/SKILL.md) · [evolutionary-architecture-fitness-functions](skills/evolutionary-architecture-fitness-functions/SKILL.md)
+
+#### system-designer
+
+Core: [system-design-requirements-and-slos](skills/system-design-requirements-and-slos/SKILL.md) · [capacity-and-load-estimation](skills/capacity-and-load-estimation/SKILL.md) · [data-store-selection-and-partitioning](skills/data-store-selection-and-partitioning/SKILL.md) · [replication-and-consistency-design](skills/replication-and-consistency-design/SKILL.md) · [caching-and-cdn-design](skills/caching-and-cdn-design/SKILL.md) · [async-messaging-and-workflow-design](skills/async-messaging-and-workflow-design/SKILL.md) · [failure-mode-and-resilience-design](skills/failure-mode-and-resilience-design/SKILL.md) · [overload-and-traffic-management](skills/overload-and-traffic-management/SKILL.md) · [system-security-design](skills/system-security-design/SKILL.md) · [operability-and-rollout-design](skills/operability-and-rollout-design/SKILL.md) · [cost-modelling-for-system-design](skills/cost-modelling-for-system-design/SKILL.md) · [system-design-document-and-review](skills/system-design-document-and-review/SKILL.md) · [c4-architecture-modelling](skills/c4-architecture-modelling/SKILL.md)
+
+AI and LLM systems: [ai-systems-architecture-patterns](skills/ai-systems-architecture-patterns/SKILL.md) · [ai-systems-rag-architecture](skills/ai-systems-rag-architecture/SKILL.md) · [ai-systems-model-serving-and-capacity](skills/ai-systems-model-serving-and-capacity/SKILL.md) · [ai-systems-agent-and-tool-safety](skills/ai-systems-agent-and-tool-safety/SKILL.md) · [ai-systems-evaluation-and-operations](skills/ai-systems-evaluation-and-operations/SKILL.md)
 
 #### api-contract-designer
 

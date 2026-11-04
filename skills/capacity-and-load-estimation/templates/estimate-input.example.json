@@ -1,0 +1,8 @@
+{
+  "name": "Micro-blogging timeline (worked example from public estimation exercises)",
+  "traffic": {"dau": 150000000, "actions_per_user_per_day": {"write": 2, "read": 100}, "peak_factor": 2},
+  "storage": {"objects": [{"name": "media", "bytes_per_write": 1000000, "fraction_of_writes": 0.1}], "retention_days": 1825, "replication_factor": 3},
+  "bandwidth": {"read_response_bytes": 20000, "write_request_bytes": 1000},
+  "node": {"qps_per_node": 2000, "target_utilisation": 0.6, "failure_domains": 3},
+  "llm": {"requests_per_s_avg": 50, "peak_factor": 3, "input_tokens": 3000, "output_tokens": 400, "output_tokens_per_s_per_replica": 2500, "target_utilisation": 0.6, "usd_per_million_input": 3, "usd_per_million_output": 15}
+}

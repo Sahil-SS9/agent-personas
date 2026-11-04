@@ -1,0 +1,8 @@
+{
+  "skill": "system-security-design",
+  "release_version": "0.8.0-draft",
+  "release_skill_sha256": "7014f81cb79f25ac1bf0d1f7b34a0b491de668e2b0343d16cca6e20d2e00eac9",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Checked with the structural catalogue gate and deterministic re-authoring. Behavioural benchmarking against a no-skill baseline is outstanding.",
+  "sources": "Principles distilled from: AWS Well-Architected Framework (security pillar) and Generative AI Lens; Microsoft Azure Architecture Center (federated identity, gatekeeper, valet key patterns; CC BY 4.0); Hamilton, On designing and deploying internet-scale services (LISA 2007). Paraphrased; no source text reproduced."
+}

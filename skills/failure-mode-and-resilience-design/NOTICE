@@ -1,0 +1,2 @@
+Original text: Sahil Saghir, Hermes Agent. MIT.
+Principles distilled from: Hamilton, On designing and deploying internet-scale services (LISA 2007); Michael Nygard, Release It! 2nd ed., publisher extracts (Stability Antipatterns); Amazon Builders' Library (static stability, shuffle sharding, avoiding fallback); Google, Site Reliability Engineering, Addressing Cascading Failures (free online); Dean and Barroso, The tail at scale (CACM 2013); Microsoft Azure Architecture Center reliability principles and patterns (CC BY 4.0). Paraphrased; no source text reproduced.

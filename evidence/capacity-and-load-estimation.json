@@ -1,0 +1,8 @@
+{
+  "skill": "capacity-and-load-estimation",
+  "release_version": "0.8.0-draft",
+  "release_skill_sha256": "daa8b9e1305ef082291bcc7b88b5c6c9fc4f5a09dc0dcb65823a1c137af48c1c",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Checked with the structural catalogue gate and deterministic re-authoring. The bundled calculator passes 7 known-answer and rejection tests (including a published micro-blogging estimation exercise), and the tests caught all 12 seeded calculator defects (one survived the first run; the replication assertion was added). Behavioural benchmarking against a no-skill baseline is outstanding.",
+  "sources": "Principles distilled from: Google, The Site Reliability Workbook, Non-Abstract Large System Design (free online); Alex Xu, System Design Interview vol. 1, author-hosted back-of-the-envelope chapter; Dean and Barroso, The tail at scale (CACM 2013); McSherry, Isard and Murray, Scalability! But at what COST? (HotOS 2015); Kwon et al., PagedAttention (SOSP 2023). Paraphrased; no source text reproduced. The bundled calculator and tests are original."
+}

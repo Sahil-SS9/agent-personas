@@ -1,0 +1,8 @@
+{
+  "skill": "caching-and-cdn-design",
+  "release_version": "0.8.0-draft",
+  "release_skill_sha256": "dac55a9acf9ac6b3b717ed8a14504d4527c739087c848f54eb7e2ab64764b067",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Checked with the structural catalogue gate and deterministic re-authoring. Behavioural benchmarking against a no-skill baseline is outstanding.",
+  "sources": "Principles distilled from: Amazon Builders' Library, Caching challenges and strategies; Google, Site Reliability Engineering, Addressing Cascading Failures (latency vs capacity caches; free online); Alex Xu, System Design Interview vol. 1, author-hosted scaling chapter; Microsoft Azure Architecture Center cache-aside and static content hosting patterns (CC BY 4.0). Paraphrased; no source text reproduced."
+}

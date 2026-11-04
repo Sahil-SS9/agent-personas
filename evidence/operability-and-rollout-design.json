@@ -1,0 +1,8 @@
+{
+  "skill": "operability-and-rollout-design",
+  "release_version": "0.8.0-draft",
+  "release_skill_sha256": "205991502774083e1955b1fc3623d46966b2c6a449343480f036c64eed8f4021",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Checked with the structural catalogue gate and deterministic re-authoring. Behavioural benchmarking against a no-skill baseline is outstanding.",
+  "sources": "Principles distilled from: Google, Site Reliability Engineering (Monitoring Distributed Systems; Service Level Objectives) and The Site Reliability Workbook (Implementing SLOs), free online; Hamilton, On designing and deploying internet-scale services (LISA 2007); Amazon Builders' Library (static stability; load shedding instrumentation). Paraphrased; no source text reproduced."
+}

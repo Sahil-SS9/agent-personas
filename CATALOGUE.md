@@ -48,6 +48,7 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [risk-release-manager](personas/risk-release-manager/PERSONA.md) | Own the register of what could go wrong (with owners and triggers) and run releases from pre-flight gates through rehearsed rollback to post-release verification. | 4 |
 | [software-implementation-specialist](personas/software-implementation-specialist/PERSONA.md) | Deliver working features and bug fixes with minimal sufficient design. | 6 |
 | [support-specialist](personas/support-specialist/PERSONA.md) | Resolve issues at the right tier: first-line FCR with KB deflection, evidence-carrying escalations, third-line recurrence elimination, workarounds tracked to permanent fixes. | 4 |
+| [system-designer](personas/system-designer/PERSONA.md) | Design web, backend, distributed and AI-powered systems end to end: scoped requirements and SLOs, numbers-first estimates, data, caching and messaging choices, failure and overload behaviour, security, operations and cost, written up as a reviewable design document. | 18 |
 | [systems-architect](personas/systems-architect/PERSONA.md) | Design systems from constraints and record architectural decisions. | 5 |
 | [technical-writer](personas/technical-writer/PERSONA.md) | Write audience-matched documentation and verify its claims. | 6 |
 | [text-classifier-specialist](personas/text-classifier-specialist/PERSONA.md) | Own the lifecycle of small encoder classifiers and typed-decision models: know how each actually works, prove whether it discriminates on your decision with a frozen exam, state what is and is not buildable, analyse a system to find where a cheap decision belongs, and self-host, wire and monitor the one you pick. | 12 |
@@ -105,6 +106,7 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [risk-release-manager](bundles/risk-release-manager/bundle.json) | 4 |
 | [software-implementation-specialist](bundles/software-implementation-specialist/bundle.json) | 6 |
 | [support-specialist](bundles/support-specialist/bundle.json) | 4 |
+| [system-designer](bundles/system-designer/bundle.json) | 18 |
 | [systems-architect](bundles/systems-architect/bundle.json) | 5 |
 | [technical-writer](bundles/technical-writer/bundle.json) | 6 |
 | [text-classifier-specialist](bundles/text-classifier-specialist/bundle.json) | 12 |
@@ -124,6 +126,11 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [agent-dispatch-discipline](skills/agent-dispatch-discipline/SKILL.md) | Brief, dispatch and verify agent work so nothing depends on session memory. | [Card](evidence/agent-dispatch-discipline.json) |
 | [agent-loop-guardrails](skills/agent-loop-guardrails/SKILL.md) | Wrap agent loops in deterministic gates, scoped permissions and stop rules. | [Card](evidence/agent-loop-guardrails.json) |
 | [agent-profile-review](skills/agent-profile-review/SKILL.md) | Weekly independent review of all specialist profiles by. | [Card](evidence/agent-profile-review.json) |
+| [ai-systems-agent-and-tool-safety](skills/ai-systems-agent-and-tool-safety/SKILL.md) | AI and LLM systems: design agents and tool use safely: read versus write tools, least privilege, approval gates for irreversible actions, step, token, time and spend budgets, prompt-injection containment and output handling. | [Card](evidence/ai-systems-agent-and-tool-safety.json) |
+| [ai-systems-architecture-patterns](skills/ai-systems-architecture-patterns/SKILL.md) | AI and LLM systems: choose the simplest architecture that works, from a single model call to workflows to agents, and add platform components (retrieval, guardrails, router, gateway, caches, write actions) only when needed. | [Card](evidence/ai-systems-architecture-patterns.json) |
+| [ai-systems-evaluation-and-operations](skills/ai-systems-evaluation-and-operations/SKILL.md) | AI and LLM systems: make AI components measurable and operable: evaluation sets before launch, online quality signals, tracing of model calls, versioned prompts and models, staged rollout of model changes, drift and feedback-loop monitoring. | [Card](evidence/ai-systems-evaluation-and-operations.json) |
+| [ai-systems-model-serving-and-capacity](skills/ai-systems-model-serving-and-capacity/SKILL.md) | AI and LLM systems: plan model access and serving: hosted API versus self-hosted, token-based capacity and latency (time to first token, per-token time), GPU memory and batching, rate limits, provider failover, caching and cost per request. | [Card](evidence/ai-systems-model-serving-and-capacity.json) |
+| [ai-systems-rag-architecture](skills/ai-systems-rag-architecture/SKILL.md) | AI and LLM systems: design retrieval-augmented generation as a system: ingestion and indexing pipeline, permission-aware retrieval, hybrid search and reranking, context assembly, freshness, and the seven RAG failure points. | [Card](evidence/ai-systems-rag-architecture.json) |
 | [ai-task-suitability-review](skills/ai-task-suitability-review/SKILL.md) | Choose bounded AI roles without expanding authority. | [Card](evidence/ai-task-suitability-review.json) |
 | [analysis-capability-ladder](skills/analysis-capability-ladder/SKILL.md) | Pick the strongest analysis level available, discover and propose new tools when a gap blocks the answer, state the level used, and finish within budget. | [Card](evidence/analysis-capability-ladder.json) |
 | [analytics-dimensional-modelling](skills/analytics-dimensional-modelling/SKILL.md) | Model analytics data dimensionally: facts, dimensions, grain and slowly-changing history. | [Card](evidence/analytics-dimensional-modelling.json) |
@@ -139,6 +146,7 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [artefact-triage-preservation](skills/artefact-triage-preservation/SKILL.md) | Triage unknown files safely: identify, fingerprint, chain-of-custody and preserve evidence before any analysis. | [Card](evidence/artefact-triage-preservation.json) |
 | [arxiv](skills/arxiv/SKILL.md) | Search arXiv papers by keyword, author, category, or ID. | [Card](evidence/arxiv.json) |
 | [asset-and-bundle-budgets](skills/asset-and-bundle-budgets/SKILL.md) | Enforce asset, bundle and delivery budgets; ship less by default. | [Card](evidence/asset-and-bundle-budgets.json) |
+| [async-messaging-and-workflow-design](skills/async-messaging-and-workflow-design/SKILL.md) | Design queues, streams, pub/sub and long-running workflows: delivery guarantees, ordering keys, idempotent consumers, retries and dead letters, backpressure, backlog recovery and fairness. | [Card](evidence/async-messaging-and-workflow-design.json) |
 | [attack-path-modelling](skills/attack-path-modelling/SKILL.md) | Model plausible attack paths across the kill chain and map coverage gaps. | [Card](evidence/attack-path-modelling.json) |
 | [attck-control-mapping](skills/attck-control-mapping/SKILL.md) | Map every plausible attack tactic to a detection and a response; gaps are the work plan. | [Card](evidence/attck-control-mapping.json) |
 | [audit-engine](skills/audit-engine/SKILL.md) | Systematic audit of workflows, services, skills, and. | [Card](evidence/audit-engine.json) |
@@ -155,8 +163,10 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [build-ci-and-package-artifact-sprawl-control](skills/build-ci-and-package-artifact-sprawl-control/SKILL.md) | Control generated artifacts from builds, CI runs and package managers — the largest and fastest-growing source of reclaimable space. | [Card](evidence/build-ci-and-package-artifact-sprawl-control.json) |
 | [c4-architecture-modelling](skills/c4-architecture-modelling/SKILL.md) | Model and communicate system structure top-down with the C4 ladder. | [Card](evidence/c4-architecture-modelling.json) |
 | [c4-model-reference](skills/c4-model-reference/SKILL.md) | Apply C4 component diagram concepts accurately. | [Card](evidence/c4-model-reference.json) |
+| [caching-and-cdn-design](skills/caching-and-cdn-design/SKILL.md) | Design caches and CDNs that cut latency and load without becoming the outage: placement, keys, TTLs, invalidation, stampede control, cold starts and cache-failure behaviour. | [Card](evidence/caching-and-cdn-design.json) |
 | [capa-floss-adapter](skills/capa-floss-adapter/SKILL.md) | Use capa capability rules and FLOSS string deobfuscation as triage hypothesis generators, always with manual verification. | [Card](evidence/capa-floss-adapter.json) |
 | [capability-evaluation](skills/capability-evaluation/SKILL.md) | Evaluate existing capabilities during rebuild programmes. | [Card](evidence/capability-evaluation.json) |
+| [capacity-and-load-estimation](skills/capacity-and-load-estimation/SKILL.md) | Size a design with back-of-the-envelope numbers: QPS, peak, storage, bandwidth, IOPS, memory, nodes and LLM tokens, from stated assumptions, with a bundled deterministic calculator. | [Card](evidence/capacity-and-load-estimation.json) |
 | [career-option-prototyping](skills/career-option-prototyping/SKILL.md) | Test career options through small reversible experiments. | [Card](evidence/career-option-prototyping.json) |
 | [career-skill-portfolio-strategist](skills/career-skill-portfolio-strategist/SKILL.md) | Use when testing career paths and skill investments. | [Card](evidence/career-skill-portfolio-strategist.json) |
 | [change-request-evaluator](skills/change-request-evaluator/SKILL.md) | Triage feature requests and change requests into evidence-based recommendations. | [Card](evidence/change-request-evaluator.json) |
@@ -182,8 +192,10 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [control-hygiene-basics](skills/control-hygiene-basics/SKILL.md) | Enforce the boring fundamentals that stop most real attacks. | [Card](evidence/control-hygiene-basics.json) |
 | [controlled-runtime-investigation](skills/controlled-runtime-investigation/SKILL.md) | Observe program behaviour under authorised, isolated control: sandboxing, dynamic analysis, emulation and evidence capture. | [Card](evidence/controlled-runtime-investigation.json) |
 | [core-web-vitals-optimisation](skills/core-web-vitals-optimisation/SKILL.md) | Diagnose and fix LCP, INP and CLS against field p75 targets. | [Card](evidence/core-web-vitals-optimisation.json) |
+| [cost-modelling-for-system-design](skills/cost-modelling-for-system-design/SKILL.md) | Model what a design costs to run and to change: unit cost per request, user or tenant, dominant drivers such as compute, storage, egress, third-party and model calls, and the first levers, without letting cost become the only goal. | [Card](evidence/cost-modelling-for-system-design.json) |
 | [curriculum-sequencing](skills/curriculum-sequencing/SKILL.md) | Sequence what to learn and in what order for efficient mastery. | [Card](evidence/curriculum-sequencing.json) |
 | [data-governance-privacy](skills/data-governance-privacy/SKILL.md) | Govern data for privacy, lineage and compliance: classify, minimise, trace. | [Card](evidence/data-governance-privacy.json) |
+| [data-store-selection-and-partitioning](skills/data-store-selection-and-partitioning/SKILL.md) | Choose data stores from access patterns, then design keys, indexes, partitioning, hot-key handling, rebalancing and retention, with the trade-offs written down. | [Card](evidence/data-store-selection-and-partitioning.json) |
 | [debt-payoff-strategy](skills/debt-payoff-strategy/SKILL.md) | Prioritise and eliminate debt with a strategy matched to the situation. | [Card](evidence/debt-payoff-strategy.json) |
 | [decision-exam-and-gate-design](skills/decision-exam-and-gate-design/SKILL.md) | Design the frozen exam and the gate that decides pass or fail, so a candidate is judged on the decision that matters rather than on accuracy. | [Card](evidence/decision-exam-and-gate-design.json) |
 | [decision-head-training-and-label-supply](skills/decision-head-training-and-label-supply/SKILL.md) | Train or adapt a decision head when no existing model discriminates on your decision, and secure the labels that make it possible. | [Card](evidence/decision-head-training-and-label-supply.json) |
@@ -224,6 +236,7 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [expressive-craft-floor](skills/expressive-craft-floor/SKILL.md) | Verify built interfaces against the expressive quality floor: hierarchy, craft signals, browser-default theming and contextual refusal list. | [Card](evidence/expressive-craft-floor.json) |
 | [fail-open-gate-and-band-policy](skills/fail-open-gate-and-band-policy/SKILL.md) | Integrate a decision model as a fail-open pre-filter with explicit threshold bands, telemetry and a single rollback switch. | [Card](evidence/fail-open-gate-and-band-policy.json) |
 | [failing-test-triage](skills/failing-test-triage/SKILL.md) | Decide if a red test is a real bug or a stale test. | [Card](evidence/failing-test-triage.json) |
+| [failure-mode-and-resilience-design](skills/failure-mode-and-resilience-design/SKILL.md) | Find every way the design can fail and design containment: failure-mode table per component and dependency, redundancy across failure domains, bulkheads and cells, static stability, degradation and tested recovery. | [Card](evidence/failure-mode-and-resilience-design.json) |
 | [feature-prioritisation](skills/feature-prioritisation/SKILL.md) | Score and sequence features with RICE/WSJF plus explicit confidence levels. | [Card](evidence/feature-prioritisation.json) |
 | [feature-protocol-reconstruction](skills/feature-protocol-reconstruction/SKILL.md) | Rebuild how software works: recover features, algorithms and wire protocols into documentation a developer can use. | [Card](evidence/feature-protocol-reconstruction.json) |
 | [feedback-loop-calibration](skills/feedback-loop-calibration/SKILL.md) | Wire fast honest feedback per attempt and keep the learner in productive struggle. | [Card](evidence/feedback-loop-calibration.json) |
@@ -297,8 +310,10 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [offensive-scope-discipline](skills/offensive-scope-discipline/SKILL.md) | Enforce scope, evidence-handling and legal boundaries through the whole engagement. | [Card](evidence/offensive-scope-discipline.json) |
 | [on-call-support-reference](skills/on-call-support-reference/SKILL.md) | Use when designing or improving sustainable on-call support. | [Card](evidence/on-call-support-reference.json) |
 | [openapi-spec-authoring](skills/openapi-spec-authoring/SKILL.md) | Author precise API specifications as the single source of truth. | [Card](evidence/openapi-spec-authoring.json) |
+| [operability-and-rollout-design](skills/operability-and-rollout-design/SKILL.md) | Design for running the system: SLIs and alerts, the four golden signals, dashboards, logs and traces, safe staged rollout and rollback, migrations and runbooks. | [Card](evidence/operability-and-rollout-design.json) |
 | [orchestration-scheduling-design](skills/orchestration-scheduling-design/SKILL.md) | Orchestrate multi-step workflows with dependencies, retries and idempotency. | [Card](evidence/orchestration-scheduling-design.json) |
 | [out-of-scope-and-wontfix-kb](skills/out-of-scope-and-wontfix-kb/SKILL.md) | Record declined and deferred requests as searchable per-concept entries, so the same request is answered once rather than re-litigated. | [Card](evidence/out-of-scope-and-wontfix-kb.json) |
+| [overload-and-traffic-management](skills/overload-and-traffic-management/SKILL.md) | Keep the system useful under load and partial failure: timeouts from latency percentiles, single-layer retries with backoff, jitter and budgets, idempotency, deadlines, rate limits, admission control, load shedding and metastable-failure avoidance. | [Card](evidence/overload-and-traffic-management.json) |
 | [perf-regression-monitoring](skills/perf-regression-monitoring/SKILL.md) | Guard performance with CI budgets, RUM alerting and perf-reviewed diffs. | [Card](evidence/perf-regression-monitoring.json) |
 | [phased-plan-execution](skills/phased-plan-execution/SKILL.md) | Execute phased implementation plans with batched. | [Card](evidence/phased-plan-execution.json) |
 | [pipeline-quality-observability](skills/pipeline-quality-observability/SKILL.md) | Build rerunnable, observable pipelines with data-quality gates and lineage. | [Card](evidence/pipeline-quality-observability.json) |
@@ -346,6 +361,7 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [release-notes-and-changelog](skills/release-notes-and-changelog/SKILL.md) | Produce release notes a user can act on: what changed for them, breaking changes first, contributors credited beyond code. | [Card](evidence/release-notes-and-changelog.json) |
 | [release-quality-gates](skills/release-quality-gates/SKILL.md) | Use when deciding whether an app, feature, automation. | [Card](evidence/release-quality-gates.json) |
 | [release-readiness-manager](skills/release-readiness-manager/SKILL.md) | Run pre-release checks, release-day execution and post-release verification end to end. | [Card](evidence/release-readiness-manager.json) |
+| [replication-and-consistency-design](skills/replication-and-consistency-design/SKILL.md) | Decide replication topology, quorums and the consistency model per operation, and keep multi-entity changes correct without distributed transactions, using outbox, sagas and idempotent receivers. | [Card](evidence/replication-and-consistency-design.json) |
 | [requirement-spec-matching](skills/requirement-spec-matching/SKILL.md) | Match purchases to real requirements so the cheapest fit wins, not the cheapest item. | [Card](evidence/requirement-spec-matching.json) |
 | [resource-oriented-contract-design](skills/resource-oriented-contract-design/SKILL.md) | Design API contracts around resources and standard methods, not internal schemas. | [Card](evidence/resource-oriented-contract-design.json) |
 | [responsive-layout-systems](skills/responsive-layout-systems/SKILL.md) | Build layouts that adapt with fluid systems, not fixed breakpoint patches. | [Card](evidence/responsive-layout-systems.json) |
@@ -386,7 +402,10 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [streaming-vs-batch-design](skills/streaming-vs-batch-design/SKILL.md) | Choose streaming or batch by latency need, and design each correctly. | [Card](evidence/streaming-vs-batch-design.json) |
 | [style-vocabulary-selection](skills/style-vocabulary-selection/SKILL.md) | Choose named styles from curated libraries instead of ad-hoc adjective soup. | [Card](evidence/style-vocabulary-selection.json) |
 | [survey-quant-research](skills/survey-quant-research/SKILL.md) | Design surveys and quant research that measure without misleading. | [Card](evidence/survey-quant-research.json) |
+| [system-design-document-and-review](skills/system-design-document-and-review/SKILL.md) | Write and review the system design document: the iterative design loop, required sections, diagrams, alternatives and open questions, with a template, a worked example and a completeness checker. | [Card](evidence/system-design-document-and-review.json) |
+| [system-design-requirements-and-slos](skills/system-design-requirements-and-slos/SKILL.md) | Turn a vague system brief into scoped functional requirements, measurable SLOs, constraints and a written assumptions list before any architecture is drawn. | [Card](evidence/system-design-requirements-and-slos.json) |
 | [system-governance-and-adoption](skills/system-governance-and-adoption/SKILL.md) | Govern contributions, lint drift, and track adoption as the success metric. | [Card](evidence/system-governance-and-adoption.json) |
+| [system-security-design](skills/system-security-design/SKILL.md) | Build security into the system design: trust boundaries, identities, authorisation model, secrets, encryption, tenant isolation, abuse limits and personal data handling, with threats tied to concrete controls. | [Card](evidence/system-security-design.json) |
 | [systematic-debugging](skills/systematic-debugging/SKILL.md) | Find and prove root causes before applying one verified fix. | [Card](evidence/systematic-debugging.json) |
 | [task-board-orchestration](skills/task-board-orchestration/SKILL.md) | Decomposition playbook + specialist-roster conventions. | [Card](evidence/task-board-orchestration.json) |
 | [tax-wrapper-optimisation](skills/tax-wrapper-optimisation/SKILL.md) | Use tax-advantaged wrappers and allowances before taxable accounts. | [Card](evidence/tax-wrapper-optimisation.json) |
@@ -600,6 +619,27 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 - [ghidra-workflow-adapter](skills/ghidra-workflow-adapter/SKILL.md) · [evidence](evidence/ghidra-workflow-adapter.json)
 - [reactive-render-verification](skills/reactive-render-verification/SKILL.md) · [evidence](evidence/reactive-render-verification.json)
 - [security-binary-investigation](skills/security-binary-investigation/SKILL.md) · [evidence](evidence/security-binary-investigation.json)
+
+## New in 0.8.0 (draft)
+
+- [system-designer](personas/system-designer/PERSONA.md) · [bundle](bundles/system-designer/bundle.json) (18 skills: 17 new, 1 shared)
+- [ai-systems-agent-and-tool-safety](skills/ai-systems-agent-and-tool-safety/SKILL.md) · [evidence](evidence/ai-systems-agent-and-tool-safety.json)
+- [ai-systems-architecture-patterns](skills/ai-systems-architecture-patterns/SKILL.md) · [evidence](evidence/ai-systems-architecture-patterns.json)
+- [ai-systems-evaluation-and-operations](skills/ai-systems-evaluation-and-operations/SKILL.md) · [evidence](evidence/ai-systems-evaluation-and-operations.json)
+- [ai-systems-model-serving-and-capacity](skills/ai-systems-model-serving-and-capacity/SKILL.md) · [evidence](evidence/ai-systems-model-serving-and-capacity.json)
+- [ai-systems-rag-architecture](skills/ai-systems-rag-architecture/SKILL.md) · [evidence](evidence/ai-systems-rag-architecture.json)
+- [async-messaging-and-workflow-design](skills/async-messaging-and-workflow-design/SKILL.md) · [evidence](evidence/async-messaging-and-workflow-design.json)
+- [caching-and-cdn-design](skills/caching-and-cdn-design/SKILL.md) · [evidence](evidence/caching-and-cdn-design.json)
+- [capacity-and-load-estimation](skills/capacity-and-load-estimation/SKILL.md) · [evidence](evidence/capacity-and-load-estimation.json)
+- [cost-modelling-for-system-design](skills/cost-modelling-for-system-design/SKILL.md) · [evidence](evidence/cost-modelling-for-system-design.json)
+- [data-store-selection-and-partitioning](skills/data-store-selection-and-partitioning/SKILL.md) · [evidence](evidence/data-store-selection-and-partitioning.json)
+- [failure-mode-and-resilience-design](skills/failure-mode-and-resilience-design/SKILL.md) · [evidence](evidence/failure-mode-and-resilience-design.json)
+- [operability-and-rollout-design](skills/operability-and-rollout-design/SKILL.md) · [evidence](evidence/operability-and-rollout-design.json)
+- [overload-and-traffic-management](skills/overload-and-traffic-management/SKILL.md) · [evidence](evidence/overload-and-traffic-management.json)
+- [replication-and-consistency-design](skills/replication-and-consistency-design/SKILL.md) · [evidence](evidence/replication-and-consistency-design.json)
+- [system-design-document-and-review](skills/system-design-document-and-review/SKILL.md) · [evidence](evidence/system-design-document-and-review.json)
+- [system-design-requirements-and-slos](skills/system-design-requirements-and-slos/SKILL.md) · [evidence](evidence/system-design-requirements-and-slos.json)
+- [system-security-design](skills/system-security-design/SKILL.md) · [evidence](evidence/system-security-design.json)
 
 ## New in 0.7.0 (draft)
 

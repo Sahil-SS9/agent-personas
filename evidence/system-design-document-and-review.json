@@ -1,0 +1,8 @@
+{
+  "skill": "system-design-document-and-review",
+  "release_version": "0.8.0-draft",
+  "release_skill_sha256": "48d6ab676646f65c0f129cd600578a989500a51b8b22e80b3421ee34eb5b7ef5",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Checked with the structural catalogue gate and deterministic re-authoring. The worked example passes the bundled checker with zero findings, and the checker flagged all 18 seeded defects on mutated copies. The checker tests completeness and consistency, not design quality. Behavioural benchmarking against a no-skill baseline is outstanding.",
+  "sources": "Principles distilled from: Google, The Site Reliability Workbook, Non-Abstract Large System Design (free online); Alex Xu, System Design Interview vol. 1, author-hosted framework chapter; system-design-primer (CC BY 4.0); AWS Well-Architected Framework pillars; Microsoft Azure Architecture Center patterns (CC BY 4.0). Paraphrased; no source text reproduced. The bundled template, example and checker are original."
+}

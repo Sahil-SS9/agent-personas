@@ -1,0 +1,2 @@
+Original text: Sahil Saghir, Hermes Agent. MIT.
+Principles distilled from: Amazon Builders' Library, Avoiding insurmountable queue backlogs and Making retries safe with idempotent APIs; Helland, Life beyond distributed transactions (CIDR 2007); Microsoft Azure Architecture Center messaging patterns (CC BY 4.0); Unmesh Joshi, Patterns of Distributed Systems catalogue (martinfowler.com). Paraphrased; no source text reproduced.

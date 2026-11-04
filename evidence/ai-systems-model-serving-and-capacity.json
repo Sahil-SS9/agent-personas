@@ -1,0 +1,8 @@
+{
+  "skill": "ai-systems-model-serving-and-capacity",
+  "release_version": "0.8.0-draft",
+  "release_skill_sha256": "9c8621f9cab864c4bc86503d22d8a3cf4649f8a55e77cbd551a5e35e129fe03d",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Checked with the structural catalogue gate and deterministic re-authoring. Behavioural benchmarking against a no-skill baseline is outstanding.",
+  "sources": "Principles distilled from: Kwon et al., Efficient memory management for large language model serving with PagedAttention (SOSP 2023); Chip Huyen, 'Building A Generative AI Platform' (author's post); AWS Well-Architected Generative AI Lens; Amazon Builders' Library, Avoiding fallback in distributed systems. Paraphrased; no source text reproduced."
+}

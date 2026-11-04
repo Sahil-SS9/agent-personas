@@ -1,0 +1,2 @@
+Original text: Sahil Saghir, Hermes Agent. MIT.
+Principles distilled from: Google, The Site Reliability Workbook, Non-Abstract Large System Design (free online); Alex Xu, System Design Interview vol. 1, author-hosted back-of-the-envelope chapter; Dean and Barroso, The tail at scale (CACM 2013); McSherry, Isard and Murray, Scalability! But at what COST? (HotOS 2015); Kwon et al., PagedAttention (SOSP 2023). Paraphrased; no source text reproduced. The bundled calculator and tests are original.

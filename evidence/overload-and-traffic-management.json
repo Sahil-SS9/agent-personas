@@ -1,0 +1,8 @@
+{
+  "skill": "overload-and-traffic-management",
+  "release_version": "0.8.0-draft",
+  "release_skill_sha256": "96fbd800245a51e9df793d70d11187a42287efe489fac293a9826d7ae8c38d4b",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Checked with the structural catalogue gate and deterministic re-authoring. Behavioural benchmarking against a no-skill baseline is outstanding.",
+  "sources": "Principles distilled from: Amazon Builders' Library (timeouts, retries and backoff with jitter; using load shedding to avoid overload; making retries safe with idempotent APIs); Google, Site Reliability Engineering, Handling Overload and Addressing Cascading Failures (free online); Bronson et al., Metastable failures in distributed systems (HotOS 2021); Michael Nygard, Release It! 2nd ed., publisher extracts. Paraphrased; no source text reproduced."
+}

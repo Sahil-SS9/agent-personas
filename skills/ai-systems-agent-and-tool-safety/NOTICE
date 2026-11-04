@@ -1,0 +1,2 @@
+Original text: Sahil Saghir, Hermes Agent. MIT.
+Principles distilled from: OWASP Top 10 for LLM Applications 2025 (prompt injection, improper output handling, excessive agency, unbounded consumption); NIST AI 600-1 Generative AI Profile; Anthropic, Building effective agents; Chip Huyen, 'Agents' (author's post); AWS Well-Architected Generative AI Lens (controlled autonomy). Paraphrased; no source text reproduced.

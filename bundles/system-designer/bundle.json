@@ -1,0 +1,50 @@
+{
+  "name": "system-designer",
+  "version": "0.1.0",
+  "members": [
+    "system-design-requirements-and-slos",
+    "capacity-and-load-estimation",
+    "data-store-selection-and-partitioning",
+    "replication-and-consistency-design",
+    "caching-and-cdn-design",
+    "async-messaging-and-workflow-design",
+    "failure-mode-and-resilience-design",
+    "overload-and-traffic-management",
+    "system-security-design",
+    "operability-and-rollout-design",
+    "cost-modelling-for-system-design",
+    "system-design-document-and-review",
+    "c4-architecture-modelling",
+    "ai-systems-architecture-patterns",
+    "ai-systems-rag-architecture",
+    "ai-systems-model-serving-and-capacity",
+    "ai-systems-agent-and-tool-safety",
+    "ai-systems-evaluation-and-operations"
+  ],
+  "member_groups": {
+    "core-system-design": [
+      "system-design-requirements-and-slos",
+      "capacity-and-load-estimation",
+      "data-store-selection-and-partitioning",
+      "replication-and-consistency-design",
+      "caching-and-cdn-design",
+      "async-messaging-and-workflow-design",
+      "failure-mode-and-resilience-design",
+      "overload-and-traffic-management",
+      "system-security-design",
+      "operability-and-rollout-design",
+      "cost-modelling-for-system-design",
+      "system-design-document-and-review",
+      "c4-architecture-modelling"
+    ],
+    "ai-and-llm-systems": [
+      "ai-systems-architecture-patterns",
+      "ai-systems-rag-architecture",
+      "ai-systems-model-serving-and-capacity",
+      "ai-systems-agent-and-tool-safety",
+      "ai-systems-evaluation-and-operations"
+    ]
+  },
+  "persona": "system-designer",
+  "status": "draft"
+}

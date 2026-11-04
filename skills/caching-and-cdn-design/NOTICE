@@ -1,0 +1,2 @@
+Original text: Sahil Saghir, Hermes Agent. MIT.
+Principles distilled from: Amazon Builders' Library, Caching challenges and strategies; Google, Site Reliability Engineering, Addressing Cascading Failures (latency vs capacity caches; free online); Alex Xu, System Design Interview vol. 1, author-hosted scaling chapter; Microsoft Azure Architecture Center cache-aside and static content hosting patterns (CC BY 4.0). Paraphrased; no source text reproduced.
