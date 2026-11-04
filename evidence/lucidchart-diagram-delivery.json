@@ -3,6 +3,6 @@
   "release_version": "0.7.0-draft",
   "release_skill_sha256": "6cd55d77a8db537fb9798f8b65f7fde6651d24e1c79e4b53b4a4b404536d0ea2",
   "author_credit": "Sahil Saghir, Hermes Agent",
-  "validation": "Checked with the structural catalogue gate and deterministic re-authoring. Behavioural benchmarking against a no-skill baseline is outstanding.",
+  "validation": "Checked with the structural catalogue gate and deterministic re-authoring. Bundle benchmark 04/11/26 (whole persona core vs no skill, one frontier model, isolated no-tool sessions, deterministic scorers): all 14 closed decision cases at ceiling in both arms; BPMN artefact at ceiling; Lucid artefact 3/5 -> 4/5; two open-ended tasks, two trials each: first working output 4/6, 4/6 -> 6/6, 6/6; standard-look Lucid map 4/8, 4/8 -> 8/8, 7/8 (scorer corrections recorded). Results apply to the bundle as a whole, not to this skill alone; controller-authored cases, not independent review.",
   "sources": "Facts from Lucid's public help centre (file import, CSV process diagram import, BPMN export) and developer documentation (Standard Import format, BPMN 2.0 and container libraries, lines, actions), retrieved November 2026; plus Lucid help articles on themes, custom shape libraries, lines, swim lanes, layers, conditional formatting, grid layout, actions and document settings. No documentation text is reproduced."
 }

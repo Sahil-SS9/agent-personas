@@ -3,6 +3,6 @@
   "release_version": "0.7.0-draft",
   "release_skill_sha256": "3ab48969f7520d9b3443a601f75c2cb3e037bbb458cd01ae03ec5e0a16e416a7",
   "author_credit": "Sahil Saghir, Hermes Agent",
-  "validation": "Checked with the structural catalogue gate and deterministic re-authoring. Behavioural benchmarking against a no-skill baseline is outstanding.",
+  "validation": "Checked with the structural catalogue gate and deterministic re-authoring. Bundle benchmark 04/11/26 (whole persona core vs no skill, one frontier model, isolated no-tool sessions, deterministic scorers): all 14 closed decision cases at ceiling in both arms; BPMN artefact at ceiling; Lucid artefact 3/5 -> 4/5; two open-ended tasks, two trials each: first working output 4/6, 4/6 -> 6/6, 6/6; standard-look Lucid map 4/8, 4/8 -> 8/8, 7/8 (scorer corrections recorded). Results apply to the bundle as a whole, not to this skill alone; controller-authored cases, not independent review.",
   "sources": "Principles distilled from: Dumas, La Rosa, Mendling and Reijers, Fundamentals of Business Process Management, 2nd ed. (quality dimensions, via the authors' companion-site material); Seven Process Modeling Guidelines (2010); Reijers and Mendling, factors influencing the understandability of process models (2011); Bruce Silver's published style-rule validation practice. Paraphrased; no source text reproduced."
 }

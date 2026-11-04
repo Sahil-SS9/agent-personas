@@ -3,6 +3,6 @@
   "release_version": "0.7.0-draft",
   "release_skill_sha256": "da66c098fd23d592bfdeb15b7e55673a4758df8c43b1fa653e1fbe95d0d73423",
   "author_credit": "Sahil Saghir, Hermes Agent",
-  "validation": "Checked with the structural catalogue gate and deterministic re-authoring. Behavioural benchmarking against a no-skill baseline is outstanding.",
+  "validation": "Checked with the structural catalogue gate and deterministic re-authoring. Bundle benchmark 04/11/26 (whole persona core vs no skill, one frontier model, isolated no-tool sessions, deterministic scorers): all 14 closed decision cases at ceiling in both arms; BPMN artefact at ceiling; Lucid artefact 3/5 -> 4/5; two open-ended tasks, two trials each: first working output 4/6, 4/6 -> 6/6, 6/6; standard-look Lucid map 4/8, 4/8 -> 8/8, 7/8 (scorer corrections recorded). Results apply to the bundle as a whole, not to this skill alone; controller-authored cases, not independent review.",
   "sources": "Principles distilled from: APQC Process Classification Framework business rules; Dijkman, Vanderfeesten and Reijers, Business process architectures: overview, comparison and framework (Enterprise Information Systems, 2016); eCH-0158 BPMN modelling conventions v1.2 (Verein eCH, 2020); D. L. Moody's analysis of the BPMN 2.0 visual notation (signposting and hierarchical decomposition); Alec Sharp's published process-versus-procedure distinction. Paraphrased; no source text reproduced."
 }

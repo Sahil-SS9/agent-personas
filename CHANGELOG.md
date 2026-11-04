@@ -5,7 +5,8 @@
 - Add the Business Process Analyst persona and bundle (9 skills): cited fact ledgers from transcripts and documents, a Level 1 to 4 process architecture with a level-fit coverage matrix, BPMN 2.0 modelling with label and end-state rules, portable .bpmn files with diagram interchange, Lucidchart delivery (BPMN import, CSV process import, Standard Import API), a visual standard for every map (sizes, grid, lines, fonts, accessible colour, icons, title, legend and breadcrumb), other notations, improvement-opportunity analysis, and validation and sign-off.
 - Source study: the OMG BPMN 2.0.2 standard, the eCH-0158 BPMN conventions, WCAG 2.2, nine peer-reviewed papers on process-model quality and comprehension, and the authors' own published material for Fundamentals of BPM, BPMN Method and Style, Real-Life BPMN and Workflow Modeling (book chapters themselves were not available). Public skills contain paraphrased principles only.
 - Tools: a dependency-free BPMN structure and style checker with an L3 template, and a Lucid Standard Import visual-standard checker with a three-page linked Lucid template. Both checkers caught every seeded defect (15 and 18). Lucidchart import was not exercised.
-- Validation: structural catalogue gate and deterministic re-authoring; see the evidence cards for behavioural results.
+- Benchmark 04/11/26 (whole persona core vs no skill, one frontier model, isolated no-tool sessions, deterministic scorers): all 14 closed decision cases and the BPMN artefact at ceiling in both arms; Lucid artefact 3/5 -> 4/5; two open-ended tasks, two trials each: first working output 4/6, 4/6 -> 6/6, 6/6 and standard-look Lucid map 4/8, 4/8 -> 8/8, 7/8. Two scorer defects found on inspection were corrected and recorded. Controller-authored cases, not independent review.
+- Validation: structural catalogue gate and deterministic re-authoring.
 
 ## 0.6.0 (on main; not tagged)
 

@@ -3,6 +3,6 @@
   "release_version": "0.7.0-draft",
   "release_skill_sha256": "2ceea0bcfcbce835413aa9a40b36d09820f7efa9cb11b11e36411ec281a9f4e9",
   "author_credit": "Sahil Saghir, Hermes Agent",
-  "validation": "Checked with the structural catalogue gate and deterministic re-authoring. Behavioural benchmarking against a no-skill baseline is outstanding.",
+  "validation": "Checked with the structural catalogue gate and deterministic re-authoring. Bundle benchmark 04/11/26 (whole persona core vs no skill, one frontier model, isolated no-tool sessions, deterministic scorers): all 14 closed decision cases at ceiling in both arms; BPMN artefact at ceiling; Lucid artefact 3/5 -> 4/5; two open-ended tasks, two trials each: first working output 4/6, 4/6 -> 6/6, 6/6; standard-look Lucid map 4/8, 4/8 -> 8/8, 7/8 (scorer corrections recorded). Results apply to the bundle as a whole, not to this skill alone; controller-authored cases, not independent review.",
   "sources": "Principles distilled from: Alec Sharp's published process scope model, summary chart and augmented scope model progression; D. L. Moody's analysis of the BPMN 2.0 visual notation (cognitive fit, longshot diagrams); K. Figl, Comprehension of procedural visual business process models (2017), on swim lanes and secondary notation; eCH-0158 v1.2. Value stream and flowchart conventions are general practice. Paraphrased; no source text reproduced."
 }

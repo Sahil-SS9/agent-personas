@@ -115,7 +115,9 @@ def check(doc, style):
         titles = [t for t in texts if title_re.search(t)]
         if not titles:
             errors.append(f'{pid}: missing-title-block (level, number, name, as-is/to-be, version, status)')
-        if not any(t.startswith(style['page']['legend_prefix']) for t in texts):
+        prefixes = style['page']['legend_prefix']
+        prefixes = [prefixes] if isinstance(prefixes, str) else prefixes
+        if not any(t.lower().startswith(pfx.lower()) for t in texts for pfx in prefixes):
             errors.append(f'{pid}: missing-legend')
         level = titles[0][:2] if titles else None
         if level in ('L2', 'L3', 'L4'):
@@ -146,7 +148,8 @@ def check(doc, style):
             label = plain(s.get('text'))
             if fill and label and contrast(tcol, fill) < cols['min_text_contrast']:
                 errors.append(f'{pid}/{sid}: text-contrast {contrast(tcol, fill):.2f} < {cols["min_text_contrast"]}')
-            if scol and contrast(scol, fill or '#FFFFFF') < cols['min_non_text_contrast']:
+            hidden_border = scol == (fill or '#FFFFFF') or (stroke.get('width') == 0)
+            if scol and not hidden_border and contrast(scol, fill or '#FFFFFF') < cols['min_non_text_contrast']:
                 errors.append(f'{pid}/{sid}: border-contrast {contrast(scol, fill or "#FFFFFF"):.2f} < {cols["min_non_text_contrast"]}')
             if scol in sem_by_border:
                 key, spec = sem_by_border[scol]
