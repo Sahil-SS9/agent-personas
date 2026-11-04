@@ -50,13 +50,24 @@ def find(sections, pattern):
     return None, ''
 
 
-def table_rows(body):
-    rows = []
-    for line in body.splitlines():
+def tables(body):
+    out, cur = [], []
+    for line in body.splitlines() + ['']:
         s = line.strip()
-        if s.startswith('|') and not re.fullmatch(r'\|[\s:|-]+\|?', s):
-            rows.append([c.strip() for c in s.strip('|').split('|')])
-    return rows[1:] if rows else []
+        if s.startswith('|'):
+            if not re.fullmatch(r'\|[\s:|-]+\|?', s):
+                cur.append([c.strip() for c in s.strip('|').split('|')])
+        elif cur:
+            out.append(cur)
+            cur = []
+    return out
+
+
+def table_rows(body, header=None):
+    found = tables(body)
+    if header:
+        found = [t for t in found if t and re.search(header, t[0][0], re.I)]
+    return found[0][1:] if found else []
 
 
 def check(text):
@@ -90,12 +101,14 @@ def check(text):
 
     components = []
     _, hl = find(secs, SECTIONS['high_level'])
-    for row in table_rows(hl):
+    for row in table_rows(hl, r'component|service|name|container'):
         if row and row[0] and not re.match(r'^(component|name)$', row[0], re.I):
             components.append(re.sub(r'[`*]', '', row[0]).strip())
     if not components:
         errors.append('no-component-table: list components in a table (component | responsibility | ...)')
-    frows = table_rows(found.get('failure', ''))
+    ftables = [t for title, body in secs.items() if re.search(SECTIONS['failure'], title, re.I) for t in tables(body)]
+    preferred = [t for t in ftables if t and re.search(r'failure|fault', ' '.join(t[0]), re.I)]
+    frows = (preferred or ftables or [[]])[0][1:]
     if not frows:
         errors.append('no-failure-mode-table')
     else:
@@ -132,6 +145,9 @@ def check(text):
         errors.append('open-questions-empty')
 
     ai = bool(AI_TRIGGER.search(text))
+    t_ai, b_ai = find(secs, r'\bAI\b|LLM')
+    if ai and t_ai is not None and re.search(r'^\s*(none|n/a|not applicable)\b|\bno model calls\b|\buses no (model|llm|ai)\b', b_ai, re.I):
+        ai = bool(AI_TRIGGER.search(text.replace(b_ai, '').replace(t_ai, '')))
     if ai:
         title, body = find(secs, r'\bAI\b|LLM|model|agent|retrieval')
         if title is None:

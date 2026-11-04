@@ -6,7 +6,8 @@
 - Systems Architect (0.3.1): add the reciprocal handoff to System Designer. No member changes.
 - Source study: Google SRE book and workbook chapters, Amazon Builders' Library, AWS Well-Architected and its Generative AI Lens, Azure Architecture Center patterns, system-design-primer, OWASP LLM Top 10, NIST AI 600-1, Anthropic's agent guidance, 13 papers, and the authors' own published material for Designing Data-Intensive Applications, System Design Interview, Release It! and AI Engineering (the books themselves were not available). Public skills contain paraphrased principles only.
 - Tools: a dependency-free capacity calculator (QPS, storage, bandwidth, nodes with failure-domain headroom, LLM tokens, replicas and cost) with known-answer tests, and a design-document completeness checker with a template and a worked example.
-- Validation: structural catalogue gate and deterministic re-authoring; see the evidence cards for behavioural results.
+- Benchmark 04/11/26 (whole persona core vs no skill, one frontier model, isolated no-tool sessions, deterministic scorers): all 9 closed decision cases at ceiling in both arms; three open design tasks, two trials each: webhook service 5/7, 5/7 -> 6/7, 6/7; AI support assistant 7/9, 5/9 -> 9/9, 8/9; analytics right-sizing 5/6, 5/6 -> 6/6, 6/6 (a tie on the rubric; the difference is the document standard). Skilled answers were 2-3x longer and slower. Three checker defects and one scorer defect found on inspection were corrected and recorded. Controller-authored cases, not independent review.
+- Validation: structural catalogue gate and deterministic re-authoring.
 
 ## 0.7.0 (on main; not tagged)
 
