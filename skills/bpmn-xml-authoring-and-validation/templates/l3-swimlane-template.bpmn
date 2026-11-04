@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- L3 template: cross-functional invoice approval (as-is). Ids are stable so diffs stay meaningful.
+     Each element's documentation names the fact-ledger ids that support it. -->
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL"
+                  xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI"
+                  xmlns:dc="http://www.omg.org/spec/DD/20100524/DC"
+                  xmlns:di="http://www.omg.org/spec/DD/20100524/DI"
+                  id="Defs_L3_2_3" targetNamespace="https://example.org/process/L3/2.3">
+  <bpmn:collaboration id="Collab_L3_2_3">
+    <bpmn:participant id="Pool_Supplier" name="Supplier" />
+    <bpmn:participant id="Pool_AP" name="Accounts payable" processRef="Proc_L3_2_3" />
+    <bpmn:messageFlow id="MF_Invoice" name="Invoice" sourceRef="Pool_Supplier" targetRef="Start_InvoiceReceived" />
+    <bpmn:messageFlow id="MF_Rejection" name="Rejection notice" sourceRef="Task_SendRejection" targetRef="Pool_Supplier" />
+  </bpmn:collaboration>
+  <bpmn:process id="Proc_L3_2_3" name="2.3 Approve supplier invoices" isExecutable="false">
+    <bpmn:documentation>Level 3, as-is, draft. Parent: L2 2 Procure to pay, step 2.3.</bpmn:documentation>
+    <bpmn:laneSet id="LaneSet_AP">
+      <bpmn:lane id="Lane_APClerk" name="AP clerk">
+        <bpmn:flowNodeRef>Start_InvoiceReceived</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_RegisterInvoice</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_SendRejection</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>End_Rejected</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_BudgetHolder" name="Budget holder">
+        <bpmn:flowNodeRef>Task_ReviewMismatch</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Gw_Approved</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_FinanceSystem" name="Finance system">
+        <bpmn:flowNodeRef>Task_MatchInvoice</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Gw_Matches</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Gw_Merge</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_SchedulePayment</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>End_Scheduled</bpmn:flowNodeRef>
+      </bpmn:lane>
+    </bpmn:laneSet>
+    <bpmn:startEvent id="Start_InvoiceReceived" name="Invoice received">
+      <bpmn:documentation>Facts F01, F02</bpmn:documentation>
+      <bpmn:outgoing>F1</bpmn:outgoing>
+      <bpmn:messageEventDefinition id="MED_Invoice" />
+    </bpmn:startEvent>
+    <bpmn:userTask id="Task_RegisterInvoice" name="Register invoice">
+      <bpmn:documentation>Facts F03; collapsed detail lives in L4 2.3.1</bpmn:documentation>
+      <bpmn:incoming>F1</bpmn:incoming>
+      <bpmn:outgoing>F2</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:serviceTask id="Task_MatchInvoice" name="Match invoice to purchase order">
+      <bpmn:documentation>Facts F04, F05</bpmn:documentation>
+      <bpmn:incoming>F2</bpmn:incoming>
+      <bpmn:outgoing>F3</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:exclusiveGateway id="Gw_Matches" name="Invoice matches PO?">
+      <bpmn:incoming>F3</bpmn:incoming>
+      <bpmn:outgoing>F4</bpmn:outgoing>
+      <bpmn:outgoing>F5</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:userTask id="Task_ReviewMismatch" name="Review mismatch">
+      <bpmn:documentation>Facts F06, F07 (conflict C1: policy says 2 days, practice 5 to 7)</bpmn:documentation>
+      <bpmn:incoming>F5</bpmn:incoming>
+      <bpmn:outgoing>F6</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:exclusiveGateway id="Gw_Approved" name="Mismatch approved?">
+      <bpmn:incoming>F6</bpmn:incoming>
+      <bpmn:outgoing>F7</bpmn:outgoing>
+      <bpmn:outgoing>F8</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:exclusiveGateway id="Gw_Merge">
+      <bpmn:incoming>F4</bpmn:incoming>
+      <bpmn:incoming>F7</bpmn:incoming>
+      <bpmn:outgoing>F9</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:serviceTask id="Task_SchedulePayment" name="Schedule payment">
+      <bpmn:incoming>F9</bpmn:incoming>
+      <bpmn:outgoing>F10</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:endEvent id="End_Scheduled" name="Invoice scheduled for payment">
+      <bpmn:incoming>F10</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sendTask id="Task_SendRejection" name="Send rejection to supplier">
+      <bpmn:incoming>F8</bpmn:incoming>
+      <bpmn:outgoing>F11</bpmn:outgoing>
+    </bpmn:sendTask>
+    <bpmn:endEvent id="End_Rejected" name="Invoice rejected">
+      <bpmn:incoming>F11</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="F1" sourceRef="Start_InvoiceReceived" targetRef="Task_RegisterInvoice" />
+    <bpmn:sequenceFlow id="F2" sourceRef="Task_RegisterInvoice" targetRef="Task_MatchInvoice" />
+    <bpmn:sequenceFlow id="F3" sourceRef="Task_MatchInvoice" targetRef="Gw_Matches" />
+    <bpmn:sequenceFlow id="F4" name="Yes" sourceRef="Gw_Matches" targetRef="Gw_Merge" />
+    <bpmn:sequenceFlow id="F5" name="No" sourceRef="Gw_Matches" targetRef="Task_ReviewMismatch" />
+    <bpmn:sequenceFlow id="F6" sourceRef="Task_ReviewMismatch" targetRef="Gw_Approved" />
+    <bpmn:sequenceFlow id="F7" name="Approved" sourceRef="Gw_Approved" targetRef="Gw_Merge" />
+    <bpmn:sequenceFlow id="F8" name="Rejected" sourceRef="Gw_Approved" targetRef="Task_SendRejection" />
+    <bpmn:sequenceFlow id="F9" sourceRef="Gw_Merge" targetRef="Task_SchedulePayment" />
+    <bpmn:sequenceFlow id="F10" sourceRef="Task_SchedulePayment" targetRef="End_Scheduled" />
+    <bpmn:sequenceFlow id="F11" sourceRef="Task_SendRejection" targetRef="End_Rejected" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="Diagram_L3_2_3">
+    <bpmndi:BPMNPlane id="Plane_L3_2_3" bpmnElement="Collab_L3_2_3">
+      <bpmndi:BPMNShape id="Pool_Supplier_di" bpmnElement="Pool_Supplier" isHorizontal="true">
+        <dc:Bounds x="160" y="40" width="1100" height="100" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Pool_AP_di" bpmnElement="Pool_AP" isHorizontal="true">
+        <dc:Bounds x="160" y="200" width="1100" height="450" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_APClerk_di" bpmnElement="Lane_APClerk" isHorizontal="true">
+        <dc:Bounds x="190" y="200" width="1070" height="150" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_BudgetHolder_di" bpmnElement="Lane_BudgetHolder" isHorizontal="true">
+        <dc:Bounds x="190" y="350" width="1070" height="150" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_FinanceSystem_di" bpmnElement="Lane_FinanceSystem" isHorizontal="true">
+        <dc:Bounds x="190" y="500" width="1070" height="150" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Start_InvoiceReceived_di" bpmnElement="Start_InvoiceReceived">
+        <dc:Bounds x="232" y="257" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_RegisterInvoice_di" bpmnElement="Task_RegisterInvoice">
+        <dc:Bounds x="310" y="235" width="110" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_MatchInvoice_di" bpmnElement="Task_MatchInvoice">
+        <dc:Bounds x="470" y="535" width="110" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gw_Matches_di" bpmnElement="Gw_Matches" isMarkerVisible="true">
+        <dc:Bounds x="625" y="550" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_ReviewMismatch_di" bpmnElement="Task_ReviewMismatch">
+        <dc:Bounds x="710" y="385" width="110" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gw_Approved_di" bpmnElement="Gw_Approved" isMarkerVisible="true">
+        <dc:Bounds x="865" y="400" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gw_Merge_di" bpmnElement="Gw_Merge" isMarkerVisible="true">
+        <dc:Bounds x="945" y="550" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_SchedulePayment_di" bpmnElement="Task_SchedulePayment">
+        <dc:Bounds x="1030" y="535" width="110" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="End_Scheduled_di" bpmnElement="End_Scheduled">
+        <dc:Bounds x="1190" y="557" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_SendRejection_di" bpmnElement="Task_SendRejection">
+        <dc:Bounds x="950" y="235" width="110" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="End_Rejected_di" bpmnElement="End_Rejected">
+        <dc:Bounds x="1110" y="257" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="F1_di" bpmnElement="F1">
+        <di:waypoint x="268" y="275" /><di:waypoint x="310" y="275" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F2_di" bpmnElement="F2">
+        <di:waypoint x="365" y="315" /><di:waypoint x="365" y="575" /><di:waypoint x="470" y="575" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F3_di" bpmnElement="F3">
+        <di:waypoint x="580" y="575" /><di:waypoint x="625" y="575" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F4_di" bpmnElement="F4">
+        <di:waypoint x="675" y="575" /><di:waypoint x="945" y="575" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F5_di" bpmnElement="F5">
+        <di:waypoint x="650" y="550" /><di:waypoint x="650" y="425" /><di:waypoint x="710" y="425" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F6_di" bpmnElement="F6">
+        <di:waypoint x="820" y="425" /><di:waypoint x="865" y="425" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F7_di" bpmnElement="F7">
+        <di:waypoint x="915" y="425" /><di:waypoint x="970" y="425" /><di:waypoint x="970" y="550" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F8_di" bpmnElement="F8">
+        <di:waypoint x="890" y="400" /><di:waypoint x="890" y="275" /><di:waypoint x="950" y="275" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F9_di" bpmnElement="F9">
+        <di:waypoint x="995" y="575" /><di:waypoint x="1030" y="575" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F10_di" bpmnElement="F10">
+        <di:waypoint x="1140" y="575" /><di:waypoint x="1190" y="575" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F11_di" bpmnElement="F11">
+        <di:waypoint x="1060" y="275" /><di:waypoint x="1110" y="275" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="MF_Invoice_di" bpmnElement="MF_Invoice">
+        <di:waypoint x="250" y="140" /><di:waypoint x="250" y="257" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="MF_Rejection_di" bpmnElement="MF_Rejection">
+        <di:waypoint x="1005" y="235" /><di:waypoint x="1005" y="140" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

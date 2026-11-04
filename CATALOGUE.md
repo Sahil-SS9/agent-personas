@@ -9,6 +9,7 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [agent-team-lead](personas/agent-team-lead/PERSONA.md) | Ship outcomes through agent teams: brief so nothing depends on session memory, verify against definitions-of-done, cap parallelism, and report status as evidence. | 6 |
 | [ai-guardrails-engineer](personas/ai-guardrails-engineer/PERSONA.md) | Ensure the correct guardrails are identified, put in place, followed and maintained. | 11 |
 | [api-contract-designer](personas/api-contract-designer/PERSONA.md) | Define APIs, compatibility rules and error contracts. | 6 |
+| [business-process-analyst](personas/business-process-analyst/PERSONA.md) | Turn transcripts, documents and workshops into traceable Level 1 to 4 process architecture and validated BPMN, swimlane and Lucidchart-ready maps, and surface evidence-backed improvement opportunities. | 8 |
 | [automation-engineer](personas/automation-engineer/PERSONA.md) | Replace measured toil with observable, reversible automations. | 6 |
 | [blue-team-security](personas/blue-team-security/PERSONA.md) | Plan prevention, detection and rehearsed incident response. | 6 |
 | [career-skill-portfolio-strategist](personas/career-skill-portfolio-strategist/PERSONA.md) | Replace abstract career predictions with affordable, evidence-producing career experiments. | 3 |
@@ -64,6 +65,7 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [agent-team-lead](bundles/agent-team-lead/bundle.json) | 6 |
 | [ai-guardrails-engineer](bundles/ai-guardrails-engineer/bundle.json) | 11 |
 | [api-contract-designer](bundles/api-contract-designer/bundle.json) | 6 |
+| [business-process-analyst](bundles/business-process-analyst/bundle.json) | 8 |
 | [automation-engineer](bundles/automation-engineer/bundle.json) | 6 |
 | [blue-team-security](bundles/blue-team-security/bundle.json) | 6 |
 | [career-skill-portfolio-strategist](bundles/career-skill-portfolio-strategist/bundle.json) | 3 |
@@ -148,6 +150,8 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [backlog-refinement](skills/backlog-refinement/SKILL.md) | Order and keep the backlog ready by outcome contribution within refinement capacity. | [Card](evidence/backlog-refinement.json) |
 | [behaviour-first-budgeting](skills/behaviour-first-budgeting/SKILL.md) | Anchor money plans in savings rate, emergency fund and debt triage. | [Card](evidence/behaviour-first-budgeting.json) |
 | [binary-structure-assembly](skills/binary-structure-assembly/SKILL.md) | Read binary structure and assembly fluently: formats, disassembly quality loops and decompiler-correction technique. | [Card](evidence/binary-structure-assembly.json) |
+| [bpmn-modelling-method](skills/bpmn-modelling-method/SKILL.md) | Model business processes in BPMN 2.0 that business readers and tools both understand: right palette per level, pools versus lanes, labelled gateways and end states, exceptions and drill-down sub-processes. | [Card](evidence/bpmn-modelling-method.json) |
+| [bpmn-xml-authoring-and-validation](skills/bpmn-xml-authoring-and-validation/SKILL.md) | Write BPMN 2.0 XML with diagram interchange that imports into modelling tools and Lucidchart, then prove it with a structural checker, bpmnlint and a reference parser before handing it over. | [Card](evidence/bpmn-xml-authoring-and-validation.json) |
 | [build-ci-and-package-artifact-sprawl-control](skills/build-ci-and-package-artifact-sprawl-control/SKILL.md) | Control generated artifacts from builds, CI runs and package managers — the largest and fastest-growing source of reclaimable space. | [Card](evidence/build-ci-and-package-artifact-sprawl-control.json) |
 | [c4-architecture-modelling](skills/c4-architecture-modelling/SKILL.md) | Model and communicate system structure top-down with the C4 ladder. | [Card](evidence/c4-architecture-modelling.json) |
 | [c4-model-reference](skills/c4-model-reference/SKILL.md) | Apply C4 component diagram concepts accurately. | [Card](evidence/c4-model-reference.json) |
@@ -267,6 +271,7 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [llm-as-judge-design](skills/llm-as-judge-design/SKILL.md) | Design LLM-as-judge evaluations with calibration, bias controls and human anchoring. | [Card](evidence/llm-as-judge-design.json) |
 | [llm-call-displacement-audit](skills/llm-call-displacement-audit/SKILL.md) | Audit a live system for calls that should not be LLM calls — where a cheap classifier answers the same question faster and deterministically. | [Card](evidence/llm-call-displacement-audit.json) |
 | [local-ml-evaluation](skills/local-ml-evaluation/SKILL.md) | Evaluate local ML models on the 3090 rig before adoption. | [Card](evidence/local-ml-evaluation.json) |
+| [lucidchart-diagram-delivery](skills/lucidchart-diagram-delivery/SKILL.md) | Get process maps into Lucidchart by the right route: BPMN file import, CSV process-diagram import, Standard Import JSON via the API, or a connected Lucid integration. Includes page structure for L1 to L4 and drill-down links. | [Card](evidence/lucidchart-diagram-delivery.json) |
 | [lyric-aligned-video-planning](skills/lyric-aligned-video-planning/SKILL.md) | Plan music videos with WhisperX forced alignment driving shot changes at word level. | [Card](evidence/lyric-aligned-video-planning.json) |
 | [maintainer-communication-crafting](skills/maintainer-communication-crafting/SKILL.md) | Write maintainer replies and review comments that answer the request, cite policy rather than personality, and end with one next step. | [Card](evidence/maintainer-communication-crafting.json) |
 | [market-price-benchmarking](skills/market-price-benchmarking/SKILL.md) | Benchmark fair market price and buy timing before negotiating. | [Card](evidence/market-price-benchmarking.json) |
@@ -309,6 +314,11 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [price-claim-sanity-check](skills/price-claim-sanity-check/SKILL.md) | Test a price against the upstream reference: anything materially below wholesale needs an explanation before it becomes a recommendation. | [Card](evidence/price-claim-sanity-check.json) |
 | [pricing-strategy](skills/pricing-strategy/SKILL.md) | Research competitor pricing, analyse market tiers, and. | [Card](evidence/pricing-strategy.json) |
 | [problem-elimination-loop](skills/problem-elimination-loop/SKILL.md) | Convert recurring tickets into permanent fixes via problem management discipline. | [Card](evidence/problem-elimination-loop.json) |
+| [process-architecture-levels](skills/process-architecture-levels/SKILL.md) | Organise process knowledge into a Level 1 to 4 hierarchy, decide which levels the evidence supports, and keep every child map traceable to its parent with consistent naming and numbering. | [Card](evidence/process-architecture-levels.json) |
+| [process-improvement-opportunity-analysis](skills/process-improvement-opportunity-analysis/SKILL.md) | Analyse as-is maps for handoffs, rework, waits, duplicate entry, control gaps and policy-practice deviations, then build an evidence-linked opportunity register and to-be options without inventing benefits. | [Card](evidence/process-improvement-opportunity-analysis.json) |
+| [process-map-validation-and-signoff](skills/process-map-validation-and-signoff/SKILL.md) | Prove process maps before sign-off: trace every element to evidence, run structural and cross-level consistency checks, walk paths with the people who do the work, and record versions, approvals and open questions. | [Card](evidence/process-map-validation-and-signoff.json) |
+| [process-notation-selection](skills/process-notation-selection/SKILL.md) | Choose and draw the right non-BPMN map for the question: value-chain landscape, SIPOC, flowchart, cross-functional swimlane, value stream map, or diagrams-as-code, without mixing notations. | [Card](evidence/process-notation-selection.json) |
+| [process-source-elicitation](skills/process-source-elicitation/SKILL.md) | Extract a cited process-fact ledger from transcripts, workshop notes, SOPs, policies and tickets: actors, steps, decisions, rules, exceptions, conflicts and the questions still open. | [Card](evidence/process-source-elicitation.json) |
 | [production-health-ownership](skills/production-health-ownership/SKILL.md) | Own production health: capacity, incident command, blameless postmortems. | [Card](evidence/production-health-ownership.json) |
 | [profiling-methodology](skills/profiling-methodology/SKILL.md) | Diagnose performance from measurement, not guesswork: profile, attribute, verify. | [Card](evidence/profiling-methodology.json) |
 | [progressive-delivery-and-rollback](skills/progressive-delivery-and-rollback/SKILL.md) | Ship with canaries, abort criteria, and rollback proven before it is needed. | [Card](evidence/progressive-delivery-and-rollback.json) |
@@ -589,6 +599,18 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 - [ghidra-workflow-adapter](skills/ghidra-workflow-adapter/SKILL.md) · [evidence](evidence/ghidra-workflow-adapter.json)
 - [reactive-render-verification](skills/reactive-render-verification/SKILL.md) · [evidence](evidence/reactive-render-verification.json)
 - [security-binary-investigation](skills/security-binary-investigation/SKILL.md) · [evidence](evidence/security-binary-investigation.json)
+
+## New in 0.7.0 (draft)
+
+- [business-process-analyst](personas/business-process-analyst/PERSONA.md) · [bundle](bundles/business-process-analyst/bundle.json) (8 skills)
+- [bpmn-modelling-method](skills/bpmn-modelling-method/SKILL.md) · [evidence](evidence/bpmn-modelling-method.json)
+- [bpmn-xml-authoring-and-validation](skills/bpmn-xml-authoring-and-validation/SKILL.md) · [evidence](evidence/bpmn-xml-authoring-and-validation.json)
+- [lucidchart-diagram-delivery](skills/lucidchart-diagram-delivery/SKILL.md) · [evidence](evidence/lucidchart-diagram-delivery.json)
+- [process-architecture-levels](skills/process-architecture-levels/SKILL.md) · [evidence](evidence/process-architecture-levels.json)
+- [process-improvement-opportunity-analysis](skills/process-improvement-opportunity-analysis/SKILL.md) · [evidence](evidence/process-improvement-opportunity-analysis.json)
+- [process-map-validation-and-signoff](skills/process-map-validation-and-signoff/SKILL.md) · [evidence](evidence/process-map-validation-and-signoff.json)
+- [process-notation-selection](skills/process-notation-selection/SKILL.md) · [evidence](evidence/process-notation-selection.json)
+- [process-source-elicitation](skills/process-source-elicitation/SKILL.md) · [evidence](evidence/process-source-elicitation.json)
 
 ## New in 0.6.0
 

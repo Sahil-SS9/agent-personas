@@ -1,0 +1,8 @@
+{
+  "skill": "lucidchart-diagram-delivery",
+  "release_version": "0.7.0-draft",
+  "release_skill_sha256": "25788d759dba2175948f973f5525400bcec661e5c57dd1f3d41d44abcf649f20",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Checked with the structural catalogue gate and deterministic re-authoring. Behavioural benchmarking against a no-skill baseline is outstanding.",
+  "sources": "Facts from Lucid's public help centre (file import, CSV process diagram import, BPMN export) and developer documentation (Standard Import format, BPMN 2.0 and container libraries, lines, actions), retrieved November 2026. No documentation text is reproduced."
+}

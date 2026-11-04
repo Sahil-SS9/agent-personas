@@ -4,7 +4,7 @@
 
 ### Connect your agents to the skills their job needs.
 
-A catalogue of **50 personas, 51 specialised skill bundles and 332 reusable skills** for building dedicated agents, sub-agents and bots. Choose a role, load its methods, and use the agent platform you already have.
+A catalogue of **51 personas, 52 specialised skill bundles and 340 reusable skills** for building dedicated agents, sub-agents and bots. Choose a role, load its methods, and use the agent platform you already have.
 
 [Choose a persona](#choose-your-first-persona) · [Try it](#try-a-persona-in-a-few-minutes) · [Browse all roles and bundles](#browse-all-personas-and-skill-bundles) · [Platform compatibility](docs/compatibility.md) · [Evidence](docs/evidence.md)
 
@@ -63,6 +63,7 @@ Start with the outcome you need. The coding roles sit alongside research, design
 | Build a mod, or mash up two games you own | [Game Modder](personas/game-modder/PERSONA.md) |
 | Rebuild compatible software from observed behaviour | [Clean-Room Reimplementation Engineer](personas/clean-room-reimplementation-engineer/PERSONA.md) |
 | Decide what to build and why | [Product Manager](personas/product-manager/PERSONA.md) |
+| Turn interviews and documents into L1 to L4 process maps (BPMN, Lucidchart) | [Business Process Analyst](personas/business-process-analyst/PERSONA.md) |
 | Connect systems and verify their boundaries | [Integration Specialist](personas/integration-specialist/PERSONA.md) |
 | Coordinate an agent team | [Agent Team Lead](personas/agent-team-lead/PERSONA.md) |
 | Learn through practice and feedback | [Practice-Based Learning](personas/practice-based-learning/PERSONA.md) |
@@ -202,6 +203,7 @@ Paired personas and bundles currently have identical membership. Expand a group 
 |---|---|---|---:|
 | [product-manager](personas/product-manager/PERSONA.md) | [product-manager](bundles/product-manager/bundle.json) | Frame problems, define outcomes and prioritise features. | 4 |
 | [product-owner](personas/product-owner/PERSONA.md) | [product-owner](bundles/product-owner/bundle.json) | Order backlogs and slice deliverable stories. | 4 |
+| [business-process-analyst](personas/business-process-analyst/PERSONA.md) | [business-process-analyst](bundles/business-process-analyst/bundle.json) | Turn transcripts and documents into traceable L1 to L4 process maps in BPMN, swimlanes and Lucidchart, with improvement opportunities. | 8 |
 | [project-strategist](personas/project-strategist/PERSONA.md) | [project-strategist](bundles/project-strategist/bundle.json) | Evaluate projects and choose delivery approaches. | 4 |
 | [risk-release-manager](personas/risk-release-manager/PERSONA.md) | [risk-release-manager](bundles/risk-release-manager/bundle.json) | Track risks and verify releases, rollback and post-release checks. | 4 |
 | [devops-sre](personas/devops-sre/PERSONA.md) | [devops-sre](bundles/devops-sre/bundle.json) | Manage SLOs, progressive delivery and incident response. | 6 |
@@ -225,6 +227,10 @@ Paired personas and bundles currently have identical membership. Expand a group 
 #### product-owner
 
 [story-slicing](skills/story-slicing/SKILL.md) · [backlog-refinement](skills/backlog-refinement/SKILL.md) · [meeting-action-items](skills/meeting-action-items/SKILL.md) · [morning-pulse](skills/morning-pulse/SKILL.md)
+
+#### business-process-analyst
+
+[process-source-elicitation](skills/process-source-elicitation/SKILL.md) · [process-architecture-levels](skills/process-architecture-levels/SKILL.md) · [bpmn-modelling-method](skills/bpmn-modelling-method/SKILL.md) · [bpmn-xml-authoring-and-validation](skills/bpmn-xml-authoring-and-validation/SKILL.md) · [lucidchart-diagram-delivery](skills/lucidchart-diagram-delivery/SKILL.md) · [process-notation-selection](skills/process-notation-selection/SKILL.md) · [process-improvement-opportunity-analysis](skills/process-improvement-opportunity-analysis/SKILL.md) · [process-map-validation-and-signoff](skills/process-map-validation-and-signoff/SKILL.md)
 
 #### project-strategist
 

@@ -1,0 +1,8 @@
+{
+  "skill": "bpmn-modelling-method",
+  "release_version": "0.7.0-draft",
+  "release_skill_sha256": "dbf66d08d6e3fd810ac314f4f57cbe89bcc60f180b30ed09bd00bccc5b9dbed9",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Checked with the structural catalogue gate and deterministic re-authoring. Behavioural benchmarking against a no-skill baseline is outstanding.",
+  "sources": "Notation facts from the OMG BPMN 2.0.2 specification (formal/13-12-09). Style principles informed by Bruce Silver, BPMN Method and Style (book), and paraphrased. No specification or book text is reproduced."
+}

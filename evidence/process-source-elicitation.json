@@ -1,0 +1,8 @@
+{
+  "skill": "process-source-elicitation",
+  "release_version": "0.7.0-draft",
+  "release_skill_sha256": "8f1ec8fce292f88c6f0acce2e73545d863962984403b206409c53a2e44836461",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Checked with the structural catalogue gate and deterministic re-authoring. Behavioural benchmarking against a no-skill baseline is outstanding.",
+  "sources": "Method is original synthesis of established business-analysis elicitation practice (document analysis, interviews, workshops, observation). No upstream text is reproduced."
+}

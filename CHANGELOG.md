@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.7.0 (draft; local, not published)
+
+- Add the Business Process Analyst persona and bundle (8 skills): cited fact ledgers from transcripts and documents, a Level 1 to 4 process architecture with a level-fit coverage matrix, BPMN 2.0 modelling, portable .bpmn files with diagram interchange, Lucidchart delivery (BPMN import, CSV process import, Standard Import API), other notations (landscape, SIPOC, swimlane, value stream map), improvement-opportunity analysis, and validation and sign-off.
+- bpmn-xml-authoring-and-validation ships a dependency-free structural checker and an L3 swimlane template. The template passes the checker, bpmnlint recommended rules and bpmn-moddle; the checker caught all 9 seeded defects. Lucidchart import was not exercised.
+- Validation: structural catalogue gate and deterministic re-authoring. Behavioural benchmarking is outstanding.
+
 ## 0.6.0 (on main; not tagged)
 
 - Game Modder rebuilt around building mods: 10 new skills (idea-to-route, Unity, Unreal, Bethesda and script extenders, Java/.NET loaders, native hooks, content and asset pipeline, cross-game mashups and bridges, in-game oracles and verification, publishing and download supply-chain safety), with the original 5 skills kept as guardrails. Asset generation follows each user's own choice of local tools, paid services or both. Research: public loader and tool documentation, rehan-remade/universal-modder (MIT) as a cross-check, and a survey of 1,723 game-modding repositories.

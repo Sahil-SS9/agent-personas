@@ -1,0 +1,16 @@
+{
+  "name": "business-process-analyst",
+  "version": "0.1.0",
+  "members": [
+    "process-source-elicitation",
+    "process-architecture-levels",
+    "bpmn-modelling-method",
+    "bpmn-xml-authoring-and-validation",
+    "lucidchart-diagram-delivery",
+    "process-notation-selection",
+    "process-improvement-opportunity-analysis",
+    "process-map-validation-and-signoff"
+  ],
+  "persona": "business-process-analyst",
+  "status": "draft"
+}

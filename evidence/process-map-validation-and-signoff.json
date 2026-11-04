@@ -1,0 +1,8 @@
+{
+  "skill": "process-map-validation-and-signoff",
+  "release_version": "0.7.0-draft",
+  "release_skill_sha256": "656c9e2362c6b251664cc659f1ea252c42c24da77c2162f8787249f22d4eb506",
+  "author_credit": "Sahil Saghir, Hermes Agent",
+  "validation": "Checked with the structural catalogue gate and deterministic re-authoring. Behavioural benchmarking against a no-skill baseline is outstanding.",
+  "sources": "Original method. No upstream text is reproduced."
+}
