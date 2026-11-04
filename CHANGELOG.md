@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.7.0 (draft; local, not published)
+## 0.7.0 (on main; not tagged)
 
 - Add the Business Process Analyst persona and bundle (9 skills): cited fact ledgers from transcripts and documents, a Level 1 to 4 process architecture with a level-fit coverage matrix, BPMN 2.0 modelling with label and end-state rules, portable .bpmn files with diagram interchange, Lucidchart delivery (BPMN import, CSV process import, Standard Import API), a visual standard for every map (sizes, grid, lines, fonts, accessible colour, icons, title, legend and breadcrumb), other notations, improvement-opportunity analysis, and validation and sign-off.
 - Source study: the OMG BPMN 2.0.2 standard, the eCH-0158 BPMN conventions, WCAG 2.2, nine peer-reviewed papers on process-model quality and comprehension, and the authors' own published material for Fundamentals of BPM, BPMN Method and Style, Real-Life BPMN and Workflow Modeling (book chapters themselves were not available). Public skills contain paraphrased principles only.

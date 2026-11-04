@@ -73,7 +73,7 @@ Start with the outcome you need. The coding roles sit alongside research, design
 
 ## Browse all personas and skill bundles
 
-The directory below covers all 48 persona role contracts and 49 skill bundles. A persona defines the job, boundaries and completion criteria; a bundle selects methods without assigning a role. Each row links to both separately. Counts are declared member skills, not unique skills across the catalogue; shared skills are counted in each package that includes them.
+The directory below covers all 51 persona role contracts and 52 skill bundles. A persona defines the job, boundaries and completion criteria; a bundle selects methods without assigning a role. Each row links to both separately. Counts are declared member skills, not unique skills across the catalogue; shared skills are counted in each package that includes them.
 
 Paired personas and bundles currently have identical membership. Expand a group to inspect the linked skills for each entry. The standalone `knowledge-librarian-bundle` has no matching persona. Conditional members are included in counts but activate only when relevant and authorised; they grant no dispatch permission.
 
