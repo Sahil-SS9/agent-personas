@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.8.0 (on main; not tagged)
+## 0.8.0
 
 - Add the System Designer persona and bundle (18 skills: 17 new plus the shared c4-architecture-modelling). Core: requirements and SLOs, capacity estimation, data stores and partitioning, replication and consistency, caching and CDNs, messaging and workflows, failure modes and resilience, overload and traffic management, security, operability and rollout, cost, and the design document and review. AI and LLM systems sub-category: architecture patterns, RAG architecture, model serving and capacity, agent and tool safety, evaluation and operations. Persona and bundle manifests list both groups in `member_groups`.
 - Systems Architect (0.3.1): add the reciprocal handoff to System Designer. No member changes.
@@ -9,7 +9,7 @@
 - Benchmark 04/11/26 (whole persona core vs no skill, one frontier model, isolated no-tool sessions, deterministic scorers): all 9 closed decision cases at ceiling in both arms; three open design tasks, two trials each: webhook service 5/7, 5/7 -> 6/7, 6/7; AI support assistant 7/9, 5/9 -> 9/9, 8/9; analytics right-sizing 5/6, 5/6 -> 6/6, 6/6 (a tie on the rubric; the difference is the document standard). Skilled answers were 2-3x longer and slower. Three checker defects and one scorer defect found on inspection were corrected and recorded. Controller-authored cases, not independent review.
 - Validation: structural catalogue gate and deterministic re-authoring.
 
-## 0.7.0 (on main; not tagged)
+## 0.7.0
 
 - Add the Business Process Analyst persona and bundle (9 skills): cited fact ledgers from transcripts and documents, a Level 1 to 4 process architecture with a level-fit coverage matrix, BPMN 2.0 modelling with label and end-state rules, portable .bpmn files with diagram interchange, Lucidchart delivery (BPMN import, CSV process import, Standard Import API), a visual standard for every map (sizes, grid, lines, fonts, accessible colour, icons, title, legend and breadcrumb), other notations, improvement-opportunity analysis, and validation and sign-off.
 - Source study: the OMG BPMN 2.0.2 standard, the eCH-0158 BPMN conventions, WCAG 2.2, nine peer-reviewed papers on process-model quality and comprehension, and the authors' own published material for Fundamentals of BPM, BPMN Method and Style, Real-Life BPMN and Workflow Modeling (book chapters themselves were not available). Public skills contain paraphrased principles only.
@@ -17,7 +17,7 @@
 - Benchmark 04/11/26 (whole persona core vs no skill, one frontier model, isolated no-tool sessions, deterministic scorers): all 14 closed decision cases and the BPMN artefact at ceiling in both arms; Lucid artefact 3/5 -> 4/5; two open-ended tasks, two trials each: first working output 4/6, 4/6 -> 6/6, 6/6 and standard-look Lucid map 4/8, 4/8 -> 8/8, 7/8. Two scorer defects found on inspection were corrected and recorded. Controller-authored cases, not independent review.
 - Validation: structural catalogue gate and deterministic re-authoring.
 
-## 0.6.0 (on main; not tagged)
+## 0.6.0
 
 - Game Modder rebuilt around building mods: 10 new skills (idea-to-route, Unity, Unreal, Bethesda and script extenders, Java/.NET loaders, native hooks, content and asset pipeline, cross-game mashups and bridges, in-game oracles and verification, publishing and download supply-chain safety), with the original 5 skills kept as guardrails. Asset generation follows each user's own choice of local tools, paid services or both. Research: public loader and tool documentation, rehan-remade/universal-modder (MIT) as a cross-check, and a survey of 1,723 game-modding repositories.
 - Benchmark 19/10/26 (replaces the ceiling-only result below for these 35 skills): 70 hand-authored decision cases scored deterministically, plus 8 executable build tasks graded in a no-network sandbox. Decision cases: 44 uplift, 25 at ceiling, 1 equal, 0 regressions. Build tasks: 2 uplift (safe save migration 6/9 -> 9/9; route selection 9/10 -> 10/10), 6 at ceiling. One trial per arm on a frontier model; per-skill results are in each evidence card.
