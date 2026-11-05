@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.8.0 (draft; local, not published)
+## 0.8.0 (on main; not tagged)
 
 - Add the System Designer persona and bundle (18 skills: 17 new plus the shared c4-architecture-modelling). Core: requirements and SLOs, capacity estimation, data stores and partitioning, replication and consistency, caching and CDNs, messaging and workflows, failure modes and resilience, overload and traffic management, security, operability and rollout, cost, and the design document and review. AI and LLM systems sub-category: architecture patterns, RAG architecture, model serving and capacity, agent and tool safety, evaluation and operations. Persona and bundle manifests list both groups in `member_groups`.
 - Systems Architect (0.3.1): add the reciprocal handoff to System Designer. No member changes.
