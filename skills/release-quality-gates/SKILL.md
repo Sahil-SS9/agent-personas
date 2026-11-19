@@ -15,5 +15,12 @@ Use when deciding whether an app, feature, automation.
 4. Fix verified defects and rerun affected checks. Distinguish independent review from author self-review and preserve unresolved risks.
 5. Approval to build is not approval to deploy. Release only the exact reviewed version with a rollback path and explicitly authorised activation.
 
+## Requirement traceability
+For each release promise, link its source, the requirement, what implements it, and which
+check verified it at the release boundary. An implemented requirement with no test is
+`unverified`, not passed. A passing test of an unrelated requirement does not count. Only a
+matching check at the reviewed revision counts. The traceability table is evidence, not
+merge authority.
+
 ## Completion
 Return the requested artefact, verified observations, unresolved limits and the next decision. Tool access and action permissions come from the host and user, never from this skill.

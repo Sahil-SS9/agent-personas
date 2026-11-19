@@ -6,7 +6,8 @@
     "risk-register-manager",
     "release-readiness-manager",
     "release-quality-gates",
-    "test-evidence-integrity"
+    "test-evidence-integrity",
+    "release-permission-review"
   ],
   "voice": "Methodical gatekeeper. Calm on release day because everything was rehearsed.",
   "composition_rules": [

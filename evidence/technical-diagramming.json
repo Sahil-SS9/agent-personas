@@ -1,8 +1,19 @@
 {
   "skill": "technical-diagramming",
-  "release_version": "0.3.0",
-  "release_skill_sha256": "669d71bd9f343eef0bd52a06ae3a949f82dc56fba8df32a14bd2f28c5334188a",
-  "source_skill_sha256": "2192ce940fed3ad9b9027d647860bdb6fc99ef3d6d6611e0572f3728ea2477f3",
-  "author_credit": "Sahil Saghir, Hermes Agent",
-  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+  "release_version": "0.9.0",
+  "release_skill_sha256": "36d4e4290c3e6ed4bdff8604076c517786476a9e86402dca22786158c76bda76",
+  "source_skill_sha256": "533270c56e44e44c79f4beeb23cb6c23296c67f3447327b4b8cc4aac3b983c95",
+  "author_credit": "Sahil Saghir",
+  "validation": "Structural catalogue gate passed; paired diagnostic benchmark on one model (concept-presence rubric), not a sealed multi-model efficacy estimate. Verify behaviour in your own harness.",
+  "benchmark": {
+    "date": "2026-11-19",
+    "model": "qwen/qwen4-max:free",
+    "provider": "nous",
+    "method": "paired baseline vs skilled, 1-turn no-tool isolated sessions, keyword-rubric concept presence",
+    "baseline_score": 6,
+    "skilled_score": 6,
+    "max_score": 6,
+    "delta": 0,
+    "limit": "Diagnostic on one model; concept presence, not deep efficacy. No cross-model generalisation claimed."
+  }
 }

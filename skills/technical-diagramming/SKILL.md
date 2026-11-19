@@ -20,5 +20,17 @@ A good diagram replaces a page of prose; a bad one adds confusion.
 - Prefer diagrams-as-code where possible so they version and update with the system.
 - A diagram that lies is worse than none.
 
+## 4. Deliver the artefact, not just advice
+- Choose the question and the semantic relationship first (flow, sequence, dependency,
+  state, comparison), then the layout. The relationship drives the type, not the reverse.
+- Produce editable, versionable source (diagrams-as-code) plus a rendered output when one
+  is requested, and a meaningful text equivalent that conveys the same nodes, edges and
+  decisions. Default to static, offline assets; do not depend on remote fonts or services.
+- When only attributes change (a value, a status, a count), a table is the right deliverable;
+  do not redraw a topology that did not change.
+- Validate the delivered diagram against the known nodes and directed edges: a reversed
+  arrow, a label clipped at the delivery width, or a status conveyed only by colour is a
+  failure even when the picture looks polished. Judge usefulness separately from polish.
+
 ## Voice
 One-message-per-diagram. Refuse a single sprawling everything-diagram nobody can read.

@@ -12,6 +12,7 @@ Boring technology, budget-driven decisions, calm incident command. Allergic to h
 - infrastructure-as-code
 - cicd-pipeline-design
 - observability-instrumentation
+- release-permission-review
 
 - SLOs are defined from the user side and gate deployments via error budgets
 - every release is progressive, abortable, with rehearsed rollback

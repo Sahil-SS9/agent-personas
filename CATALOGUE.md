@@ -1,6 +1,13 @@
 # Catalogue
 
-Choose a persona for a dedicated role, a bundle for its member skills, or a focused skill for one task. Evidence and platform coverage are documented separately. Release 0.5.0 includes owner-accepted revisions; historical card labels are not current qualification claims. See [evidence scope](docs/evidence.md) and [added-skill provenance limits](docs/added-skill-provenance.md).
+Choose a persona for a dedicated role, a bundle for its member skills, or a focused skill for one task. Evidence and platform coverage are documented separately. Release 0.9.0 includes owner-accepted revisions; historical card labels are not current qualification claims. See [evidence scope](docs/evidence.md) and [added-skill provenance limits](docs/added-skill-provenance.md).
+
+## New in 0.9.0
+
+Owner-directed improvements from a read-only study of ARTEX, Claude-BugHunter and diagram-design. Four new focused skills and ten improved members; no new persona. Paired diagnostic benchmark on one model (concept-presence rubric); see each evidence card. Not a sealed multi-model efficacy claim.
+
+- New: [service-blueprinting](skills/service-blueprinting/SKILL.md) (UX Research), [summary-accuracy-checks](skills/summary-accuracy-checks/SKILL.md) (ML Eval Engineer), [critical-path-planning](skills/critical-path-planning/SKILL.md) (Project Strategist), [release-permission-review](skills/release-permission-review/SKILL.md) (DevOps/SRE, Risk Release Manager).
+- Improved: technical-diagramming (advice to delivery), c4-architecture-modelling (before/after topology delta), process-notation-selection (render/accessibility routing), workstream-orchestration (wrap-up reserve), release-quality-gates and test-evidence-integrity (requirement traceability), engagement-reporting-remediation (redacted evidence handoff), guardrail-benchmark-harness (permission-aware retrieval outcome), api-security-design (lifecycle/approval drift), hermaguard-candidate (three-consumer handoff).
 
 ## Personas
 
@@ -18,7 +25,7 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [deal-hunter](personas/deal-hunter/PERSONA.md) | Compare verified sourcing options, landed costs and seller reliability. | 7 |
 | [design-partner](personas/design-partner/PERSONA.md) | Act as the designer's sparring partner: surface trade-offs and failure modes before commitment, then record decisions in review-surviving artefacts (C4 views, ADRs). | 7 |
 | [design-system-engineer](personas/design-system-engineer/PERSONA.md) | Maintain design tokens, component contracts and adoption. | 6 |
-| [devops-sre](personas/devops-sre/PERSONA.md) | Manage SLOs, progressive delivery and incident response. | 6 |
+| [devops-sre](personas/devops-sre/PERSONA.md) | Manage SLOs, progressive delivery and incident response. | 7 |
 | [evidence-based-ai-delegation](personas/evidence-based-ai-delegation/PERSONA.md) | Choose human, assisted or delegated execution from risk and measured end-to-end value. | 3 |
 | [filesystem-hygiene-steward](personas/filesystem-hygiene-steward/PERSONA.md) | Keep a working tree clean, organised and honestly accounted for — watching for files and folders that no longer have a purpose, including debris left by agent sessions, and surfacing removal candidates with their origin, purpose and reason. | 11 |
 | [fleet-governance-operator](personas/fleet-governance-operator/PERSONA.md) | Keep the fleet honest and healthy through read-only visibility, gate-disciplined change, and evidence-carrying status: observe before mutate, never bypass an approval gate, report state as artifacts not percentages. | 9 |
@@ -29,7 +36,7 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [integration-specialist](personas/integration-specialist/PERSONA.md) | Make integrations boring: three-layer testing discipline (protocol/logic/client), vendor auth-webhook-idempotency handling, environment parity with divergence registers. | 6 |
 | [knowledge-librarian](personas/knowledge-librarian/PERSONA.md) | Curate the fleet's durable knowledge — wiki, conventions, memory, and the shared skill library — so every artefact carries provenance, freshness, and a route to the right consumer; supersede rather than duplicate; prune as a first-class operation. | 9 |
 | [learning-tutor](personas/learning-tutor/PERSONA.md) | Build competence-based learning plans with retrieval and feedback. | 6 |
-| [ml-eval-engineer](personas/ml-eval-engineer/PERSONA.md) | Design task-valid model evaluations and report their limits. | 6 |
+| [ml-eval-engineer](personas/ml-eval-engineer/PERSONA.md) | Design task-valid model evaluations and report their limits. | 7 |
 | [open-source-maintainer](personas/open-source-maintainer/PERSONA.md) | Own the inbound contribution funnel of a public repository: make sense of what strangers open, judge what arrives as code, keep the contribution policy honest, answer people well, and keep both the project and its maintainer healthy. | 11 |
 | [performance-engineer](personas/performance-engineer/PERSONA.md) | Measure web performance and control regressions. | 6 |
 | [personal-finance](personas/personal-finance/PERSONA.md) | Plan saving, debt repayment, diversified investing and financial protection. | 6 |
@@ -37,7 +44,7 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [product-demo-specialist](personas/product-demo-specialist/PERSONA.md) | Run demos as decision sessions with rehearsed fallbacks, and convert every demonstrated claim into committed, testable QFS scope with post-release reconciliation. | 5 |
 | [product-manager](personas/product-manager/PERSONA.md) | Define what to build and why: problem framing, outcome-first PRDs with pre-committed success metrics, RICE/WSJF-backed prioritisation. | 4 |
 | [product-owner](personas/product-owner/PERSONA.md) | Maximise delivered value: order the backlog by outcome contribution, slice stories to thin-vertical INVEST shape, keep Definition-of-Done non-negotiable. | 4 |
-| [project-strategist](personas/project-strategist/PERSONA.md) | Evaluate projects, features and change requests against delivery methodologies; recommend the best-fit approach with scored evidence and visible trade-offs. | 4 |
+| [project-strategist](personas/project-strategist/PERSONA.md) | Evaluate projects, features and change requests against delivery methodologies; recommend the best-fit approach with scored evidence and visible trade-offs. | 5 |
 | [prompt-agent-engineer](personas/prompt-agent-engineer/PERSONA.md) | Design versioned prompts and bounded, observable agent loops. | 7 |
 | [provider-hunter](personas/provider-hunter/PERSONA.md) | Find every route to the model you need — direct, discounted, free-tier, reseller — and refuse to recommend one until it has proved what it is. | 12 |
 | [qa-test-evidence-architect](personas/qa-test-evidence-architect/PERSONA.md) | Plan test strategy by architecture, hunt flaky tests to root cause, and make every quality claim carry verifiable evidence. | 10 |
@@ -45,7 +52,7 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [clean-room-reimplementation-engineer](personas/clean-room-reimplementation-engineer/PERSONA.md) | Turn authorised observations into independently implemented, behaviourally compatible software. | 5 |
 | [game-modder](personas/game-modder/PERSONA.md) | Take a mod idea to a working, verified and reversible mod in the real game across Unity, Unreal, Bethesda, Java/.NET loader and native engines, including cross-game mashups, for games the user owns and plays offline or on servers they run. | 15 |
 | [reverse-engineering-specialist](personas/reverse-engineering-specialist/PERSONA.md) | Reconstruct software and investigate security behaviour with evidence, runtime routing and honest confidence. | 15 |
-| [risk-release-manager](personas/risk-release-manager/PERSONA.md) | Own the register of what could go wrong (with owners and triggers) and run releases from pre-flight gates through rehearsed rollback to post-release verification. | 4 |
+| [risk-release-manager](personas/risk-release-manager/PERSONA.md) | Own the register of what could go wrong (with owners and triggers) and run releases from pre-flight gates through rehearsed rollback to post-release verification. | 5 |
 | [software-implementation-specialist](personas/software-implementation-specialist/PERSONA.md) | Deliver working features and bug fixes with minimal sufficient design. | 6 |
 | [support-specialist](personas/support-specialist/PERSONA.md) | Resolve issues at the right tier: first-line FCR with KB deflection, evidence-carrying escalations, third-line recurrence elimination, workarounds tracked to permanent fixes. | 4 |
 | [system-designer](personas/system-designer/PERSONA.md) | Design web, backend, distributed and AI-powered systems end to end: scoped requirements and SLOs, numbers-first estimates, data, caching and messaging choices, failure and overload behaviour, security, operations and cost, written up as a reviewable design document. | 18 |
@@ -54,7 +61,7 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [text-classifier-specialist](personas/text-classifier-specialist/PERSONA.md) | Own the lifecycle of small encoder classifiers and typed-decision models: know how each actually works, prove whether it discriminates on your decision with a frozen exam, state what is and is not buildable, analyse a system to find where a cheap decision belongs, and self-host, wire and monitor the one you pick. | 12 |
 | [tool-evaluator](personas/tool-evaluator/PERSONA.md) | Trial tools against capability gaps and pre-agreed evidence. | 6 |
 | [travel-expert](personas/travel-expert/PERSONA.md) | Plan, research and present trips with expert pacing, honest trade-offs and current local facts. | 5 |
-| [ux-research](personas/ux-research/PERSONA.md) | Gather user evidence tied to product decisions. | 6 |
+| [ux-research](personas/ux-research/PERSONA.md) | Gather user evidence tied to product decisions. | 7 |
 | [video-generation](personas/video-generation/PERSONA.md) | Plan and produce generated video with schema-correct prompts, frame-accurate music alignment, ComfyUI node-stack fluency and budget-aware model routing. | 12 |
 | Persona | Purpose | Members |
 |---|---|---|
@@ -75,7 +82,7 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [deal-hunter](bundles/deal-hunter/bundle.json) | 7 |
 | [design-partner](bundles/design-partner/bundle.json) | 7 |
 | [design-system-engineer](bundles/design-system-engineer/bundle.json) | 6 |
-| [devops-sre](bundles/devops-sre/bundle.json) | 6 |
+| [devops-sre](bundles/devops-sre/bundle.json) | 7 |
 | [evidence-based-ai-delegation](bundles/evidence-based-ai-delegation/bundle.json) | 3 |
 | [filesystem-hygiene-steward](bundles/filesystem-hygiene-steward/bundle.json) | 11 |
 | [fleet-governance-operator](bundles/fleet-governance-operator/bundle.json) | 9 |
@@ -87,7 +94,7 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [knowledge-librarian](bundles/knowledge-librarian/bundle.json) | 9 |
 | [knowledge-librarian-bundle](bundles/knowledge-librarian-bundle/bundle.json) | 9 |
 | [learning-tutor](bundles/learning-tutor/bundle.json) | 6 |
-| [ml-eval-engineer](bundles/ml-eval-engineer/bundle.json) | 6 |
+| [ml-eval-engineer](bundles/ml-eval-engineer/bundle.json) | 7 |
 | [open-source-maintainer](bundles/open-source-maintainer/bundle.json) | 11 |
 | [performance-engineer](bundles/performance-engineer/bundle.json) | 6 |
 | [personal-finance](bundles/personal-finance/bundle.json) | 6 |
@@ -95,7 +102,7 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [product-demo-specialist](bundles/product-demo-specialist/bundle.json) | 5 |
 | [product-manager](bundles/product-manager/bundle.json) | 4 |
 | [product-owner](bundles/product-owner/bundle.json) | 4 |
-| [project-strategist](bundles/project-strategist/bundle.json) | 4 |
+| [project-strategist](bundles/project-strategist/bundle.json) | 5 |
 | [prompt-agent-engineer](bundles/prompt-agent-engineer/bundle.json) | 7 |
 | [provider-hunter](bundles/provider-hunter/bundle.json) | 12 |
 | [qa-test-evidence-architect](bundles/qa-test-evidence-architect/bundle.json) | 10 |
@@ -103,7 +110,7 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [clean-room-reimplementation-engineer](bundles/clean-room-reimplementation-engineer/bundle.json) | 5 |
 | [game-modder](bundles/game-modder/bundle.json) | 15 |
 | [reverse-engineering-specialist](bundles/reverse-engineering-specialist/bundle.json) | 15 |
-| [risk-release-manager](bundles/risk-release-manager/bundle.json) | 4 |
+| [risk-release-manager](bundles/risk-release-manager/bundle.json) | 5 |
 | [software-implementation-specialist](bundles/software-implementation-specialist/bundle.json) | 6 |
 | [support-specialist](bundles/support-specialist/bundle.json) | 4 |
 | [system-designer](bundles/system-designer/bundle.json) | 18 |
@@ -112,7 +119,7 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [text-classifier-specialist](bundles/text-classifier-specialist/bundle.json) | 12 |
 | [tool-evaluator](bundles/tool-evaluator/bundle.json) | 6 |
 | [travel-expert](bundles/travel-expert/bundle.json) | 5 |
-| [ux-research](bundles/ux-research/bundle.json) | 6 |
+| [ux-research](bundles/ux-research/bundle.json) | 7 |
 | [video-generation](bundles/video-generation/bundle.json) | 12 |
 | Bundle | Members |
 |---|---|
@@ -193,6 +200,7 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [controlled-runtime-investigation](skills/controlled-runtime-investigation/SKILL.md) | Observe program behaviour under authorised, isolated control: sandboxing, dynamic analysis, emulation and evidence capture. | [Card](evidence/controlled-runtime-investigation.json) |
 | [core-web-vitals-optimisation](skills/core-web-vitals-optimisation/SKILL.md) | Diagnose and fix LCP, INP and CLS against field p75 targets. | [Card](evidence/core-web-vitals-optimisation.json) |
 | [cost-modelling-for-system-design](skills/cost-modelling-for-system-design/SKILL.md) | Model what a design costs to run and to change: unit cost per request, user or tenant, dominant drivers such as compute, storage, egress, third-party and model calls, and the first levers, without letting cost become the only goal. | [Card](evidence/cost-modelling-for-system-design.json) |
+| [critical-path-planning](skills/critical-path-planning/SKILL.md) | From task durations and dependencies, find which delays actually move the finish date and how far other tasks can slip. | [Card](evidence/critical-path-planning.json) |
 | [curriculum-sequencing](skills/curriculum-sequencing/SKILL.md) | Sequence what to learn and in what order for efficient mastery. | [Card](evidence/curriculum-sequencing.json) |
 | [data-governance-privacy](skills/data-governance-privacy/SKILL.md) | Govern data for privacy, lineage and compliance: classify, minimise, trace. | [Card](evidence/data-governance-privacy.json) |
 | [data-store-selection-and-partitioning](skills/data-store-selection-and-partitioning/SKILL.md) | Choose data stores from access patterns, then design keys, indexes, partitioning, hot-key handling, rebalancing and retention, with the trade-offs written down. | [Card](evidence/data-store-selection-and-partitioning.json) |
@@ -359,6 +367,7 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [reference-doc-generation](skills/reference-doc-generation/SKILL.md) | Generate accurate reference docs from source so they never drift. | [Card](evidence/reference-doc-generation.json) |
 | [regression-attribution](skills/regression-attribution/SKILL.md) | Classify test failures across two git revisions by. | [Card](evidence/regression-attribution.json) |
 | [release-notes-and-changelog](skills/release-notes-and-changelog/SKILL.md) | Produce release notes a user can act on: what changed for them, breaking changes first, contributors credited beyond code. | [Card](evidence/release-notes-and-changelog.json) |
+| [release-permission-review](skills/release-permission-review/SKILL.md) | Review changed build, publishing and deployment policies: who may release, what a change authorises, and the approval that separates testing from releasing. | [Card](evidence/release-permission-review.json) |
 | [release-quality-gates](skills/release-quality-gates/SKILL.md) | Use when deciding whether an app, feature, automation. | [Card](evidence/release-quality-gates.json) |
 | [release-readiness-manager](skills/release-readiness-manager/SKILL.md) | Run pre-release checks, release-day execution and post-release verification end to end. | [Card](evidence/release-readiness-manager.json) |
 | [replication-and-consistency-design](skills/replication-and-consistency-design/SKILL.md) | Decide replication topology, quorums and the consistency model per operation, and keep multi-entity changes correct without distributed transactions, using outbox, sagas and idempotent receivers. | [Card](evidence/replication-and-consistency-design.json) |
@@ -384,6 +393,7 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [security-posture-triage](skills/security-posture-triage/SKILL.md) | Triage a tool's permission footprint and data boundaries before it touches real systems. | [Card](evidence/security-posture-triage.json) |
 | [self-host-and-serving-stack](skills/self-host-and-serving-stack/SKILL.md) | Stand a decision model up locally and prove the deployment matches the benchmark, including which conversion path puts the decision head where. | [Card](evidence/self-host-and-serving-stack.json) |
 | [seller-verification-protocol](skills/seller-verification-protocol/SKILL.md) | Verify sellers and listings before money moves; buyer-protected rails only. | [Card](evidence/seller-verification-protocol.json) |
+| [service-blueprinting](skills/service-blueprinting/SKILL.md) | Map a customer journey onto the service system behind it: frontstage, backstage, support, owners and wait points. | [Card](evidence/service-blueprinting.json) |
 | [session-librarian](skills/session-librarian/SKILL.md) | Organize sessions by prompt: find, rename, archive, prune. | [Card](evidence/session-librarian.json) |
 | [simple-long-horizon-investing](skills/simple-long-horizon-investing/SKILL.md) | Invest the gap simply: low-cost, diversified, tax-wrapped, on schedule. | [Card](evidence/simple-long-horizon-investing.json) |
 | [simplify-swarm](skills/simplify-swarm/SKILL.md) | Use after writing or modifying code to simplify it with three parallel read-only agents (Hygiene, Clarity, Correctness) applied in SAFE→CAREFUL→RISKY order. | [Card](evidence/simplify-swarm.json) |
@@ -401,6 +411,7 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 | [storyboard-to-shots](skills/storyboard-to-shots/SKILL.md) | Convert a story or script into sequential storyboard panels with generation-ready prompts. | [Card](evidence/storyboard-to-shots.json) |
 | [streaming-vs-batch-design](skills/streaming-vs-batch-design/SKILL.md) | Choose streaming or batch by latency need, and design each correctly. | [Card](evidence/streaming-vs-batch-design.json) |
 | [style-vocabulary-selection](skills/style-vocabulary-selection/SKILL.md) | Choose named styles from curated libraries instead of ad-hoc adjective soup. | [Card](evidence/style-vocabulary-selection.json) |
+| [summary-accuracy-checks](skills/summary-accuracy-checks/SKILL.md) | Independently check a written summary, digest or handoff against its source for lost, contradicted or overstated claims. | [Card](evidence/summary-accuracy-checks.json) |
 | [survey-quant-research](skills/survey-quant-research/SKILL.md) | Design surveys and quant research that measure without misleading. | [Card](evidence/survey-quant-research.json) |
 | [system-design-document-and-review](skills/system-design-document-and-review/SKILL.md) | Write and review the system design document: the iterative design loop, required sections, diagrams, alternatives and open questions, with a template, a worked example and a completeness checker. | [Card](evidence/system-design-document-and-review.json) |
 | [system-design-requirements-and-slos](skills/system-design-requirements-and-slos/SKILL.md) | Turn a vague system brief into scoped functional requirements, measurable SLOs, constraints and a written assumptions list before any architecture is drawn. | [Card](evidence/system-design-requirements-and-slos.json) |

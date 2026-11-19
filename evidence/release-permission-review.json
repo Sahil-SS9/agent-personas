@@ -1,0 +1,19 @@
+{
+  "skill": "release-permission-review",
+  "release_version": "0.9.0",
+  "release_skill_sha256": "dd980f881dc3c4e418da54ac6e7ac309cd66060a219bac7c028da78f0ad37cd9",
+  "source_skill_sha256": "89e83f1dd13ce9f39818054dd4ea9648e30a1a31e36a8bbc68c6a534508cb7ff",
+  "author_credit": "Sahil Saghir",
+  "validation": "Structural catalogue gate passed; paired diagnostic benchmark on one model (concept-presence rubric), not a sealed multi-model efficacy estimate. Verify behaviour in your own harness.",
+  "benchmark": {
+    "date": "2026-11-19",
+    "model": "qwen/qwen4-max:free",
+    "provider": "nous",
+    "method": "paired baseline vs skilled, 1-turn no-tool isolated sessions, keyword-rubric concept presence",
+    "baseline_score": 5,
+    "skilled_score": 5,
+    "max_score": 5,
+    "delta": 0,
+    "limit": "Diagnostic on one model; concept presence, not deep efficacy. No cross-model generalisation claimed."
+  }
+}

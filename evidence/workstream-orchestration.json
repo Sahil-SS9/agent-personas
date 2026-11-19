@@ -1,38 +1,19 @@
 {
   "skill": "workstream-orchestration",
-  "release_version": "0.1.0-experimental",
-  "release_skill_sha256": "fcd960e2f7f3c3b2db50dbfd4e38ac8b415f7abdc0cab89bedb91d677bd261c9",
-  "adaptation": "source method retained; public metadata and references normalised",
+  "release_version": "0.9.0",
+  "release_skill_sha256": "eec85597696fce45da257615ef2812c53936914f1891af42c5205308b3f55df6",
+  "source_skill_sha256": "a9a218538c0c9e1ebe3233c5ca970fd7b086340a70676cbbbee505e3495b2057",
   "author_credit": "Sahil Saghir",
-  "historical_source_runs": [
-    {
-      "integrity_verified": true,
-      "scenario": "wo-collide",
-      "scorer": {
-        "name": "token-phrase",
-        "version": "2.0.0"
-      },
-      "model": "not disclosed in the source record",
-      "harness": "Hermes (private source evaluation)",
-      "lanes": {
-        "baseline": {
-          "exit_code": 0,
-          "passed": 1,
-          "total": 4
-        },
-        "skilled": {
-          "exit_code": 0,
-          "passed": 3,
-          "total": 4
-        }
-      }
-    }
-  ],
-  "source_skill_sha256": "3da00a44e77d8f490d1e80f4af9c17ffe4ed99b9ccd205180a0c4e5ca89c599d",
-  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling.",
-  "scope_notes": [
-    "Historical results apply to private source instructions, not this changed public release.",
-    "Token/phrase rubric matches are not task correctness or general uplift.",
-    "No universal model or harness performance claim."
-  ]
+  "validation": "Structural catalogue gate passed; paired diagnostic benchmark on one model (concept-presence rubric), not a sealed multi-model efficacy estimate. Verify behaviour in your own harness.",
+  "benchmark": {
+    "date": "2026-11-19",
+    "model": "qwen/qwen4-max:free",
+    "provider": "nous",
+    "method": "paired baseline vs skilled, 1-turn no-tool isolated sessions, keyword-rubric concept presence",
+    "baseline_score": 0,
+    "skilled_score": 5,
+    "max_score": 5,
+    "delta": 5,
+    "limit": "Diagnostic on one model; concept presence, not deep efficacy. No cross-model generalisation claimed."
+  }
 }

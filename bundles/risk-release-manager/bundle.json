@@ -5,7 +5,8 @@
     "risk-register-manager",
     "release-readiness-manager",
     "release-quality-gates",
-    "test-evidence-integrity"
+    "test-evidence-integrity",
+    "release-permission-review"
   ],
   "persona": "risk-release-manager",
   "status": "released"

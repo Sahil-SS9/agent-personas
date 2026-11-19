@@ -50,5 +50,14 @@ Adding who and how too early locks in today's organisation and systems.
 - **PlantUML** activity diagrams with `|Lane|` partitions for swimlanes.
 - These are review drafts. For Lucidchart use the delivery routes in `lucidchart-diagram-delivery`.
 
+## 4b. Route render and accessibility verification on demand
+- An editable process request (BPMN, Lucidchart) is delivered editable by the analyst; an
+  SVG screenshot alone does not satisfy it.
+- When a rendered map is delivered, route the real-viewport check to `reactive-render-verification`
+  and the accessibility check to the accessibility role: status must not rely on colour alone,
+  and a text equivalent must convey the same decisions and relationships as the image.
+- These checks are routed on demand; they do not expand the default frontend bundle or replace
+  the existing SVG/Excalidraw delivery paths.
+
 ## 5. Every map carries
 Title with level and number, as-is or to-be, version and status, a legend for any symbol beyond the basics, the lane convention, the source fact ids (in notes or an appendix), and its open questions.

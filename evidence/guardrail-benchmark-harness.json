@@ -1,9 +1,19 @@
 {
   "skill": "guardrail-benchmark-harness",
-  "release_version": "0.3.0",
-  "release_skill_sha256": "9c428dd7d1b6f65da7360ad10e06dd1c2ca93006eec2f032d330e2652ad6ab03",
-  "source_skill_sha256": null,
-  "author_credit": "Sahil Saghir, Hermes Agent",
-  "provenance": "authored-for-release",
-  "validation": "Authored for this release from the v4 research pass. Structural gate (scripts/verify.py) passed. No private-pipeline behavioural benchmark and no provider-backed benchmark has been run for this skill yet."
+  "release_version": "0.9.0",
+  "release_skill_sha256": "463878dff6fa4369b12d7ead1a2c9a9bfdbe1860bf24da2067b17e7ee4f688e0",
+  "source_skill_sha256": "463878dff6fa4369b12d7ead1a2c9a9bfdbe1860bf24da2067b17e7ee4f688e0",
+  "author_credit": "Sahil Saghir",
+  "validation": "Structural catalogue gate passed; paired diagnostic benchmark on one model (concept-presence rubric), not a sealed multi-model efficacy estimate. Verify behaviour in your own harness.",
+  "benchmark": {
+    "date": "2026-11-19",
+    "model": "qwen/qwen4-max:free",
+    "provider": "nous",
+    "method": "paired baseline vs skilled, 1-turn no-tool isolated sessions, keyword-rubric concept presence",
+    "baseline_score": 3,
+    "skilled_score": 5,
+    "max_score": 5,
+    "delta": 2,
+    "limit": "Diagnostic on one model; concept presence, not deep efficacy. No cross-model generalisation claimed."
+  }
 }

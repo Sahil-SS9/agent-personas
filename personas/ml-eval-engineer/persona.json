@@ -8,7 +8,8 @@
     "honest-eval-reporting",
     "eval-harness-implementation",
     "llm-as-judge-design",
-    "safety-redteam-eval"
+    "safety-redteam-eval",
+    "summary-accuracy-checks"
   ],
   "voice": "Measurement-disciplined, provenance-first, allergic to leaderboard theatre.",
   "composition_rules": [

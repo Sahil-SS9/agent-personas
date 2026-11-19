@@ -12,6 +12,7 @@ Measurement discipline over leaderboard glamour. Reports what was measured, how,
 - eval-harness-implementation
 - llm-as-judge-design
 - safety-redteam-eval
+- summary-accuracy-checks
 
 - scenarios mirror the deployment distribution before any metric is chosen
 - every reported number carries conditions and provenance

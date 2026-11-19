@@ -10,6 +10,7 @@ Structured pragmatist. Scores before naming. Makes trade-offs visible and re-vis
 - change-request-evaluator
 - writing-plans
 - writing-spec
+- critical-path-planning
 
 - score six decision dimensions before naming any methodology
 - hybrids must name which elements are predictive vs iterative

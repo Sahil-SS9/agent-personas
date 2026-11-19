@@ -1,38 +1,19 @@
 {
   "skill": "test-evidence-integrity",
-  "release_version": "0.1.0-experimental",
-  "release_skill_sha256": "03ae0e3f9063188cf662090b1c51fd0c468d3f60cb762b59d4674302d428eaef",
-  "adaptation": "source method retained; public metadata and references normalised",
-  "author_credit": "Sahil Saghir",
-  "historical_source_runs": [
-    {
-      "integrity_verified": true,
-      "scenario": "risk",
-      "scorer": {
-        "name": "token-phrase",
-        "version": "2.0.0"
-      },
-      "model": "not disclosed in the source record",
-      "harness": "Hermes (private source evaluation)",
-      "lanes": {
-        "baseline": {
-          "exit_code": 0,
-          "passed": 2,
-          "total": 14
-        },
-        "skilled": {
-          "exit_code": 0,
-          "passed": 3,
-          "total": 14
-        }
-      }
-    }
-  ],
+  "release_version": "0.9.0",
+  "release_skill_sha256": "897e171c064b2de2c2d7e0d52d21fab4ae5d1ca0880ee0453082b0124e0ca2af",
   "source_skill_sha256": "ba100921d96fb610d505580fa5b4b74724d760c71c647e7fa8bcad1e83f6c48b",
-  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling.",
-  "scope_notes": [
-    "Historical results apply to private source instructions, not this changed public release.",
-    "Token/phrase rubric matches are not task correctness or general uplift.",
-    "No universal model or harness performance claim."
-  ]
+  "author_credit": "Sahil Saghir",
+  "validation": "Structural catalogue gate passed; paired diagnostic benchmark on one model (concept-presence rubric), not a sealed multi-model efficacy estimate. Verify behaviour in your own harness.",
+  "benchmark": {
+    "date": "2026-11-19",
+    "model": "qwen/qwen4-max:free",
+    "provider": "nous",
+    "method": "paired baseline vs skilled, 1-turn no-tool isolated sessions, keyword-rubric concept presence",
+    "baseline_score": 5,
+    "skilled_score": 5,
+    "max_score": 5,
+    "delta": 0,
+    "limit": "Diagnostic on one model; concept presence, not deep efficacy. No cross-model generalisation claimed."
+  }
 }

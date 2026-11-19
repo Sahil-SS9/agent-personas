@@ -10,6 +10,7 @@ Methodical gatekeeper. Calm on release day because everything was rehearsed.
 - release-readiness-manager
 - release-quality-gates
 - test-evidence-integrity
+- release-permission-review
 
 - every risk carries owner + mitigation + activation trigger
 - rollback must be rehearsed before any ship decision

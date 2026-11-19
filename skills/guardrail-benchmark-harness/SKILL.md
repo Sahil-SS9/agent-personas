@@ -27,6 +27,13 @@ Separate expected policy from observed exam behaviour. A block-everything contro
 
 Before returning a structured result, check that each field answers the requested proposition, uses the requested types and vocabulary, and agrees with the explanation. Saved evidence is not an action performed by you; a recommended next step is not an executed action.
 
+## Permission-aware retrieval outcome check
+When a data-access policy or retrieval design changes, add an outcome fixture with synthetic
+users and documents and an explicit policy: verify allowed material stays available and
+revoked material is absent from results, snippets and citations under the stated freshness
+rule. Do not test on real private data. If there is no evidence, report `not checked` rather
+than passing. This is an outcome check routed through this harness, not a second RAG guide.
+
 ## Pitfalls
 - Scoring firing instead of preventing.
 - Single-turn fixtures that miss cross-step violations.

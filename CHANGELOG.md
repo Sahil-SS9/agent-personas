@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.9.0
+
+- Owner-directed improvements from a read-only study of BaaRai/ARTEX, elementalsouls/Claude-BugHunter and cathrynlavery/diagram-design. Four new focused skills, ten improved members, no new persona. Ideas re-specified independently; no upstream code or prompts copied (ARTEX AGPL-3.0; BugHunter content CC BY 4.0; diagram-design MIT with separate asset terms).
+- New skills: service-blueprinting (UX Research) maps a journey onto the service system with a line of visibility, owners and wait points, marking unknowns rather than inventing them; summary-accuracy-checks (ML Eval Engineer) independently checks a written summary for omitted, contradicted or overstated claims; critical-path-planning (Project Strategist) computes earliest completion, all tied critical paths and total float, refusing to invent missing estimates; release-permission-review (DevOps/SRE, Risk Release Manager) reviews changed build/publish/deploy policies for over-grants.
+- Improved members: technical-diagramming delivers an artefact (editable source, render, text equivalent) not just advice; c4-architecture-modelling adds a before/after topology delta where a moved box is not a rewire; process-notation-selection routes render and accessibility verification on demand; workstream-orchestration adds a wrap-up reserve; release-quality-gates and test-evidence-integrity add requirement-to-evidence traceability; engagement-reporting-remediation adds a redacted evidence handoff a blue-team reader can act on; guardrail-benchmark-harness adds a permission-aware retrieval outcome check; api-security-design adds lifecycle and approval-drift checks; hermaguard-candidate three-consumer handoff verified.
+- Benchmark 19/11/26 (paired baseline vs skilled, one model qwen/qwen4-max:free via nous, isolated 1-turn no-tool sessions, keyword-rubric concept presence): per-skill deltas in each evidence card. Diagnostic concept-presence observation on one model, not a sealed multi-model efficacy estimate; no cross-model generalisation claimed.
+- Validation: structural catalogue gate (scripts/verify.py) resealed across all files; this also reseals the three draft hash-mismatches left by the prior guidance-only commit.
+
+
 ## 0.8.0
 
 - Add the System Designer persona and bundle (18 skills: 17 new plus the shared c4-architecture-modelling). Core: requirements and SLOs, capacity estimation, data stores and partitioning, replication and consistency, caching and CDNs, messaging and workflows, failure modes and resilience, overload and traffic management, security, operability and rollout, cost, and the design document and review. AI and LLM systems sub-category: architecture patterns, RAG architecture, model serving and capacity, agent and tool safety, evaluation and operations. Persona and bundle manifests list both groups in `member_groups`.

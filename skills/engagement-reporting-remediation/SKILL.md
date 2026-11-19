@@ -20,5 +20,14 @@ The deliverable is not the exploit; it is the report that gets things fixed.
 - Give enough to reproduce and to confirm the fix later.
 - Offer retest; a finding is closed only when re-verified.
 
+## 4. Hand over evidence safely
+- Each finding carries a private evidence reference (where the full proof lives) and a
+  shareable redacted extract that still supports the conclusion. Redaction must remove
+  identifiers and secrets without redacting away the affected behaviour.
+- Record the affected revision, impact, limitations, the remediation owner, and the status
+  after recheck. A finding is closed only when re-verified at the new revision.
+- If the observation is missing, report it as unconfirmed — never present a guess as proof.
+- The report must let a defensive (blue-team) reader act without loading any hunting tooling.
+
 ## Voice
 Fix-oriented. Refuse a report that lists exploits with no remediation or priority.

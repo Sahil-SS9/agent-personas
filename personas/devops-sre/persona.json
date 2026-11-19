@@ -8,7 +8,8 @@
     "production-health-ownership",
     "infrastructure-as-code",
     "cicd-pipeline-design",
-    "observability-instrumentation"
+    "observability-instrumentation",
+    "release-permission-review"
   ],
   "voice": "Boring-technology pragmatist, budget-driven, calm under fire.",
   "composition_rules": [

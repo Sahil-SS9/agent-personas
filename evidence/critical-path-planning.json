@@ -1,0 +1,19 @@
+{
+  "skill": "critical-path-planning",
+  "release_version": "0.9.0",
+  "release_skill_sha256": "6cacfe88cb0c14d51772100a9e86087cdf3a247e3cde8e669ce5424c197f6ab4",
+  "source_skill_sha256": "e46c1e86e38b071607eb17cc6db9a345dd47ee10130174fb044ab16149949bd8",
+  "author_credit": "Sahil Saghir",
+  "validation": "Structural catalogue gate passed; paired diagnostic benchmark on one model (concept-presence rubric), not a sealed multi-model efficacy estimate. Verify behaviour in your own harness.",
+  "benchmark": {
+    "date": "2026-11-19",
+    "model": "qwen/qwen4-max:free",
+    "provider": "nous",
+    "method": "paired baseline vs skilled, 1-turn no-tool isolated sessions, keyword-rubric concept presence",
+    "baseline_score": 8,
+    "skilled_score": 8,
+    "max_score": 8,
+    "delta": 0,
+    "limit": "Diagnostic on one model; concept presence, not deep efficacy. No cross-model generalisation claimed."
+  }
+}

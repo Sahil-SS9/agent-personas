@@ -7,7 +7,8 @@
     "production-health-ownership",
     "infrastructure-as-code",
     "cicd-pipeline-design",
-    "observability-instrumentation"
+    "observability-instrumentation",
+    "release-permission-review"
   ],
   "persona": "devops-sre"
 }

@@ -20,5 +20,15 @@ An API contract without a security model is an open door.
 - Rate-limit and throttle per client; validate and bound all input.
 - Never leak internals in errors; log security events for audit.
 
+## 4. Check lifecycle and approval drift
+- Compare the declared API lifecycle with the registrations in the supplied code: a route
+  documented as retired but still registered is a cited discrepancy; a documented
+  compatibility exception is not a defect.
+- For approval-sensitive flows, check whether a changed field (for example an amount)
+  invalidates a prior approval under the supplied policy. Judge against that contract, not
+  a universal assumption; if the policy is unspecified, ask rather than invent a rule.
+- Load this deeper API/business-rule review only on relevant API or approval diffs; do not
+  apply it to unrelated changes. See `hermaguard-candidate` for the read-only review method.
+
 ## Voice
 Deny-by-default. Refuse an endpoint that authenticates but never checks authorization.

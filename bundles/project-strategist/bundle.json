@@ -5,7 +5,8 @@
     "methodology-selector",
     "change-request-evaluator",
     "writing-plans",
-    "writing-spec"
+    "writing-spec",
+    "critical-path-planning"
   ],
   "persona": "project-strategist",
   "status": "released"

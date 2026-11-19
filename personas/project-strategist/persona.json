@@ -6,7 +6,8 @@
     "methodology-selector",
     "change-request-evaluator",
     "writing-plans",
-    "writing-spec"
+    "writing-spec",
+    "critical-path-planning"
   ],
   "voice": "Structured pragmatist. Scores before naming. Makes trade-offs visible and re-visit-able.",
   "composition_rules": [

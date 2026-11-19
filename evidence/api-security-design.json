@@ -1,8 +1,19 @@
 {
   "skill": "api-security-design",
-  "release_version": "0.3.0",
-  "release_skill_sha256": "b59377f9f52db453f443ef61f735d93130543427f56a67d2ce7400e9d008128e",
-  "source_skill_sha256": "717bbf5e54ba099ebcc76d16004c200c64012d22d2c3e59ee7f2926459c75551",
-  "author_credit": "Sahil Saghir, Hermes Agent",
-  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling."
+  "release_version": "0.9.0",
+  "release_skill_sha256": "f6689083728ec8243fd28f1af1ccb54d2998e16e669c38ce6d32d63c4f2183df",
+  "source_skill_sha256": "b2f442de2fb1b8a95ea6361c951db5f102d14ca3f4101d6c2777d95af4b78a9a",
+  "author_credit": "Sahil Saghir",
+  "validation": "Structural catalogue gate passed; paired diagnostic benchmark on one model (concept-presence rubric), not a sealed multi-model efficacy estimate. Verify behaviour in your own harness.",
+  "benchmark": {
+    "date": "2026-11-19",
+    "model": "qwen/qwen4-max:free",
+    "provider": "nous",
+    "method": "paired baseline vs skilled, 1-turn no-tool isolated sessions, keyword-rubric concept presence",
+    "baseline_score": 3,
+    "skilled_score": 5,
+    "max_score": 5,
+    "delta": 2,
+    "limit": "Diagnostic on one model; concept presence, not deep efficacy. No cross-model generalisation claimed."
+  }
 }

@@ -27,6 +27,14 @@ Once driving characteristics exist and you need to describe or agree the structu
 - Notation- and tooling-independent: ship an explicit legend rather than relying on house style.
 - One abstraction level per diagram; do not mix containers and code in the same view.
 
+## Before/after topology delta (only when structure changes)
+- When asked to show a change, keep stable identities for components and relationships
+  across the two snapshots, and reconcile them with a visible list of actual changes.
+- Moving a box without changing a dependency is not a rewire. A changed edge must be drawn
+  in the correct direction and appear in the change list.
+- A rename alone need not generate two drawings; record it in the change list. The architect
+  owns the components, boundaries and relationships; the writer owns the rendering.
+
 ## Pitfalls
 - Big-ball-of-boxes diagrams with no defined element meaning.
 - Producing Component/Code diagrams that no decision depends on.

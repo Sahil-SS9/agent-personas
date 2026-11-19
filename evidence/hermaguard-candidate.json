@@ -1,13 +1,19 @@
 {
   "skill": "hermaguard-candidate",
-  "release_version": "0.2.1",
+  "release_version": "0.9.0",
   "release_skill_sha256": "f209497023810b426b9b894b223c3b7877f000e440574916146555f72db0999d",
-  "source_skill_sha256": "fd57b4ce6386ad8ee4b85d0aa319ff85170bfe8ab9a4f3f618a16daf53a8ca89",
-  "adaptation": "original operational synthesis; public source/provenance annotations",
-  "historical_source_runs": [],
-  "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling.",
-  "scope_notes": [
-    "No independent review, multi-model or native cross-harness certification.",
-    "Source learning is selective; no whole-book certification."
-  ]
+  "source_skill_sha256": "f209497023810b426b9b894b223c3b7877f000e440574916146555f72db0999d",
+  "author_credit": "Sahil Saghir",
+  "validation": "Structural catalogue gate passed; paired diagnostic benchmark on one model (concept-presence rubric), not a sealed multi-model efficacy estimate. Verify behaviour in your own harness.",
+  "benchmark": {
+    "date": "2026-11-19",
+    "model": "qwen/qwen4-max:free",
+    "provider": "nous",
+    "method": "paired baseline vs skilled, 1-turn no-tool isolated sessions, keyword-rubric concept presence",
+    "baseline_score": 2,
+    "skilled_score": 5,
+    "max_score": 5,
+    "delta": 3,
+    "limit": "Diagnostic on one model; concept presence, not deep efficacy. No cross-model generalisation claimed."
+  }
 }

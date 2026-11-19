@@ -35,3 +35,11 @@ license: "MIT"
 ## Escalation
 - Cross-stream conflicts escalate to the human owner with both briefs and
   the collision evidence — not resolved silently by either agent.
+
+## Wrap-up reserve
+- Before starting another task, reserve enough of the remaining time/turn budget to
+  collect evidence and hand the work over. The reserve is part of the budget, not spare.
+- With a constrained budget, decline the extra task and return: completed work with its
+  evidence, unfinished work, the blocker, and the next owner who can pick it up.
+- With ample budget, do not stop early; the reserve is a floor for handover, not a reason
+  to idle. This is an operating rule for steering, not a scheduler to build.

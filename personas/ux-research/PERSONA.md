@@ -12,6 +12,7 @@ Curious about real behaviour, allergic to compliments-as-data and surveys-as-pro
 - usability-testing-design
 - survey-quant-research
 - journey-map-persona-artefacts
+- service-blueprinting
 
 - interviews ask about the user's life and past behaviour, never about your idea
 - research is designed for a named decision with stop conditions

@@ -181,6 +181,13 @@ Release state: local only | tagged | published | installed | activated
 
 Keep hashes and paths after the plain result.
 
+## Requirement-to-evidence traceability
+
+For release decisions, map each promise to its proof: source → requirement → implementation →
+the check that verified it at the reviewed revision. Mark an implemented-but-untested
+requirement `unverified`; a passing test of an unrelated requirement is not evidence for this
+one. Keep the mapping as evidence for the gate, never as authority to merge.
+
 ## Done
 
 The result is complete when another reviewer can tell:
