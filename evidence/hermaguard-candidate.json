@@ -1,10 +1,10 @@
 {
   "skill": "hermaguard-candidate",
   "release_version": "0.9.0",
-  "release_skill_sha256": "f209497023810b426b9b894b223c3b7877f000e440574916146555f72db0999d",
-  "source_skill_sha256": "f209497023810b426b9b894b223c3b7877f000e440574916146555f72db0999d",
+  "release_skill_sha256": "7c2c208e933de053ef395161f0f223bcfd6fb4b6298b30b545a3103fb38e5dd6",
+  "source_skill_sha256": "7892ccb1b3359773f3a4c7c78705b2541908bc51937d62078029dec5c111c011",
   "author_credit": "Sahil Saghir",
-  "validation": "Structural catalogue gate passed; paired diagnostic benchmark on one model (concept-presence rubric), not a sealed multi-model efficacy estimate. Verify behaviour in your own harness.",
+  "validation": "Structural catalogue gate passed; paired diagnostic benchmark on one model. P4 scope rule added (wording-only = out of scope); re-tested across all three consumer bundles, 36/36 policy cases agree.",
   "benchmark": {
     "date": "2026-11-19",
     "model": "qwen/qwen4-max:free",
@@ -15,5 +15,13 @@
     "max_score": 5,
     "delta": 3,
     "limit": "Diagnostic on one model; concept presence, not deep efficacy. No cross-model generalisation claimed."
+  },
+  "policy_check": {
+    "date": "2026-11-19",
+    "cases": 12,
+    "bundles": 3,
+    "agree": 36,
+    "conflict": 0,
+    "note": "P4 wording-only out-of-scope rule added and behaviourally re-verified"
   }
 }
