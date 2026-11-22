@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.10.0 (draft — build programme in review worktree)
+
+- Revamp agent-team-lead into agent-orchestrator (v2.0.0): the six original members are retained; six new members add the decomposition, scaling, budgeting, verification, synthesis and failure disciplines. Source study: Anthropic's multi-agent research system and when-to-use-multi-agent guidance, the LangGraph supervisor pattern and its production cases, OpenAI Agents SDK handoffs, MetaGPT's role-chain design, Claude Code Agent Teams, the agency-agents orchestrator and multi-agent-architect files, plus our own orchestration practice (workstream-orchestration, lossless-delegation, agent-dispatch-discipline). Public skills contain paraphrased principles only. Handoffs written to evidence-based-ai-delegation (delegation decision), project-strategist (methodology), fleet-governance-operator (fleet health), prompt-agent-engineer (loop design, prompt-level budgets).
+- New skills: goal-decomposition-and-specialist-routing; scale-to-complexity-and-cost-before-fanout; context-and-token-budgeting-across-workers; verification-subagent; fan-in-synthesis-with-disagreement-surfacing; failure-replanning-and-escalation.
+- Validation: structural catalogue gate (scripts/verify.py) passes clean at draft state. The paired benchmark (baseline vs skilled, deterministic scorers) is PENDING and is a release gate; benchmark evidence will be recorded here and on the evidence cards before any release. This is a draft in the review worktree; not released.
+
 ## 0.9.0
 
 - HermaGuard portable reviewer (hermaguard-candidate): added the P4 scope rule — a wording-only change is out of scope (not reviewed, not reported as clean); a one-line behaviour change is in scope. Behaviourally re-tested across all three consumer bundles: 36/36 policy cases agree.

@@ -66,7 +66,7 @@ Start with the outcome you need. The coding roles sit alongside research, design
 | Turn interviews and documents into L1 to L4 process maps (BPMN, Lucidchart) | [Business Process Analyst](personas/business-process-analyst/PERSONA.md) |
 | Design a scalable, reliable system or AI feature end to end | [System Designer](personas/system-designer/PERSONA.md) |
 | Connect systems and verify their boundaries | [Integration Specialist](personas/integration-specialist/PERSONA.md) |
-| Coordinate an agent team | [Agent Team Lead](personas/agent-team-lead/PERSONA.md) |
+| Coordinate an agent team | [Agent Orchestrator](personas/agent-orchestrator/PERSONA.md) |
 | Learn through practice and feedback | [Practice-Based Learning](personas/practice-based-learning/PERSONA.md) |
 | Plan a trip around practical constraints | [Travel Expert](personas/travel-expert/PERSONA.md) |
 
@@ -296,7 +296,7 @@ Conditional tool adapters: ghidra-workflow-adapter, frida-tracing-adapter, angr-
 
 | Persona role contract | Skill bundle | Use it to… | Member skills |
 |---|---|---|---:|
-| [agent-team-lead](personas/agent-team-lead/PERSONA.md) | [agent-team-lead](bundles/agent-team-lead/bundle.json) | Brief agent teams and verify their delivered outcomes. | 6 |
+| [agent-orchestrator](personas/agent-orchestrator/PERSONA.md) | [agent-orchestrator](bundles/agent-orchestrator/bundle.json) | Decompose goals into routed, budgeted, verified multi-agent plans and merge results honestly. | 12 |
 | [ai-guardrails-engineer](personas/ai-guardrails-engineer/PERSONA.md) | [ai-guardrails-engineer](bundles/ai-guardrails-engineer/bundle.json) | Identify, place and test guardrails against the harms they address. | 11 |
 | [evidence-based-ai-delegation](personas/evidence-based-ai-delegation/PERSONA.md) | [evidence-based-ai-delegation](bundles/evidence-based-ai-delegation/bundle.json) | Choose human, assisted or delegated work from risk and measured value. | 3 (1 conditional) |
 | [prompt-agent-engineer](personas/prompt-agent-engineer/PERSONA.md) | [prompt-agent-engineer](bundles/prompt-agent-engineer/bundle.json) | Design versioned prompts and bounded, observable agent loops. | 7 |
@@ -311,9 +311,9 @@ Conditional tool adapters: ghidra-workflow-adapter, frida-tracing-adapter, angr-
 <details>
 <summary>Inspect member skills: agents, models and knowledge</summary>
 
-#### agent-team-lead
+#### agent-orchestrator
 
-[agent-dispatch-discipline](skills/agent-dispatch-discipline/SKILL.md) · [workstream-orchestration](skills/workstream-orchestration/SKILL.md) · [writing-plans](skills/writing-plans/SKILL.md) · [phased-plan-execution](skills/phased-plan-execution/SKILL.md) · [reviewed-agent-development](skills/reviewed-agent-development/SKILL.md) · [task-board-orchestration](skills/task-board-orchestration/SKILL.md)
+[agent-dispatch-discipline](skills/agent-dispatch-discipline/SKILL.md) · [goal-decomposition-and-specialist-routing](skills/goal-decomposition-and-specialist-routing/SKILL.md) · [scale-to-complexity-and-cost-before-fanout](skills/scale-to-complexity-and-cost-before-fanout/SKILL.md) · [context-and-token-budgeting-across-workers](skills/context-and-token-budgeting-across-workers/SKILL.md) · [verification-subagent](skills/verification-subagent/SKILL.md) · [fan-in-synthesis-with-disagreement-surfacing](skills/fan-in-synthesis-with-disagreement-surfacing/SKILL.md) · [failure-replanning-and-escalation](skills/failure-replanning-and-escalation/SKILL.md) · [workstream-orchestration](skills/workstream-orchestration/SKILL.md) · [writing-plans](skills/writing-plans/SKILL.md) · [phased-plan-execution](skills/phased-plan-execution/SKILL.md) · [reviewed-agent-development](skills/reviewed-agent-development/SKILL.md) · [task-board-orchestration](skills/task-board-orchestration/SKILL.md)
 
 #### ai-guardrails-engineer
 
