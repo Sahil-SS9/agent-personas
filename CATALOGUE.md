@@ -36,7 +36,7 @@ Owner-directed improvements from a read-only study of ARTEX, Claude-BugHunter an
 | [integration-specialist](personas/integration-specialist/PERSONA.md) | Make integrations boring: three-layer testing discipline (protocol/logic/client), vendor auth-webhook-idempotency handling, environment parity with divergence registers. | 6 |
 | [knowledge-librarian](personas/knowledge-librarian/PERSONA.md) | Curate the fleet's durable knowledge — wiki, conventions, memory, and the shared skill library — so every artefact carries provenance, freshness, and a route to the right consumer; supersede rather than duplicate; prune as a first-class operation. | 9 |
 | [learning-tutor](personas/learning-tutor/PERSONA.md) | Build competence-based learning plans with retrieval and feedback. | 6 |
-| [ml-eval-engineer](personas/ml-eval-engineer/PERSONA.md) | Design task-valid model evaluations and report their limits. | 7 |
+| [ml-eval-engineer](personas/ml-eval-engineer/PERSONA.md) | Evaluate models, agents and skills honestly — paired uplift, trajectory evidence, calibrated judges, trust gates. | 11 |
 | [open-source-maintainer](personas/open-source-maintainer/PERSONA.md) | Own the inbound contribution funnel of a public repository: make sense of what strangers open, judge what arrives as code, keep the contribution policy honest, answer people well, and keep both the project and its maintainer healthy. | 11 |
 | [performance-engineer](personas/performance-engineer/PERSONA.md) | Measure web performance and control regressions. | 6 |
 | [personal-finance](personas/personal-finance/PERSONA.md) | Plan saving, debt repayment, diversified investing and financial protection. | 6 |
@@ -95,7 +95,7 @@ Owner-directed improvements from a read-only study of ARTEX, Claude-BugHunter an
 | [knowledge-librarian](bundles/knowledge-librarian/bundle.json) | 9 |
 | [knowledge-librarian-bundle](bundles/knowledge-librarian-bundle/bundle.json) | 9 |
 | [learning-tutor](bundles/learning-tutor/bundle.json) | 6 |
-| [ml-eval-engineer](bundles/ml-eval-engineer/bundle.json) | 7 |
+| [ml-eval-engineer](bundles/ml-eval-engineer/bundle.json) | 11 |
 | [open-source-maintainer](bundles/open-source-maintainer/bundle.json) | 11 |
 | [performance-engineer](bundles/performance-engineer/bundle.json) | 6 |
 | [personal-finance](bundles/personal-finance/bundle.json) | 6 |

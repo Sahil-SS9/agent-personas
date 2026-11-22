@@ -1,6 +1,6 @@
 {
   "name": "ml-eval-engineer",
-  "version": "0.3.0",
+  "version": "0.2.0",
   "members": [
     "holistic-eval-design",
     "contamination-and-staleness-audit",
@@ -8,7 +8,12 @@
     "eval-harness-implementation",
     "llm-as-judge-design",
     "safety-redteam-eval",
-    "summary-accuracy-checks"
+    "summary-accuracy-checks",
+    "paired-baseline-skilled-benchmarking",
+    "trajectory-and-tool-call-eval",
+    "judge-calibration-and-tripwires",
+    "skill-trust-gate-design"
   ],
-  "persona": "ml-eval-engineer"
+  "persona": "ml-eval-engineer",
+  "status": "draft"
 }
