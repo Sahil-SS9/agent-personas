@@ -18,12 +18,15 @@ license: "MIT"
 2. State the fix's prediction before applying it: "with this change, the
    minimal case replays clean AND the divergence point moves / disappears".
    After the change, check both.
-3. Verify at the diagnosed seam, then at the original scene: the minimal
+3. Never replay irreversible external actions on live systems. Use fixtures,
+   dry-run or an authorised isolated environment with effects intercepted.
+   Verify at the diagnosed seam, then at the original scene: the minimal
    case first, then the FULL original failing run replayed end to end. A
    fix that handles the minimal case but regresses the full run is not a
    fix.
-4. One fix per change: if the change touched two seams, the verification
-   proves nothing — split it and verify each.
+4. Test one causal repair hypothesis at a time. An atomic invariant repair
+   may require coordinated schema/adapter/validator changes; document why
+   they belong together and test both the joint fix and affected contracts.
 5. Add the regression case to the run suite: the minimal case, its expected
    behaviour, and a scorer — so the defect class is guarded forever, not
    until the next refactor.

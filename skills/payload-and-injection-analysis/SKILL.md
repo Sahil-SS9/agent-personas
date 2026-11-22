@@ -49,5 +49,5 @@ license: "MIT"
 
 ## Escalation
 - Confirmed payloads quarantine the component immediately and the finding
-  escalates to the owner (and, where public, to the registry) with the
-  quoted evidence.
+  escalates to the owner with safely redacted evidence. Any public registry disclosure
+  requires separate explicit approval; quarantine grants no publishing authority.

@@ -25,9 +25,9 @@ license: "MIT"
    where, under what license, and whether the shipped bytes match the
    published source. Dependency-name typosquatting is a real acquisition
    risk; the chain check catches it.
-4. Transitive depth with proportionality: one level deep for read-only
-   helpers; full resolution for anything with shell, network or credential
-   access.
+4. Resolve reachable install-time and runtime dependencies, including
+   transitive code. A helper calling itself read-only does not limit what
+   its dependencies execute. Record unresolved depth as a coverage gap.
 5. Vulnerability overlay: map the BOM against published advisories at vet
    time, and record the date of the check — a clean BOM is clean as of its
    check date, and says so.

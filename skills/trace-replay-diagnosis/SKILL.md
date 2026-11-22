@@ -38,7 +38,7 @@ license: "MIT"
 
 ## Stop conditions
 - Never diagnose from the final message alone.
-- Never fix a sampled or partial trace.
+- A partial trace permits bounded findings, not a complete-review claim.
 - Never fix downstream of the divergence point.
 
 ## Escalation

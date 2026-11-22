@@ -26,6 +26,8 @@ Owner-directed improvements from a read-only study of ARTEX, Claude-BugHunter an
 | [data-engineer](personas/data-engineer/PERSONA.md) | Design schemas, optimise queries and build checked data pipelines. | 7 |
 | [deal-hunter](personas/deal-hunter/PERSONA.md) | Compare verified sourcing options, landed costs and seller reliability. | 7 |
 | [design-partner](personas/design-partner/PERSONA.md) | Act as the designer's sparring partner: surface trade-offs and failure modes before commitment, then record decisions in review-surviving artefacts (C4 views, ADRs). | 7 |
+| [context-and-memory-engineer](personas/context-and-memory-engineer/PERSONA.md) | Engineer what an agent sees and remembers: budgeted windows, tiered memory, time-bounded conflict-safe facts, write-time curation. | 6 |
+| [llm-inference-optimisation-engineer](personas/llm-inference-optimisation-engineer/PERSONA.md) | Measure and optimise LLM serving: capacity, quants, speculation and quality gates. | 6 |
 | [design-system-engineer](personas/design-system-engineer/PERSONA.md) | Maintain design tokens, component contracts and adoption. | 6 |
 | [devops-sre](personas/devops-sre/PERSONA.md) | Manage SLOs, progressive delivery and incident response. | 7 |
 | [evidence-based-ai-delegation](personas/evidence-based-ai-delegation/PERSONA.md) | Choose human, assisted or delegated execution from risk and measured end-to-end value. | 3 |
@@ -86,6 +88,8 @@ Owner-directed improvements from a read-only study of ARTEX, Claude-BugHunter an
 | [data-engineer](bundles/data-engineer/bundle.json) | 7 |
 | [deal-hunter](bundles/deal-hunter/bundle.json) | 7 |
 | [design-partner](bundles/design-partner/bundle.json) | 7 |
+| [context-and-memory-engineer](bundles/context-and-memory-engineer/bundle.json) | 6 |
+| [llm-inference-optimisation-engineer](bundles/llm-inference-optimisation-engineer/bundle.json) | 6 |
 | [design-system-engineer](bundles/design-system-engineer/bundle.json) | 6 |
 | [devops-sre](bundles/devops-sre/bundle.json) | 7 |
 | [evidence-based-ai-delegation](bundles/evidence-based-ai-delegation/bundle.json) | 3 |

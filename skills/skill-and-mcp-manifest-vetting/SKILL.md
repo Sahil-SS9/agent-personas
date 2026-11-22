@@ -15,9 +15,8 @@ license: "MIT"
 
 1. Vet the WHOLE component, not its description: the manifest, every
    instruction file, referenced assets and scripts, declared tools and their
-   scopes, network endpoints, and credential access. Published audits have
-   found double-digit percentages of marketplace skills carrying at least
-   one security flaw — treat "marketplace listing" as zero evidence.
+   scopes, network endpoints, and credential access. A marketplace listing
+   is not a security assessment; no prevalence estimate is required to vet it.
 2. Inventory the capability surface: which tools the component can invoke,
    which paths it reads/writes, whether it can reach the network or
    credentials, and whether its instructions can steer the host agent's

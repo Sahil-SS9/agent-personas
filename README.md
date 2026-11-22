@@ -4,7 +4,7 @@
 
 ### Connect your agents to the skills their job needs.
 
-A catalogue of **52 personas, 53 specialised skill bundles and 362 reusable skills** for building dedicated agents, sub-agents and bots. Choose a role, load its methods, and use the agent platform you already have.
+A catalogue of **57 personas, 58 specialised skill bundles and 403 reusable skills** for building dedicated agents, sub-agents and bots. Choose a role, load its methods, and use the agent platform you already have.
 
 [Choose a persona](#choose-your-first-persona) · [Try it](#try-a-persona-in-a-few-minutes) · [Browse all roles and bundles](#browse-all-personas-and-skill-bundles) · [Platform compatibility](docs/compatibility.md) · [Evidence](docs/evidence.md)
 
@@ -70,6 +70,7 @@ Start with the outcome you need. The coding roles sit alongside research, design
 | Coordinate an agent team | [Agent Orchestrator](personas/agent-orchestrator/PERSONA.md) |
 | Diagnose why an agent run went wrong | [Agent Debugger](personas/agent-debugger/PERSONA.md) |
 | Vet a third-party skill or MCP server before installing it | [Agent Supply-Chain Auditor](personas/agent-supply-chain-auditor/PERSONA.md) |
+| Engineer what an agent remembers across sessions | [Context and Memory Engineer](personas/context-and-memory-engineer/PERSONA.md) |
 | Learn through practice and feedback | [Practice-Based Learning](personas/practice-based-learning/PERSONA.md) |
 | Plan a trip around practical constraints | [Travel Expert](personas/travel-expert/PERSONA.md) |
 
@@ -158,6 +159,8 @@ AI and LLM systems: [ai-systems-architecture-patterns](skills/ai-systems-archite
 | Persona role contract | Skill bundle | Use it to… | Member skills |
 |---|---|---|---:|
 | [design-partner](personas/design-partner/PERSONA.md) | [design-partner](bundles/design-partner/bundle.json) | Challenge designs and document trade-offs and decisions. | 7 |
+| [context-and-memory-engineer](personas/context-and-memory-engineer/PERSONA.md) | [context-and-memory-engineer](bundles/context-and-memory-engineer/bundle.json) | Engineer what an agent sees and remembers: budgeted windows, tiered memory, conflict-safe facts. | 6 |
+| [llm-inference-optimisation-engineer](personas/llm-inference-optimisation-engineer/PERSONA.md) | [llm-inference-optimisation-engineer](bundles/llm-inference-optimisation-engineer/bundle.json) | Optimise measured LLM serving without sacrificing required quality or context. | 6 |
 | [design-system-engineer](personas/design-system-engineer/PERSONA.md) | [design-system-engineer](bundles/design-system-engineer/bundle.json) | Maintain design tokens, component contracts and adoption. | 6 |
 | [accessibility-engineer](personas/accessibility-engineer/PERSONA.md) | [accessibility-engineer](bundles/accessibility-engineer/bundle.json) | Audit accessibility and verify keyboard and screen-reader flows. | 6 |
 | [ux-research](personas/ux-research/PERSONA.md) | [ux-research](bundles/ux-research/bundle.json) | Gather user evidence tied to product decisions. | 6 |
@@ -169,6 +172,14 @@ AI and LLM systems: [ai-systems-architecture-patterns](skills/ai-systems-archite
 
 <details>
 <summary>Inspect member skills: design, research and media</summary>
+
+#### llm-inference-optimisation-engineer
+
+[inference-workload-and-bottleneck-diagnosis](skills/inference-workload-and-bottleneck-diagnosis/SKILL.md) · [quantisation-engine-and-quality-contract](skills/quantisation-engine-and-quality-contract/SKILL.md) · [kv-cache-and-per-rank-capacity-planning](skills/kv-cache-and-per-rank-capacity-planning/SKILL.md) · [speculative-decoding-break-even](skills/speculative-decoding-break-even/SKILL.md) · [inference-ablation-and-reproducibility](skills/inference-ablation-and-reproducibility/SKILL.md) · [pressure-aware-inference-policy](skills/pressure-aware-inference-policy/SKILL.md)
+
+#### context-and-memory-engineer
+
+[context-budgeting-and-line-items](skills/context-budgeting-and-line-items/SKILL.md) · [just-in-time-retrieval-and-window-hygiene](skills/just-in-time-retrieval-and-window-hygiene/SKILL.md) · [conditional-compaction-and-checkpoints](skills/conditional-compaction-and-checkpoints/SKILL.md) · [memory-tier-architecture](skills/memory-tier-architecture/SKILL.md) · [temporal-facts-and-conflict-resolution](skills/temporal-facts-and-conflict-resolution/SKILL.md) · [memory-write-and-curation-discipline](skills/memory-write-and-curation-discipline/SKILL.md)
 
 #### design-partner
 

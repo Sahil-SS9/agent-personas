@@ -1,0 +1,30 @@
+{
+  "architecture": "gqa",
+  "required_context": 8192,
+  "proposed_context": 8192,
+  "sequences": 2,
+  "layers": 32,
+  "head_dim": 128,
+  "kv_element_bytes": 2,
+  "kv_layout_multiplier": 1.1,
+  "ranks": [
+    {
+      "resident_kv_heads": 4,
+      "available_bytes": 21474836480,
+      "weight_bytes": 10737418240,
+      "workspace_bytes": 1073741824,
+      "draft_bytes": 0,
+      "graph_bytes": 536870912,
+      "reserve_bytes": 2147483648
+    },
+    {
+      "resident_kv_heads": 4,
+      "available_bytes": 21474836480,
+      "weight_bytes": 10737418240,
+      "workspace_bytes": 1073741824,
+      "draft_bytes": 0,
+      "graph_bytes": 536870912,
+      "reserve_bytes": 2147483648
+    }
+  ]
+}

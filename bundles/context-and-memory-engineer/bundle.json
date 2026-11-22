@@ -1,0 +1,14 @@
+{
+  "name": "context-and-memory-engineer",
+  "version": "0.1.0",
+  "members": [
+    "context-budgeting-and-line-items",
+    "just-in-time-retrieval-and-window-hygiene",
+    "conditional-compaction-and-checkpoints",
+    "memory-tier-architecture",
+    "temporal-facts-and-conflict-resolution",
+    "memory-write-and-curation-discipline"
+  ],
+  "persona": "context-and-memory-engineer",
+  "status": "draft"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "llm-inference-optimisation-engineer",
+  "version": "0.1.0",
+  "members": [
+    "inference-workload-and-bottleneck-diagnosis",
+    "quantisation-engine-and-quality-contract",
+    "kv-cache-and-per-rank-capacity-planning",
+    "speculative-decoding-break-even",
+    "inference-ablation-and-reproducibility",
+    "pressure-aware-inference-policy"
+  ],
+  "persona": "llm-inference-optimisation-engineer",
+  "status": "draft"
+}

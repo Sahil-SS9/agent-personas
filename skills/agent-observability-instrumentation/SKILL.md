@@ -24,9 +24,10 @@ license: "MIT"
 3. Carry the identifiers that make a run findable: trace id, user/session
    reference, goal or brief digest. A trace nobody can tie back to a real
    request is archival, not observability.
-4. Export full payloads for the cases under review; sample only what you
-   are not looking at. High-cardinality evidence (arguments, payloads) is
-   the evidence — roll-ups exist for trends, not for diagnosis.
+4. Collect only necessary payloads with redaction, scoped access and retention.
+   Never export secrets or personal data indiscriminately. Record which spans
+   or fields are missing/redacted; restricted evidence is not an excuse to
+   invent a complete trace. Roll-ups serve trends, not case-level diagnosis.
 5. Budgets are observable too: per-run token and cost envelopes with a
    recorded expectation make "expensive run" a measured finding rather
    than a monthly surprise.
