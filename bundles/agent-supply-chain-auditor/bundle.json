@@ -1,0 +1,13 @@
+{
+  "name": "agent-supply-chain-auditor",
+  "version": "0.1.0",
+  "members": [
+    "skill-and-mcp-manifest-vetting",
+    "payload-and-injection-analysis",
+    "sbom-and-dependency-provenance",
+    "update-diff-revetting",
+    "install-gate-and-quarantine-records"
+  ],
+  "persona": "agent-supply-chain-auditor",
+  "status": "draft"
+}
