@@ -53,6 +53,7 @@ Owner-directed improvements from a read-only study of ARTEX, Claude-BugHunter an
 | [game-modder](personas/game-modder/PERSONA.md) | Take a mod idea to a working, verified and reversible mod in the real game across Unity, Unreal, Bethesda, Java/.NET loader and native engines, including cross-game mashups, for games the user owns and plays offline or on servers they run. | 15 |
 | [reverse-engineering-specialist](personas/reverse-engineering-specialist/PERSONA.md) | Reconstruct software and investigate security behaviour with evidence, runtime routing and honest confidence. | 15 |
 | [risk-release-manager](personas/risk-release-manager/PERSONA.md) | Own the register of what could go wrong (with owners and triggers) and run releases from pre-flight gates through rehearsed rollback to post-release verification. | 5 |
+| [rust-rewrite-and-porting-specialist](personas/rust-rewrite-and-porting-specialist/PERSONA.md) | Port software its owner controls into Rust with recorded-behaviour equivalence: profile first, move loops not functions, bridge so callers change nothing, gate on hygiene and semver, ship on the measured bench. | 8 |
 | [software-implementation-specialist](personas/software-implementation-specialist/PERSONA.md) | Deliver working features and bug fixes with minimal sufficient design. | 6 |
 | [support-specialist](personas/support-specialist/PERSONA.md) | Resolve issues at the right tier: first-line FCR with KB deflection, evidence-carrying escalations, third-line recurrence elimination, workarounds tracked to permanent fixes. | 4 |
 | [system-designer](personas/system-designer/PERSONA.md) | Design web, backend, distributed and AI-powered systems end to end: scoped requirements and SLOs, numbers-first estimates, data, caching and messaging choices, failure and overload behaviour, security, operations and cost, written up as a reviewable design document. | 18 |
@@ -111,6 +112,7 @@ Owner-directed improvements from a read-only study of ARTEX, Claude-BugHunter an
 | [game-modder](bundles/game-modder/bundle.json) | 15 |
 | [reverse-engineering-specialist](bundles/reverse-engineering-specialist/bundle.json) | 15 |
 | [risk-release-manager](bundles/risk-release-manager/bundle.json) | 5 |
+| [rust-rewrite-and-porting-specialist](bundles/rust-rewrite-and-porting-specialist/bundle.json) | 8 |
 | [software-implementation-specialist](bundles/software-implementation-specialist/bundle.json) | 6 |
 | [support-specialist](bundles/support-specialist/bundle.json) | 4 |
 | [system-designer](bundles/system-designer/bundle.json) | 18 |

@@ -62,6 +62,7 @@ Start with the outcome you need. The coding roles sit alongside research, design
 | Understand how a binary or app works, or whether it is safe | [Reverse Engineering Specialist](personas/reverse-engineering-specialist/PERSONA.md) |
 | Build a mod, or mash up two games you own | [Game Modder](personas/game-modder/PERSONA.md) |
 | Rebuild compatible software from observed behaviour | [Clean-Room Reimplementation Engineer](personas/clean-room-reimplementation-engineer/PERSONA.md) |
+| Port a hot path or app into Rust, proven against the original | [Rust Rewrite and Porting Specialist](personas/rust-rewrite-and-porting-specialist/PERSONA.md) |
 | Decide what to build and why | [Product Manager](personas/product-manager/PERSONA.md) |
 | Turn interviews and documents into L1 to L4 process maps (BPMN, Lucidchart) | [Business Process Analyst](personas/business-process-analyst/PERSONA.md) |
 | Design a scalable, reliable system or AI feature end to end | [System Designer](personas/system-designer/PERSONA.md) |
@@ -222,6 +223,7 @@ AI and LLM systems: [ai-systems-architecture-patterns](skills/ai-systems-archite
 | [blue-team-security](personas/blue-team-security/PERSONA.md) | [blue-team-security](bundles/blue-team-security/bundle.json) | Plan prevention, detection and rehearsed incident response. | 6 |
 | [red-team-security](personas/red-team-security/PERSONA.md) | [red-team-security](bundles/red-team-security/bundle.json) | Investigate authorised attack paths and report reproducible findings. | 6 |
 | [reverse-engineering-specialist](personas/reverse-engineering-specialist/PERSONA.md) | [reverse-engineering-specialist](bundles/reverse-engineering-specialist/bundle.json) | Reconstruct software and investigate security behaviour with evidence, runtime routing and honest confidence. | 15 |
+| [rust-rewrite-and-porting-specialist](personas/rust-rewrite-and-porting-specialist/PERSONA.md) | [rust-rewrite-and-porting-specialist](bundles/rust-rewrite-and-porting-specialist/bundle.json) | Port hot paths and whole apps into Rust, proven against the original's recorded behaviour. | 8 |
 | [clean-room-reimplementation-engineer](personas/clean-room-reimplementation-engineer/PERSONA.md) | [clean-room-reimplementation-engineer](bundles/clean-room-reimplementation-engineer/bundle.json) | Turn authorised observations into independently implemented, behaviourally compatible software. | 5 |
 | [game-modder](personas/game-modder/PERSONA.md) | [game-modder](bundles/game-modder/bundle.json) | Take a mod idea to a working, verified and reversible mod in the real game across Unity, Unreal, Bethesda, Java/.NET loader and native engines, including cross-game mashups, for games the user owns and plays offline or on servers they run. | 15 |
 
@@ -283,6 +285,10 @@ AI and LLM systems: [ai-systems-architecture-patterns](skills/ai-systems-archite
 #### clean-room-reimplementation-engineer
 
 [clean-room-boundary-and-provenance](skills/clean-room-boundary-and-provenance/SKILL.md) · [behaviour-specification-from-observation](skills/behaviour-specification-from-observation/SKILL.md) · [parity-and-differential-verification](skills/parity-and-differential-verification/SKILL.md) · [clean-room-implementation-workflow](skills/clean-room-implementation-workflow/SKILL.md) · [compatibility-release-and-handoff](skills/compatibility-release-and-handoff/SKILL.md)
+
+#### rust-rewrite-and-porting-specialist
+
+[port-profiling-and-hot-loop-selection](skills/port-profiling-and-hot-loop-selection/SKILL.md) · [port-plan-and-decision-records](skills/port-plan-and-decision-records/SKILL.md) · [ffi-bridge-selection-and-boundaries](skills/ffi-bridge-selection-and-boundaries/SKILL.md) · [recorded-behaviour-equivalence](skills/recorded-behaviour-equivalence/SKILL.md) · [cross-language-semantics-traps](skills/cross-language-semantics-traps/SKILL.md) · [borrow-and-ownership-translation](skills/borrow-and-ownership-translation/SKILL.md) · [rust-gate-and-semver-safety](skills/rust-gate-and-semver-safety/SKILL.md) · [rust-benchmarking-with-controls](skills/rust-benchmarking-with-controls/SKILL.md)
 
 #### game-modder
 
