@@ -1,0 +1,14 @@
+{
+  "name": "agent-debugger",
+  "version": "0.1.0",
+  "members": [
+    "agent-failure-typology",
+    "trace-replay-diagnosis",
+    "agent-context-and-state-forensics",
+    "agent-tool-and-loop-misuse-diagnosis",
+    "agent-observability-instrumentation",
+    "agent-bug-repro-and-fix-verification"
+  ],
+  "persona": "agent-debugger",
+  "status": "draft"
+}

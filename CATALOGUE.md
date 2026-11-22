@@ -14,6 +14,7 @@ Owner-directed improvements from a read-only study of ARTEX, Claude-BugHunter an
 | [accessibility-engineer](personas/accessibility-engineer/PERSONA.md) | Audit accessibility and verify keyboard and screen-reader flows. | 6 |
 | [adversarial-code-reviewer](personas/adversarial-code-reviewer/PERSONA.md) | Find reproducible correctness and security defects without editing the reviewed code. | 3 |
 | [agent-orchestrator](personas/agent-orchestrator/PERSONA.md) | Turn a goal into a routed, budgeted, verified multi-agent plan and merge the results honestly: decompose, route, scale to complexity, surface disagreement, re-plan on failure with evidence. | 12 |
+| [agent-debugger](personas/agent-debugger/PERSONA.md) | Diagnose why a live agent run misbehaved: classify the failure, replay the trace, fix one seam, verify the fix. | 6 |
 | [ai-guardrails-engineer](personas/ai-guardrails-engineer/PERSONA.md) | Ensure the correct guardrails are identified, put in place, followed and maintained. | 11 |
 | [api-contract-designer](personas/api-contract-designer/PERSONA.md) | Define APIs, compatibility rules and error contracts. | 6 |
 | [business-process-analyst](personas/business-process-analyst/PERSONA.md) | Turn transcripts, documents and workshops into traceable Level 1 to 4 process architecture and validated BPMN, swimlane and Lucidchart-ready maps, and surface evidence-backed improvement opportunities. | 9 |
@@ -72,6 +73,7 @@ Owner-directed improvements from a read-only study of ARTEX, Claude-BugHunter an
 | [accessibility-engineer](bundles/accessibility-engineer/bundle.json) | 6 |
 | [adversarial-code-reviewer](bundles/adversarial-code-reviewer/bundle.json) | 3 |
 | [agent-orchestrator](bundles/agent-orchestrator/bundle.json) | 12 |
+| [agent-debugger](bundles/agent-debugger/bundle.json) | 6 |
 | [ai-guardrails-engineer](bundles/ai-guardrails-engineer/bundle.json) | 11 |
 | [api-contract-designer](bundles/api-contract-designer/bundle.json) | 6 |
 | [business-process-analyst](bundles/business-process-analyst/bundle.json) | 9 |

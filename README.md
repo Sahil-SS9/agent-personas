@@ -68,6 +68,7 @@ Start with the outcome you need. The coding roles sit alongside research, design
 | Design a scalable, reliable system or AI feature end to end | [System Designer](personas/system-designer/PERSONA.md) |
 | Connect systems and verify their boundaries | [Integration Specialist](personas/integration-specialist/PERSONA.md) |
 | Coordinate an agent team | [Agent Orchestrator](personas/agent-orchestrator/PERSONA.md) |
+| Diagnose why an agent run went wrong | [Agent Debugger](personas/agent-debugger/PERSONA.md) |
 | Learn through practice and feedback | [Practice-Based Learning](personas/practice-based-learning/PERSONA.md) |
 | Plan a trip around practical constraints | [Travel Expert](personas/travel-expert/PERSONA.md) |
 
@@ -303,6 +304,7 @@ Conditional tool adapters: ghidra-workflow-adapter, frida-tracing-adapter, angr-
 | Persona role contract | Skill bundle | Use it to… | Member skills |
 |---|---|---|---:|
 | [agent-orchestrator](personas/agent-orchestrator/PERSONA.md) | [agent-orchestrator](bundles/agent-orchestrator/bundle.json) | Decompose goals into routed, budgeted, verified multi-agent plans and merge results honestly. | 12 |
+| [agent-debugger](personas/agent-debugger/PERSONA.md) | [agent-debugger](bundles/agent-debugger/bundle.json) | Diagnose why an agent run misbehaved: classify, replay the trace, fix one seam, verify. | 6 |
 | [ai-guardrails-engineer](personas/ai-guardrails-engineer/PERSONA.md) | [ai-guardrails-engineer](bundles/ai-guardrails-engineer/bundle.json) | Identify, place and test guardrails against the harms they address. | 11 |
 | [evidence-based-ai-delegation](personas/evidence-based-ai-delegation/PERSONA.md) | [evidence-based-ai-delegation](bundles/evidence-based-ai-delegation/bundle.json) | Choose human, assisted or delegated work from risk and measured value. | 3 (1 conditional) |
 | [prompt-agent-engineer](personas/prompt-agent-engineer/PERSONA.md) | [prompt-agent-engineer](bundles/prompt-agent-engineer/bundle.json) | Design versioned prompts and bounded, observable agent loops. | 7 |
@@ -316,6 +318,10 @@ Conditional tool adapters: ghidra-workflow-adapter, frida-tracing-adapter, angr-
 
 <details>
 <summary>Inspect member skills: agents, models and knowledge</summary>
+
+#### agent-debugger
+
+[agent-failure-typology](skills/agent-failure-typology/SKILL.md) · [trace-replay-diagnosis](skills/trace-replay-diagnosis/SKILL.md) · [agent-context-and-state-forensics](skills/agent-context-and-state-forensics/SKILL.md) · [agent-tool-and-loop-misuse-diagnosis](skills/agent-tool-and-loop-misuse-diagnosis/SKILL.md) · [agent-observability-instrumentation](skills/agent-observability-instrumentation/SKILL.md) · [agent-bug-repro-and-fix-verification](skills/agent-bug-repro-and-fix-verification/SKILL.md)
 
 #### agent-orchestrator
 
