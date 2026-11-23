@@ -1,11 +1,7 @@
-Source ledger: ../../../sources.json
-Retrieved: 2026-09-07T18:04:01.820110+00:00
 Sharpens: component-compatibility-review, ui-integration-acceptance
 Rights: original distillation; source-specific restrictions retained in ledger; no full-book or source-code reproduction.
 
 # Component selection and provenance
-
-Sources: S03, F01, F04–F08 in ../../../sources.json. Original synthesis, not copied code.
 
 ## Catalogue roles
 - Beautiful UI: agent-native patterns, including approval cards, tool/task displays, contexts and diff tables. Explicit MIT licence verified on its own licence page. A code import still requires notice preservation and revision capture.

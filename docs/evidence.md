@@ -43,7 +43,7 @@ See [the scoped coding evidence](coding-specialists.md), including recorded base
 
 ## 0.3.0 role collection validation
 
-The historical 0.3.0 collection added 19 roles and 118 focused skills. Its recorded claim was that every skill passed the private scenario-benchmark pipeline, and packaging plus narrow real-task pilots were verified before release. Methods draw on authoritative books, standards and primary documentation; per-skill evidence cards record provenance and validation scope. Use the bundled verification and smoke tooling to confirm behaviour in your own harness and model before production use.
+The historical 0.3.0 collection added 19 roles and 118 focused skills. Its recorded claim was that every skill passed the private scenario-benchmark pipeline, and packaging plus narrow real-task pilots were verified before release. Methods draw on authoritative published material; per-skill evidence cards record validation scope, and detailed source provenance is held privately by the author. Use the bundled verification and smoke tooling to confirm behaviour in your own harness and model before production use.
 
 ## Owner-accepted local candidate clarifications
 

@@ -5,23 +5,11 @@
  "source_skill_sha256": null,
  "author_credit": "Sahil Saghir",
  "provenance": "authored-for-release",
- "source_study_group": "orchestrator",
+ "provenance_note": "Sources studied are recorded privately by the author; no third-party text, prompts or code are reproduced.",
  "behavioural_evidence": "none",
  "validation": "Authored for this release from the programme source studies. Structural gate (scripts/verify.py) passed at packaging time. No behavioural benchmark has been run for this skill: no uplift is claimed, and none is refuted.",
  "scope_notes": [
   "No behavioural evidence: instruction text only.",
-  "Token/phrase rubric matches are not task correctness or general uplift.",
   "No universal model or harness performance claim."
- ],
- "sources_studied": [
-  "Anthropic multi-agent research system and when-to-use-multi-agent guidance",
-  "LangGraph supervisor pattern and production cases",
-  "OpenAI Agents SDK handoffs",
-  "MetaGPT role-chain design",
-  "Claude Code Agent Teams",
-  "agency-agents orchestrator files",
-  "multi-agent-architect files",
-  "our own orchestration practice (workstream-orchestration, lossless-delegation, agent-dispatch-discipline)"
- ],
- "pin_notes": "Public sources named at study time; principles paraphrased, no upstream text, prompts or code copied. Snapshot commits are pinned where a snapshot exists; otherwise no retrievable snapshot is available here."
+ ]
 }

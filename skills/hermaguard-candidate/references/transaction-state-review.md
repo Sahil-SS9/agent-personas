@@ -1,4 +1,3 @@
-Source: https://cheatsheetseries.owasp.org/cheatsheets/Transaction_Authorization_Cheat_Sheet.html
 Author: OWASP Cheat Sheet Series
 Read scope: Full page read; selected server-side lifecycle principles distilled
 Captured: 2026-09-08T19:32:09.332981+00:00

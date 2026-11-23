@@ -16,14 +16,14 @@ license: "MIT"
    against grounded, verifiable outcomes on a known set. A judge is only
    trusted for the case shapes it was calibrated on — and the calibration
    result ships with every judge-based number.
-2. Satisfaction is not success: user-simulator judges rated conversations
-   "satisfied" while a majority of those conversations FAILED the task
-   (reported finding; not reproduced here). Subjective ratings carry essentially
-   no task-success information; never promote on satisfaction alone.
-3. Expect a ceiling without ground truth: across frontier scales, ungrounded
-   judges converge to a narrow band on hard cases — model scale alone does
-   not buy alignment. Provide ground truth where it exists; where it does
-   not, say what the judge cannot resolve.
+2. Satisfaction is not success: a judge can rate a conversation "satisfied"
+   while the task itself failed. Treat subjective ratings as weak evidence of
+   task success; never promote on satisfaction alone.
+3. Expect a ceiling without ground truth: on hard cases an ungrounded judge
+   stops improving, and a bigger judge model does not fix that on its own.
+   Provide ground truth where it exists; where it does not, say what the
+   judge cannot resolve.
+
 4. Structure what you can: rubrics and structured criteria improve judge
    alignment, but do not transfer uniformly across judge-generator pairs —
    re-calibrate per pair when either side changes.

@@ -1,11 +1,9 @@
-Source ledger: ../../../sources.json
-Retrieved: 2026-09-07T18:04:01.820110+00:00
 Sharpens: component-compatibility-review, ui-integration-acceptance
 Rights: original distillation; source-specific restrictions retained in ledger; no full-book or source-code reproduction.
 
 # Interaction and AI-state acceptance
 
-Sources: F02 (W3C modal pattern), F03 (Motion reduced-motion guidance), F05 (agent UI catalogue). A02 supports relevance of human-AI design, not effectiveness of this package. Operational approval rules below are original synthesis.
+Operational approval rules below are original synthesis.
 
 ## Modal contract
 On open, place focus appropriately inside the dialog. For long structured content, a static heading can be a better initial target than a distant button. Keep Tab and Shift+Tab within it. Escape and a visible close/cancel control should close it. Return focus to the invoker unless it disappeared or a documented next workflow target is more appropriate. Use an accessible title. Mark modal only when the actual background interaction is disabled; visual dimming alone is insufficient.

@@ -1,5 +1,3 @@
-Source ledger: ../../../sources.json
-Retrieved: 2026-09-07T19:11:40.138486+00:00
 Sharpens: design-intent-discovery; visual-direction-comparison; component-compatibility-review
 Rights: original synthesis; no component code or protected text copied.
 

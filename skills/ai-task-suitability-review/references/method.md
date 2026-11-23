@@ -1,11 +1,7 @@
-Source ledger: sources.json
-Retrieved: 2026-09-07T18:04:01.820110+00:00
 Sharpens: ai-task-suitability-review, delegation-value-measurement
 Rights: original distillation; source-specific restrictions retained in ledger; no full-book or source-code reproduction.
 
 # Delegation evaluation
-
-Sources: A01/A04 (NIST framework and playbook), A02 (research abstract), S01/S04 (discovery hypotheses). A03 is a restricted reference-only comparator; no Google PAIR text or adapted checklist is incorporated.
 
 NIST frames AI risk work through Govern, Map, Measure and Manage. The playbook is voluntary and contextual, not a mandatory exhaustive checklist or certification. Use proportionate documentation that changes a real decision.
 

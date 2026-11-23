@@ -1,9 +1,7 @@
 # Refactor preparation: establish evidence before restructuring
 
-## Scope and provenance
-Original synthesis for the observed gap: richer compatibility tests were added only after a structural-plus-feature edit. Fresh source read: Martin Fowler, An example of preparatory refactoring, https://martinfowler.com/articles/preparatory-refactoring-example.html . Reused previously ingested analytical notes from Michael Feathers, Working Effectively with Legacy Code, chapter 4 (publisher sample): https://www.informit.com/content/images/0131177052/samplechapter/0131177052_ch04.pdf . No new whole-book reading is claimed. Source copyrights remain with their authors; no source code reproduced.
-
-Fowler supplies a concrete sequence: preserve observable behaviour while creating a place for a feature, keep existing tests passing through that preparation, then change behaviour. Feathers supplies the escape route when safe observation needs a seam. Our adaptation makes the preparation an evidence gate and adds a proportionality rule; these details are our synthesis, not quotations or proof of universal benefit.
+## Scope
+Original synthesis for the observed gap: richer compatibility tests were added only after a structural-plus-feature edit. The underlying sequence is established practice: preserve observable behaviour while creating a place for a feature, keep existing tests passing through that preparation, then change behaviour; when safe observation is impossible, introduce a seam first. Our adaptation makes the preparation an evidence gate and adds a proportionality rule; it is synthesis, not quotation or proof of universal benefit. Research provenance is recorded privately by the author.
 
 ## Trigger and scope
 Use for a module-level or repository-wide structural change: extracting shared logic, changing representations/routing, or combining simplification with a feature. Do not reserve this for large campaigns. A cosmetic or truly local change with adequate existing tests takes the short path below; do not invent a migration programme or mandatory LOC census.
@@ -16,7 +14,7 @@ Use for a module-level or repository-wide structural change: extracting shared l
 5. If existing tests already cover the relevant contract, run and reuse them. State the evidence briefly; do not add duplicates merely to satisfy the gate. If tests cannot run, preserve that limitation and do not report the refactor as verified.
 
 ## Separate preparation from changed behaviour
-Make a small behaviour-preserving structural slice, then run the characterization and affected caller tests while the feature is still absent. Only then implement the feature and its own tests. Separately observable edits and test receipts are sufficient; multiple commits or PRs are not mandatory. Avoid skipped/xfail tests as a way to claim a green completed deliverable. Fowler's temporary skipped new-feature test is an optional development tactic, not permission to suppress existing failures; prefer separate targeted execution or add the feature test at the feature phase.
+Make a small behaviour-preserving structural slice, then run the characterization and affected caller tests while the feature is still absent. Only then implement the feature and its own tests. Separately observable edits and test receipts are sufficient; multiple commits or PRs are not mandatory. Avoid skipped/xfail tests as a way to claim a green completed deliverable. A temporarily skipped new-feature test is an optional development tactic, not permission to suppress existing failures; prefer separate targeted execution or add the feature test at the feature phase.
 
 ## Short path and stop rule
 For a local rename/cosmetic edit or a structural edit whose affected behaviour is already meaningfully tested: inspect callers, execute that coverage, perform the minimal edit, rerun it. No duplicate tests, speculative abstractions, new dependency, mandatory micro-commits or repository-wide LOC inventory. Stop when relevant existing behaviour and requested changes are verified on final bytes. Do not discover extra work solely to prolong the process.

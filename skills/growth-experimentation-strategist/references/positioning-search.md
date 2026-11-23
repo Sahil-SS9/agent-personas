@@ -1,11 +1,7 @@
-Source ledger: ../../../sources.json
-Retrieved: 2026-09-07T18:04:01.820110+00:00
 Sharpens: growth-bottleneck-diagnosis, experiment-feasibility-review, search-acquisition-audit
 Rights: original distillation; source-specific restrictions retained in ledger; no full-book or source-code reproduction.
 
 # Positioning and search diagnosis
-
-Sources: G05, G02. G03 identifies the book; it is not a substitute for reading it. This is original distillation of the author's public method and official documentation.
 
 ## Positioning dependency chain
 Begin with the customer's actual alternative, not every theoretical competitor. A spreadsheet, manual process or no purchase can be the primary alternative. Compare differentiated capabilities only against those options. Explain the customer outcome each capability enables. Find the segment that especially values those outcomes. Choose the category that makes that value understandable.

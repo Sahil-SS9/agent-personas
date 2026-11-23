@@ -16,8 +16,7 @@ license: "MIT"
 1. Build the component's bill of materials from the shipped artifact, not
    the README: declared dependencies, transitive dependencies, remote
    references, post-install scripts, and anything fetched at runtime.
-   The published lesson is stable: what runs is what matters, not what is
-   advertised.
+   What runs is what matters, not what is advertised.
 2. Pin and record: every dependency gets an exact version and source in the
    record. Floating versions and unpinned remote references are risk
    findings, not conveniences — the component changes without a release.

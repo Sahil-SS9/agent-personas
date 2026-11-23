@@ -1,24 +1,15 @@
 {
  "skill": "quantisation-engine-and-quality-contract",
  "release_version": "0.10.0-draft",
- "release_skill_sha256": "e62613578773bf8b5205ba6650204b244adbab3f5516bd5d139e3491e4796e4b",
+ "release_skill_sha256": "e074b72e2f176c148691f405cb6c2ac5265def3a5d6c996de98cb6ab8ec67803",
  "source_skill_sha256": null,
  "author_credit": "Sahil Saghir",
  "provenance": "authored-for-release",
- "source_study_group": "inference",
+ "provenance_note": "Sources studied are recorded privately by the author; no third-party text, prompts or code are reproduced.",
  "behavioural_evidence": "none",
  "validation": "Authored for this release from the programme source studies. Structural gate (scripts/verify.py) passed at packaging time. No behavioural benchmark has been run for this skill: no uplift is claimed, and none is refuted.",
  "scope_notes": [
   "No behavioural evidence: instruction text only.",
-  "Token/phrase rubric matches are not task correctness or general uplift.",
   "No universal model or harness performance claim."
- ],
- "sources_studied": [
-  "primary paper sections on quantisation and speculative decoding",
-  "MiaAI-Lab GLM-5.3-Flash DGX Sparks snapshot (6c55c20da31a)",
-  "tonyd2wild Nanbeige W4A16 2x3090 snapshot (b6e842de81f0)",
-  "Turbofit snapshot",
-  "our capacity-plan and serving practice"
- ],
- "pin_notes": "Public sources named at study time; principles paraphrased, no upstream text, prompts or code copied. Snapshot commits are pinned where a snapshot exists; otherwise no retrievable snapshot is available here."
+ ]
 }

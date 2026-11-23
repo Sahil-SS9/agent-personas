@@ -1,11 +1,7 @@
-Source ledger: ../../../sources.json
-Retrieved: 2026-09-07T18:04:01.820110+00:00
 Sharpens: practice-loop-design, independent-performance-review
 Rights: original distillation; source-specific restrictions retained in ledger; no full-book or source-code reproduction.
 
 # Learning evidence
-
-Sources: L01 and L02, with S01 as inspiration. Original distillation, not book text.
 
 Scott Young's author update discusses metalearning, focus, directness, drills, retrieval, feedback, retention, intuition and experimentation in an AI context. AI can expand practice and feedback access, but generating the answer can remove the learner's practice.
 

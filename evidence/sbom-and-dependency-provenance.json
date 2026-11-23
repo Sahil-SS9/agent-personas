@@ -1,24 +1,15 @@
 {
  "skill": "sbom-and-dependency-provenance",
  "release_version": "0.10.0-draft",
- "release_skill_sha256": "c7976ea1c449405120571a40b93b137bc06f5d68c66a551fa9f18e8d50bff4a4",
+ "release_skill_sha256": "2fe16088dec873bcf40a98890799530494400b9717fa80d8f17ec834f775151d",
  "source_skill_sha256": null,
  "author_credit": "Sahil Saghir",
  "provenance": "authored-for-release",
- "source_study_group": "supply-chain",
+ "provenance_note": "Sources studied are recorded privately by the author; no third-party text, prompts or code are reproduced.",
  "behavioural_evidence": "none",
  "validation": "Authored for this release from the programme source studies. Structural gate (scripts/verify.py) passed at packaging time. No behavioural benchmark has been run for this skill: no uplift is claimed, and none is refuted.",
  "scope_notes": [
   "No behavioural evidence: instruction text only.",
-  "Token/phrase rubric matches are not task correctness or general uplift.",
   "No universal model or harness performance claim."
- ],
- "sources_studied": [
-  "published security-research audits of the skills ecosystem (malicious-skill campaigns, registry scans)",
-  "agent-runtime CVE reporting",
-  "supply-chain security standards and scorecard practice",
-  "malicious-package dataset literature",
-  "component-scanning tooling"
- ],
- "pin_notes": "Public sources named at study time; principles paraphrased, no upstream text, prompts or code copied. Snapshot commits are pinned where a snapshot exists; otherwise no retrievable snapshot is available here."
+ ]
 }

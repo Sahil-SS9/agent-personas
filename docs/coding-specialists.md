@@ -38,4 +38,4 @@ The catalogue release is `0.2.1`. The coding personas and bundles use the same r
 
 The comparisons above were run against the preceding release. This update changes presentation labels and version metadata, not the engineering procedures.
 
-This is a portable adaptation of reviewed research candidates. Local paths, source intake tooling, private research files and hidden evaluations are not distributed. [Source synthesis](../skills/codebase-simplification-campaign/SOURCE-SYNTHESIS.md) records the selected methods and attribution.
+This is a portable adaptation of reviewed research candidates. Local paths, source intake tooling, private research files and hidden evaluations are not distributed. Research provenance is recorded privately by the author; [the scope note](../skills/codebase-simplification-campaign/SOURCE-SYNTHESIS.md) records how conflicting guidance is resolved.

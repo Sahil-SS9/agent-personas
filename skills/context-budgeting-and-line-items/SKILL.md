@@ -16,8 +16,8 @@ license: "MIT"
    history, retrieved material, scratchpads. A window without a budget is
    a bucket that fills with whatever arrived last.
 2. Budget below the ceiling: rated window sizes are not working sizes —
-   the cited Chroma study found degradation across its tested models and tasks,
-   not a universal threshold for every model. Reserve output and tool-growth
+   quality can degrade well before the rated limit, and the point varies by
+   model and task, so there is no universal threshold. Reserve output and tool-growth
    headroom, then measure task accuracy at several context lengths.
 3. Every addition re-prices the budget: a new tool or retrieval source
    usually costs more than its line item suggests. Re-measure the whole

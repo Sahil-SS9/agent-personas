@@ -1,4 +1,3 @@
-Source: https://martinfowler.com/bliki/ParallelChange.html
 Author: Danilo Sato
 Read scope: Full article; complement, not repeat, existing chapter-22 and Branch By Abstraction learning
 Captured: 2026-09-08T19:32:09.326129+00:00

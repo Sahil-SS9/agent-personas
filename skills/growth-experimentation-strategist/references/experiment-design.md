@@ -1,11 +1,7 @@
-Source ledger: ../../../sources.json
-Retrieved: 2026-09-07T18:04:01.820110+00:00
 Sharpens: growth-bottleneck-diagnosis, experiment-feasibility-review, search-acquisition-audit
 Rights: original distillation; source-specific restrictions retained in ledger; no full-book or source-code reproduction.
 
 # Experiment design and feasibility
-
-Sources: G01 and G04. G04 is the authorised Chapter 1 sample plus contents, not the complete book. This package uses selected Chapter 1 concepts; advanced chapters remain a deeper-ingestion opportunity.
 
 ## Design before numbers
 Name the hypothesis and decision. Define the randomisation unit and keep its assignment persistent. Choose an outcome that can be measured within the experiment yet plausibly supports the business's longer-term goal. Add harm guardrails. Record eligible exposure and exclusions before analysing results.

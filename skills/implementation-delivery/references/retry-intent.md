@@ -1,4 +1,3 @@
-Source: https://aws.amazon.com/builders-library/making-retries-safe-with-idempotent-APIs/
 Author: Malcolm Featonby
 Read scope: Full article prose, not linked articles or a book
 Captured: 2026-09-08T19:32:09.322374+00:00

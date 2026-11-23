@@ -4,7 +4,7 @@ Choose a persona for a dedicated role, a bundle for its member skills, or a focu
 
 ## New in 0.9.0
 
-Owner-directed improvements from a read-only study of ARTEX, Claude-BugHunter and diagram-design. Four new focused skills and ten improved members; no new persona. Paired diagnostic benchmark on one model (concept-presence rubric); see each evidence card. Not a sealed multi-model efficacy claim.
+Owner-directed improvements from a read-only study of three public projects (recorded privately). Four new focused skills and ten improved members; no new persona. Paired diagnostic benchmark on one model (concept-presence rubric); see each evidence card. Not a sealed multi-model efficacy claim.
 
 - New: [service-blueprinting](skills/service-blueprinting/SKILL.md) (UX Research), [summary-accuracy-checks](skills/summary-accuracy-checks/SKILL.md) (ML Eval Engineer), [critical-path-planning](skills/critical-path-planning/SKILL.md) (Project Strategist), [release-permission-review](skills/release-permission-review/SKILL.md) (DevOps/SRE, Risk Release Manager).
 - Improved: technical-diagramming (advice to delivery), c4-architecture-modelling (before/after topology delta), process-notation-selection (render/accessibility routing), workstream-orchestration (wrap-up reserve), release-quality-gates and test-evidence-integrity (requirement traceability), engagement-reporting-remediation (redacted evidence handoff), guardrail-benchmark-harness (permission-aware retrieval outcome), api-security-design (lifecycle/approval drift), hermaguard-candidate (three-consumer handoff).

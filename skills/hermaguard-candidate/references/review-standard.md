@@ -1,4 +1,3 @@
-Source: https://google.github.io/eng-practices/review/reviewer/standard.html
 Author: Google Engineering Practices
 Read scope: Full page only
 Captured: 2026-09-08T19:32:09.329326+00:00
