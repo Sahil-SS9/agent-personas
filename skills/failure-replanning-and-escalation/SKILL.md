@@ -17,10 +17,12 @@ license: "MIT"
    and say which.
 2. One narrow retry per failed node: the retry states what changed (scope,
    brief, tool access) — an identical re-dispatch is not a retry, it is a
-   rerun of a coin flip.
-3. Three attempts maximum per node, then escalate: partial results, what
-   failed, the failure evidence, and a recommended decision the owner can
-   take as-is.
+   rerun of a coin flip. A worker killed under the kill rule is NOT a failed
+   node: it is re-spawned narrower through its own disposition and never
+   counted in the retry list.
+3. Two attempts maximum per node (the initial attempt plus the one narrow
+   retry), then escalate: partial results, what failed, the failure
+   evidence, and a recommended decision the owner can take as-is.
 4. Re-plan the graph, do not restart it: completed nodes keep their results;
    only failed and dependent nodes re-point.
 5. No silent failure: every killed, failed or abandoned node appears in the
