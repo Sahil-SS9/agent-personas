@@ -17,14 +17,15 @@ license: "MIT"
    it, and say which. At most one narrowed re-spawn per worker per node.
 2. One attempt ledger per node: every dispatch of that node counts against
    the same ledger — the initial run, a killed worker's narrower re-spawn, a
-   narrow retry, and a verifier return. Two dispatches maximum per node.
+   narrow retry, and a verifier return. Three dispatches maximum per node
+   (the owner's standing limit).
 3. A narrow retry or a kill-rule re-spawn is the node's second dispatch and
    states what changed (scope, brief, tool access). An identical
    re-dispatch is not a retry, it is a rerun of a coin flip. The re-spawn is
    recorded as a re-spawn against the ledger, never as a free extra run.
 4. A verifier return with a flag is also a dispatch against the same
-   ledger: two failed dispatches by any combination of runtime failure,
-   overrun and verification return escalate the node.
+   ledger: the node escalates when its third dispatch fails, by any
+   combination of runtime failure, overrun and verification return.
 5. Re-plan the graph, do not restart it: completed nodes keep their results;
    only failed and dependent nodes re-point.
 6. No silent failure: every killed, failed or abandoned node appears in the
@@ -34,7 +35,7 @@ license: "MIT"
    means the decomposition or the brief is wrong; change the graph.
 
 ## Stop conditions
-- Never dispatch a node a third time for any reason.
+- Never dispatch a node a fourth time for any reason.
 - Never treat a kill-rule re-spawn as outside the attempt ledger.
 - Never leave a failed node unreported.
 - Never restart completed work because one node failed.

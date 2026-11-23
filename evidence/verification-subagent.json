@@ -1,7 +1,7 @@
 {
  "skill": "verification-subagent",
  "release_version": "0.10.0-draft",
- "release_skill_sha256": "66d7e055044d68ee158549ecabfe2fce2e1d2445fa6c7b261b04d2911c8c1511",
+ "release_skill_sha256": "fd7d7c914435a22db4f2053cd86c3c3340ce65d068602f84603ffdf22788eb30",
  "source_skill_sha256": null,
  "author_credit": "Sahil Saghir",
  "provenance": "authored-for-release",
