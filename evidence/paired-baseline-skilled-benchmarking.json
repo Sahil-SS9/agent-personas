@@ -1,7 +1,7 @@
 {
  "skill": "paired-baseline-skilled-benchmarking",
  "release_version": "0.10.0-draft",
- "release_skill_sha256": "7ae24c61ba2bd9d192ee96b9a08ca4c8588cf810d8e342fe57101ded74e16a1f",
+ "release_skill_sha256": "5d7f78ac9a47f5efdddbd9f69172c664a75449c66b02a00a625d06425e934c08",
  "source_skill_sha256": null,
  "author_credit": "Sahil Saghir",
  "provenance": "authored-for-release",
