@@ -15,6 +15,5 @@
     "judge-calibration-and-tripwires",
     "skill-trust-gate-design"
   ],
-  "persona": "ml-eval-engineer",
-  "status": "draft"
+  "persona": "ml-eval-engineer"
 }

@@ -44,5 +44,6 @@ license: "MIT"
   recorded acceptance.
 
 ## Escalation
-- Artifacts that fail verification go back once with the flag; a second
-  failure escalates with the artifact, the flag and the criteria.
+- Artifacts that fail verification go back with the flag while the ledger
+  has an attempt left; when none remains, escalate with the artifact, the
+  flag and the criteria.

@@ -19,7 +19,8 @@ license: "MIT"
    the same ledger — the initial run, a killed worker's narrower re-spawn, a
    narrow retry, and a verifier return. Three dispatches maximum per node
    (the owner's standing limit).
-3. A narrow retry or a kill-rule re-spawn is the node's second dispatch and
+3. A narrow retry or a kill-rule re-spawn is a further dispatch against the
+   ledger — the second, or the third when a re-spawn already happened — and
    states what changed (scope, brief, tool access). An identical
    re-dispatch is not a retry, it is a rerun of a coin flip. The re-spawn is
    recorded as a re-spawn against the ledger, never as a free extra run.
