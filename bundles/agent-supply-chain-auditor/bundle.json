@@ -1,12 +1,16 @@
 {
   "name": "agent-supply-chain-auditor",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "members": [
-    "skill-and-mcp-manifest-vetting",
-    "payload-and-injection-analysis",
-    "sbom-and-dependency-provenance",
-    "update-diff-revetting",
-    "install-gate-and-quarantine-records"
+    "component-intake-and-authenticity",
+    "prescan-and-inventory",
+    "instruction-layer-review",
+    "code-and-capability-review",
+    "dependency-and-provenance-review",
+    "sandbox-behaviour-test",
+    "risk-verdict-and-report",
+    "install-gate-and-revocation",
+    "update-and-drift-revetting"
   ],
   "persona": "agent-supply-chain-auditor",
   "status": "draft"

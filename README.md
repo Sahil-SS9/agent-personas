@@ -4,7 +4,7 @@
 
 ### Connect your agents to the skills their job needs.
 
-A catalogue of **58 personas, 59 specialised skill bundles and 403 reusable skills** for building dedicated agents, sub-agents and bots. Choose a role, load its methods, and use the agent platform you already have.
+A catalogue of **58 personas, 59 specialised skill bundles and 407 reusable skills** for building dedicated agents, sub-agents and bots. Choose a role, load its methods, and use the agent platform you already have.
 
 [Choose a persona](#choose-your-first-persona) · [Try it](#try-a-persona-in-a-few-minutes) · [Browse all roles and bundles](#browse-all-personas-and-skill-bundles) · [Platform compatibility](docs/compatibility.md) · [Evidence](docs/evidence.md)
 
@@ -338,7 +338,7 @@ Conditional tool adapters: ghidra-workflow-adapter, frida-tracing-adapter, angr-
 
 #### agent-supply-chain-auditor
 
-[skill-and-mcp-manifest-vetting](skills/skill-and-mcp-manifest-vetting/SKILL.md) · [payload-and-injection-analysis](skills/payload-and-injection-analysis/SKILL.md) · [sbom-and-dependency-provenance](skills/sbom-and-dependency-provenance/SKILL.md) · [update-diff-revetting](skills/update-diff-revetting/SKILL.md) · [install-gate-and-quarantine-records](skills/install-gate-and-quarantine-records/SKILL.md)
+[component-intake-and-authenticity](skills/component-intake-and-authenticity/SKILL.md) · [prescan-and-inventory](skills/prescan-and-inventory/SKILL.md) · [instruction-layer-review](skills/instruction-layer-review/SKILL.md) · [code-and-capability-review](skills/code-and-capability-review/SKILL.md) · [dependency-and-provenance-review](skills/dependency-and-provenance-review/SKILL.md) · [sandbox-behaviour-test](skills/sandbox-behaviour-test/SKILL.md) · [risk-verdict-and-report](skills/risk-verdict-and-report/SKILL.md) · [install-gate-and-revocation](skills/install-gate-and-revocation/SKILL.md) · [update-and-drift-revetting](skills/update-and-drift-revetting/SKILL.md)
 
 #### agent-orchestrator
 

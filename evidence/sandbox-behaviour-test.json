@@ -1,0 +1,16 @@
+{
+ "skill": "sandbox-behaviour-test",
+ "release_version": "0.10.0-draft",
+ "release_skill_sha256": "cb20e5811e4e7cc46f196b241d1ed672a218a911282a8d31e1d7ad1ee2107481",
+ "source_skill_sha256": null,
+ "author_credit": "Sahil Saghir",
+ "provenance": "authored-for-release",
+ "provenance_note": "Sources studied are recorded privately by the author; no third-party text, prompts or code are reproduced.",
+ "behavioural_evidence": "persona-level held-out test; modest gain on a cheaper model, no meaningful gain on a strong model",
+ "validation": "Persona-level held-out test (23/11/2026): 25 sealed inert packages written independently of the skills; real agent with native skill loading; 3 trials per package; blind reading of unquoted findings. Cheaper model (Qwen3.8-Flash): planted issues identified 100% with the persona vs 94% without (the plain agent skipped one package in 3 of 3 trials); verdicts 75/75 vs 73/75 when 'approve with conditions' counts as correct for safe packages that could not be sandbox-tested; about 2x the time. Strong model (glm-5.3): no meaningful difference in detection (100% vs about 98%); about 3x the time. Structural gate (scripts/verify.py) passed at packaging time.",
+ "scope_notes": [
+  "Measured as the full persona, not this skill alone.",
+  "Two models, one harness; no universal model or harness performance claim.",
+  "Verdicts are deliberately cautious: no sandbox test means no full approval."
+ ]
+}

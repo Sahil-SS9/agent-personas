@@ -14,7 +14,7 @@ Owner-directed improvements from a read-only study of three public projects (rec
 | [accessibility-engineer](personas/accessibility-engineer/PERSONA.md) | Audit accessibility and verify keyboard and screen-reader flows. | 6 |
 | [adversarial-code-reviewer](personas/adversarial-code-reviewer/PERSONA.md) | Find reproducible correctness and security defects without editing the reviewed code. | 3 |
 | [agent-orchestrator](personas/agent-orchestrator/PERSONA.md) | Turn a goal into a routed, budgeted, verified multi-agent plan and merge the results honestly: decompose, route, scale to complexity, surface disagreement, re-plan on failure with evidence. | 12 |
-| [agent-supply-chain-auditor](personas/agent-supply-chain-auditor/PERSONA.md) | Vet third-party agent components before install and on every update: manifests, payloads, BOMs, diffs and recorded gates. | 5 |
+| [agent-supply-chain-auditor](personas/agent-supply-chain-auditor/PERSONA.md) | Vet third-party agent components before install and on every update: an ordered 8-step procedure with pre-scan, sandbox and gate-record scripts, plus drift re-vetting. | 5 |
 | [agent-debugger](personas/agent-debugger/PERSONA.md) | Diagnose why a live agent run misbehaved: classify the failure, replay the trace, fix one seam, verify the fix. | 6 |
 | [ai-guardrails-engineer](personas/ai-guardrails-engineer/PERSONA.md) | Ensure the correct guardrails are identified, put in place, followed and maintained. | 11 |
 | [api-contract-designer](personas/api-contract-designer/PERSONA.md) | Define APIs, compatibility rules and error contracts. | 6 |
@@ -76,7 +76,7 @@ Owner-directed improvements from a read-only study of three public projects (rec
 | [accessibility-engineer](bundles/accessibility-engineer/bundle.json) | 6 |
 | [adversarial-code-reviewer](bundles/adversarial-code-reviewer/bundle.json) | 3 |
 | [agent-orchestrator](bundles/agent-orchestrator/bundle.json) | 12 |
-| [agent-supply-chain-auditor](bundles/agent-supply-chain-auditor/bundle.json) | 5 |
+| [agent-supply-chain-auditor](bundles/agent-supply-chain-auditor/bundle.json) | 9 |
 | [agent-debugger](bundles/agent-debugger/bundle.json) | 6 |
 | [ai-guardrails-engineer](bundles/ai-guardrails-engineer/bundle.json) | 11 |
 | [api-contract-designer](bundles/api-contract-designer/bundle.json) | 6 |
@@ -647,7 +647,7 @@ Owner-directed improvements from a read-only study of three public projects (rec
 - [rust-rewrite-and-porting-specialist](personas/rust-rewrite-and-porting-specialist/PERSONA.md) · [bundle](bundles/rust-rewrite-and-porting-specialist/bundle.json) (8 skills)
 - [ml-eval-engineer](personas/ml-eval-engineer/PERSONA.md) · [bundle](bundles/ml-eval-engineer/bundle.json) (11 skills: 7 retained, 4 new)
 - [agent-debugger](personas/agent-debugger/PERSONA.md) · [bundle](bundles/agent-debugger/bundle.json) (6 skills)
-- [agent-supply-chain-auditor](personas/agent-supply-chain-auditor/PERSONA.md) · [bundle](bundles/agent-supply-chain-auditor/bundle.json) (5 skills)
+- [agent-supply-chain-auditor](personas/agent-supply-chain-auditor/PERSONA.md) · [bundle](bundles/agent-supply-chain-auditor/bundle.json) (9 skills)
 - [context-and-memory-engineer](personas/context-and-memory-engineer/PERSONA.md) · [bundle](bundles/context-and-memory-engineer/bundle.json) (6 skills)
 - [llm-inference-optimisation-engineer](personas/llm-inference-optimisation-engineer/PERSONA.md) · [bundle](bundles/llm-inference-optimisation-engineer/bundle.json) (6 skills)
 - [context-and-token-budgeting-across-workers](skills/context-and-token-budgeting-across-workers/SKILL.md) · [evidence](evidence/context-and-token-budgeting-across-workers.json)
