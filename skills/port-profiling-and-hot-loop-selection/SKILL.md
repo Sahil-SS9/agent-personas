@@ -31,7 +31,7 @@ license: "MIT"
    estimate is a hypothesis the final bench confirms or kills.
 6. Compiled originals (Go, Java): the default is to stop, because the
    per-item work is already fast; a batch port is justified only when the
-   measured plan from step 5 shows the win by core count, and that plan is
+   plan from step 5 projects the win by core count, and that plan is
    recorded before the port starts.
 
 ## Stop conditions

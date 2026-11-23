@@ -12,9 +12,8 @@ license: "MIT"
 
 ## Instructions
 
-1. One change, two arms: the SAME frozen case set runs once without the
-   capability (baseline) and once with it (skilled). Cases are written and
-   frozen before either arm runs; nothing is edited between arms.
+1. Freeze the case set before either arm runs: cases are written and frozen,
+   and nothing is edited between arms. The arms are defined in step 6.
 2. Score with typed or outcome verifiers, qualified before use: every
    check must accept the reference answer and a second, semantically
    different good answer, and must reject unsafe, keyword-only and empty
@@ -31,11 +30,10 @@ license: "MIT"
 5. Repeat the non-ceiling cases: one trial per arm is a sample, not a
    result; report per-arm counts across repeats and treat single reversals
    as sampling variance until reproduced.
-6. One change, two arms: the SAME frozen case set runs without the
-   capability (baseline) and with it (skilled), and with the comparator
-   where one exists. Cases are written and frozen before either arm runs;
-   nothing is edited between arms. Score only model-visible final answers,
-   never reasoning traces, and never let transport errors count as scores.
+6. Run the matrix: the same frozen case set runs without the capability
+   (baseline), with it (skilled), and with the comparator where one exists.
+   Score only model-visible final answers, never reasoning traces, and
+   never let transport errors count as scores.
 7. One turn, no tools, isolated context per arm unless the capability itself
    is multi-turn — then both arms run the same multi-turn shape, and the
    harness difference is only the capability. Isolation means a scoped

@@ -51,6 +51,7 @@
     "to_supply_chain": "malicious or unsafe component findings -> agent-supply-chain-auditor",
     "to_prompt_engineer": "capability regression findings feed prompt-agent-engineer's eval gates"
   },
-  "status": "released",
+  "status": "draft",
+  "deprecation_note": "0.4.0 adds an unbenchmarked agent-and-skill evaluation member group. The last released contract was 0.3.0; this upgrade stays draft until its new members are behaviourally benchmarked.",
   "activation": "Load PERSONA.md explicitly and check that its member skills are present. Host permissions apply."
 }

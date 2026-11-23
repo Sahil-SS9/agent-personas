@@ -34,8 +34,8 @@ license: "MIT"
    Repairs go back through the worker with the flag attached.
 6. A verifier return is a dispatch of the node under the shared attempt
    ledger in failure-replanning-and-escalation: the flag goes back once,
-   and a second failure escalates with the artifact, the flag and the
-   criteria.
+   if an attempt remains, and a second failure escalates with the
+   artifact, the flag and the criteria.
 
 ## Stop conditions
 - Never write success criteria after seeing the artifact.

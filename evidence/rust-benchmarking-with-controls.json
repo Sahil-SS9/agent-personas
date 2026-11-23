@@ -5,7 +5,6 @@
  "source_skill_sha256": null,
  "author_credit": "Sahil Saghir",
  "provenance": "authored-for-release",
- "source_study": "docs/research/coding-specialists/BUILD-CONTRACT.md",
  "source_study_group": "rust",
  "behavioural_evidence": "none",
  "validation": "Authored for this release from the programme source studies. Structural gate (scripts/verify.py) passed at packaging time. No behavioural benchmark has been run for this skill: no uplift is claimed, and none is refuted.",
@@ -13,5 +12,16 @@
   "No behavioural evidence: instruction text only.",
   "Token/phrase rubric matches are not task correctness or general uplift.",
   "No universal model or harness performance claim."
- ]
+ ],
+ "sources_studied": [
+  "rust-anything (MIT) recorded-behaviour porting discipline",
+  "craft-anything",
+  "Rust API guidelines",
+  "clippy",
+  "cargo-semver-checks",
+  "Miri",
+  "criterion",
+  "production-port case studies (Cloudflare Pingora, Discord, Astral uv/Ruff)"
+ ],
+ "pin_notes": "Public sources named at study time; principles paraphrased, no upstream text, prompts or code copied. Snapshot commits are pinned where a snapshot exists; otherwise no retrievable snapshot is available here."
 }

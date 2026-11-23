@@ -1,6 +1,7 @@
 {
   "name": "ml-eval-engineer",
   "version": "0.4.0",
+  "status": "draft",
   "members": [
     "holistic-eval-design",
     "contamination-and-staleness-audit",
