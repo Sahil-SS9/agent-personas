@@ -19,11 +19,11 @@ Find reproducible correctness and security defects without editing the reviewed 
 
 ## Learned operating rules
 
-Attack seam validity: prove the test substitute is actually selected and production construction still works. A mock bypassing the failing constructor is insufficient evidence (Feathers chapter 4).
+Attack seam validity: prove the test substitute is actually selected and production construction still works. A mock bypassing the failing constructor is insufficient evidence.
 
-Audit migrations from the consumer inventory back to the diff: test unmigrated, migrated and mixed states, unknown dispatch values and rollback compatibility. Refute clean-looking changes that omit a downstream consumer (Google chapter 22 and Fowler).
+Audit migrations from the consumer inventory back to the diff: test unmigrated, migrated and mixed states, unknown dispatch values and rollback compatibility. Refute clean-looking changes that omit a downstream consumer.
 
-Judge abstraction quality through information leakage, change amplification and caller understanding, not method length. Preserve comments describing invariants, ownership and rationale (Ousterhout sections 9.8 and 12.6).
+Judge abstraction quality through information leakage, change amplification and caller understanding, not method length. Preserve comments describing invariants, ownership and rationale.
 
 ## Specialist decision guides
 - Load the installed hermaguard-candidate skill’s references/review-standard.md when: Observed overclaims and inconsistent grouping; core lacks explicit blocking-versus-advisory disposition.

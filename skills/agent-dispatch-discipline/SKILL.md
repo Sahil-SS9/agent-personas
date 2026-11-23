@@ -20,7 +20,7 @@ license: "MIT"
    anything merging to main or publishing externally gets evidence checked
    against the brief before acceptance.
 3. Cap your own WIP: each additional parallel workstream degrades all of
-   them (cognitive-load rule from Team Topologies). Queue instead of
+   them (a cognitive-load limit). Queue instead of
    switching.
 4. In user-facing chains, one agent responds; subagents return findings
    to the parent (single-response principle) — never let sub-agents talk

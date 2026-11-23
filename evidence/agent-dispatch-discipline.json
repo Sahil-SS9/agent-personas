@@ -33,6 +33,7 @@
   "scope_notes": [
     "Historical results apply to private source instructions, not this changed public release.",
     "Token/phrase rubric matches are not task correctness or general uplift.",
-    "No universal model or harness performance claim."
+    "No universal model or harness performance claim.",
+    "23/11/2026: author citations removed from the instruction text (no method change). The results above apply to the earlier bytes; this skill needs a fresh test before any current-version claim."
   ]
 }

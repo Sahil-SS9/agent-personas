@@ -27,8 +27,8 @@ Read [source synthesis](SOURCE-SYNTHESIS.md) when assessing origin, conflicting 
 
 ## Source-grounded decision rules
 
-Legacy seams: name the replaceable dependency and its enabling point before changing legacy code. Prove the test activates that seam; retain a real-boundary integration test so a passing substitute cannot hide broken production wiring (Feathers, chapter 4).
+Legacy seams: name the replaceable dependency and its enabling point before changing legacy code. Prove the test activates that seam; retain a real-boundary integration test so a passing substitute cannot hide broken production wiring.
 
-Design two plausible interfaces before a consequential extraction. Prefer the simplest interface covering current needs without leaking UI or vendor policy into the mechanism. Reject speculative options and parameter-heavy generic frameworks (Ousterhout, chapter 6 and 21).
+Design two plausible interfaces before a consequential extraction. Prefer the simplest interface covering current needs without leaking UI or vendor policy into the mechanism. Reject speculative options and parameter-heavy generic frameworks.
 
 For dependency upgrades, freeze old/new versions and exercise downstream runtime, error and serialization contracts, not installation alone. The wiki motivates this negative scenario; no benchmark success percentage is inherited.

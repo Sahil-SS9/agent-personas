@@ -39,12 +39,12 @@ Read [source synthesis](SOURCE-SYNTHESIS.md) when assessing origin, conflicting 
 
 ## Source-grounded decision rules
 
-Separate mechanism, specialised action and policy when they have different change reasons. A god-file split is successful only if callers need less knowledge and dependencies decrease; never extract solely to meet a function-length threshold (Ousterhout, chapters 6 and section 9.8).
+Separate mechanism, specialised action and policy when they have different change reasons. A god-file split is successful only if callers need less knowledge and dependencies decrease; never extract solely to meet a function-length threshold.
 
-Reduce special cases through representations only after proving distinctions are irrelevant: empty and absent are not interchangeable when callers observe them. Compare explicit branches, data dispatch and polymorphism; preserve unknown-type defaults and error semantics (Ousterhout chapter 6; Fowler catalogue).
+Reduce special cases through representations only after proving distinctions are irrelevant: empty and absent are not interchangeable when callers observe them. Compare explicit branches, data dispatch and polymorphism; preserve unknown-type defaults and error semantics.
 
-Migration ledger: enumerate every consumer, compatibility state, owner, verification and retirement condition. Use independently green shards, prevent new old-API uses, and do not call the migration finished while consumers or temporary adapters remain (Software Engineering at Google, chapter 22).
+Migration ledger: enumerate every consumer, compatibility state, owner, verification and retirement condition. Use independently green shards, prevent new old-API uses, and do not call the migration finished while consumers or temporary adapters remain.
 
-Branch by abstraction: place current behaviour behind a narrow boundary, migrate callers, introduce and compare the replacement, switch only with authority, then retire old implementation and temporary boundary when no longer needed. Test mixed-version states; do not shadow-write side effects (Fowler, Branch By Abstraction; side-effect prohibition is our safety synthesis).
+Branch by abstraction: place current behaviour behind a narrow boundary, migrate callers, introduce and compare the replacement, switch only with authority, then retire old implementation and temporary boundary when no longer needed. Test mixed-version states; do not shadow-write side effects (the side-effect prohibition is our safety rule).
 
 Freeze the dependency index revision and confirm runtime registration, configuration and dynamic callers separately. Treat graph absence as an investigation lead, never proof of dead code (wiki codeindex plus upstream README).

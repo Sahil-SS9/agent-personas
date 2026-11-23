@@ -23,5 +23,8 @@
     "agree": 36,
     "conflict": 0,
     "note": "P4 wording-only out-of-scope rule added and behaviourally re-verified"
-  }
+  },
+  "scope_notes": [
+    "23/11/2026: author citations removed from the instruction text (no method change). The results above apply to the earlier bytes; this skill needs a fresh test before any current-version claim."
+  ]
 }

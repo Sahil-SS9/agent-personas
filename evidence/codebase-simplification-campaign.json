@@ -8,6 +8,7 @@
   "validation": "Validated through the private scenario-benchmark pipeline; verify behaviour in your own harness with the included smoke tooling.",
   "scope_notes": [
     "No independent review, multi-model or native cross-harness certification.",
-    "Source learning is selective; no whole-book certification."
+    "Source learning is selective; no whole-book certification.",
+    "23/11/2026: author citations removed from the instruction text (no method change). The results above apply to the earlier bytes; this skill needs a fresh test before any current-version claim."
   ]
 }

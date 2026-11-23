@@ -15,15 +15,14 @@ license: "MIT"
 1. Make the presenter restate the problem before the solution; designs that
    skip problem statements get sent back.
 2. Force trade-offs explicit for every claimed benefit: "what does this make
-   worse?" One-sided benefits are red flags (Ousterhout: every structure has
-   costs).
+   worse?" One-sided benefits are red flags.
 3. Walk failure modes before happy paths: what breaks under load, partial
    failure, rollback, schema change, key-person loss.
-4. Ask the Release It questions for every external dependency: what
+4. Ask the stability questions for every external dependency: what
    happens when it HANGS (not just fails)? timeout/bulkhead/circuit
    breaker/load-shed named or the design isn't done.
 5. Probe data-model consequences: storage engine behaviour, consistency
-   model under replication, migration path (Kleppmann lens).
+   model under replication, migration path.
 5. Record each resolved question as an ADR candidate (context -> decision ->
    consequences); park unresolved ones visibly with owners and deadlines.
 6. End with a verdict menu: proceed / proceed with changes / reshape — never

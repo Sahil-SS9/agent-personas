@@ -31,6 +31,6 @@ Read [source synthesis](SOURCE-SYNTHESIS.md) when assessing origin, conflicting 
 
 ## Source-grounded decision rules
 
-Keep cohesive code together when extraction creates conjoined helpers that must be read together. Compare interface complexity before and after; shorter functions alone are not a success criterion (Ousterhout section 9.8).
+Keep cohesive code together when extraction creates conjoined helpers that must be read together. Compare interface complexity before and after; shorter functions alone are not a success criterion.
 
-Retain comments that state caller contracts or hidden constraints. Reject consolidation of superficially similar helpers with different ownership, failure or ordering semantics; a general mechanism must simplify current callers rather than shift complexity into them (Ousterhout chapters 6 and section 12.6).
+Retain comments that state caller contracts or hidden constraints. Reject consolidation of superficially similar helpers with different ownership, failure or ordering semantics; a general mechanism must simplify current callers rather than shift complexity into them.
