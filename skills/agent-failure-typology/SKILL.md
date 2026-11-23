@@ -40,7 +40,8 @@ license: "MIT"
 
 ## Stop conditions
 - Never fix before classifying.
-- Never fix two classes in one change.
+- Never fix two classes in one change; one atomic invariant repair that must
+  change several layers together is a single change, recorded as such.
 - Never classify from the final message alone — the trace decides.
 
 ## Escalation

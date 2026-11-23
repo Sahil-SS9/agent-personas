@@ -23,9 +23,12 @@ license: "MIT"
    prompt/brief boundary) as a substitution point.
 4. Run review gates between phases: output of each stream is verified
    against its brief before dependent streams consume it (two-stage pattern).
-4. Steer, don't restart: when a stream drifts, course-correct mid-run with
-   a specific message; full re-dispatch is the last resort.
-5. Status = evidence: report per stream as done/in-progress/blocked WITH the
+5. Steer drift, kill overrun: when a stream drifts while still running at
+   normal speed, course-correct mid-run with a specific message; full
+   re-dispatch is the last resort. A worker past roughly twice its siblings'
+   median runtime is overrunning, not drifting — the kill rule in
+   failure-replanning-and-escalation governs it, not steering.
+6. Status = evidence: report per stream as done/in-progress/blocked WITH the
    artifact or blocker attached; no vibe-based percentages.
 
 ## Stop conditions

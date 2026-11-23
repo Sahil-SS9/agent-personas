@@ -48,9 +48,9 @@
     "ml_eval_to_data": "eval dataset engineering -> Data Engineer",
     "ml_eval_to_owner": "model selection decision -> owner",
     "ml_eval_to_coding": "benchmark infrastructure build -> coding personas",
-    "to_supply_chain": "malicious or unsafe component findings -> the supply-chain security persona",
+    "to_supply_chain": "malicious or unsafe component findings -> agent-supply-chain-auditor",
     "to_prompt_engineer": "capability regression findings feed prompt-agent-engineer's eval gates"
   },
-  "status": "draft",
+  "status": "released",
   "activation": "Load PERSONA.md explicitly and check that its member skills are present. Host permissions apply."
 }

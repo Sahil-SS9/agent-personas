@@ -15,10 +15,12 @@ license: "MIT"
 1. Facts are time-bounded: store when a fact became true and (when known)
    when it stopped being true. A fact without time bounds answers today's
    question with whatever was last written.
-2. Supersede, don't duplicate: a new fact that contradicts an old one
-   supersedes it — the old value stays in history with its validity window
-   closed, and retrieval serves the current truth. Duplicate contradictory
-   facts co-existing is the failure mode, not the design.
+2. Supersede only on evidence: a new fact that contradicts an old one
+   supersedes it only after the subject, predicate, scope and authority
+   checks in step 4 — the old value stays in history with its validity
+   window closed, and retrieval serves the current truth. When the checks
+   cannot settle it, store the pair as an explicitly marked conflict (see
+   step 3), never as two equally live facts and never as newest-wins.
 3. When the resolution is uncertain, surface it: state both values with
    their times and sources rather than silently picking one. A wrong
    confident answer is worse than an honest conflict.

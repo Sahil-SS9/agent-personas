@@ -18,7 +18,7 @@ license: "MIT"
    result ships with every judge-based number.
 2. Satisfaction is not success: user-simulator judges rated conversations
    "satisfied" while a majority of those conversations FAILED the task
-   (published, reproducible finding). Subjective ratings carry essentially
+   (reported finding; not reproduced here). Subjective ratings carry essentially
    no task-success information; never promote on satisfaction alone.
 3. Expect a ceiling without ground truth: across frontier scales, ungrounded
    judges converge to a narrow band on hard cases — model scale alone does

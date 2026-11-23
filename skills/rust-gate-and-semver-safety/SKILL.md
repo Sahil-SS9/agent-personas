@@ -14,7 +14,8 @@ license: "MIT"
 
 1. The gate is fixed and non-negotiable: formatting, clippy with warnings
    denied, the full test suite, an unsafe audit, and nothing unported left
-   behind. A port passes the gate or it is not done.
+   behind without a recorded reason. A port passes the gate or it is not
+   done.
 2. Error paths are part of behaviour: the original's every error path gets a
    recorded failing case, and the port never panics where the original
    returned an error. Only genuinely infallible sites are marked as such —

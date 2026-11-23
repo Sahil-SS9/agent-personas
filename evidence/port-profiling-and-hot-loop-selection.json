@@ -1,0 +1,17 @@
+{
+ "skill": "port-profiling-and-hot-loop-selection",
+ "release_version": "0.10.0-draft",
+ "release_skill_sha256": "461d9368352850b8b3e8fe86a7983bc719efa2823fb9ce0e2918ed2b496ccc92",
+ "source_skill_sha256": null,
+ "author_credit": "Sahil Saghir",
+ "provenance": "authored-for-release",
+ "source_study": "docs/research/coding-specialists/BUILD-CONTRACT.md",
+ "source_study_group": "rust",
+ "behavioural_evidence": "none",
+ "validation": "Authored for this release from the programme source studies. Structural gate (scripts/verify.py) passed at packaging time. No behavioural benchmark has been run for this skill: no uplift is claimed, and none is refuted.",
+ "scope_notes": [
+  "No behavioural evidence: instruction text only.",
+  "Token/phrase rubric matches are not task correctness or general uplift.",
+  "No universal model or harness performance claim."
+ ]
+}

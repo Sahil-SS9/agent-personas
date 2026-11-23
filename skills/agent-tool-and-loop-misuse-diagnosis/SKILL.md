@@ -33,7 +33,8 @@ license: "MIT"
    escalation path belong to the loop's contract. A loop without a budget
    is a defect at design time, whatever the model does with it.
 4. One fix per diagnosis: change the schema OR the selection surface OR the
-   loop condition — never two. Then replay the failing case before
+   loop condition — never two, unless one atomic invariant repair needs the
+   coordinated change; record that as a single change. Then replay the failing case before
    believing the fix.
 5. Cost is a symptom carrier: spend spiking with no artifact progress is
    the classic loop signature; token spend per step against artifacts

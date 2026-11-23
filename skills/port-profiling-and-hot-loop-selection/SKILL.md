@@ -17,7 +17,9 @@ license: "MIT"
    functions by inclusive time, their callers, and which loops batch well.
 2. Check what the hot code already is: code that is already compiled or
    JIT-shaped (Cython, numba, JAX, long-running JIT hot paths) gains little
-   from a port — say so and stop there.
+   from a per-item port — say so and stop there, unless the batch plan in
+   step 3 shows the win; then the port is the batch, judged on measured
+   throughput.
 3. Prefer the loop over the function: a Rust function called once per item
    pays the bridge once per item and routinely LOSES to a JIT. What wins is
    moving the whole loop — items cross once, all the work stays in Rust, and
@@ -27,8 +29,10 @@ license: "MIT"
 5. State the expected win before porting: from the profile (share of runtime
    the candidate owns) and the batch plan (items per call, cores). The
    estimate is a hypothesis the final bench confirms or kills.
-6. Compiled originals (Go, Java) gain less: the per-item work is already
-   fast, so the batch wins by core count, not per-item speed.
+6. Compiled originals (Go, Java): the default is to stop, because the
+   per-item work is already fast; a batch port is justified only when the
+   measured plan from step 5 shows the win by core count, and that plan is
+   recorded before the port starts.
 
 ## Stop conditions
 - Never start a port without a profile of the real workload.

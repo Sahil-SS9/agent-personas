@@ -33,9 +33,13 @@ license: "MIT"
 6. Keep it informative yet tight: every block in the window earns its place
    by supporting the current task; the test is signal density, not volume.
 
-## Stop conditions
+## Preferences
 - Prefer measured hybrid retrieval when small stable upfront context is useful.
-- Never let re-fetchable tool results sit uncleared once consumed.
+
+## Stop conditions
+- Never let re-fetchable tool results sit uncleared once consumed, except where
+  the provider's prefix reuse makes retained results cheaper — then keep the
+  smallest evidence slice that preserves them.
 - Never let exploration noise ride in the main window.
 
 ## Escalation

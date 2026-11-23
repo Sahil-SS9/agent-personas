@@ -28,7 +28,9 @@ license: "MIT"
    within stated scope (re-verify the changed behaviour), behaviour change
    beyond stated scope or new capability (full re-vet at the new risk tier).
 6. Record the decision: the fleet runs the vetted version until the re-vet
-   passes; auto-update never outruns the gate.
+   passes; auto-update never outruns the gate. A failed re-vet recommends
+   pinning the last vetted version — the owner or the host applies the pin,
+   this skill only records it.
 
 ## Stop conditions
 - Never auto-adopt an update past the gate.

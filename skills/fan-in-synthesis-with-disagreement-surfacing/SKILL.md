@@ -26,8 +26,10 @@ license: "MIT"
    raw output contained.
 5. Answer completeness honestly: if facets of the goal have no worker
    result, they are listed as unaddressed, not smoothed over.
-6. The merged artifact carries its own shape: an answer first, the evidence
-   map second, the open questions third.
+6. The merged artifact carries its own shape — answer first, the evidence
+   map second, the open questions third — unless the requester fixes the
+   output format: then the requested shape wins and the evidence map and
+   open questions move inside it.
 
 ## Stop conditions
 - Never present a single-worker claim as established fact.

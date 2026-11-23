@@ -1,0 +1,17 @@
+{
+ "skill": "pressure-aware-inference-policy",
+ "release_version": "0.10.0-draft",
+ "release_skill_sha256": "7ad9448874469a2e4673c4cf33ac586b768fada7e34c07c8be6ef345782d2e9e",
+ "source_skill_sha256": null,
+ "author_credit": "Sahil Saghir",
+ "provenance": "authored-for-release",
+ "source_study": "docs/research/persona-build-programme-2026-11-22/source-snapshots/implementation-files.json",
+ "source_study_group": "inference",
+ "behavioural_evidence": "none",
+ "validation": "Authored for this release from the programme source studies. Structural gate (scripts/verify.py) passed at packaging time. No behavioural benchmark has been run for this skill: no uplift is claimed, and none is refuted.",
+ "scope_notes": [
+  "No behavioural evidence: instruction text only.",
+  "Token/phrase rubric matches are not task correctness or general uplift.",
+  "No universal model or harness performance claim."
+ ]
+}

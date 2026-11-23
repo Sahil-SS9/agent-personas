@@ -4,7 +4,7 @@
 
 ### Connect your agents to the skills their job needs.
 
-A catalogue of **57 personas, 58 specialised skill bundles and 403 reusable skills** for building dedicated agents, sub-agents and bots. Choose a role, load its methods, and use the agent platform you already have.
+A catalogue of **58 personas, 59 specialised skill bundles and 403 reusable skills** for building dedicated agents, sub-agents and bots. Choose a role, load its methods, and use the agent platform you already have.
 
 [Choose a persona](#choose-your-first-persona) · [Try it](#try-a-persona-in-a-few-minutes) · [Browse all roles and bundles](#browse-all-personas-and-skill-bundles) · [Platform compatibility](docs/compatibility.md) · [Evidence](docs/evidence.md)
 
@@ -67,10 +67,10 @@ Start with the outcome you need. The coding roles sit alongside research, design
 | Turn interviews and documents into L1 to L4 process maps (BPMN, Lucidchart) | [Business Process Analyst](personas/business-process-analyst/PERSONA.md) |
 | Design a scalable, reliable system or AI feature end to end | [System Designer](personas/system-designer/PERSONA.md) |
 | Connect systems and verify their boundaries | [Integration Specialist](personas/integration-specialist/PERSONA.md) |
-| Coordinate an agent team | [Agent Orchestrator](personas/agent-orchestrator/PERSONA.md) |
-| Diagnose why an agent run went wrong | [Agent Debugger](personas/agent-debugger/PERSONA.md) |
-| Vet a third-party skill or MCP server before installing it | [Agent Supply-Chain Auditor](personas/agent-supply-chain-auditor/PERSONA.md) |
-| Engineer what an agent remembers across sessions | [Context and Memory Engineer](personas/context-and-memory-engineer/PERSONA.md) |
+| Coordinate an agent team | [Agent Orchestrator (draft)](personas/agent-orchestrator/PERSONA.md) |
+| Diagnose why an agent run went wrong | [Agent Debugger (draft)](personas/agent-debugger/PERSONA.md) |
+| Vet a third-party skill or MCP server before installing it | [Agent Supply-Chain Auditor (draft)](personas/agent-supply-chain-auditor/PERSONA.md) |
+| Engineer what an agent remembers across sessions | [Context and Memory Engineer (draft)](personas/context-and-memory-engineer/PERSONA.md) |
 | Learn through practice and feedback | [Practice-Based Learning](personas/practice-based-learning/PERSONA.md) |
 | Plan a trip around practical constraints | [Travel Expert](personas/travel-expert/PERSONA.md) |
 
@@ -78,7 +78,7 @@ Start with the outcome you need. The coding roles sit alongside research, design
 
 ## Browse all personas and skill bundles
 
-The directory below covers all 52 persona role contracts and 53 skill bundles. A persona defines the job, boundaries and completion criteria; a bundle selects methods without assigning a role. Each row links to both separately. Counts are declared member skills, not unique skills across the catalogue; shared skills are counted in each package that includes them.
+The directory below covers all 58 persona role contracts and 59 skill bundles. A persona defines the job, boundaries and completion criteria; a bundle selects methods without assigning a role. Each row links to both separately. Counts are declared member skills, not unique skills across the catalogue; shared skills are counted in each package that includes them.
 
 Paired personas and bundles currently have identical membership. Expand a group to inspect the linked skills for each entry. The standalone `knowledge-librarian-bundle` has no matching persona. Conditional members are included in counts but activate only when relevant and authorised; they grant no dispatch permission.
 
@@ -359,8 +359,6 @@ Conditional tool adapters: ghidra-workflow-adapter, frida-tracing-adapter, angr-
 #### ml-eval-engineer
 
 [holistic-eval-design](skills/holistic-eval-design/SKILL.md) · [contamination-and-staleness-audit](skills/contamination-and-staleness-audit/SKILL.md) · [honest-eval-reporting](skills/honest-eval-reporting/SKILL.md) · [eval-harness-implementation](skills/eval-harness-implementation/SKILL.md) · [llm-as-judge-design](skills/llm-as-judge-design/SKILL.md) · [safety-redteam-eval](skills/safety-redteam-eval/SKILL.md) · [summary-accuracy-checks](skills/summary-accuracy-checks/SKILL.md) · [paired-baseline-skilled-benchmarking](skills/paired-baseline-skilled-benchmarking/SKILL.md) · [trajectory-and-tool-call-eval](skills/trajectory-and-tool-call-eval/SKILL.md) · [judge-calibration-and-tripwires](skills/judge-calibration-and-tripwires/SKILL.md) · [skill-trust-gate-design](skills/skill-trust-gate-design/SKILL.md)
-
-[holistic-eval-design](skills/holistic-eval-design/SKILL.md) · [contamination-and-staleness-audit](skills/contamination-and-staleness-audit/SKILL.md) · [honest-eval-reporting](skills/honest-eval-reporting/SKILL.md) · [eval-harness-implementation](skills/eval-harness-implementation/SKILL.md) · [llm-as-judge-design](skills/llm-as-judge-design/SKILL.md) · [safety-redteam-eval](skills/safety-redteam-eval/SKILL.md)
 
 #### provider-hunter
 

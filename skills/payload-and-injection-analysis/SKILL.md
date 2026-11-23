@@ -48,6 +48,8 @@ license: "MIT"
   clean.
 
 ## Escalation
-- Confirmed payloads quarantine the component immediately and the finding
+- Confirmed payloads are quarantined by recommendation: record the finding
+  and the quarantine request, and the owner or the host applies it — this
+  skill grants no authority to change an installed estate. The finding
   escalates to the owner with safely redacted evidence. Any public registry disclosure
   requires separate explicit approval; quarantine grants no publishing authority.

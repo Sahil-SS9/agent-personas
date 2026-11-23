@@ -1,0 +1,17 @@
+{
+ "skill": "trace-replay-diagnosis",
+ "release_version": "0.10.0-draft",
+ "release_skill_sha256": "006eca7140ff3080a3383b1a0c37910c577f150e85b928bfecec188c523b4a34",
+ "source_skill_sha256": null,
+ "author_credit": "Sahil Saghir",
+ "provenance": "authored-for-release",
+ "source_study": "docs/research/persona-build-programme-2026-11-22/PROGRAMME.md",
+ "source_study_group": "debugger",
+ "behavioural_evidence": "none",
+ "validation": "Authored for this release from the programme source studies. Structural gate (scripts/verify.py) passed at packaging time. No behavioural benchmark has been run for this skill: no uplift is claimed, and none is refuted.",
+ "scope_notes": [
+  "No behavioural evidence: instruction text only.",
+  "Token/phrase rubric matches are not task correctness or general uplift.",
+  "No universal model or harness performance claim."
+ ]
+}

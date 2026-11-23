@@ -34,9 +34,11 @@ license: "MIT"
    memory this is, who may read it, and what never crosses — designed, not
    improvised at write time.
 
+## Preferences
+- Keep a small measured working set in-window; retrieve bulky evidence on demand.
+
 ## Stop conditions
 - Never let core memory become an unstructured dump.
-- Keep a small measured working set in-window; retrieve bulky evidence on demand.
 - Never design retrieval without designing what happens when it returns
   stale or wrong material.
 

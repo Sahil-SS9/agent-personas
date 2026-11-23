@@ -1,0 +1,17 @@
+{
+ "skill": "conditional-compaction-and-checkpoints",
+ "release_version": "0.10.0-draft",
+ "release_skill_sha256": "c3db26a8b6dcee97cf6ae0596975134c01f6ccec56fa90eccdf8a8848a8e4dd4",
+ "source_skill_sha256": null,
+ "author_credit": "Sahil Saghir",
+ "provenance": "authored-for-release",
+ "source_study": "docs/research/context-memory-build/SOURCE-STUDY.md",
+ "source_study_group": "context-memory",
+ "behavioural_evidence": "none",
+ "validation": "Authored for this release from the programme source studies. Structural gate (scripts/verify.py) passed at packaging time. No behavioural benchmark has been run for this skill: no uplift is claimed, and none is refuted.",
+ "scope_notes": [
+  "No behavioural evidence: instruction text only.",
+  "Token/phrase rubric matches are not task correctness or general uplift.",
+  "No universal model or harness performance claim."
+ ]
+}

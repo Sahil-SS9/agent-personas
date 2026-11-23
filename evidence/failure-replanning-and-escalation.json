@@ -1,0 +1,17 @@
+{
+ "skill": "failure-replanning-and-escalation",
+ "release_version": "0.10.0-draft",
+ "release_skill_sha256": "1dbec27db3e92e9bc422d194731664de37fbd2d19064d10a929d59f640ed061c",
+ "source_skill_sha256": null,
+ "author_credit": "Sahil Saghir",
+ "provenance": "authored-for-release",
+ "source_study": "docs/research/orchestrator-revamp/SOURCE-STUDY.md",
+ "source_study_group": "orchestrator",
+ "behavioural_evidence": "none",
+ "validation": "Authored for this release from the programme source studies. Structural gate (scripts/verify.py) passed at packaging time. No behavioural benchmark has been run for this skill: no uplift is claimed, and none is refuted.",
+ "scope_notes": [
+  "No behavioural evidence: instruction text only.",
+  "Token/phrase rubric matches are not task correctness or general uplift.",
+  "No universal model or harness performance claim."
+ ]
+}

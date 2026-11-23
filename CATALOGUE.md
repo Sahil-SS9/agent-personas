@@ -641,6 +641,22 @@ Owner-directed improvements from a read-only study of ARTEX, Claude-BugHunter an
 - [reactive-render-verification](skills/reactive-render-verification/SKILL.md) · [evidence](evidence/reactive-render-verification.json)
 - [security-binary-investigation](skills/security-binary-investigation/SKILL.md) · [evidence](evidence/security-binary-investigation.json)
 
+## New in 0.10.0 (draft)
+
+- [agent-orchestrator](personas/agent-orchestrator/PERSONA.md) · [bundle](bundles/agent-orchestrator/bundle.json) (12 skills: 6 retained, 6 new) · supersedes the deprecated [agent-team-lead](personas/agent-team-lead/PERSONA.md) alias (0.1.0, kept installable)
+- [rust-rewrite-and-porting-specialist](personas/rust-rewrite-and-porting-specialist/PERSONA.md) · [bundle](bundles/rust-rewrite-and-porting-specialist/bundle.json) (8 skills)
+- [ml-eval-engineer](personas/ml-eval-engineer/PERSONA.md) · [bundle](bundles/ml-eval-engineer/bundle.json) (11 skills: 7 retained, 4 new)
+- [agent-debugger](personas/agent-debugger/PERSONA.md) · [bundle](bundles/agent-debugger/bundle.json) (6 skills)
+- [agent-supply-chain-auditor](personas/agent-supply-chain-auditor/PERSONA.md) · [bundle](bundles/agent-supply-chain-auditor/bundle.json) (5 skills)
+- [context-and-memory-engineer](personas/context-and-memory-engineer/PERSONA.md) · [bundle](bundles/context-and-memory-engineer/bundle.json) (6 skills)
+- [llm-inference-optimisation-engineer](personas/llm-inference-optimisation-engineer/PERSONA.md) · [bundle](bundles/llm-inference-optimisation-engineer/bundle.json) (6 skills)
+- [context-and-token-budgeting-across-workers](skills/context-and-token-budgeting-across-workers/SKILL.md) · [evidence](evidence/context-and-token-budgeting-across-workers.json)
+- [failure-replanning-and-escalation](skills/failure-replanning-and-escalation/SKILL.md) · [evidence](evidence/failure-replanning-and-escalation.json)
+- [fan-in-synthesis-with-disagreement-surfacing](skills/fan-in-synthesis-with-disagreement-surfacing/SKILL.md) · [evidence](evidence/fan-in-synthesis-with-disagreement-surfacing.json)
+- [goal-decomposition-and-specialist-routing](skills/goal-decomposition-and-specialist-routing/SKILL.md) · [evidence](evidence/goal-decomposition-and-specialist-routing.json)
+- [scale-to-complexity-and-cost-before-fanout](skills/scale-to-complexity-and-cost-before-fanout/SKILL.md) · [evidence](evidence/scale-to-complexity-and-cost-before-fanout.json)
+- [verification-subagent](skills/verification-subagent/SKILL.md) · [evidence](evidence/verification-subagent.json)
+
 ## New in 0.8.0 (draft)
 
 - [system-designer](personas/system-designer/PERSONA.md) · [bundle](bundles/system-designer/bundle.json) (18 skills: 17 new, 1 shared)
