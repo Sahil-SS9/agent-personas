@@ -1,44 +1,47 @@
 ---
 name: "borrow-and-ownership-translation"
-description: "Turn garbage-collected idioms into ownership designs: lifetimes over clones, Send/Sync decided deliberately, async mapped to the Rust model."
+description: "Use when porting code with shared, mutable or pointer-linked data to Rust, or when fighting the borrow checker: map who owns, who borrows and what mutates, without unsafe shortcuts or needless cloning."
 license: "MIT"
 ---
-# Borrow and Ownership Translation
+
+# Borrow and ownership translation
+
+Step 5. Garbage-collected and pointer-based code hides ownership. Writing it down first avoids clone-everything ports and unsafe shortcuts.
 
 ## Use when
-- Translating code from a GC or scripting language into Rust.
-- The borrow checker is fighting a structure that was natural in the
-  original.
-- Async, shared state or callback-heavy code is crossing the port.
+- Translating functions that share, mutate or store data; designing structs for state the original kept.
 
-## Instructions
+## DO NOT use when
+- The function is pure on plain values (most leaf ports): skip with a note.
 
-1. Redesign for ownership, don't transliterate: in the original everything
-   was shared; in the port decide who owns each value. Borrowing beats
-   cloning; clones are chosen, not defaulted to.
-2. Shared mutable state from the original (globals, long-lived caches,
-  cross-object mutation) becomes an explicit choice: message passing, or an
-  interior-mutability container — with the reasoning stated at the site.
-3. Decide Send/Sync deliberately: a value crossing a thread boundary in the
-  original (thread pools, background workers) must be Send in the port; a
-  value that must not cross gets its boundary enforced by the type, not a
-  comment.
-4. Map async honestly: callback and promise idioms translate to Rust async
-  only where the underlying work is actually concurrent; where the original
-  was sequential with a callback sugar, a synchronous port is simpler and
-  faster — say which and why.
-5. Error handling translates, not disappears: the original's exception
-  surface becomes a Rust error type with the same variants; a port that
-  turns exceptions into panics changed the behaviour.
-6. Cycles from reference-heavy originals get broken with ids or arena
-  structures; Arc cycles leak, and "it compiles" is not a memory model.
+Follow the persona hard rules: read the original and every given file before writing Rust; the original is the oracle; record its behaviour before porting; a mismatch is fixed in the port, never in the recording; return Err where the original fails, never panic; no network, std only unless the plan names a crate.
 
-## Stop conditions
-- Never silence the borrow checker with clone loops or unsafe.
-- Never let a panic path exist where the original returned an error.
-- Never leave a Send decision implicit.
+## Procedure
+1. **For each value, record owner, borrowers and mutators** in the original: who creates it, who reads it, who changes it, how long it lives.
+2. **Map the pattern:**
+   - read-only parameter -> `&T` / `&str` / `&[T]`;
+   - mutated in place -> `&mut T` (one mutator at a time);
+   - stored beyond the call -> owned `T` moved in, or `Rc<T>`/`Arc<T>` when genuinely shared;
+   - shared and mutated -> restructure first (pass `&mut` down, return new values); `RefCell`/`Mutex` only when restructuring is impossible, and say why;
+   - graphs and back-references -> indices into a `Vec` (arena), not reference cycles;
+   - C out-parameters -> return values (tuple or struct); C pointer + length -> slice; returned pointer into an argument -> offset.
+3. **Functions that mutate their arguments:** keep the same observable result; record the mutated argument as an output in the equivalence cases.
+4. **No `unsafe` for convenience.** If truly needed (FFI), isolate it with a `// SAFETY:` comment stating the invariant, and run the tests under Miri (`cargo +nightly miri test`) when available.
+5. **Clone only with a reason** written next to it (cheap type, or ownership genuinely split).
 
-## Escalation
-- Structures that cannot be expressed safely (self-referential originals,
-  host-callback lifetimes) escalate: keep that unit behind the bridge, or
-  restructure the host side — owner decides with the options priced.
+## Worked example
+A JS `Cache` stores entries in a Map and hands out entry objects that callers mutate (`entry.hits++`). Rust: `Cache { entries: Vec<Entry>, index: HashMap<String, usize> }`; `get_mut(&mut self, key) -> Option<&mut Entry>`; callers increment through the `&mut`. No `Rc<RefCell<_>>` needed. The equivalence cases record `hits` after each call sequence.
+
+## Checklist
+- [ ] Owner/borrower/mutator table for shared values
+- [ ] Each pattern mapped to a Rust form
+- [ ] Mutated arguments recorded as outputs
+- [ ] No unsafe without SAFETY note (and Miri where available)
+- [ ] Each clone justified
+
+## Output
+The ownership table and the struct/function signatures that follow from it.
+
+## Avoid
+- `Rc<RefCell<T>>` everywhere to make it compile.
+- `.clone()` to silence the borrow checker without a reason.

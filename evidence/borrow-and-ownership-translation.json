@@ -1,15 +1,24 @@
 {
  "skill": "borrow-and-ownership-translation",
  "release_version": "0.10.0-draft",
- "release_skill_sha256": "c683e74cd3a5065ece12f9972bfa2113eba067c4fe05911be5b4d60569d6368f",
+ "release_skill_sha256": "420a983f59536af607a48dd5f7bdca4ad2f54e37137ff6203a8882690e7ee090",
  "source_skill_sha256": null,
  "author_credit": "Sahil Saghir",
  "provenance": "authored-for-release",
  "provenance_note": "Sources studied are recorded privately by the author; no third-party text, prompts or code are reproduced.",
- "behavioural_evidence": "none",
- "validation": "Authored for this release from the programme source studies. Structural gate (scripts/verify.py) passed at packaging time. No behavioural benchmark has been run for this skill: no uplift is claimed, and none is refuted.",
+ "behavioural_evidence": "not benchmarked; projected impact only",
+ "validation": "Not benchmarked for this release. The projected impact below is an estimate for the Rust Rewrite and Porting Specialist persona, not a measurement. Structural gate (scripts/verify.py) passed at packaging time; the bundled helper scripts have their own tests. A behavioural benchmark is planned.",
+ "projected_impact": {
+  "status": "projected - estimated, not measured",
+  "routine_ports": "No change expected: capable models already port straightforward functions correctly.",
+  "trap_heavy_ports": "Fewer silent behaviour differences expected where meaning changes between languages (integer width and overflow, shifts, lenient parsing, string and Unicode indexing, empty or missing input). Projected range: 0 to +20 percentage points on hidden behaviour tests. The upper bound is the published average gain for compact procedural skills when an agent lacks the procedure; stronger models are expected nearer the low end.",
+  "larger_work": "More complete, auditable output expected for migrations, cross-language bridges, speed claims and production cutover (plans, decision records, benchmark verdicts, kill switch), which plain agents tend to skip.",
+  "cost": "Longer runs expected: projected 1.3 to 1.5 times the time of a plain agent. Small ports are kept to the minimum path to limit this.",
+  "basis": "Published research on procedural agent skills and the author's development testing."
+ },
  "scope_notes": [
-  "No behavioural evidence: instruction text only.",
+  "Projected at persona level, not for this skill alone.",
+  "Estimates, not measurements: no uplift is demonstrated and none is refuted.",
   "No universal model or harness performance claim."
  ]
 }

@@ -1,41 +1,44 @@
 ---
 name: "port-plan-and-decision-records"
-description: "Plan the port as ordered units with decision records and a glossary; pieces that import each other move together, and the plan survives across sessions."
+description: "Use when a Rust rewrite or port covers more than one function or file, or when asked to plan a migration to Rust: scope, equivalence bar, compatibility promises, crate map, waves, checkpoints and recorded decisions."
 license: "MIT"
 ---
-# Port Plan and Decision Records
+
+# Port plan and decision records
+
+Step 2. A port without a written equivalence bar and scope ends in arguments about whether a difference is a bug.
 
 ## Use when
-- The port is bigger than one function: a module, a service, a whole app.
-- Sessions will hand the porting work between each other.
-- Decisions about scope and mapping keep being re-litigated.
+- After choosing the unit (step 1), before any Rust is written. Also for whole-app ports.
 
-## Instructions
+## DO NOT use when
+- The plan exists and is approved; go to recorded-behaviour-equivalence.
 
-1. Plan units before porting: list the units in port order with the risk
-   notes at file:line precision, the bridge each unit needs, and how each
-   external dependency maps to a Rust crate (full fit, partial fit, none).
-2. Move pieces, not scattered files: units that import each other move
-   together in one wave; splitting an import cycle across waves doubles the
-   bridge surface for nothing.
-3. Number every decision the port depends on, each with a recommended
-   answer, and settle them with the owner BEFORE the port bakes them in.
-4. Record settled decisions as ADRs in a DECISIONS file the port carries;
-   record the original's term-to-Rust-name mapping in a glossary so naming
-   stays consistent across every unit.
-5. Keep a unit map with states (unported / in-progress / gated / lifted);
-   a session claims one unit before starting and leaves a handoff note for
-   the next session — the plan, not anyone's memory, carries the port.
-6. Cutover steps only a human can do (deploys, DNS, secrets) are scripted
-   into one interactive script with a way back at each step; the port agent
-   writes the script, the owner runs it.
+Follow the persona hard rules: read the original and every given file before writing Rust; the original is the oracle; record its behaviour before porting; a mismatch is fixed in the port, never in the recording; return Err where the original fails, never panic; no network, std only unless the plan names a crate.
 
-## Stop conditions
-- Never port a unit whose decisions are unsettled.
-- Never split an import-connected piece across waves.
-- Never rely on session memory for port state.
+## Procedure
+1. **Inventory the unit:** exported functions and their signatures, the types that cross, error behaviour (every `raise`/`throw`/error return), I/O and side effects, global state, and its dependencies.
+2. **Set the equivalence bar with the owner:** byte-for-byte output (default), or equal after normalising named things (key order, float tolerance with a stated value, timestamps). Never pick a tolerance yourself.
+3. **List compatibility surfaces that must not change:** function signatures callers use, config/on-disk/wire formats, CLI flags and exit codes, environment variables, error types callers catch.
+4. **Map each dependency to a Rust crate,** or mark it "unknown" for the owner. Never silently hand-roll a library. In offline settings, std only unless a vendored crate is listed.
+5. **Order the work in waves:** leaves first, so Rust never calls back into the original; units in a dependency cycle move together.
+6. **Set checkpoints** (default: stop for the owner after the plan, then after each wave) and the cutover style (shadow first, then switch).
+7. **Write decision records** (ADR: context, decision, consequences) for each choice above.
 
-## Escalation
-- Dependencies with no Rust crate, or a partial one, go to the owner with
-  options (keep behind the bridge, replace, wrap) — the mapping table drives
-  the conversation.
+## Worked example
+Porting `pricing.py` (3 functions). Equivalence bar: identical results; floats compared exactly because prices are integer cents. Compatibility: the `Quote` dict keys and `PricingError` type must stay. Dependency: `decimal` -> none needed (cents as i64). Wave 1: `round_cents`, `tax_for`; wave 2: `quote` (calls both). Checkpoint after wave 1. ADR-001: "integer cents, not f64".
+
+## Checklist
+- [ ] Inventory (exports, types, errors, side effects, state, deps)
+- [ ] Equivalence bar agreed (no self-chosen tolerance)
+- [ ] Compatibility surfaces listed
+- [ ] Dependency-to-crate map, unknowns flagged
+- [ ] Waves, checkpoints and cutover style
+- [ ] ADRs written
+
+## Output
+PLAN.md with the items above and the ADRs.
+
+## Avoid
+- Starting to write Rust before the equivalence bar is set.
+- Replacing a library with hand-written code without saying so.

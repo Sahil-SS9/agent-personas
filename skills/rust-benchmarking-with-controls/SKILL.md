@@ -1,42 +1,40 @@
 ---
 name: "rust-benchmarking-with-controls"
-description: "Bench the port against the original with the bridge included and controls on both sides; ship only on the measured verdict, and report losses honestly."
+description: "Use when asked whether a Rust port is faster, or to benchmark Rust against the original: same inputs, bridge cost included, warm-up, repeated runs and a ship / keep original / port more verdict."
 license: "MIT"
 ---
-# Rust Benchmarking with Controls
+
+# Rust benchmarking with controls
+
+Step 8. Speed is not correctness and is measured separately, after the gate passes. Many correct ports are slower per call.
 
 ## Use when
-- Deciding whether a port ships, stays in shadow, or is reverted.
-- Comparing per-call ports against batch ports.
-- Any Rust performance claim needs to be made.
+- After the gate, when the reason for the port is speed or memory.
 
-## Instructions
+## DO NOT use when
+- The port is not yet equivalent (benchmarks of wrong code are meaningless).
 
-1. Bench against the original, bridge included: the caller's reality is the
-   number that matters, not the Rust-side microbenchmark. Time the recorded
-   cases on both sides, called the way the original's callers call.
-2. Control, candidate, control: change exactly one thing between runs;
-   keep the change only if both controls agree it is a win.
-3. Compare all shapes before concluding: per-call port, batch port, and the
-   original doing equivalent narrowing work. A batch port can win 20x where
-   the same port per-call loses 3x — and a plain conversion loop on the
-   results can cost more than the search itself. The verdict table shows
-   every shape.
-4. Report losses: ports that pass every gate and still lose on the bench
-   (bridge cost exceeds the work) are a real outcome with a name — keep the
-   unit behind the bridge or revert, and say why. A benchmark that never
-   kills a port is not measuring.
-5. Regression gates: the bench runs in CI for ported units; a perf change
-   beyond tolerance fails the build like a behaviour change would.
-6. State hardware and parallelism with every number: cores, allocator and
-   thread count move these results more than most code changes.
+Follow the persona hard rules: read the original and every given file before writing Rust; the original is the oracle; record its behaviour before porting; a mismatch is fixed in the port, never in the recording; return Err where the original fails, never panic; no network, std only unless the plan names a crate.
 
-## Stop conditions
-- Never quote a Rust-side benchmark as the shipped speedup.
-- Never ship a port the bench did not bless.
-- Never report a win without the original's number beside it.
+## Procedure
+1. **Benchmark what callers experience:** call through the bridge from the original's process, with the same inputs for both sides; decode inputs once outside the timed region.
+2. **Control the run:** warm-up, many samples, the same machine and build profile (`--release`), nothing else running. Rust side alone: criterion.rs (warm-up, statistical comparison against a saved baseline).
+3. **Report per-call and per-batch times** with spread, for the original and the port.
+4. **Verdict:** ship if the port is clearly faster for callers; keep slower functions in the original; or port a bigger unit / batch when per-call crossing dominates. Never ship a port that makes callers slower without saying so.
+5. **Memory:** if memory was the goal, measure peak RSS for the same workload.
 
-## Escalation
-- A port that passes behaviour gates but loses the bench goes to the owner
-  with the verdict table: revert, keep behind the bridge, or restructure to
-  a batch port — each with its cost.
+## Worked example
+`fuzzy_score` via napi: original 0.9 µs/call, port 1.4 µs/call (crossing dominates): slower. Batch API over 50,000 items: original 45 ms, port 6 ms on 8 cores. Verdict: keep per-call function in JS, ship the batch API, and change the search loop to use it.
+
+## Checklist
+- [ ] Gate passed first
+- [ ] Measured through the bridge, same inputs, decode outside timing
+- [ ] Warm-up, repeated samples, release build
+- [ ] Per-call and batch numbers with spread
+- [ ] Verdict written
+
+## Output
+Benchmark table and verdict.
+
+## Avoid
+- Timing only the Rust function and claiming the caller gets that speed.

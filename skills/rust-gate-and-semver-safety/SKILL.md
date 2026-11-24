@@ -1,46 +1,49 @@
 ---
 name: "rust-gate-and-semver-safety"
-description: "Gate every port on the full Rust hygiene gate — fmt, clippy, tests, unsafe audit, error paths — and prove the crate's API did not break semver."
+description: "Use before saying a Rust port or rewrite is done or ready: build, fmt, clippy with porting lints, real tests in debug, no stubs or todo!, Err instead of panic or unwrap, unsafe documented, public API unchanged."
 license: "MIT"
 ---
-# Rust Gate and Semver Safety
+
+# Rust gate and semver safety
+
+Step 7. "It compiles and the tests pass" is not done. The gate makes every port meet the same bar.
 
 ## Use when
-- A port or crate change claims to be done.
-- Anything might leave the crate's consumers.
-- An edition migration or dependency bump is planned.
+- Before reporting a port as finished, and in CI for every change to it.
 
-## Instructions
+## DO NOT use when
+- Measuring speed (rust-benchmarking-with-controls).
 
-1. The gate is fixed and non-negotiable: formatting, clippy with warnings
-   denied, the full test suite, an unsafe audit, and nothing unported left
-   behind without a recorded reason. A port passes the gate or it is not
-   done.
-2. Error paths are part of behaviour: the original's every error path gets a
-   recorded failing case, and the port never panics where the original
-   returned an error. Only genuinely infallible sites are marked as such —
-   and the mark is a justification, not a suppression.
-3. unsafe is audited, not just counted: each block states why it exists, the
-   invariant it relies on, and why safe Rust cannot do it. Undefined
-   behaviour checks (Miri or equivalent) run on code that can take untrusted
-   input before the gate passes.
-4. Semver is proven, not felt: linter-based breaking-change detection runs
-   against the previous published crate version before release; a change
-   that breaks the public API is a major bump or a compatibility shim, and
-   that decision is recorded.
-5. Edition migrations are their own change: never mix an edition move with
-   a behaviour change; the migration compiles and passes the gate alone
-   first.
-6. Public API naming follows the Rust API guidelines (naming, Result vs
-   Option, getter conventions); internal style never leaks into the public
-   surface.
+Follow the persona hard rules: read the original and every given file before writing Rust; the original is the oracle; record its behaviour before porting; a mismatch is fixed in the port, never in the recording; return Err where the original fails, never panic; no network, std only unless the plan names a crate.
 
-## Stop conditions
-- Never merge with the gate red; the gate has no exceptions.
-- Never mark infallible to make the gate pass.
-- Never ship an API change without the semver check result recorded.
+## Procedure
+1. **Run `scripts/port_gate.py <crate> --offline`** and fix every FAIL in order:
+   - build; `cargo fmt --check`;
+   - `cargo clippy -- -D warnings` plus porting lints `cast_possible_truncation`, `cast_sign_loss`, `cast_possible_wrap`, `arithmetic_side_effects` (each flags an integer trap from step 4);
+   - at least one real test (passing with zero tests proves nothing) and `cargo test` passing;
+   - no `todo!`/`unimplemented!`;
+   - no `unwrap`/`expect`/`panic!` inside a function that returns `Result` (return `Err`; for a truly impossible state add `// INFALLIBLE: why`);
+   - every `unsafe` with a `// SAFETY:` comment.
+2. **Run the equivalence replay** (step 3): recorded N/N and held-out M/M. The gate does not replace it.
+3. **Silence a lint only with `#[expect(lint, reason = "...")]`**, never a blanket `#[allow]`.
+4. **Check debug AND release behaviour** where integers are involved (overflow checks differ).
+5. **Published crates:** run `cargo semver-checks` before each release so the Rust API does not break callers.
 
-## Escalation
-- Gate failures that reveal a design problem (the port needs unsafe the
-  design cannot justify) go back to the plan — the unit may need to stay
-  behind the bridge.
+## Tools
+`scripts/port_gate.py [CRATE] [--offline] [--no-clippy]`: PASS/FAIL per check with the fix; exit 1 until all pass.
+
+## Worked example
+Porting `parse_size("10MB") -> Result<u64, String>`. First gate run: FAIL tests_exist, FAIL err_not_panic (`num.parse::<u64>().unwrap()` inside the Result function), FAIL clippy `cast_possible_truncation` (`kib as u32`). Fixes: tests for "", "10", "10XB" and "99999999999999999999MB"; `map_err` to `Err("ValueError: ...")`; `u32::try_from(kib)` returning an error. Second run: all PASS; replay 42/42; held-out 60/60.
+
+## Checklist
+- [ ] port_gate.py all PASS
+- [ ] Equivalence replay and held-out pass
+- [ ] Lints silenced only with #[expect(..., reason)]
+- [ ] Debug and release checked for integer code
+- [ ] semver-checks for published crates
+
+## Output
+The gate output and the replay counts.
+
+## Avoid
+- Declaring done because `cargo build` succeeded.
