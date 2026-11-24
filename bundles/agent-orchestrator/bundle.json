@@ -1,19 +1,19 @@
 {
   "name": "agent-orchestrator",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "members": [
-    "agent-dispatch-discipline",
-    "goal-decomposition-and-specialist-routing",
     "scale-to-complexity-and-cost-before-fanout",
+    "goal-decomposition-and-specialist-routing",
     "context-and-token-budgeting-across-workers",
+    "agent-dispatch-discipline",
+    "writing-plans",
+    "task-board-orchestration",
+    "workstream-orchestration",
+    "failure-replanning-and-escalation",
     "verification-subagent",
     "fan-in-synthesis-with-disagreement-surfacing",
-    "failure-replanning-and-escalation",
-    "workstream-orchestration",
-    "writing-plans",
     "phased-plan-execution",
-    "reviewed-agent-development",
-    "task-board-orchestration"
+    "reviewed-agent-development"
   ],
   "persona": "agent-orchestrator",
   "status": "draft"
