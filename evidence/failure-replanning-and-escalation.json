@@ -1,15 +1,24 @@
 {
  "skill": "failure-replanning-and-escalation",
  "release_version": "0.10.0-draft",
- "release_skill_sha256": "30b87f86c91561424bb0b29c03fa9a0fe7b0d1a5aefd097a55dfb0b038ed7214",
+ "release_skill_sha256": "c774ce70a594bf6e80c4cd0d8131fe85a0ea515b74d7dd92ed71b2519972b2d6",
  "source_skill_sha256": null,
  "author_credit": "Sahil Saghir",
  "provenance": "authored-for-release",
  "provenance_note": "Sources studied are recorded privately by the author; no third-party text, prompts or code are reproduced.",
- "behavioural_evidence": "none",
- "validation": "Authored for this release from the programme source studies. Structural gate (scripts/verify.py) passed at packaging time. No behavioural benchmark has been run for this skill: no uplift is claimed, and none is refuted.",
+ "behavioural_evidence": "not benchmarked; projected impact only",
+ "validation": "Not benchmarked for this release. The projected impact below is an estimate for the Agent Orchestrator persona, not a measurement. Structural gate (scripts/verify.py) passed at packaging time; the bundled helper scripts have their own tests. A behavioural benchmark is planned.",
+ "projected_impact": {
+  "status": "projected - estimated, not measured",
+  "routine_plans": "No change expected on simple planning: capable models already produce valid plans.",
+  "policy_bound_work": "Better adherence expected where explicit limits apply: agent budgets, context caps, retry and escalation limits, verification before dependants, and stopping overrunning workers. Projected range: 0 to +20 percentage points on plan and decision checks. The upper bound is the published average gain for compact procedural skills when an agent lacks the procedure; stronger models are expected nearer the low end.",
+  "merging": "More disagreements surfaced and fewer silently dropped facets expected when merging several workers' results.",
+  "cost": "Little extra time expected: projected up to about 1.2 times a plain agent on planning tasks.",
+  "basis": "Published research on procedural agent skills and the author's development testing."
+ },
  "scope_notes": [
-  "No behavioural evidence: instruction text only.",
+  "Projected at persona level, not for this skill alone.",
+  "Estimates, not measurements: no uplift is demonstrated and none is refuted.",
   "No universal model or harness performance claim."
  ]
 }

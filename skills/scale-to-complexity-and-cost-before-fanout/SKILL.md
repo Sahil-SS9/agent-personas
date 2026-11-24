@@ -1,40 +1,43 @@
 ---
 name: "scale-to-complexity-and-cost-before-fanout"
-description: "Estimate task complexity and token cost before spawning workers; fan out only when the task pays for it."
+description: "START HERE for any multi-agent, delegation or orchestration plan: decide whether to use sub-agents at all and how many, from task complexity, parallelism, budget and cost, before splitting the work."
 license: "MIT"
 ---
-# Scale to Complexity and Cost Before Fan-out
+
+# Scale to complexity and cost before fan-out
+
+Step 1. Multi-agent work spends many times the tokens of a single agent. Fan out only where the work is genuinely parallel or exceeds one context.
 
 ## Use when
-- Deciding how many workers a task actually needs.
-- Anyone proposes parallel agents for a task that might be one agent's job.
-- A run's token spend needs a ceiling written before dispatch, not after.
+- A new goal arrives, before any decomposition or dispatch.
 
-## Instructions
+## DO NOT use when
+- The owner has fixed the team size; record it and go to step 2.
 
-1. Estimate first, spawn second: simple tasks → one worker with a handful of
-   tool calls; medium → a few workers; broad or research-heavy → many. The
-   lead estimates; the requester should never have to.
-2. Multi-agent costs a large multiple of single-agent tokens. Fan out only
-   when at least one of three holds:
-   - a single context window would be polluted by the task's breadth;
-   - the subtasks genuinely run in parallel;
-   - specialisation improves tool choice or focus.
-   If none holds, run single-agent and say so.
-3. Write the budget line before the first dispatch: expected workers,
-   expected steps each, expected token ceiling, and what you will do when the
-   ceiling is hit (shrink width, drop depth, or stop and report).
-4. Match worker count to the estimate, then hold it: widening mid-run needs a
-   new budget line and a reason, not momentum.
-5. Report spend against the estimate in the final status; variance explained,
-   not discovered.
+Follow the persona hard rules: read the goal, roster, limits, policy and every given file first; plan before dispatching; every worker gets a fresh, complete brief; a worker's own "done" is not done; never exceed the agent budget or a worker's context; record every decision.
 
-## Stop conditions
-- Never fan out without a written budget estimate and a complexity reason.
-- Never spawn ten workers on a simple case, and never compress a complex case
-  to one worker to save tokens without recording the trade-off.
+## Procedure
+1. **Classify the goal:**
+   - simple lookup or single-file change -> one agent, few tool calls;
+   - comparison or a few independent parts -> 2-4 workers;
+   - broad research or many independent parts -> more workers, each with a clearly divided responsibility.
+2. **Check the three reasons to fan out:** independent parallel parts; information larger than one context window; specialised tools or skills one agent lacks. If none applies, use one agent.
+3. **Check the reasons not to:** parts that need shared context or tight back-and-forth (most coding), and a value too low to pay for several times the tokens.
+4. **Pick the smallest team that meets the deadline and limits.** Never exceed the agent budget. More agents add coordination failures; keeping task-critical information intact matters more than adding agents.
+5. **Write the decision:** class, team size, reason, expected cost.
 
-## Escalation
-- When the budget ceiling is reached, stop starting new nodes and escalate:
-   partial results, remaining graph, and the recommended cut — the owner
-   decides whether the overrun is worth it.
+## Worked example
+"Summarise the three ADRs in docs/adr/ into a one-page note." Three short files fit one context; nothing needs a specialist. One agent. A roster of seven specialists and a budget of five do not change that.
+
+## Checklist
+- [ ] Goal classified
+- [ ] Reasons for and against fan-out checked
+- [ ] Smallest sufficient team within budget
+- [ ] Decision recorded with expected cost
+
+## Output
+Team size and the reason.
+
+## Avoid
+- One worker per task by default.
+- Fanning out tightly coupled coding work.

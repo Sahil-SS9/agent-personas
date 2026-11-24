@@ -1,49 +1,40 @@
 ---
 name: "verification-subagent"
-description: "A separate verifier with pre-stated success criteria checks completed nodes before fan-in; evidence attaches to the node record."
+description: "Use when reviewing or accepting a worker's or sub-agent's output, or before other tasks depend on it: an independent verifier checks it against the done check, and dependants wait until it passes."
 license: "MIT"
 ---
-# Verification Subagent
+
+# Verification subagent
+
+Step 7. A worker's own "done" is a claim. Verification is its own failure category in multi-agent systems.
 
 ## Use when
-- Worker outputs are about to be consumed or merged.
-- "Done" claims need to mean checked, not said.
-- One dedicated check pass is cheaper than downstream agents consuming a bad
-  artifact.
+- A worker reports done; before merging, before starting dependents, before reporting to the owner.
 
-## Instructions
+## DO NOT use when
+- Single-agent trivial lookups with a checkable done_check you run yourself.
 
-1. Criteria before artifacts: each node's success criteria are written when
-   the node is dispatched — before any artifact exists to be judged against
-   them.
-2. Verification depth follows the node's risk tier, set at dispatch.
-   Anything that feeds a merge, a release or an external action gets a
-   separate verifier: it receives the node brief, the artifact, the
-   pre-stated criteria and the tools needed to check, never only the
-   worker's self-report. A low-risk node may be spot-checked by a capable
-   lead, who records what was checked. A check that needs specialised
-   tools, must be auditable, or must be independent of the worker's own
-   confidence always goes to a separate verifier.
-3. Verification evidence attaches to the node's record: what was checked,
-   what passed, what was flagged, and what the verifier could not test.
-4. Verification gates consumption: an unverified node blocks its dependents
-   — not the whole run. Verified nodes proceed independently. Only the
-   owner may accept an unverified parent into a dependent, and the
-   acceptance, its reason and its risk are recorded on both node records.
-5. Flag over fix: the verifier reports; it does not repair the artifact.
-   Repairs go back through the worker with the flag attached.
-6. A verifier return is a dispatch of the node under the shared attempt
-   ledger in failure-replanning-and-escalation (three dispatches maximum):
-   the flag goes back while the ledger has an attempt left; when none
-   remains, escalate with the artifact, the flag and the criteria.
+Follow the persona hard rules: read the goal, roster, limits, policy and every given file first; plan before dispatching; every worker gets a fresh, complete brief; a worker's own "done" is not done; never exceed the agent budget or a worker's context; record every decision.
 
-## Stop conditions
-- Never write success criteria after seeing the artifact.
-- Never accept a worker's self-report as verification evidence.
-- Never let a dependent consume an unverified parent without the owner's
-  recorded acceptance.
+## Procedure
+1. **Block dependents** until the output is verified.
+2. **Give the verifier a fresh context:** the brief's objective, the done_check, the output artefact. Not the producer's reasoning.
+3. **The verifier is a different agent from the producer,** ideally with a different specialism (tester or reviewer for code, fact-checker for research).
+4. **Check against the done_check, end state first:** files exist, tests pass, claims match their cited sources, required facets are covered.
+5. **Outcome:** pass -> release dependents; fail -> back to failure-replanning-and-escalation with the verifier's findings as the reason.
+6. **Record:** verifier, what was checked, result.
 
-## Escalation
-- Artifacts that fail verification go back with the flag while the ledger
-  has an attempt left; when none remains, escalate with the artifact, the
-  flag and the criteria.
+## Worked example
+The backend worker says "endpoint done". The tester verifier runs the done_check (`pytest tests/test_exports.py`) in a fresh context: 2 failures (CSV header order). Dependents (docs, end-to-end test) stay blocked; the task is re-dispatched with the failing tests attached.
+
+## Checklist
+- [ ] Dependents blocked until verified
+- [ ] Verifier independent of the producer, fresh context
+- [ ] Checked against the done_check (end state)
+- [ ] Result recorded; failures fed back as the retry reason
+
+## Output
+Verification record per task.
+
+## Avoid
+- Starting dependents on a self-reported "done".

@@ -1,42 +1,40 @@
 ---
 name: "fan-in-synthesis-with-disagreement-surfacing"
-description: "Merge worker outputs as a distinct pass: per-claim attribution, contradiction surfaced, never silently resolved."
+description: "Use when merging results from several agents or workers: find conflicts, weigh them on evidence, cover every facet and report disagreements instead of silently picking one answer."
 license: "MIT"
 ---
-# Fan-in Synthesis with Disagreement Surfacing
+
+# Fan-in synthesis with disagreement surfacing
+
+Step 8. Merging is where contradictions disappear. Surface them; resolve them on evidence.
 
 ## Use when
-- Worker outputs exist and the merged answer is due.
-- Two or more workers returned anything factual.
-- The consumer needs to know what is established, what is single-source, and
-  what is contested.
+- Combining outputs from two or more workers into one answer.
 
-## Instructions
+## DO NOT use when
+- A single worker's output is the answer (verify it instead).
 
-1. Synthesis is a pass of its own: read every worker output in full before
-   writing the merge; the merge is authored, not concatenated.
-2. Attribute per claim: every merged claim names the worker(s) that produced
-   it. One worker's word is marked single-source; two agreeing workers are
-   marked corroborated.
-3. Surface disagreement explicitly: when workers conflict, the synthesis
-   states both positions, what would resolve them, and the impact of leaving
-   them unresolved. Never resolve by vote, silence, or averaging.
-4. Mark dropped evidence: the lead works from worker summaries, not raw
-   material; synthesis flags where a summary could have lost something the
-   raw output contained.
-5. Answer completeness honestly: if facets of the goal have no worker
-   result, they are listed as unaddressed, not smoothed over.
-6. The merged artifact carries its own shape — answer first, the evidence
-   map second, the open questions third — unless the requester fixes the
-   output format: then the requested shape wins and the evidence map and
-   open questions move inside it.
+Follow the persona hard rules: read the goal, roster, limits, policy and every given file first; plan before dispatching; every worker gets a fresh, complete brief; a worker's own "done" is not done; never exceed the agent budget or a worker's context; record every decision.
 
-## Stop conditions
-- Never present a single-worker claim as established fact.
-- Never let a contradiction reach the reader unmarked.
-- Never invent a resolution the workers did not supply.
+## Procedure
+1. **Lay out claims side by side** per facet of the brief: value, worker, source, source date and type.
+2. **Find conflicts:** different values for the same facet.
+3. **Resolve on evidence:** prefer primary sources over secondary, newer over older for things that change, and agreement between independent sources. State the rule used. If evidence cannot resolve it, report the conflict as open.
+4. **Check coverage:** every facet the brief asked for has at least one supported answer; list unaddressed facets and re-dispatch for them.
+5. **Write the merged answer** with the resolution notes and any open conflicts; never present one worker's value as the answer while hiding a contradicting one.
 
-## Escalation
-- Contradictions that change the decision go to the owner with both briefs
-  and the divergence evidence; a re-run of one facet is proposed, not
-  silently attempted.
+## Worked example
+Brief: library X's licence and latest version. W1: MIT, v4.2 (repo LICENSE file, release page this month). W2: Apache-2.0, v3.9 (a 2023 blog). W3: v4.2, licence not covered. Conflict on licence; resolve to MIT (primary file, current) and note W2's claim as outdated. Version agreed by W1 and W3. All facets covered.
+
+## Checklist
+- [ ] Claims laid out per facet with sources and dates
+- [ ] Conflicts listed
+- [ ] Resolution rule stated, or conflict left open
+- [ ] Unaddressed facets listed and re-dispatched
+- [ ] Merged answer carries the resolution notes
+
+## Output
+The merged answer with conflicts, resolutions and coverage.
+
+## Avoid
+- Averaging or silently choosing between contradicting values.
