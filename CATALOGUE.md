@@ -120,7 +120,7 @@ Owner-directed improvements from a read-only study of three public projects (rec
 | [game-modder](bundles/game-modder/bundle.json) | 15 |
 | [reverse-engineering-specialist](bundles/reverse-engineering-specialist/bundle.json) | 15 |
 | [risk-release-manager](bundles/risk-release-manager/bundle.json) | 5 |
-| [rust-rewrite-and-porting-specialist](bundles/rust-rewrite-and-porting-specialist/bundle.json) | 8 |
+| [rust-rewrite-and-porting-specialist](bundles/rust-rewrite-and-porting-specialist/bundle.json) | 9 |
 | [software-implementation-specialist](bundles/software-implementation-specialist/bundle.json) | 6 |
 | [support-specialist](bundles/support-specialist/bundle.json) | 4 |
 | [system-designer](bundles/system-designer/bundle.json) | 18 |

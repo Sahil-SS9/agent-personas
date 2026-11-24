@@ -301,7 +301,7 @@ AI and LLM systems: [ai-systems-architecture-patterns](skills/ai-systems-archite
 
 #### rust-rewrite-and-porting-specialist
 
-[port-profiling-and-hot-loop-selection](skills/port-profiling-and-hot-loop-selection/SKILL.md) · [port-plan-and-decision-records](skills/port-plan-and-decision-records/SKILL.md) · [ffi-bridge-selection-and-boundaries](skills/ffi-bridge-selection-and-boundaries/SKILL.md) · [recorded-behaviour-equivalence](skills/recorded-behaviour-equivalence/SKILL.md) · [cross-language-semantics-traps](skills/cross-language-semantics-traps/SKILL.md) · [borrow-and-ownership-translation](skills/borrow-and-ownership-translation/SKILL.md) · [rust-gate-and-semver-safety](skills/rust-gate-and-semver-safety/SKILL.md) · [rust-benchmarking-with-controls](skills/rust-benchmarking-with-controls/SKILL.md)
+[port-profiling-and-hot-loop-selection](skills/port-profiling-and-hot-loop-selection/SKILL.md) · [port-plan-and-decision-records](skills/port-plan-and-decision-records/SKILL.md) · [recorded-behaviour-equivalence](skills/recorded-behaviour-equivalence/SKILL.md) · [cross-language-semantics-traps](skills/cross-language-semantics-traps/SKILL.md) · [borrow-and-ownership-translation](skills/borrow-and-ownership-translation/SKILL.md) · [ffi-bridge-selection-and-boundaries](skills/ffi-bridge-selection-and-boundaries/SKILL.md) · [rust-gate-and-semver-safety](skills/rust-gate-and-semver-safety/SKILL.md) · [rust-benchmarking-with-controls](skills/rust-benchmarking-with-controls/SKILL.md) · [shadow-rollout-and-cutover](skills/shadow-rollout-and-cutover/SKILL.md)
 
 #### game-modder
 

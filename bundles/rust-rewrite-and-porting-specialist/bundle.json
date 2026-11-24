@@ -1,15 +1,16 @@
 {
   "name": "rust-rewrite-and-porting-specialist",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "members": [
     "port-profiling-and-hot-loop-selection",
     "port-plan-and-decision-records",
-    "ffi-bridge-selection-and-boundaries",
     "recorded-behaviour-equivalence",
     "cross-language-semantics-traps",
     "borrow-and-ownership-translation",
+    "ffi-bridge-selection-and-boundaries",
     "rust-gate-and-semver-safety",
-    "rust-benchmarking-with-controls"
+    "rust-benchmarking-with-controls",
+    "shadow-rollout-and-cutover"
   ],
   "persona": "rust-rewrite-and-porting-specialist",
   "status": "draft"
