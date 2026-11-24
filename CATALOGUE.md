@@ -15,7 +15,7 @@ Owner-directed improvements from a read-only study of three public projects (rec
 | [adversarial-code-reviewer](personas/adversarial-code-reviewer/PERSONA.md) | Find reproducible correctness and security defects without editing the reviewed code. | 3 |
 | [agent-orchestrator](personas/agent-orchestrator/PERSONA.md) | Turn a goal into a routed, budgeted, verified multi-agent plan and merge the results honestly: decompose, route, scale to complexity, surface disagreement, re-plan on failure with evidence. | 12 |
 | [agent-supply-chain-auditor](personas/agent-supply-chain-auditor/PERSONA.md) | Vet third-party agent components before install and on every update: an ordered 8-step procedure with pre-scan, sandbox and gate-record scripts, plus drift re-vetting. | 5 |
-| [agent-debugger](personas/agent-debugger/PERSONA.md) | Diagnose why a live agent run misbehaved: classify the failure, replay the trace, fix one seam, verify the fix. | 6 |
+| [agent-debugger](personas/agent-debugger/PERSONA.md) | Diagnose why a live agent run misbehaved: classify the failure, replay the trace, fix one seam, verify the fix. Early draft, rebuild pending. | 6 |
 | [ai-guardrails-engineer](personas/ai-guardrails-engineer/PERSONA.md) | Ensure the correct guardrails are identified, put in place, followed and maintained. | 11 |
 | [api-contract-designer](personas/api-contract-designer/PERSONA.md) | Define APIs, compatibility rules and error contracts. | 6 |
 | [business-process-analyst](personas/business-process-analyst/PERSONA.md) | Turn transcripts, documents and workshops into traceable Level 1 to 4 process architecture and validated BPMN, swimlane and Lucidchart-ready maps, and surface evidence-backed improvement opportunities. | 9 |
@@ -26,8 +26,8 @@ Owner-directed improvements from a read-only study of three public projects (rec
 | [data-engineer](personas/data-engineer/PERSONA.md) | Design schemas, optimise queries and build checked data pipelines. | 7 |
 | [deal-hunter](personas/deal-hunter/PERSONA.md) | Compare verified sourcing options, landed costs and seller reliability. | 7 |
 | [design-partner](personas/design-partner/PERSONA.md) | Act as the designer's sparring partner: surface trade-offs and failure modes before commitment, then record decisions in review-surviving artefacts (C4 views, ADRs). | 7 |
-| [context-and-memory-engineer](personas/context-and-memory-engineer/PERSONA.md) | Engineer what an agent sees and remembers: budgeted windows, tiered memory, time-bounded conflict-safe facts, write-time curation. | 6 |
-| [llm-inference-optimisation-engineer](personas/llm-inference-optimisation-engineer/PERSONA.md) | Measure and optimise LLM serving: capacity, quants, speculation and quality gates. | 6 |
+| [context-and-memory-engineer](personas/context-and-memory-engineer/PERSONA.md) | Engineer what an agent sees and remembers: budgeted windows, tiered memory, time-bounded conflict-safe facts, write-time curation. Early draft, rebuild pending. | 6 |
+| [llm-inference-optimisation-engineer](personas/llm-inference-optimisation-engineer/PERSONA.md) | Measure and optimise LLM serving: capacity, quants, speculation and quality gates. Early draft, rebuild pending. | 6 |
 | [design-system-engineer](personas/design-system-engineer/PERSONA.md) | Maintain design tokens, component contracts and adoption. | 6 |
 | [devops-sre](personas/devops-sre/PERSONA.md) | Manage SLOs, progressive delivery and incident response. | 7 |
 | [evidence-based-ai-delegation](personas/evidence-based-ai-delegation/PERSONA.md) | Choose human, assisted or delegated execution from risk and measured end-to-end value. | 3 |
@@ -40,7 +40,7 @@ Owner-directed improvements from a read-only study of three public projects (rec
 | [integration-specialist](personas/integration-specialist/PERSONA.md) | Make integrations boring: three-layer testing discipline (protocol/logic/client), vendor auth-webhook-idempotency handling, environment parity with divergence registers. | 6 |
 | [knowledge-librarian](personas/knowledge-librarian/PERSONA.md) | Curate the fleet's durable knowledge — wiki, conventions, memory, and the shared skill library — so every artefact carries provenance, freshness, and a route to the right consumer; supersede rather than duplicate; prune as a first-class operation. | 9 |
 | [learning-tutor](personas/learning-tutor/PERSONA.md) | Build competence-based learning plans with retrieval and feedback. | 6 |
-| [ml-eval-engineer](personas/ml-eval-engineer/PERSONA.md) | Evaluate models, agents and skills honestly — paired uplift, trajectory evidence, calibrated judges, trust gates. | 11 |
+| [ml-eval-engineer](personas/ml-eval-engineer/PERSONA.md) | Evaluate models, agents and skills honestly — paired uplift, trajectory evidence, calibrated judges, trust gates. New evaluation skills: early draft, rebuild pending. | 11 |
 | [open-source-maintainer](personas/open-source-maintainer/PERSONA.md) | Own the inbound contribution funnel of a public repository: make sense of what strangers open, judge what arrives as code, keep the contribution policy honest, answer people well, and keep both the project and its maintainer healthy. | 11 |
 | [performance-engineer](personas/performance-engineer/PERSONA.md) | Measure web performance and control regressions. | 6 |
 | [personal-finance](personas/personal-finance/PERSONA.md) | Plan saving, debt repayment, diversified investing and financial protection. | 6 |
@@ -645,11 +645,11 @@ Owner-directed improvements from a read-only study of three public projects (rec
 
 - [agent-orchestrator](personas/agent-orchestrator/PERSONA.md) · [bundle](bundles/agent-orchestrator/bundle.json) (12 skills: 6 retained, 6 new) · supersedes the deprecated [agent-team-lead](personas/agent-team-lead/PERSONA.md) alias (0.1.0, kept installable)
 - [rust-rewrite-and-porting-specialist](personas/rust-rewrite-and-porting-specialist/PERSONA.md) · [bundle](bundles/rust-rewrite-and-porting-specialist/bundle.json) (8 skills)
-- [ml-eval-engineer](personas/ml-eval-engineer/PERSONA.md) · [bundle](bundles/ml-eval-engineer/bundle.json) (11 skills: 7 retained, 4 new)
-- [agent-debugger](personas/agent-debugger/PERSONA.md) · [bundle](bundles/agent-debugger/bundle.json) (6 skills)
+- [ml-eval-engineer](personas/ml-eval-engineer/PERSONA.md) · [bundle](bundles/ml-eval-engineer/bundle.json) (11 skills: 7 retained, 4 new) - the 4 new skills are an early draft, rebuild pending
+- [agent-debugger](personas/agent-debugger/PERSONA.md) · [bundle](bundles/agent-debugger/bundle.json) (6 skills) - early draft, rebuild pending
 - [agent-supply-chain-auditor](personas/agent-supply-chain-auditor/PERSONA.md) · [bundle](bundles/agent-supply-chain-auditor/bundle.json) (9 skills)
-- [context-and-memory-engineer](personas/context-and-memory-engineer/PERSONA.md) · [bundle](bundles/context-and-memory-engineer/bundle.json) (6 skills)
-- [llm-inference-optimisation-engineer](personas/llm-inference-optimisation-engineer/PERSONA.md) · [bundle](bundles/llm-inference-optimisation-engineer/bundle.json) (6 skills)
+- [context-and-memory-engineer](personas/context-and-memory-engineer/PERSONA.md) · [bundle](bundles/context-and-memory-engineer/bundle.json) (6 skills) - early draft, rebuild pending
+- [llm-inference-optimisation-engineer](personas/llm-inference-optimisation-engineer/PERSONA.md) · [bundle](bundles/llm-inference-optimisation-engineer/bundle.json) (6 skills) - early draft, rebuild pending
 - [context-and-token-budgeting-across-workers](skills/context-and-token-budgeting-across-workers/SKILL.md) · [evidence](evidence/context-and-token-budgeting-across-workers.json)
 - [failure-replanning-and-escalation](skills/failure-replanning-and-escalation/SKILL.md) · [evidence](evidence/failure-replanning-and-escalation.json)
 - [fan-in-synthesis-with-disagreement-surfacing](skills/fan-in-synthesis-with-disagreement-surfacing/SKILL.md) · [evidence](evidence/fan-in-synthesis-with-disagreement-surfacing.json)

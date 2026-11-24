@@ -68,11 +68,13 @@ Start with the outcome you need. The coding roles sit alongside research, design
 | Design a scalable, reliable system or AI feature end to end | [System Designer](personas/system-designer/PERSONA.md) |
 | Connect systems and verify their boundaries | [Integration Specialist](personas/integration-specialist/PERSONA.md) |
 | Coordinate an agent team | [Agent Orchestrator (draft)](personas/agent-orchestrator/PERSONA.md) |
-| Diagnose why an agent run went wrong | [Agent Debugger (draft)](personas/agent-debugger/PERSONA.md) |
+| Diagnose why an agent run went wrong | [Agent Debugger (early draft, rebuild pending)](personas/agent-debugger/PERSONA.md) |
 | Vet a third-party skill or MCP server before installing it | [Agent Supply-Chain Auditor (draft)](personas/agent-supply-chain-auditor/PERSONA.md) |
-| Engineer what an agent remembers across sessions | [Context and Memory Engineer (draft)](personas/context-and-memory-engineer/PERSONA.md) |
+| Engineer what an agent remembers across sessions | [Context and Memory Engineer (early draft, rebuild pending)](personas/context-and-memory-engineer/PERSONA.md) |
 | Learn through practice and feedback | [Practice-Based Learning](personas/practice-based-learning/PERSONA.md) |
 | Plan a trip around practical constraints | [Travel Expert](personas/travel-expert/PERSONA.md) |
+
+"Early draft, rebuild pending" marks first-pass instructions that have not yet been rebuilt with full step-by-step procedures and tested helper scripts. Use them as starting points, not finished specialists.
 
 [Browse all personas, bundles and skills →](CATALOGUE.md)
 
@@ -159,8 +161,8 @@ AI and LLM systems: [ai-systems-architecture-patterns](skills/ai-systems-archite
 | Persona role contract | Skill bundle | Use it to… | Member skills |
 |---|---|---|---:|
 | [design-partner](personas/design-partner/PERSONA.md) | [design-partner](bundles/design-partner/bundle.json) | Challenge designs and document trade-offs and decisions. | 7 |
-| [context-and-memory-engineer](personas/context-and-memory-engineer/PERSONA.md) | [context-and-memory-engineer](bundles/context-and-memory-engineer/bundle.json) | Engineer what an agent sees and remembers: budgeted windows, tiered memory, conflict-safe facts. | 6 |
-| [llm-inference-optimisation-engineer](personas/llm-inference-optimisation-engineer/PERSONA.md) | [llm-inference-optimisation-engineer](bundles/llm-inference-optimisation-engineer/bundle.json) | Optimise measured LLM serving without sacrificing required quality or context. | 6 |
+| [context-and-memory-engineer](personas/context-and-memory-engineer/PERSONA.md) | [context-and-memory-engineer](bundles/context-and-memory-engineer/bundle.json) | Engineer what an agent sees and remembers: budgeted windows, tiered memory, conflict-safe facts. Early draft, rebuild pending. | 6 |
+| [llm-inference-optimisation-engineer](personas/llm-inference-optimisation-engineer/PERSONA.md) | [llm-inference-optimisation-engineer](bundles/llm-inference-optimisation-engineer/bundle.json) | Optimise measured LLM serving without sacrificing required quality or context. Early draft, rebuild pending. | 6 |
 | [design-system-engineer](personas/design-system-engineer/PERSONA.md) | [design-system-engineer](bundles/design-system-engineer/bundle.json) | Maintain design tokens, component contracts and adoption. | 6 |
 | [accessibility-engineer](personas/accessibility-engineer/PERSONA.md) | [accessibility-engineer](bundles/accessibility-engineer/bundle.json) | Audit accessibility and verify keyboard and screen-reader flows. | 6 |
 | [ux-research](personas/ux-research/PERSONA.md) | [ux-research](bundles/ux-research/bundle.json) | Gather user evidence tied to product decisions. | 6 |
@@ -317,11 +319,11 @@ Conditional tool adapters: ghidra-workflow-adapter, frida-tracing-adapter, angr-
 |---|---|---|---:|
 | [agent-orchestrator](personas/agent-orchestrator/PERSONA.md) | [agent-orchestrator](bundles/agent-orchestrator/bundle.json) | Decompose goals into routed, budgeted, verified multi-agent plans and merge results honestly. | 12 |
 | [agent-supply-chain-auditor](personas/agent-supply-chain-auditor/PERSONA.md) | [agent-supply-chain-auditor](bundles/agent-supply-chain-auditor/bundle.json) | Vet third-party skills, MCP servers and plugins before install and on every update; quarantine with reasons. | 5 |
-| [agent-debugger](personas/agent-debugger/PERSONA.md) | [agent-debugger](bundles/agent-debugger/bundle.json) | Diagnose why an agent run misbehaved: classify, replay the trace, fix one seam, verify. | 6 |
+| [agent-debugger](personas/agent-debugger/PERSONA.md) | [agent-debugger](bundles/agent-debugger/bundle.json) | Diagnose why an agent run misbehaved: classify, replay the trace, fix one seam, verify. Early draft, rebuild pending. | 6 |
 | [ai-guardrails-engineer](personas/ai-guardrails-engineer/PERSONA.md) | [ai-guardrails-engineer](bundles/ai-guardrails-engineer/bundle.json) | Identify, place and test guardrails against the harms they address. | 11 |
 | [evidence-based-ai-delegation](personas/evidence-based-ai-delegation/PERSONA.md) | [evidence-based-ai-delegation](bundles/evidence-based-ai-delegation/bundle.json) | Choose human, assisted or delegated work from risk and measured value. | 3 (1 conditional) |
 | [prompt-agent-engineer](personas/prompt-agent-engineer/PERSONA.md) | [prompt-agent-engineer](bundles/prompt-agent-engineer/bundle.json) | Design versioned prompts and bounded, observable agent loops. | 7 |
-| [ml-eval-engineer](personas/ml-eval-engineer/PERSONA.md) | [ml-eval-engineer](bundles/ml-eval-engineer/bundle.json) | Evaluate models, agents and skills honestly — paired uplift, trajectory evidence, calibrated judges, trust gates. | 11 |
+| [ml-eval-engineer](personas/ml-eval-engineer/PERSONA.md) | [ml-eval-engineer](bundles/ml-eval-engineer/bundle.json) | Evaluate models, agents and skills honestly — paired uplift, trajectory evidence, calibrated judges, trust gates. New evaluation skills: early draft, rebuild pending. | 11 |
 | [provider-hunter](personas/provider-hunter/PERSONA.md) | [provider-hunter](bundles/provider-hunter/bundle.json) | Find model providers and verify their identity and terms. | 12 |
 | [text-classifier-specialist](personas/text-classifier-specialist/PERSONA.md) | [text-classifier-specialist](bundles/text-classifier-specialist/bundle.json) | Evaluate, host and monitor small classifiers and decision models. | 12 |
 | [knowledge-librarian](personas/knowledge-librarian/PERSONA.md) | [knowledge-librarian](bundles/knowledge-librarian/bundle.json) | Curate knowledge, memory and skills with provenance and freshness. | 9 |
