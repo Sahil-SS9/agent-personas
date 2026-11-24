@@ -1,7 +1,7 @@
 {
   "skill": "workstream-orchestration",
   "release_version": "0.9.0",
-  "release_skill_sha256": "eec85597696fce45da257615ef2812c53936914f1891af42c5205308b3f55df6",
+  "release_skill_sha256": "fb40d53d1a0cf423aa6bd78658ae523ce6e303eaa751185c6d3e9c8d8495a5a5",
   "source_skill_sha256": "a9a218538c0c9e1ebe3233c5ca970fd7b086340a70676cbbbee505e3495b2057",
   "author_credit": "Sahil Saghir",
   "validation": "Structural catalogue gate passed; paired diagnostic benchmark on one model (concept-presence rubric), not a sealed multi-model efficacy estimate. Verify behaviour in your own harness.",
@@ -15,5 +15,8 @@
     "max_score": 5,
     "delta": 5,
     "limit": "Diagnostic on one model; concept presence, not deep efficacy. No cross-model generalisation claimed."
-  }
+  },
+  "scope_notes": [
+    "0.10.0: description rewritten so agents recognise when to use the skill (method unchanged). Earlier results apply to earlier bytes; this skill needs a fresh test before any current-version claim."
+  ]
 }

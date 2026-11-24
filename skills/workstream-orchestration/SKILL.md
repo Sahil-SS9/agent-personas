@@ -1,6 +1,6 @@
 ---
 name: "workstream-orchestration"
-description: "Plan and steer multiple agent workstreams with WIP limits and review gates."
+description: "Use when several agent workstreams run at once: set work-in-progress limits, sequence the waves, watch budgets and hold review gates before results move on."
 license: "MIT"
 ---
 # Workstream Orchestration

@@ -1,6 +1,6 @@
 ---
 name: "agent-dispatch-discipline"
-description: "Brief, dispatch and verify agent work so nothing depends on session memory."
+description: "Use when writing briefs for sub-agents or delegating tasks: every brief has objective, output path, boundaries, a done check someone else can run, and a budget, so nothing depends on session memory."
 license: "MIT"
 ---
 # Agent Dispatch Discipline

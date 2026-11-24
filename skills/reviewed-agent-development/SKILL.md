@@ -1,6 +1,6 @@
 ---
 name: "reviewed-agent-development"
-description: "Execute plans via reviewed agent tasks (2-stage review)."
+description: "Use when building software through agent tasks: each task is implemented by one agent, then reviewed in two stages (spec compliance, then code quality) before it is accepted."
 license: "MIT"
 ---
 # Reviewed Agent Development

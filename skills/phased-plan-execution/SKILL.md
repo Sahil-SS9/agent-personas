@@ -1,12 +1,12 @@
 ---
 name: "phased-plan-execution"
-description: "Execute phased implementation plans with batched."
+description: "Use when executing an approved multi-phase implementation plan: freeze the plan, then per phase map the real integration points, write a failing test, make the smallest change and pass the regression suite before the next phase."
 license: "MIT"
 ---
 # Phased Plan Execution
 
 ## When to use
-Execute phased implementation plans with batched.
+Execute an approved plan phase by phase, proving each phase before the next.
 
 ## Method
 1. Freeze the approved plan, baseline revision, phase order and completion criteria. Distinguish locked decisions from unresolved choices; do not silently redefine scope.

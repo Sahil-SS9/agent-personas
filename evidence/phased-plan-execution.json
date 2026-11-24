@@ -1,7 +1,7 @@
 {
   "skill": "phased-plan-execution",
   "release_version": "0.1.0-experimental",
-  "release_skill_sha256": "4df73d8cfc578daccb8569c6c6dce2144fecb12d68d53aa2a9451fb94afc6d58",
+  "release_skill_sha256": "e9d373c6d6347647b11c6d0b0485de3437d7a80afcb1b4acfc78da2aaaf92bce",
   "adaptation": "portable method rewrite",
   "author_credit": "Sahil Saghir",
   "historical_source_runs": [
@@ -33,6 +33,7 @@
   "scope_notes": [
     "Historical results apply to private source instructions, not this changed public release.",
     "Token/phrase rubric matches are not task correctness or general uplift.",
-    "No universal model or harness performance claim."
+    "No universal model or harness performance claim.",
+    "0.10.0: description rewritten so agents recognise when to use the skill (method unchanged). Earlier results apply to earlier bytes; this skill needs a fresh test before any current-version claim."
   ]
 }

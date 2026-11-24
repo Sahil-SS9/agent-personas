@@ -1,6 +1,6 @@
 ---
 name: "writing-plans"
-description: "Write implementation plans: bite-sized tasks, paths, code."
+description: "Use when an implementation or orchestration plan must be written down for others to execute: small ordered tasks with exact paths, commands, expected outputs and checks."
 license: "MIT"
 ---
 # Writing Plans

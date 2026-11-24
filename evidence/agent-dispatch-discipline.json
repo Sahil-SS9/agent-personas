@@ -1,7 +1,7 @@
 {
   "skill": "agent-dispatch-discipline",
   "release_version": "0.1.0-experimental",
-  "release_skill_sha256": "04c97eb7f0d33810ca04f694b2af9b901c01e26cc3286a7e11794282389a0195",
+  "release_skill_sha256": "31522a276cac773ba72ad9df565d584f416774fd1f8c62460dfc7e57130108d5",
   "adaptation": "source method retained; public metadata and references normalised",
   "author_credit": "Sahil Saghir",
   "historical_source_runs": [
@@ -34,6 +34,7 @@
     "Historical results apply to private source instructions, not this changed public release.",
     "Token/phrase rubric matches are not task correctness or general uplift.",
     "No universal model or harness performance claim.",
-    "23/11/2026: author citations removed from the instruction text (no method change). The results above apply to the earlier bytes; this skill needs a fresh test before any current-version claim."
+    "23/11/2026: author citations removed from the instruction text (no method change). The results above apply to the earlier bytes; this skill needs a fresh test before any current-version claim.",
+    "0.10.0: description rewritten so agents recognise when to use the skill (method unchanged). Earlier results apply to earlier bytes; this skill needs a fresh test before any current-version claim."
   ]
 }

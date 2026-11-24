@@ -1,6 +1,6 @@
 ---
 name: "task-board-orchestration"
-description: "Decomposition playbook + specialist-roster conventions."
+description: "Use when running a task board or kanban of agent tasks: decompose into cards, assign specialists, set dependencies and track each card to a verified finish."
 license: "MIT"
 ---
 # Task Board Orchestration
